@@ -56,7 +56,7 @@ text:
   post:
     updated:        'Updated'
     minute_read:    'minute read'
-    related_posts:  'Related Categories'
+    related_posts:  'Related Lessons'
     post_footer:    'Lorem ipsum'
   index:
     coming_soon: 'Coming soon...'
