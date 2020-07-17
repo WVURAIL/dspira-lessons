@@ -3,6 +3,34 @@ layout: default
 ---
 {% assign posts_count = paginator.posts | size %}
 
+
+<div class="cards-list">
+  
+<a href="/categories/" >
+<div class="card 1">
+  <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
+  <div>
+    <p  class="card_title title-white"> Categories</p>
+  </div>
+</div></a>
+
+
+<a href="/tags/" >
+<div class="card 2">
+  <div class="card_image">
+    <img src="https://i.redd.it/b3esnz5ra34y.jpg" />
+    </div>
+  <div>
+    <p  class="card_title title-white">Levels</p>
+  </div>
+</div></a>
+
+
+</div>
+
+<hr>
+<h1> All Lessons </h1>
+
 <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
