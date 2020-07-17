@@ -39,7 +39,7 @@ layout: default
   {% if page.tags != null %}
     {% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a class="button" href="/tags/{{ tag_name }}"> </a> 
+        <a class="button" href="/tags/{{ tag_name }}">{{ tag_name }}</a> 
     {% endfor %}
   {% endif %}
 </div>
