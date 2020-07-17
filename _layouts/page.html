@@ -11,9 +11,3 @@ layout: default
 </div>
 
 <br>
-<div>
-{% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a class="button" href="/tag/{{ tag_name }}"> </a> 
-{% endfor %}
-</div>
