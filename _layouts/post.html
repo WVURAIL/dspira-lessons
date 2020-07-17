@@ -36,6 +36,7 @@ layout: default
 
 
 <div>
+  <h4>Appropriate for:</h4>
   {% if page.tags != null %}
     {% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
@@ -46,7 +47,7 @@ layout: default
 
 
 {% if site.show_related_posts %}
-  <h3 class="related-post-title">{{ site.text.post.related_posts | default: "Related Posts" }}</h3>
+  <h3 class="related-post-title">{{ site.text.post.related_posts | default: "Relateted to" }}{{ post.categories }}</h3>
   <ul class="related-posts">
     {% for post in site.related_posts %}
     <li>
