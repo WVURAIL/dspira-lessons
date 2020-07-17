@@ -1,0 +1,4 @@
+---
+layout: center
+permalink: /hobbyist/
+---
