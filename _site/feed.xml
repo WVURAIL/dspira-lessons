@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Signal Processing in Radio Astrinomy - Lessons Portal</title>
+    <description>Lots of lessons</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Building a Horn</title>
+        <description>&lt;h1 id=&quot;materials&quot;&gt;Materials&lt;/h1&gt;
+
+&lt;p&gt;#Video&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.google.com&quot; class=&quot;button&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
+        <link>http://localhost:4000/horn</link>
+        <guid isPermaLink="true">http://localhost:4000/horn</guid>
+      </item>
+    
+      <item>
+        <title>Introduction to Astronomy Part 2</title>
+        <description>
+</description>
+        <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
+        <link>http://localhost:4000/Astronomy-101-2</link>
+        <guid isPermaLink="true">http://localhost:4000/Astronomy-101-2</guid>
+      </item>
+    
+      <item>
+        <title>Introduction to Astronomy</title>
+        <description>
+</description>
+        <pubDate>Wed, 08 Jul 2020 07:21:29 -0400</pubDate>
+        <link>http://localhost:4000/Astronomy-101</link>
+        <guid isPermaLink="true">http://localhost:4000/Astronomy-101</guid>
+      </item>
+    
+  </channel>
+</rss>
