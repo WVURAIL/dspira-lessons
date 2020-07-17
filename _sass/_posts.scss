@@ -17,7 +17,11 @@
 .post-link .post-title {
   margin-top: 0;
   font-weight: 600;
-  color: #333;
+  color:  mediumslateblue;
+}
+
+.post-link .post-title:hover {
+  font-weight: 800;
 }
 
 .post-footer {
