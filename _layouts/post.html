@@ -34,6 +34,17 @@ layout: default
   {% include post_footer.html %}
 {% endif %}
 
+
+<div>
+  {% if page.tags != null %}
+    {% for tag in page.tags %}
+        {% capture tag_name %}{{ tag }}{% endcapture %}
+        <a class="button" href="/tags/{{ tag_name }}"> </a> 
+    {% endfor %}
+  {% endif %}
+</div>
+
+
 {% if site.show_related_posts %}
   <h3 class="related-post-title">{{ site.text.post.related_posts | default: "Related Posts" }}</h3>
   <ul class="related-posts">
@@ -48,11 +59,4 @@ layout: default
 {% endif %}
 
 
-<div>
-  {% if page.tags != null %}
-    {% for tag in page.tags %}
-        {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a class="button" href="/tag/{{ tag_name }}"> </a> 
-    {% endfor %}
-  {% endif %}
-</div>
+
