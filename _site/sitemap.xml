@@ -25,6 +25,10 @@
 <lastmod>2020-07-19T17:21:29-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/VelocityCurve</loc>
+<lastmod>2020-07-22T17:21:29-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -53,6 +57,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/units/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/newpost</loc>
 </url>
 <url>
 <loc>http://localhost:4000/thanks/</loc>
