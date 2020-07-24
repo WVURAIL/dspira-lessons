@@ -55,8 +55,17 @@ https://www.youtube.com/watch?v=jS5fTzMP_mg
 
 The above video is a video of Kermit the frog singing the rainbow connention
 ```
+##### Addding images to the posts
+
+To add images to your post first upload your image to github by going here
 
 
+and then in the markdown use this link upload and commit an image to the the images directory: 
+[Upload image](https://github.com/WVURAIL/dspira-lessons/upload/master/images){: button}
+
+```
+![write-a-brief-alt-text-describing-your-image]({{ site.baseurl }}/images/name-of-you-image-file.FORMAT)
+```
 ### View the live webpage: [wvurail.org/dspira-lessons](http://wvurail.org/dspira-lessons/)
 
 
