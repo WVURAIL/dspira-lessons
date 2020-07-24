@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   http://howfarawayisit.com/
+date:   20-07-24
 title: "How Fast Are We Moving?"
 summary:  Exploring how fast we are moving in the Milky Way Galaxy
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
