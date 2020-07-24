@@ -17,3 +17,6 @@ https://www.youtube.com/watch?v=wUNDoUoDrCg
 
 The Celestial Sphere
 https://www.youtube.com/watch?v=d8BcwK5nlos
+
+Earth's Motion and Star Trails
+https://www.youtube.com/watch?v=_L1R1VnMeD4
