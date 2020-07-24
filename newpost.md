@@ -3,6 +3,7 @@ layout: page
 permalink: /newpost/
 ---
 
+# Syntax honts for post formatting
 
 All post files must begin with *front matter* which is typically used to set a layout or other meta data. For a simple example this can just be empty:
 
@@ -10,9 +11,9 @@ All post files must begin with *front matter* which is typically used to set a l
 ```
 ---
 layout:     post
-title:      Building a Horn
 date:       2020-07-09 21:21:29
-summary:    How a build a 21cm Horn Antenna
+title:      Title of your Lesson
+summary:    Summary of your Lesson
 tags: ['School Teachers', 'Students', 'Hobbyists' ]
 ---
 ```
@@ -36,7 +37,7 @@ In Google Drive:
 EXAMPLE:
 - To add a Google doc lesson:
 ```
-[Velocity Curve Lesson](https://docs.google.com/document/d/1Rltdd6kSORlVFIaczRCB88xuIuG9YNwl-tOnGOPAy2o/edit?usp=sharing){: .button}
+[Name of your lesson](https://link/to/your/document/dotcom){: .button}
 ```
 
 - Add YouTube link:
@@ -51,6 +52,12 @@ The above video is a video of Kermit the frog singing the rainbow connention
 
 ### View the live webpage: [wvurail.org/dspira-lessons](http://wvurail.org/dspira-lessons/)
 
+
+# Add Edit yout post here following the above intructions to properly  
+
+- Make sure to enter your lesson filename.
+- Click save to save the file
+- Upload the file appropraitely on the github repostory in the appropraite directory to post to the website
 
 <html>
 <body>
