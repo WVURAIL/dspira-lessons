@@ -63,8 +63,6 @@ The above video is a video of Kermit the frog singing the rainbow connention
 - Click save to save the file
 - Upload the file appropraitely on the github repostory in the appropraite directory to post to the website
 
-[Upload My Lesson to the Website](https://github.com/WVURAIL/dspira-lessons/upload/master/_posts){: button}
-
 <html>
 <body>
 <div>
@@ -86,6 +84,10 @@ Enter the Lesson posts here
     Filename to Save As: &nbsp; <input id="inputFileNameToSaveAs">&nbsp;.md
     <button onclick="saveTextAsFile()">Save</button>
     </div>
+</div>
+
+<div>
+ <a href="https://github.com/WVURAIL/dspira-lessons/upload/master/_posts" class = "button">Upload to Website</a>
 </div>
 
 <script type="text/javascript">
