@@ -2,6 +2,18 @@
 layout: default
 ---
 
+
+<div>
+  {% if page.categories != null %}
+    {% for category in page.categories %}
+        {% capture category_name %}{{ category }}{% endcapture %}
+        <a class="button" href="/categories/{{ category_name }}">Click to see all lessons in the {{ category_name }} module</a> 
+    {% endfor %}
+  {% endif %}
+</div>
+
+
+
 {% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
 {% if minutes == 0 %}
 {% assign minutes = 1 %}

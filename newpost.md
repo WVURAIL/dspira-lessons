@@ -23,7 +23,7 @@ categories: ['Lessson Category']
 ```
 
 - Every *post* can have one `tag` or multiple `tags`. It will automatically split a string entry if it contains whitespace. The website software  Jekyll expects multiple items mapped to the key tags For example, while front matter `tag: classic hollywood` will be processed into a singular entity `"classic hollywood"`, front matter `tags: classic hollywood` will be processed into an array of entries `["classic", "hollywood"]`. 
-- `categories` or `category` work the same way as tags
+- `categories` or `category` work the same way as tags.
 
 - After the front matter make your lesson post formatting it in `markdown` refer to this cheat sheet [https://github.com/WVURAIL/dspira-lessons/wiki/Markdown-Cheatsheet](https://github.com/WVURAIL/dspira-lessons/wiki/Markdown-Cheatsheet)
 
