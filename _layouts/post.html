@@ -7,7 +7,7 @@ layout: default
   {% if page.categories != null %}
     {% for category in page.categories %}
         {% capture category_name %}{{ category }}{% endcapture %}
-        <a class="button" href="/categories/{{ category_name | slugify }}">Click to see all lessons in the {{ category_name }} module</a> 
+        <a class="button" href="{{ site.baseurl }}/categories/{{ category_name | slugify }}">Click to see all lessons in the {{ category_name }} module</a> 
     {% endfor %}
   {% endif %}
 </div>
