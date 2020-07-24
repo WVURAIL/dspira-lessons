@@ -13,7 +13,7 @@ The following are videos from Dr. Loren Anderson from West Virginia University's
 They are short clips from the a lecture given to the DSPIRA Teachers during July 2019.
 
 Intro to Motion in the Sky
-https://www.youtube.com/watch?v=wUNDoUoDrCg&list=PLxSg3s3C3JCEWivOQckHLAg_TFw2JQPnq&index=8
+https://www.youtube.com/watch?v=wUNDoUoDrCg
 
 The Celestial Sphere
-https://www.youtube.com/watch?v=d8BcwK5nlos&list=PLxSg3s3C3JCEWivOQckHLAg_TFw2JQPnq&index=9
+https://www.youtube.com/watch?v=d8BcwK5nlos
