@@ -4,8 +4,6 @@ title: New Post
 permalink: /newpost/
 ---
 
-
-
 These are instruction and a simple template to start creating a new post!
 
 ## Syntax hints for post formatting
@@ -32,6 +30,7 @@ tags: ['School Teachers', 'Students', 'Hobbyists' ]
 ```
 [Google](http://www.google.com){: .button}
 ```
+
 In Google Drive:
 - open document
 - click share button (upper right corner)
@@ -74,7 +73,7 @@ The above video is a video of Kermit the frog singing the rainbow connention
 layout: post
 date:   copy date from above
 title: add title
-summary:  add a one summary (~10 word summary) 
+summary:  add a ~10 word summary
 tags: ['School Teachers', 'Students', 'Hobbyists' ]
 ---
 
