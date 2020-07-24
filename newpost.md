@@ -67,6 +67,7 @@ The above video is a video of Kermit the frog singing the rainbow connention
 <body>
 <div>
     <p>Date:</p><h2 id="date"></h2>
+    <div>
     New Post:
     <textarea id="inputTextToSave" cols="80" rows="25">
 ---
@@ -78,10 +79,11 @@ tags: ['School Teachers', 'Students', 'Hobbyists' ]
 ---
 
 Enter the Lesson posts here
-    </textarea>
-    Filename to Save As: <p  id="date"></p>-<input id="inputFileNameToSaveAs">.md
+    </textarea></div>
+    <div>
+    Filename to Save As: <h2 id="date"></h2>-<input id="inputFileNameToSaveAs">&nbsp;.md
     <button onclick="saveTextAsFile()">Save</button>
-
+    </div>
 </div>
 
 <script type="text/javascript">
