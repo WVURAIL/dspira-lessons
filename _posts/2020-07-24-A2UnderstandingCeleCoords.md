@@ -30,7 +30,7 @@ https://www.youtube.com/watch?v=_L1R1VnMeD4
 
 https://www.youtube.com/watch?v=UpYt7238p5g
 
-### Discussion Common Misconceptions
+### Discussion of Common Misconceptions
 
 https://www.youtube.com/watch?v=nfonuosoHUk
 
