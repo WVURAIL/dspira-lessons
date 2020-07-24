@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-07-24
-title: Astronomy Activity : Understanding Celestial Coordinate Systems
+title: "Astronomy Activity : Understanding Celestial Coordinate Systems"
 summary:  Overview of different celestial coordinate systems
 tags: ['School Teachers', 'Students', 'Hobbyists' ]
 ---
