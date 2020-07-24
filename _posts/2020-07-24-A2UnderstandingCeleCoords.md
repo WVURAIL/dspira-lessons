@@ -7,7 +7,9 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Basic Astronomy'] 
 ---
 
-[Understanding Celestial Coordinate Sysytems](https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing){: .button}
+[Understanding Celestial Coordinate Systems Activity](https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing){: .button}
+
+[Teacher Notes](https://docs.google.com/document/d/1JVFn5d4mhCN-fU2JmSMRD95g3N5xwSbFM94TUpAUe3k/edit?usp=sharing){: .button}
     
 The following are videos from Dr. Loren Anderson from West Virginia University's Astronomy department.  
 They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.
@@ -23,3 +25,13 @@ https://www.youtube.com/watch?v=d8BcwK5nlos
 ### Earth's Motion and Star Trails
 
 https://www.youtube.com/watch?v=_L1R1VnMeD4
+
+### More Celestial Sphere
+
+https://www.youtube.com/watch?v=UpYt7238p5g
+
+### Discussion Common Misconceptions
+
+https://www.youtube.com/watch?v=nfonuosoHUk
+
+
