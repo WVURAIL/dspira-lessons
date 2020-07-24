@@ -19,5 +19,6 @@ Students already exposed to the Universal Law of Gravity and Circular Motion wil
 
 [Teacher Notes](https://docs.google.com/document/d/1wpvKYHrdWjpbbzHOWjYOjCK95BkYc4WE0pzj2UZ3auI/edit?usp=sharing){: .button}
 
-https://youtu.be/uZ9iNsjyw7k
+https://www.youtube.com/watch?v=uZ9iNsjyw7k&feature=youtu.be
+
 This video discusses common difficulties experienced during this activity in the past.
