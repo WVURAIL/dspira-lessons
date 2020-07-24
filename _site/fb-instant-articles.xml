@@ -67,19 +67,48 @@ Students already exposed to the Universal Law of Gravity and Circular Motion wil
     
         
             <item>
+                <title>Acquiring a Horn Telescope</title>
+                <link>http://localhost:4000/Acquiring_Horn_Telescope</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Information about different options for <a href="https://drive.google.com/file/d/17wej7ZeUejO68707F90LiFQKTBQfqxEV/view?usp=sharing" class="button">acquiring a horn telescope</a>  are provided <a href="https://drive.google.com/file/d/17wej7ZeUejO68707F90LiFQKTBQfqxEV/view?usp=sharing" class="button">here</a> .</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/Acquiring_Horn_Telescope</guid>
+                <description>
+                    
+                    Options for obtaining a horn telescope
+                    
+                </description>
+                <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
+                <author>Pranav Sanghavi</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>Astronomy Activity : Understanding Celestial Coordinate Systems</title>
                 <link>http://localhost:4000/A2UnderstandingCeleCoords</link>
                 <content:encoded>
                     <![CDATA[
                     <p><a href="https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing" class="button">Understanding Celestial Coordinate Sysytems</a></p>
 
+<p>The following are videos from Dr. Loren Anderson from West Virginia University’s Astronomy department.<br />
+They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.</p>
+
+<p>Intro to Motion in the Sky
+https://www.youtube.com/watch?v=wUNDoUoDrCg</p>
+
+<p>The Celestial Sphere
+https://www.youtube.com/watch?v=d8BcwK5nlos</p>
 
                     ]]>
                 </content:encoded>
                 <guid isPermaLink="false">/A2UnderstandingCeleCoords</guid>
                 <description>
                     
-                    Overview of different celestial coordinate systems
+                    A quick introduction to different coordinate systems used in astronomy
                     
                 </description>
                 <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
