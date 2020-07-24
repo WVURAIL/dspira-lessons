@@ -22,6 +22,7 @@ categories: ['Lessson Category']
 ---
 ```
 
+- Make sure you do not have special characters like `:` in your title and/or summary quote any special characters, such as `:` like `title: "my awesome site: an adventure".`
 - Every *post* can have one `tag` or multiple `tags`. It will automatically split a string entry if it contains whitespace. The website software  Jekyll expects multiple items mapped to the key tags For example, while front matter `tag: classic hollywood` will be processed into a singular entity `"classic hollywood"`, front matter `tags: classic hollywood` will be processed into an array of entries `["classic", "hollywood"]`. 
 - `categories` or `category` work the same way as tags.
 
