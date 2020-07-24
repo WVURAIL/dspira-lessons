@@ -31,8 +31,108 @@ Students already exposed to the Universal Law of Gravity and Circular Motion wil
       </item>
     
       <item>
+        <title>Measuring the Earth's Speed around the Sun</title>
+        <description>&lt;p&gt;This is meant to be a fairly intense sequence of activities for High School+ level students with the goal of eventually taking measurements with the DSPIRA Radio Horn Telescope to determine the Earths Speed around the Sun.&lt;/p&gt;
+
+&lt;p&gt;There are (up to) 6 activities to get to using the Horn Telescope&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Activity List&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How Fast Are We Moving?&lt;/li&gt;
+  &lt;li&gt;Modeling Earth’s Motion Around the Sun&lt;/li&gt;
+  &lt;li&gt;Earth’s Motion With Respect to Galactic Center&lt;/li&gt;
+  &lt;li&gt;A teacher created Doppler Effect Lesson -(Currently, no DSPIRA Activity here)&lt;/li&gt;
+  &lt;li&gt;Analyzing DSPIRA Radio Horn Data&lt;/li&gt;
+  &lt;li&gt;Comparing Model to Data&lt;/li&gt;
+  &lt;li&gt;Getting your own data with your Radio Horn&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Enter the Lesson posts here&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/EarthAroundSun</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/EarthAroundSun</guid>
+      </item>
+    
+      <item>
+        <title>Building a Horn Telescope</title>
+        <description>&lt;p&gt;A list of the components that are needed to build and operate a horn radio telescope system is presented below. Links to documentation and instructional videos are provided where applicable.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-needed-for-a-complete-horn-telescope-system&quot;&gt;What’s Needed for a Complete Horn Telescope System&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;the horn &amp;amp; antenna can assembly – details provided &lt;a href=&quot;https://drive.google.com/file/d/1_IDQfJlaPI43cPWumYKiKivhqwiIh7C3/view?usp=sharing&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;the horn&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;the antenna can&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;the antenna probe&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;the antenna feedthrough&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;the horn stand&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;a low noise amplifier (LNA)&lt;/p&gt;
+
+    &lt;p&gt;All of these will work. The DSPIRA LNA is the most stable and long lasting.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Best option: the DSPIRA LNA – see information and instructions [link]&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Next best option: &lt;a href=&quot;https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html&quot;&gt;Nooelec SAWbird+ H1&lt;/a&gt; - Premium SAW Filter &amp;amp; Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Next best option: &lt;a href=&quot;https://www.tindie.com/products/gpio/radio-astronomy-hydrogen-line-low-noise-amplifier/&quot;&gt;Radio Astronomy Hydrogen Line Low Noise Amplifier&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;an Airspy Software Defined Radio: &lt;a href=&quot;https://airspy.com/airspy-r2&quot;&gt;Airspy R2&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;coaxial cable with SMA connectors: from coaxrf.com, &lt;a href=&quot;https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr195/sma-male-times-microwave-lmr195/lmr195-sma-male-to-sma-male-coaxial-rf-pigtail-cable-2/&quot;&gt;LMR195 SMA MALE to SMA MALE Coaxial RF Pigtail Cable&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;computer &amp;amp; software needs&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;computer with a Linux (Ubuntu) operating system
+        &lt;ul&gt;
+          &lt;li&gt;install Gnuradio 3.8&lt;/li&gt;
+          &lt;li&gt;install the program spectrometer_w_cal.grc from the Github repository gr-radio_astro&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;computer with Windows operating system - the Gnuradio and spectrometer_w_cal.grc program can be run from a bootable flash drive&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;computer with Mac operating system - the Gnuradio and spectrometer_w_cal.grc program can be run from a bootable flash drive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/AcquiringHornTelescope</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/AcquiringHornTelescope</guid>
+      </item>
+    
+      <item>
         <title>Astronomy Activity : Understanding Celestial Coordinate Systems</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing&quot; class=&quot;button&quot;&gt;Student Activity&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing&quot; class=&quot;button&quot;&gt;Student Activity Document&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1JVFn5d4mhCN-fU2JmSMRD95g3N5xwSbFM94TUpAUe3k/edit?usp=sharing&quot; class=&quot;button&quot;&gt;Teacher Notes&lt;/a&gt;&lt;/p&gt;
 
