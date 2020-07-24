@@ -4,7 +4,11 @@ title: New Post
 permalink: /newpost/
 ---
 
-# Syntax hints for post formatting
+
+
+These are instruction and a simple template to start creating a new post!
+
+## Syntax hints for post formatting
 
 All post files must begin with *front matter* which is typically used to set a layout or other meta data. For a simple example this can just be empty:
 
@@ -54,7 +58,7 @@ The above video is a video of Kermit the frog singing the rainbow connention
 ### View the live webpage: [wvurail.org/dspira-lessons](http://wvurail.org/dspira-lessons/)
 
 
-# Add Edit yout post here following the above intructions to properly  
+#3  Add Edit yout post here following the above intructions to properly  
 
 - Make sure to enter your lesson filename.
 - Click save to save the file
@@ -65,7 +69,6 @@ The above video is a video of Kermit the frog singing the rainbow connention
 <div>
     <p>Date:</p><h2 id="date"></h2>
     New Post:
-
     <textarea id="inputTextToSave" cols="80" rows="25">
 ---
 layout: post
@@ -77,12 +80,11 @@ tags: ['School Teachers', 'Students', 'Hobbyists' ]
 
 Enter the Lesson posts here
     </textarea>
-    Filename to Save As:
-    <input id="inputFileNameToSaveAs"></input>
+    Filename to Save As: <p  id="date">-</p>
+    <input id="inputFileNameToSaveAs"></input><p>.md</p>
     <button onclick="saveTextAsFile()">Save</button>
 
 </div>
-
 
 <script type="text/javascript">
  
