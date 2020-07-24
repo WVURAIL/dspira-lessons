@@ -44,7 +44,7 @@ In Google Drive:
 EXAMPLE:
 - To add a Google doc lesson:
 ```
-[Name of your lesson](https://link/to/your/document/dotcom){: .button}
+[Name of your lesson](https://link/to/your/document/dotcom){: button}
 ```
 
 - Add YouTube link:
@@ -75,7 +75,6 @@ Then add the following to the post you are editing
 <div>
     <p>Date:</p><h2 id="date"></h2>
     <div>
-    New Post:
     <textarea id="inputTextToSave" cols="80" rows="25">
 ---
 layout: post
@@ -83,7 +82,7 @@ date:   copy date from above
 title: edit this title
 summary:  edit this a ~10 word summary
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['category'] 
+categories: ['category', 'Subcategory'] 
 ---
 
 Enter the Lesson posts here
