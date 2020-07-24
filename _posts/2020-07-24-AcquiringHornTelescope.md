@@ -6,7 +6,7 @@ summary:  Overview of what's needed to build a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
 ---
-Two different options for building a working system to operate a horn radio telescope are presented below. Links to documentation and instructional videos are provided where applicable.
+A list of the components that are needed to build and operate a horn radio telescope system is presented below. Links to documentation and instructional videos are provided where applicable.
 
 ### What's Needed for a Complete Horn Telescope System
 
