@@ -13,9 +13,9 @@
                 <link>http://localhost:4000/VelocityCurve</link>
                 <content:encoded>
                     <![CDATA[
-                    <h3 id="coolest-lesson-ever">Coolest Lesson Ever!</h3>
-
-<p><a href="https://docs.google.com/document/d/1Rltdd6kSORlVFIaczRCB88xuIuG9YNwl-tOnGOPAy2o/edit?usp=sharing" class="button">Velocity Curve Lesson</a></p>
+                    <h3 id="lesson">LESSON!</h3>
+<p>Students should already be falmiliar with the horns.<br />
+<a href="https://docs.google.com/document/d/1Rltdd6kSORlVFIaczRCB88xuIuG9YNwl-tOnGOPAy2o/edit?usp=sharing" class="button">Velocity Curve Lesson</a></p>
 
                     ]]>
                 </content:encoded>
@@ -138,6 +138,31 @@
                 <description>
                     
                     How a build a 21cm Horn Antenna
+                    
+                </description>
+                <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
+                <author>Pranav Sanghavi</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>How Fast Are We Moving?</title>
+                <link>http://localhost:4000/HowFast2</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p><a href="https://drive.google.com/file/d/16kOIq_1x2TTggZz2ao1H7ypAyL5KdrFu/view?usp=sharing" class="button">Student Activity - Basic</a></p>
+
+<p>https://youtu.be/uZ9iNsjyw7k</p>
+
+<p>The above Video with help with common mistakes in the activity</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/HowFast2</guid>
+                <description>
+                    
+                    Determining the Speed of various aspects of our motion in space
                     
                 </description>
                 <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>

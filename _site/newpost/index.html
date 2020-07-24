@@ -3,16 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Velocity Curve &#8211; Digital Signal Processing in Radio Astrinomy - Lessons Portal</title>
+    <title>Digital Signal Processing in Radio Astrinomy - Lessons Portal</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Lesson introducing how to make a velocity curve">
+    <meta name="description" content="Lots of lessons">
     <meta name="robots" content="all">
     <meta name="author" content="Pranav Sanghavi">
-    <meta name="keywords" content="Astronomy, Astronomy Lessons">
-    <link rel="canonical" href="http://localhost:4000/VelocityCurve">
+    
+    <link rel="canonical" href="http://localhost:4000/newpost/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Digital Signal Processing in Radio Astrinomy - Lessons Portal" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -30,9 +30,9 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Velocity Curve">
+    <meta property="og:title" content="Digital Signal Processing in Radio Astrinomy - Lessons Portal">
     <meta property="og:description" content="Lots of lessons">
-    <meta property="og:url" content="http://localhost:4000/VelocityCurve">
+    <meta property="og:url" content="http://localhost:4000/newpost/">
     <meta property="og:site_name" content="Digital Signal Processing in Radio Astrinomy - Lessons Portal">
     
 
@@ -42,9 +42,9 @@
         <meta name="twitter:site" content="@pranavsanghavi" />
         <meta name="twitter:creator" content="@pranavsanghavi" />
     
-    <meta name="twitter:title" content="Velocity Curve" />
-    <meta name="twitter:description" content="Lesson introducing how to make a velocity curve" />
-    <meta name="twitter:url" content="http://localhost:4000/VelocityCurve" />
+    <meta name="twitter:title" content="Digital Signal Processing in Radio Astrinomy - Lessons Portal" />
+    <meta name="twitter:description" content="Lots of lessons" />
+    <meta name="twitter:url" content="http://localhost:4000/newpost/" />
     
 
     <!-- Icons -->
@@ -82,141 +82,134 @@
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
-        
+        <div class="post">
+  <header class="post-header">
+    <h1 class="h2"></h1>
+  </header>
+  <article class="post-content">
+  <p>All post files must begin with <em>front matter</em> which is typically used to set a layout or other meta data. For a simple example this can just be empty:</p>
 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout:     post
+title:      Building a Horn
+date:       2020-07-09 21:21:29
+summary:    How a build a 21cm Horn Antenna
+tags: ['School Teachers', 'Students', 'Hobbyists' ]
+---
+</code></pre></div></div>
 
-<div class="post-header mb2">
-  <h1>Velocity Curve</h1>
-  <span class="post-meta">Jul 22, 2020 |</span>
-  
-  <span class="post-meta small">
-  
-    1 minute read
-  
-  </span>
-</div>
+<ul>
+  <li>
+    <p>Every <em>post</em> can have one <code class="highlighter-rouge">tag</code> or multiple <code class="highlighter-rouge">tags</code>. It will automatically split a string entry if it contains whitespace. The website software  Jekyll expects multiple items mapped to the key tags For example, while front matter <code class="highlighter-rouge">tag: classic hollywood</code> will be processed into a singular entity <code class="highlighter-rouge">"classic hollywood"</code>, front matter <code class="highlighter-rouge">tags: classic hollywood</code> will be processed into an array of entries <code class="highlighter-rouge">["classic", "hollywood"]</code>.</p>
+  </li>
+  <li>
+    <p>After the front matter make your lesson post formatting it in <code class="highlighter-rouge">markdown</code> refer to this cheat sheet <a href="https://github.com/WVURAIL/dspira-lessons/wiki/Markdown-Cheatsheet">https://github.com/WVURAIL/dspira-lessons/wiki/Markdown-Cheatsheet</a></p>
+  </li>
+  <li>
+    <p>Add buttons to link to a pdf of your document using this syntax</p>
+  </li>
+</ul>
 
-<article class="post-content">
-  <h3 id="lesson">LESSON!</h3>
-<p>Students should already be falmiliar with the horns.<br />
-<a href="https://docs.google.com/document/d/1Rltdd6kSORlVFIaczRCB88xuIuG9YNwl-tOnGOPAy2o/edit?usp=sharing" class="button">Velocity Curve Lesson</a></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Google](http://www.google.com){: .button}
+</code></pre></div></div>
+<p>In Google Drive:</p>
+<ul>
+  <li>open document</li>
+  <li>click share button (upper right corner)</li>
+  <li>in dialogue box, change the get link attribute to Anyone with link with viewer priveleges. see screenshot below</li>
+</ul>
 
-</article>
+<p><img src="https://github.com/WVURAIL/dspira-lessons/blob/master/images/SharedScreenshot.jpg" alt="screen shot of changing permissions of google document" /></p>
 
+<p>EXAMPLE:</p>
+<ul>
+  <li>To add a Google doc lesson:
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[Velocity Curve Lesson](https://docs.google.com/document/d/1Rltdd6kSORlVFIaczRCB88xuIuG9YNwl-tOnGOPAy2o/edit?usp=sharing){: .button}
+</code></pre></div>    </div>
+  </li>
+  <li>Add YouTube link:
+Add an embedded window of the youtube video to the page by simply paste the youtube link on the markdown page on its own. Please add a couple of lines describing the contents of the video at minimum.</li>
+</ul>
 
-  <div class="share-page">
-  <div class="share-links">
-    Share:
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>https://www.youtube.com/watch?v=jS5fTzMP_mg
 
-    
-      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FVelocityCurve" rel="nofollow" target="_blank" title="Share on Facebook"></a>
-    
+The above video is a video of Kermit the frog singing the rainbow connention
+</code></pre></div></div>
 
-    
-      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=Velocity+Curve&amp;url=http%3A%2F%2Flocalhost%3A4000%2FVelocityCurve" rel="nofollow" target="_blank" title="Share on Twitter"></a>
-    
+<h3 id="view-the-live-webpage-wvurailorgdspira-lessons">View the live webpage: <a href="http://wvurail.org/dspira-lessons/">wvurail.org/dspira-lessons</a></h3>
 
-    
-      <a class="fa fa-google-plus" href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2FVelocityCurve" rel="nofollow" target="_blank" title="Share on Google+"></a>
-    
-
-    
-      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2FVelocityCurve&amp;title=Velocity+Curve" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
-    
-
-    
-      <a class="fa fa-digg" href="http://digg.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2FVelocityCurve&amp;title=Velocity+Curve" rel="nofollow" target="_blank" title="Share on Digg"></a>
-    
-
-    
-      <a class="fa fa-tumblr" href="http://www.tumblr.com/share/link?url=http%3A%2F%2Flocalhost%3A4000%2FVelocityCurve&amp;name=Velocity+Curve" rel="nofollow" target="_blank" title="Share on Tumblr"></a>
-    
-
-    
-      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2FVelocityCurve&amp;title=Velocity+Curve" rel="nofollow" target="_blank" title="Share on Reddit"></a>
-    
-
-    
-
-    
-      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2FVelocityCurve&amp;t=Velocity+Curve" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
-    
-  </div>
-</div>
-
-
-
-
-
-
+<html>
+<body>
 <div>
-  <h4>Appropriate for:</h4>
-  
-    
-        
-        <a class="button" href="/tags/School Teachers">School Teachers</a> 
-    
-        
-        <a class="button" href="/tags/Students">Students</a> 
-    
-        
-        <a class="button" href="/tags/Hobbyists">Hobbyists</a> 
-    
-  
+    <p>Date:</p><h2 id="date"></h2>
+    New Post:
+
+    <textarea id="inputTextToSave" cols="80" rows="25">
+---
+layout: post
+date:   copy date from above
+title: add title
+summary:  add a one summary (~10 word summary) 
+tags: ['School Teachers', 'Students', 'Hobbyists' ]
+---
+
+Enter the Lesson posts here
+    </textarea>
+    Filename to Save As:
+    <input id="inputFileNameToSaveAs" />&lt;/input&gt;&nbsp;&nbsp;<button onclick="saveTextAsFile()">Save</button>
+
 </div>
 
 
+<script type="text/javascript">
+ 
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
 
-  <h3 class="related-post-title">Relateted Lessons</h3>
-  <ul class="related-posts">
-    
-    <li>
-      <a href="/funfunfun" class="post-link">
-          Building a Hornsss
-      </a>
-    </li>
-    
-    <li>
-      <a href="/funfunfun" class="post-link">
-          Building a Hornsss
-      </a>
-    </li>
-    
-    <li>
-      <a href="/funfunfun" class="post-link">
-          Building a Hornsss
-      </a>
-    </li>
-    
-    <li>
-      <a href="/horn" class="post-link">
-          Building a Horn
-      </a>
-    </li>
-    
-    <li>
-      <a href="/HowFast2" class="post-link">
-          How Fast Are We Moving?
-      </a>
-    </li>
-    
-    <li>
-      <a href="/Astronomy-101-2" class="post-link">
-          Introduction to Astronomy Part 2
-      </a>
-    </li>
-    
-    <li>
-      <a href="/Astronomy-101" class="post-link">
-          Introduction to Astronomy
-      </a>
-    </li>
-    
-  </ul>
+if (d < 10) {
+  d = '0' + d;
+}
+if (m < 10) {
+  m = '0' + m;
+}
 
+datetoday = y + "-" + m + "-" + d;
+document.getElementById("date").innerHTML = datetoday
 
+function saveTextAsFile()
+{
+    var textToSave = document.getElementById("inputTextToSave").value;
+    var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
+    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
+    var fileNameToSaveAs = datetoday + "-" + document.getElementById("inputFileNameToSaveAs").value + ".md";
+ 
+    var downloadLink = document.createElement("a");
+    downloadLink.download = fileNameToSaveAs;
+    downloadLink.innerHTML = "Download File";
+    downloadLink.href = textToSaveAsURL;
+    downloadLink.onclick = destroyClickedElement;
+    downloadLink.style.display = "none";
+    document.body.appendChild(downloadLink);
+ 
+    downloadLink.click();
+}
+ 
+function destroyClickedElement(event)
+{
+    document.body.removeChild(event.target);
+}
 
+</script>
+ 
+</body>
+</html>
 
+  </article>
+</div>
+
+<br>
 
       </div>
     </div>

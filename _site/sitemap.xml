@@ -9,6 +9,10 @@
 <lastmod>2020-07-09T17:21:29-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/HowFast2</loc>
+<lastmod>2020-07-09T17:21:29-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/horn</loc>
 <lastmod>2020-07-09T17:21:29-04:00</lastmod>
 </url>
@@ -59,7 +63,7 @@
 <loc>http://localhost:4000/units/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/newpost</loc>
+<loc>http://localhost:4000/newpost/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/thanks/</loc>
