@@ -1,4 +1,4 @@
-var CACHE_NAME = "saikiransripada-20200724152733";
+var CACHE_NAME = "saikiransripada-20200724152740";
 
 self.addEventListener("install", function(e) {
   e.waitUntil(
