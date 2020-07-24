@@ -11,11 +11,17 @@ Different options for acquiring a working system to operate a horn radio telesco
 ### 1. Assemble a complete system
 
 
-   - the horn & antenna can assembly – see Building a Horn Telescope link
+   - the horn & antenna can assembly – details provided [here](https://drive.google.com/file/d/1_IDQfJlaPI43cPWumYKiKivhqwiIh7C3/view?usp=sharing)
 
+      * the horn
+      
       * the antenna can
+      
       * the antenna probe
+      
       * the antenna feedthrough
+      
+      * the horn stand
 
    - a low noise amplifier (LNA)
        All of these will work. The DSPIRA LNA is the most stable and long lasting.
