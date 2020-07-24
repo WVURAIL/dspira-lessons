@@ -132,4 +132,4 @@ function destroyClickedElement(event)
 </html>
 
 
-[upload My Lesson to websote](https://github.com/WVURAIL/dspira-lessons/upload/master){: button}
+[upload My Lesson to websote](https://github.com/WVURAIL/dspira-lessons/upload/master/_posts){: button}
