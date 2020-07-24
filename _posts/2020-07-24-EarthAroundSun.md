@@ -10,7 +10,7 @@ This is meant to be a fairly intense sequence of activities for High School+ lev
 
 There are (up to) 6 activities to get to using the Horn Telescope
 
-Activity List
+_Activity List_
    1. How Fast Are We Moving?
    2. Modeling Earth's Motion Around the Sun
    3. Earth's Motion With Respect to Galactic Center
