@@ -17,7 +17,7 @@ layout:     post
 date:       2020-07-09 21:21:29
 title:      Title of your Lesson
 summary:    Summary of your Lesson
-tags: ['School Teachers', 'Students', 'Hobbyists' ]
+tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Lessson Category']
 ---
 ```
@@ -74,7 +74,7 @@ layout: post
 date:   copy date from above
 title: edit this title
 summary:  edit this a ~10 word summary
-tags: ['School Teachers', 'Students', 'Hobbyists' ]
+tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['category'] 
 ---
 
