@@ -81,7 +81,7 @@ tags: ['School Teachers', 'Students', 'Hobbyists' ]
 Enter the Lesson posts here
     </textarea></div>
     <div>
-    Filename to Save As:<input id="inputFileNameToSaveAs">&nbsp;.md
+    Filename to Save As: &nbsp; <input id="inputFileNameToSaveAs">&nbsp;.md
     <button onclick="saveTextAsFile()">Save</button>
     </div>
 </div>
