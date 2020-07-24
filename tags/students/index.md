@@ -1,3 +1,4 @@
 ---
-layout: center
+layout: tagpage
+tag: Students
 ---
