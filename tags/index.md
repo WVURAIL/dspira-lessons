@@ -5,7 +5,7 @@ permalink: /tags/
 
 {% for tag in site.tags %}
   {% capture tag_name %}{{ tag[0] }}{% endcapture %}
-  <h3><a class="button" href="/tags/{{ tag_name }}">{{ tag_name }}</a></h3> 
+  <h3><a class="button" href="{{ site.baseurl }}/tags/{{ tag_name | sluggify }}">{{ tag_name }}</a></h3> 
   <ul>
     {% for post in tag[1] %}
       <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
@@ -13,3 +13,16 @@ permalink: /tags/
     {% endfor %}
   </ul>
 {% endfor %}
+
+
+<script>
+
+function slugify(text)
+{
+    return text.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
+}
+
+
+document.getElementById("mytext").value = w;
+
+</script>

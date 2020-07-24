@@ -4,41 +4,21 @@ layout: default
 {% assign posts_count = paginator.posts | size %}
 
 
-<div class="cards-list">
-  
-<a href="{{ site.baseurl }}/categories/"  style="text-decoration: none" >
-<div class="card 1">
-  <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
-  <div>
-    <p  class="card_title title-white"> Categories</p>
-  </div>
-</div></a>
 
-
-<a href="{{ site.baseurl }}/tags/" style="text-decoration: none" >
-<div class="card 2">
-  <div class="card_image">
-    <img src="https://i.redd.it/b3esnz5ra34y.jpg" />
-    </div>
-  <div>
-    <p  class="card_title title-white">Levels</p>
-  </div>
-</div></a>
-
-
-<a href="{{ site.baseurl }}/units/" style="text-decoration: none" >
-  <div class="card 3">
-    <div class="card_image">
-      <img src="https://i.redd.it/b3esnz5ra34y.jpg" />
-      </div>
-    <div>
-      <p  class="card_title title-white">Units</p>
-    </div>
-  </div></a>
-
+<div class="center container">
+    <a href="{{ site.baseurl }}/categories/" class = "button">
+      <h3>Categories</h3>
+      <p>Card content...</p></a>
+    <a href="{{ site.baseurl }}/tags/" class = "button">
+      <h3>Levels</h3>
+      <p>Card content...</p></a>
+    <a href="{{ site.baseurl }}/units/" class = "button">
+      <h3>Units</h3>
+      <p>Card content...</p></a>
 </div>
 
 <hr>
+
 <h1> All Lessons </h1>
 
 <div class="home">
