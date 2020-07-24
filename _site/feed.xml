@@ -7,16 +7,6 @@
     <atom:link href="http://localhost:4000/dspira-lessons/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>edit this title</title>
-        <description>&lt;p&gt;Horns supreme&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/dspira-lessons/horns</link>
-        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/horns</guid>
-      </item>
-    
-      <item>
         <title>How Fast Are We Moving?</title>
         <description>&lt;p&gt;This lesson is designed at three different levels.  Each is mainly after the students being able to determine the speed of the Earth around the Sun.&lt;/p&gt;
 
@@ -47,14 +37,17 @@ Students already exposed to the Universal Law of Gravity and Circular Motion wil
 &lt;p&gt;The following are videos from Dr. Loren Anderson from West Virginia University’s Astronomy department.&lt;br /&gt;
 They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.&lt;/p&gt;
 
-&lt;p&gt;Intro to Motion in the Sky
-https://www.youtube.com/watch?v=wUNDoUoDrCg&lt;/p&gt;
+&lt;p&gt;Intro to Motion in the Sky&lt;/p&gt;
 
-&lt;p&gt;The Celestial Sphere
-https://www.youtube.com/watch?v=d8BcwK5nlos&lt;/p&gt;
+&lt;p&gt;https://www.youtube.com/watch?v=wUNDoUoDrCg&lt;/p&gt;
 
-&lt;p&gt;Earth’s Motion and Star Trails
-https://www.youtube.com/watch?v=_L1R1VnMeD4&lt;/p&gt;
+&lt;p&gt;The Celestial Sphere&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=d8BcwK5nlos&lt;/p&gt;
+
+&lt;p&gt;Earth’s Motion and Star Trails&lt;/p&gt;
+
+&lt;p&gt;https://www.youtube.com/watch?v=_L1R1VnMeD4&lt;/p&gt;
 </description>
         <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/dspira-lessons/A2UnderstandingCeleCoords</link>
