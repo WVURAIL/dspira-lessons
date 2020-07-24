@@ -63,6 +63,8 @@ The above video is a video of Kermit the frog singing the rainbow connention
 - Click save to save the file
 - Upload the file appropraitely on the github repostory in the appropraite directory to post to the website
 
+[Upload My Lesson to the Website](https://github.com/WVURAIL/dspira-lessons/upload/master/_posts){: button}
+
 <html>
 <body>
 <div>
@@ -132,4 +134,3 @@ function destroyClickedElement(event)
 </html>
 
 
-[upload My Lesson to websote](https://github.com/WVURAIL/dspira-lessons/upload/master/_posts){: button}
