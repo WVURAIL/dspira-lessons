@@ -8,7 +8,9 @@ categories: ['Horn Construction']
 ---
 Different options for acquiring a working system to operate a horn radio telescope are presented below. Links to documentation and instructional videos are provided where applicable.
 
-1. Assemble a complete system
+### 1. Assemble a complete system
+
+
    - the horn & antenna can assembly – see Building a Horn Telescope link
 
       * the antenna can
@@ -28,7 +30,9 @@ Different options for acquiring a working system to operate a horn radio telesco
    - *Gnuradio* open source program
    - *spectrometer_w_cal.grc* program from the Github gr-radio_astro repository
 
-2. Assemble the horn & electronics and use a thumb drive to run the software from any computer
+### 2. Assemble the horn & electronics and use a thumb drive to run the software from any computer
+
+
    - the horn & antenna can assembly – see [Building a Horn Telescope link]
 
       + the antenna can
