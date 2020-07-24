@@ -36,7 +36,7 @@ In Google Drive:
 - click share button (upper right corner)
 - in dialogue box, change the get link attribute to Anyone with link with viewer priveleges. see screenshot below
 
-![screen shot of changing permissions of google document](/images/SharedScreenshit.jpg)
+![screen shot of changing permissions of google document](/images/SharedScreenshot.jpg)
 
 EXAMPLE:
 - To add a Google doc lesson:
@@ -134,5 +134,3 @@ function destroyClickedElement(event)
  
 </body>
 </html>
-
-
