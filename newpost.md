@@ -4,7 +4,7 @@ title: New Post
 permalink: /newpost/
 ---
 
-These are instruction and a simple template to start creating a new post!
+These are instructions and a simple template to start creating a new post!
 
 ## Syntax hints for post formatting
 
