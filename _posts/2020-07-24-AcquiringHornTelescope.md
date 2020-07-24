@@ -44,8 +44,7 @@ Different options for acquiring a working system to operate a horn radio telesco
 
 ### 2. Assemble the horn & electronics and use a thumb drive to run the software from any computer
 
-- the horn & antenna can assembly – details provided [here](https://drive.google.com/file/d/1_IDQfJlaPI43cPWumYKiKivhqwiIh7C3/view?usp=sharing)
-
+   - the horn & antenna can assembly – details provided [here](https://drive.google.com/file/d/1_IDQfJlaPI43cPWumYKiKivhqwiIh7C3/view?usp=sharing)
       * the horn
       
       * the antenna can
@@ -71,4 +70,5 @@ Different options for acquiring a working system to operate a horn radio telesco
    - coaxial cable with SMA connectors: from coaxrf.com, [LMR195 SMA MALE to SMA MALE Coaxial RF Pigtail Cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr195/sma-male-times-microwave-lmr195/lmr195-sma-male-to-sma-male-coaxial-rf-pigtail-cable-2/)
    
    - computer
+   
    - bootable thumb drive [link] to run Gnuradio and *spectrometer_w_cal.grc* program 
