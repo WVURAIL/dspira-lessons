@@ -45,6 +45,7 @@ Different options for acquiring a working system to operate a horn radio telesco
 ### 2. Assemble the horn & electronics and use a thumb drive to run the software from any computer
 
    - the horn & antenna can assembly – details provided [here](https://drive.google.com/file/d/1_IDQfJlaPI43cPWumYKiKivhqwiIh7C3/view?usp=sharing)
+   
       * the horn
       
       * the antenna can
