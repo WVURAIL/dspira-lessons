@@ -59,7 +59,7 @@ The above video is a video of Kermit the frog singing the rainbow connention
 
 To add images to your post first upload your image to github by going to the link below  upload and commit an image to the the images directory: 
 
-[Upload image](https://github.com/WVURAIL/dspira-lessons/upload/master/images){: button}
+[Upload image](https://github.com/WVURAIL/dspira-lessons/upload/master/images){: .button}
 
 Then add the following to the post you are editing
 ```
