@@ -18,10 +18,12 @@ date:       2020-07-09 21:21:29
 title:      Title of your Lesson
 summary:    Summary of your Lesson
 tags: ['School Teachers', 'Students', 'Hobbyists' ]
+categories: ['Lessson Category']
 ---
 ```
 
 - Every *post* can have one `tag` or multiple `tags`. It will automatically split a string entry if it contains whitespace. The website software  Jekyll expects multiple items mapped to the key tags For example, while front matter `tag: classic hollywood` will be processed into a singular entity `"classic hollywood"`, front matter `tags: classic hollywood` will be processed into an array of entries `["classic", "hollywood"]`. 
+- `categories` or `category` work the same way as tags
 
 - After the front matter make your lesson post formatting it in `markdown` refer to this cheat sheet [https://github.com/WVURAIL/dspira-lessons/wiki/Markdown-Cheatsheet](https://github.com/WVURAIL/dspira-lessons/wiki/Markdown-Cheatsheet)
 
@@ -57,11 +59,7 @@ The above video is a video of Kermit the frog singing the rainbow connention
 ### View the live webpage: [wvurail.org/dspira-lessons](http://wvurail.org/dspira-lessons/)
 
 
-##  Add Edit yout post here following the above intructions to properly  
-
-- Make sure to enter your lesson filename.
-- Click save to save the file
-- Upload the file appropraitely on the github repostory in the appropraite directory to post to the website
+##  Edit your post in the text area below 
 
 <html>
 <body>
@@ -76,6 +74,7 @@ date:   copy date from above
 title: edit this title
 summary:  edit this a ~10 word summary
 tags: ['School Teachers', 'Students', 'Hobbyists' ]
+categories: ['category'] 
 ---
 
 Enter the Lesson posts here
@@ -86,7 +85,7 @@ Enter the Lesson posts here
     </div>
 </div>
 
-<div>
+<div> Upload your saved file to the website by uploading and commiting on github.com: &nbsp;
  <a href="https://github.com/WVURAIL/dspira-lessons/upload/master/_posts" class = "button">Upload to Website</a>
 </div>
 

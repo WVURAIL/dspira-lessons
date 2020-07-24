@@ -9,107 +9,44 @@
     
         
             <item>
-                <title>Velocity Curve</title>
-                <link>http://localhost:4000/VelocityCurve</link>
+                <title>edit this title</title>
+                <link>http://localhost:4000/horns</link>
                 <content:encoded>
                     <![CDATA[
-                    <h3 id="lesson">LESSON!</h3>
-<p>Students should already be falmiliar with the horns.<br />
-<a href="https://docs.google.com/document/d/1Rltdd6kSORlVFIaczRCB88xuIuG9YNwl-tOnGOPAy2o/edit?usp=sharing" class="button">Velocity Curve Lesson</a></p>
+                    <p>Horns supreme</p>
+
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/VelocityCurve</guid>
+                <guid isPermaLink="false">/horns</guid>
                 <description>
                     
-                    Lesson introducing how to make a velocity curve
+                    edit this a ~10 word summary
                     
                 </description>
-                <pubDate>Wed, 22 Jul 2020 17:21:29 -0400</pubDate>
+                <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
                 <author>Pranav Sanghavi</author>
             </item>
         
     
         
             <item>
-                <title>Building a Hornsss</title>
-                <link>http://localhost:4000/funfunfun</link>
+                <title>Astronomy Activity : Understanding Celestial Coordinate Systems</title>
+                <link>http://localhost:4000/A2UnderstandingCeleCoords</link>
                 <content:encoded>
                     <![CDATA[
-                    <h1 id="materials">Materials</h1>
-
-<p>#Video</p>
-
-<p><a href="http://www.google.com" class="button">Google</a></p>
-
-<p>https://www.youtube.com/watch?v=jS5fTzMP_mg</p>
+                    <p><a href="https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing" class="button">Understanding Celestial Coordinate Sysytems</a></p>
 
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/funfunfun</guid>
+                <guid isPermaLink="false">/A2UnderstandingCeleCoords</guid>
                 <description>
                     
-                    How a build a 21cm Horn Antenna
+                    Overview of different celestial coordinate systems
                     
                 </description>
-                <pubDate>Sun, 19 Jul 2020 17:21:29 -0400</pubDate>
-                <author>Pranav Sanghavi</author>
-            </item>
-        
-    
-        
-            <item>
-                <title>Building a Hornsss</title>
-                <link>http://localhost:4000/funfunfun</link>
-                <content:encoded>
-                    <![CDATA[
-                    <h1 id="materials">Materials</h1>
-
-<p>#Video</p>
-
-<p><a href="http://www.google.com" class="button">Google</a></p>
-
-<p>https://www.youtube.com/watch?v=jS5fTzMP_mg</p>
-
-
-                    ]]>
-                </content:encoded>
-                <guid isPermaLink="false">/funfunfun</guid>
-                <description>
-                    
-                    How a build a 21cm Horn Antenna
-                    
-                </description>
-                <pubDate>Sun, 19 Jul 2020 17:21:29 -0400</pubDate>
-                <author>Pranav Sanghavi</author>
-            </item>
-        
-    
-        
-            <item>
-                <title>Building a Hornsss</title>
-                <link>http://localhost:4000/funfunfun</link>
-                <content:encoded>
-                    <![CDATA[
-                    <h1 id="materials">Materials</h1>
-
-<p>#Video</p>
-
-<p><a href="http://www.google.com" class="button">Google</a></p>
-
-<p>https://www.youtube.com/watch?v=jS5fTzMP_mg</p>
-
-
-                    ]]>
-                </content:encoded>
-                <guid isPermaLink="false">/funfunfun</guid>
-                <description>
-                    
-                    How a build a 21cm Horn Antenna
-                    
-                </description>
-                <pubDate>Sun, 19 Jul 2020 17:21:29 -0400</pubDate>
+                <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
                 <author>Pranav Sanghavi</author>
             </item>
         
@@ -141,73 +78,6 @@
                     
                 </description>
                 <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
-                <author>Pranav Sanghavi</author>
-            </item>
-        
-    
-        
-            <item>
-                <title>How Fast Are We Moving?</title>
-                <link>http://localhost:4000/HowFast2</link>
-                <content:encoded>
-                    <![CDATA[
-                    <p><a href="https://drive.google.com/file/d/16kOIq_1x2TTggZz2ao1H7ypAyL5KdrFu/view?usp=sharing" class="button">Student Activity - Basic</a></p>
-
-<p>https://youtu.be/uZ9iNsjyw7k</p>
-
-<p>The above Video with help with common mistakes in the activity</p>
-
-                    ]]>
-                </content:encoded>
-                <guid isPermaLink="false">/HowFast2</guid>
-                <description>
-                    
-                    Determining the Speed of various aspects of our motion in space
-                    
-                </description>
-                <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
-                <author>Pranav Sanghavi</author>
-            </item>
-        
-    
-        
-            <item>
-                <title>Introduction to Astronomy Part 2</title>
-                <link>http://localhost:4000/Astronomy-101-2</link>
-                <content:encoded>
-                    <![CDATA[
-                    
-
-                    ]]>
-                </content:encoded>
-                <guid isPermaLink="false">/Astronomy-101-2</guid>
-                <description>
-                    
-                    Astronomy 101
-                    
-                </description>
-                <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
-                <author>Pranav Sanghavi</author>
-            </item>
-        
-    
-        
-            <item>
-                <title>Introduction to Astronomy</title>
-                <link>http://localhost:4000/Astronomy-101</link>
-                <content:encoded>
-                    <![CDATA[
-                    
-
-                    ]]>
-                </content:encoded>
-                <guid isPermaLink="false">/Astronomy-101</guid>
-                <description>
-                    
-                    Astronomy 101
-                    
-                </description>
-                <pubDate>Wed, 08 Jul 2020 07:21:29 -0400</pubDate>
                 <author>Pranav Sanghavi</author>
             </item>
         

@@ -7,62 +7,23 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Velocity Curve</title>
-        <description>&lt;h3 id=&quot;lesson&quot;&gt;LESSON!&lt;/h3&gt;
-&lt;p&gt;Students should already be falmiliar with the horns.&lt;br /&gt;
-&lt;a href=&quot;https://docs.google.com/document/d/1Rltdd6kSORlVFIaczRCB88xuIuG9YNwl-tOnGOPAy2o/edit?usp=sharing&quot; class=&quot;button&quot;&gt;Velocity Curve Lesson&lt;/a&gt;&lt;/p&gt;
+        <title>edit this title</title>
+        <description>&lt;p&gt;Horns supreme&lt;/p&gt;
+
 </description>
-        <pubDate>Wed, 22 Jul 2020 17:21:29 -0400</pubDate>
-        <link>http://localhost:4000/VelocityCurve</link>
-        <guid isPermaLink="true">http://localhost:4000/VelocityCurve</guid>
+        <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/horns</link>
+        <guid isPermaLink="true">http://localhost:4000/horns</guid>
       </item>
     
       <item>
-        <title>Building a Hornsss</title>
-        <description>&lt;h1 id=&quot;materials&quot;&gt;Materials&lt;/h1&gt;
-
-&lt;p&gt;#Video&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.google.com&quot; class=&quot;button&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=jS5fTzMP_mg&lt;/p&gt;
+        <title>Astronomy Activity : Understanding Celestial Coordinate Systems</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing&quot; class=&quot;button&quot;&gt;Understanding Celestial Coordinate Sysytems&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 19 Jul 2020 17:21:29 -0400</pubDate>
-        <link>http://localhost:4000/funfunfun</link>
-        <guid isPermaLink="true">http://localhost:4000/funfunfun</guid>
-      </item>
-    
-      <item>
-        <title>Building a Hornsss</title>
-        <description>&lt;h1 id=&quot;materials&quot;&gt;Materials&lt;/h1&gt;
-
-&lt;p&gt;#Video&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.google.com&quot; class=&quot;button&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=jS5fTzMP_mg&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 19 Jul 2020 17:21:29 -0400</pubDate>
-        <link>http://localhost:4000/funfunfun</link>
-        <guid isPermaLink="true">http://localhost:4000/funfunfun</guid>
-      </item>
-    
-      <item>
-        <title>Building a Hornsss</title>
-        <description>&lt;h1 id=&quot;materials&quot;&gt;Materials&lt;/h1&gt;
-
-&lt;p&gt;#Video&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.google.com&quot; class=&quot;button&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=jS5fTzMP_mg&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 19 Jul 2020 17:21:29 -0400</pubDate>
-        <link>http://localhost:4000/funfunfun</link>
-        <guid isPermaLink="true">http://localhost:4000/funfunfun</guid>
+        <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/A2UnderstandingCeleCoords</link>
+        <guid isPermaLink="true">http://localhost:4000/A2UnderstandingCeleCoords</guid>
       </item>
     
       <item>
@@ -82,37 +43,6 @@
         <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
         <link>http://localhost:4000/horn</link>
         <guid isPermaLink="true">http://localhost:4000/horn</guid>
-      </item>
-    
-      <item>
-        <title>How Fast Are We Moving?</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/16kOIq_1x2TTggZz2ao1H7ypAyL5KdrFu/view?usp=sharing&quot; class=&quot;button&quot;&gt;Student Activity - Basic&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;https://youtu.be/uZ9iNsjyw7k&lt;/p&gt;
-
-&lt;p&gt;The above Video with help with common mistakes in the activity&lt;/p&gt;
-</description>
-        <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
-        <link>http://localhost:4000/HowFast2</link>
-        <guid isPermaLink="true">http://localhost:4000/HowFast2</guid>
-      </item>
-    
-      <item>
-        <title>Introduction to Astronomy Part 2</title>
-        <description>
-</description>
-        <pubDate>Thu, 09 Jul 2020 17:21:29 -0400</pubDate>
-        <link>http://localhost:4000/Astronomy-101-2</link>
-        <guid isPermaLink="true">http://localhost:4000/Astronomy-101-2</guid>
-      </item>
-    
-      <item>
-        <title>Introduction to Astronomy</title>
-        <description>
-</description>
-        <pubDate>Wed, 08 Jul 2020 07:21:29 -0400</pubDate>
-        <link>http://localhost:4000/Astronomy-101</link>
-        <guid isPermaLink="true">http://localhost:4000/Astronomy-101</guid>
       </item>
     
   </channel>
