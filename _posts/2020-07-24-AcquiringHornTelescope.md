@@ -6,7 +6,6 @@ summary:  Options for obtaining a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
 ---
-##Options for Acquiring a Horn Telescope
 Different options for acquiring a working system to operate a horn radio telescope are presented below. Links to documentation and instructional videos are provided where applicable.
 
 1. Assemble a complete system
