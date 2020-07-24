@@ -8,7 +8,7 @@ categories: ['Horn Construction']
 ---
 Two different options for building a working system to operate a horn radio telescope are presented below. Links to documentation and instructional videos are provided where applicable.
 
-### How to Assemble a complete system
+### What's Needed for a Complete Horn Telescope System
 
    - the horn & antenna can assembly – details provided [here](https://drive.google.com/file/d/1_IDQfJlaPI43cPWumYKiKivhqwiIh7C3/view?usp=sharing)
 
