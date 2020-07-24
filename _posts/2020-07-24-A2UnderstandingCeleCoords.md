@@ -4,7 +4,7 @@ date:   2020-07-24
 title: "Astronomy Activity : Understanding Celestial Coordinate Systems"
 summary:  A quick introduction to different coordinate systems used in astronomy
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Basic Astronomy'] 
+categories: ['Astronomy','Basic Astronomy'] 
 ---
 
 [Student Activity Document](https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing){: .button}
