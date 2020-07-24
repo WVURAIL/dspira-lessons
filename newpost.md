@@ -1,9 +1,10 @@
 ---
 layout: page
+title: New Post
 permalink: /newpost/
 ---
 
-# Syntax honts for post formatting
+# Syntax hints for post formatting
 
 All post files must begin with *front matter* which is typically used to set a layout or other meta data. For a simple example this can just be empty:
 
