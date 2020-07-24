@@ -13,16 +13,3 @@ permalink: /tags/
     {% endfor %}
   </ul>
 {% endfor %}
-
-
-<script>
-
-function slugify(text)
-{
-    return text.toLowerCase().replace(/ /g,'-').replace(/[^\w-]+/g,'');
-}
-
-
-document.getElementById("mytext").value = w;
-
-</script>
