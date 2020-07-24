@@ -73,8 +73,8 @@ The above video is a video of Kermit the frog singing the rainbow connention
 ---
 layout: post
 date:   copy date from above
-title: add title
-summary:  add a ~10 word summary
+title: edit this title
+summary:  edit this a ~10 word summary
 tags: ['School Teachers', 'Students', 'Hobbyists' ]
 ---
 
