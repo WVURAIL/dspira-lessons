@@ -1,4 +1,4 @@
 ---
 layout: center
-permalink: /Hobbyist/
+permalink: /Hobbyists/
 ---
