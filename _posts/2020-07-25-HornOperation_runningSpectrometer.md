@@ -17,7 +17,7 @@ Watch the [spectrometer description video](https://youtu.be/50B2Uv-SoDY) for det
 
 [This video explains how set up the horn and adjust the program settings before starting the program.](https://youtu.be/Oo28QCEZe_g)
 
-   * Check the user-defined settings illustrated above. These are the Variable blocks in the upper right corner of the Gnuradio canvas.
+   * Check the user-defined settings illustrated above. These are the `Variable` blocks in the upper right corner of the Gnuradio canvas.
 
       - To change a value, double click on the box and then type the value in the Value box and hit OK.
 
@@ -42,7 +42,7 @@ Watch the [spectrometer description video](https://youtu.be/50B2Uv-SoDY) for det
             data folder name: `horn_data_2020`
 
             Value to put into the prefix variable box:   
-	    ` "home/Jansky/radio_astronomy/horn_data_2020/" `
+	    `  "home/Jansky/radio_astronomy/horn_data_2020/"  `
 	    (Include the quotes)
 
    * CAUTION: If you run the program on a laptop without the power cord plugged in, the computer may go into a sleep mode and stop running the program, depending on the length of the run. Change the power settings on your computer so that it never suspends or goes to sleep.
