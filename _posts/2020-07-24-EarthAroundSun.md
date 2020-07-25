@@ -21,13 +21,13 @@ _Activity List_
    6. Comparing Model to Data
    7. Getting your own data with your Radio Horn
    
- ### How Fast Are We Moving?   
+## How Fast Are We Moving?   
    This activity is a stand alone activity that is a good simple exercise for students from general middle school space science up to high school physics students
    to determine the speed of the Earth's rotation, revolution around the Sun, and the Sun's speed around the Galaxy.
    >To get to the activity files, click here [How Fast Are We Moving?](http://wvurail.org/dspira-lessons/HowFastAreWeMoving)   
    
- ### Modeling Earth's Motion around the Sun   Now? 
-   The Earth will be modeled as moving in a circle around the Sun.  The direction to the Center of the Galaxy(GC) is also included becuase it will eventually be needed for the 
+### Modeling Earth's Motion around the Sun   How about Now?    
+The Earth will be modeled as moving in a circle around the Sun.  The direction to the Center of the Galaxy(GC) is also included becuase it will eventually be needed for the 
    measurements.  Since the amount of the Earth's motion towards the GC is eventually needed for Doppler considerations, a graphical approach to velocity vector components is 
    used here.  
    >  Click here for Student Activity [Document](https://docs.google.com/document/d/1__n0TklTs-efhsMBp2iGLFbOOSoBRgllJImWqw3vCNQ/edit?usp=sharing)    
