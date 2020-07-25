@@ -26,12 +26,14 @@ There are (up to) 6 activities to get to using the Horn Telescope
    to determine the speed of the Earth's rotation, revolution around the Sun, and the Sun's speed around the Galaxy.
 ######   >To get to the activity files, click here [How Fast Are We Moving?](http://wvurail.org/dspira-lessons/HowFastAreWeMoving)   
    
-### Modeling Earth's Motion around the Sun    
+## Modeling Earth's Motion around the Sun    
 The Earth will be modeled as moving in a circle around the Sun.  The direction to the Center of the Galaxy(GC) is also included becuase it will eventually be needed for the 
    measurements.  Since the amount of the Earth's motion towards the GC is eventually needed for Doppler considerations, a graphical approach to velocity vector components is 
    used here.  
 ###### > Click here for Student Activity [Document](https://docs.google.com/document/d/1__n0TklTs-efhsMBp2iGLFbOOSoBRgllJImWqw3vCNQ/edit?usp=sharing)    
-###### > Click here for Student Activity [Diagram](https://drive.google.com/file/d/1AZH7kvTEcVaMl58jet1LkjiGaGwPlmJs/view?usp=sharing)
+###### > Click here for Student Activity [Diagram](https://drive.google.com/file/d/1AZH7kvTEcVaMl58jet1LkjiGaGwPlmJs/view?usp=sharing) 
+   
+   ###### [Teacher Hint](https://www.youtube.com/watch?v=ke65AuJ-j7I&feature=youtu.be) Video for Activity 
     
    
     
