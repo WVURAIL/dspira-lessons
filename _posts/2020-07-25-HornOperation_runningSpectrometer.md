@@ -42,7 +42,7 @@ Watch the [spectrometer description video](https://youtu.be/50B2Uv-SoDY) for det
             data folder name: `horn_data_2020`
 
             Value to put into the prefix variable box:   
-	    `  "home/Jansky/radio_astronomy/horn_data_2020/"  `
+	    "home/Jansky/radio_astronomy/horn_data_2020/"
 	    (Include the quotes)
 
    * CAUTION: If you run the program on a laptop without the power cord plugged in, the computer may go into a sleep mode and stop running the program, depending on the length of the run. Change the power settings on your computer so that it never suspends or goes to sleep.
