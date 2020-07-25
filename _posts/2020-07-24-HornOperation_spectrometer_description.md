@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-07-24
-title: Operating the Horn Telescope
+title: Horn Telescope Spectrometer Description
 summary:  Description of the spectrometer_w_cal.grc program features
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Operation'] 
@@ -11,7 +11,7 @@ The program used to run the telescope is a Gnuradio program called *spectrometer
 
 Set up the horn and connect the LNA to the Airspy with a cable, and the Airspy to the computer USB. [See the setting up horn video.]  Then open the spectrum_w_cal.grc program in Gnuradio. [See the operating spectrum_w_cal.grc video.]
 
-1.	Features of the *Spectrum* Tab
+### **1.	Features of the *Spectrum* Tab**
 
 ![spectrometer screen](/dspira-lessons/images/filtered_nocal.png)
 
@@ -71,7 +71,7 @@ Set up the horn and connect the LNA to the Airspy with a cable, and the Airspy t
        - See the video [Saving Data Using the *spectrometer_w_cal.grc* Program](link).
 
 
-2.	Features of the *System Temp/Gain* Tab
+### **2.	Features of the *System Temp/Gain* Tab**
 
    ![System Temp/Gain screen](/dspira-lessons/images/sys_T&G.png)
 
