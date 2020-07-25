@@ -21,4 +21,9 @@ _Activity List_
    
    [How Fast Are We Moving?](http://wvurail.org/dspira-lessons/HowFastAreWeMoving)  
    This activity is a stand alone activity that is a good simple exercise for students from general middle school space science up to high school physics students
+    to determine the speed of the Earth's rotation, revolution around the Sun, and the Sun's speed around the Galaxy.
+    
+    ##Modeling Earth's Motion
+    
+   
     
