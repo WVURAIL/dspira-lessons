@@ -6,9 +6,11 @@ summary:  This is a multi-activity lesson leading towards measuring the Speed of
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Astronomy','Earths Speed around Sun'] 
 ---
-This is meant to be a fairly intense sequence of activities for High School+ level students with the goal of eventually taking measurements with the DSPIRA Radio Horn Telescope to determine the Earths Speed around the Sun. The reference point to measure this speed with be the Center of the Galaxy.
+This is meant to be a fairly intense sequence of activities for High School+ level students with the goal of eventually taking measurements with the DSPIRA Radio Horn Telescope to determine the Earths Speed around the Sun. The reference point to measure this speed with be the Center of the Galaxy.  
 
-There are (up to) 6 activities to get to using the Horn Telescope
+There are (up to) 6 activities to get to using the Horn Telescope 
+
+Click here for a complete document of [Teacher's Notes](https://docs.google.com/document/d/10zVMqpykbRbOjKvXGvWoZxYcacZ31Ay5AIp2mx70VOk/edit) for this whole activity sequence
 
 _Activity List_
    1. How Fast Are We Moving?
