@@ -9,7 +9,10 @@ categories: ['Horn Operation']
 
 The program used to run the telescope is a Gnuradio program called *spectrometer_w_cal.grc*. It is available from the WVURAIL/gr-radio_astro repository in Github. The *spectrometer_w_cal.grc* program has several features to make data collection with the horn telescope user-friendly. Each feature on the display is described below.
 
-Set up the horn and connect the LNA to the Airspy with a cable, and the Airspy to the computer USB. [See the setting up horn video.]  Then open the spectrum_w_cal.grc program in Gnuradio. [See the operating spectrum_w_cal.grc video.]
+Set up the horn and connect the LNA to the Airspy with a cable, and the Airspy to the computer USB.  Then open the spectrum_w_cal.grc program in Gnuradio. 
+[This video shows how to set up a horn and start the program.](https://youtu.be/Oo28QCEZe_g) 
+
+You can also watch [this video](https://youtu.be/50B2Uv-SoDY), which describes these user interface features in detail.
 
 ### **1.	Features of the *Spectrum* Tab**
 
