@@ -11,7 +11,7 @@ categories: ['Horn Operation']
 
 Watch the [spectrometer description video](https://youtu.be/50B2Uv-SoDY) for details about this program.
 
-### **1.	Before Starting The Program
+### 1.	Before Starting The Program
 
 ![User-defined blocks](/dspira-lessons/images/UserDefinedBlocks.png)
 
@@ -21,34 +21,34 @@ Watch the [spectrometer description video](https://youtu.be/50B2Uv-SoDY) for det
 
       - To change a value, double click on the box and then type the value in the Value box and hit OK.
 
-      - **integration_time1** is the short integration time, and **integration_time2** is the long integration time. These can be changed to any value at 0.4 s or above.
+      - `integration_time1` is the short integration time, and `integration_time2` is the long integration time. These can be changed to any value at 0.4 s or above.
 
-      - Be sure that the file path in the **prefix** box is correct. This is the folder where the data files will be saved.
+      - Be sure that the file path in the `prefix` box is correct. This is the folder where the data files will be saved.
 
         Hints on setting the file path correctly:
         (These steps are explained in the [setting up the horn video](https://youtu.be/Oo28QCEZe_g).)
         1. Open the File Navigation window (folder icon).
         2. Navigate to the folder to which you want to save the spectrum files.
         3. Right click on the folder.
-        4. Select Properties. 
-        5. Double click the "Parent folder:" path and copy it to the clipboard.
-        6. In the prefix variable box paste the path name inside quotes in the Value box. (Delete any existing path name.)
+        4. Select `Properties`. 
+        5. Double click the `Parent folder:` path and copy it to the clipboard.
+        6. In the prefix variable box paste the path name inside quotes in the `Value` box. (Delete any existing path name.)
         7. Then append the actual folder name to the end of the parent path. Be sure to separate folder names with / and end with /.
 
             EXAMPLE:
             
-            Parent folder: home/Jansky/radio_astronomy
+            Parent folder: `home/Jansky/radio_astronomy`
             
-            data folder name: horn_data_2020
+            data folder name: `horn_data_2020`
 
             Value to put into the prefix variable box:   
-	    "home/Jansky/radio_astronomy/horn_data_2020/"
+	    ` "home/Jansky/radio_astronomy/horn_data_2020/" `
 	    (Include the quotes)
 
    * CAUTION: If you run the program on a laptop without the power cord plugged in, the computer may go into a sleep mode and stop running the program, depending on the length of the run. Change the power settings on your computer so that it never suspends or goes to sleep.
 
 
-### **2.	After Starting The Program
+### 2.	After Starting The Program
 
    * The first screen that appears looks like the following:
 
@@ -66,7 +66,7 @@ Watch the [spectrometer description video](https://youtu.be/50B2Uv-SoDY) for det
 
    * The `Clipped Spectrum` is the better selection for most viewings. The `Full Spectrum` is good for demonstrating how the signal processing affects the spectrum. It also might be useful for the expert user who wants the full spectrum for some reason.
 
-### **3.	Saving a Spectrum to a Data File [See the video on how to save data](https://youtu.be/dWX0rRU99Z8)
+### 3.	Saving a Spectrum to a Data File [See the video on how to save data](https://youtu.be/dWX0rRU99Z8)
 
    * The spectrum that is currently being displayed on the screen can be written to a .csv data file by clicking the `Capture Current Spectrum` button. The data file is written to the folder under the path in the `prefix` Variable box.
 
