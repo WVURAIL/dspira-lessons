@@ -13,7 +13,7 @@ The video shown here[spectrometer description video](https://youtu.be/50B2Uv-SoD
 
 ### 1.	Before Starting The Program
 
-[This video explains how set up the horn and adjust the program settings before starting the program.](https://youtu.be/Oo28QCEZe_g)
+The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and make adjustments to the user-defined settings referred to below.
 
    * Check the user-defined settings illustrated below. These are the `Variable` blocks in the upper right corner of the Gnuradio canvas.
    
