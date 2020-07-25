@@ -31,7 +31,7 @@ The Earth will be modeled as moving in a circle around the Sun.  The direction t
    measurements.  Since the amount of the Earth's motion towards the GC is eventually needed for Doppler considerations, a graphical approach to velocity vector components is 
    used here.  
    >  Click here for Student Activity [Document](https://docs.google.com/document/d/1__n0TklTs-efhsMBp2iGLFbOOSoBRgllJImWqw3vCNQ/edit?usp=sharing)    
-   >  Click here for Student Activity [Diagram](https://drive.google.com/file/d/1AZH7kvTEcVaMl58jet1LkjiGaGwPlmJs/view?usp=sharing)
+   >######  Click here for Student Activity [Diagram](https://drive.google.com/file/d/1AZH7kvTEcVaMl58jet1LkjiGaGwPlmJs/view?usp=sharing)
     
    
     
