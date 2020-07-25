@@ -32,7 +32,7 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
         3. Right click on the folder.
         4. Select `Properties`. 
         5. Double click the `Parent folder:` path and copy it to the clipboard.
-        6. In the prefix variable box paste the path name inside quotes in the `Value` box. (Delete any existing path name.)
+        6. In the `prefix` variable box paste the path name inside quotes in the `Value` box. (Delete any existing path name.)
         7. Then append the actual folder name to the end of the parent path. Be sure to separate folder names with / and end with /.
 
             EXAMPLE:
@@ -41,7 +41,7 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
             
             data folder name: `horn_data_2020`
 
-            Value to put into the prefix variable box:   
+            Value to put into the `prefix` variable box:   
 	    "home/Jansky/radio_astronomy/horn_data_2020/"
 	    (Include the quotes)
 
