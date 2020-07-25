@@ -73,7 +73,7 @@ Set up the horn and connect the LNA to the Airspy with a cable, and the Airspy t
 
 2.	Features of the *System Temp/Gain* Tab
 
-![System Temp/Gain screen](/dspira-lessons/images/sys_T&G.png)
+   ![System Temp/Gain screen](/dspira-lessons/images/sys_T&G.png)
 
    * These graphs are not needed during most telescope runs. They are mainly for those who are interested in the quantitative performance of the telescope.
 
