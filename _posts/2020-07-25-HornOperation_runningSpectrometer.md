@@ -9,15 +9,15 @@ categories: ['Horn Operation']
 
 ## Using the *systemp_w_calibration.grc* Program
 
-Watch the [spectrometer description video](https://youtu.be/50B2Uv-SoDY) for details about this program.
+The video shown here[spectrometer description video](https://youtu.be/50B2Uv-SoDY) explains the features in this program.
 
 ### 1.	Before Starting The Program
 
-![User-defined blocks](/dspira-lessons/images/UserDefinedBlocks.png)
-
 [This video explains how set up the horn and adjust the program settings before starting the program.](https://youtu.be/Oo28QCEZe_g)
 
-   * Check the user-defined settings illustrated above. These are the `Variable` blocks in the upper right corner of the Gnuradio canvas.
+   * Check the user-defined settings illustrated below. These are the `Variable` blocks in the upper right corner of the Gnuradio canvas.
+   
+   ![User-defined blocks](/dspira-lessons/images/UserDefinedBlocks.png)
 
       - To change a value, double click on the box and then type the value in the Value box and hit OK.
 
