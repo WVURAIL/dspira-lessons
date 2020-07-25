@@ -27,7 +27,7 @@ _Activity List_
  ## Modeling Earth's Motion around the Sun 
    The Earth will be modeled as moving in a circle around the Sun.  The direction to the Center of the Galaxy(GC) is also included becuase it will eventually be needed for the 
    measurements.  Since the amount of the Earth's motion towards the GC is eventually needed for Doppler considerations, a graphical approach to velocity vector components is 
-   used here.
+   used here.  
    hihrere
    
     
