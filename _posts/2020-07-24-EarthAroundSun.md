@@ -18,6 +18,4 @@ _Activity List_
    5. Analyzing DSPIRA Radio Horn Data
    6. Comparing Model to Data
    7. Getting your own data with your Radio Horn
-
-Enter the Lesson posts here
     
