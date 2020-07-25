@@ -1,8 +1,8 @@
 ---
 layout: post
 date:   2020-07-24
-title: What a Horn Telescope Can Measure
-summary:  An overview of what is detected by a horn telescope
+title: What Can a Horn Telescope Measure?
+summary:  An overview of what a horn telescope detects
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Operation'] 
 ---
