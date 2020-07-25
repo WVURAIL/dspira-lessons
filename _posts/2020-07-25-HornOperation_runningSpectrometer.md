@@ -83,6 +83,7 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
 
       - The file name has a format that contains the date, time, location, azimuth, and elevation, with “_spectrum” at the end. The location, azimuth, and elevation are recorded with the values in the corresponding fields on the spectrometer inferface screen.
 
-      - As an example, the filename 
+      - As an example, the filename
+      
       “2020-07-15_11.06.14.0_Morgantown_200_30_spectrum” contains data that was collected on July 15, 2020 in Morgantown with the telescope pointed at an azimuth of 200 degrees and an elevation of 30 degrees.
     
