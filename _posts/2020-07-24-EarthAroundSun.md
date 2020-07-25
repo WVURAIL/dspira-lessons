@@ -19,6 +19,6 @@ _Activity List_
    6. Comparing Model to Data
    7. Getting your own data with your Radio Horn
    
-   [How Fast Are We Moving?](http://wvurail.org/dspira-lessons/HowFastAreWeMoving)
+   [How Fast Are We Moving?](http://wvurail.org/dspira-lessons/HowFastAreWeMoving)  
    This activity is a stand alone activity that is a good simple exercise for students from general middle school space science up to high school physics students
     
