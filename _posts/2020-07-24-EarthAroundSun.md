@@ -25,8 +25,10 @@ _Activity List_
     to determine the speed of the Earth's rotation, revolution around the Sun, and the Sun's speed around the Galaxy.
     
  ## Modeling Earth's Motion around the Sun 
-   The Earth will be modeled as moving in a circle around the Sun.  The direction to the Center of the Galaxy is also included becuase it will eventually be needed for the 
-   measurements
+   The Earth will be modeled as moving in a circle around the Sun.  The direction to the Center of the Galaxy(GC) is also included becuase it will eventually be needed for the 
+   measurements.  Since the amount of the Earth's motion towards the GC is eventually needed for Doppler considerations, a graphical approach to velocity vector components is 
+   used here.
+   hihrere
    
     
    
