@@ -60,6 +60,6 @@ Actual data generated from the DSPIRA Radio Horn Telescope is given to the stude
 ###### > Click here for Student Activity [Document](https://drive.google.com/file/d/17vAWar6qnTkrmAbeuVLDPLYGMwrpnj2J/view?usp=sharing)  
 
 The following video shows an example of how to analyze the Spectrum in the manner of the activity.  It can help the teacher or student get started with the analysis part of the activity. 
-###### > [Graph Analysis Example](https://www.youtube.com/watch?v=0yAo1z4kv1w)
+###### > Video of [Graph Analysis Example](https://www.youtube.com/watch?v=0yAo1z4kv1w)
    
     
