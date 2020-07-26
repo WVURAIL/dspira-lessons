@@ -78,4 +78,6 @@ If you have a DSPIRA Radio Horn Telescope and the electronic means to use it, th
 
 ![Students Observing the Galactic Center with a Radio Horn](/dspira-lessons/images/Students_Obs_GC.png)
 
+Video coming soon! How to go from choosing an object to observe to actually setting up the Horn Telescope and making the Observations
+
 
