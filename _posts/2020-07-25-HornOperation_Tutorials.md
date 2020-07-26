@@ -11,11 +11,11 @@ categories: ['Horn Operation']
 
 [Setting up the horn telescope (video)](https://youtu.be/Oo28QCEZe_g){: .button}
 
-[Description of the spectrometer program (document)](https://wvurail.org/dspira-lessons/HornOperation_spectrometer_description){: .button}
+[Description of the spectrometer program](https://wvurail.org/dspira-lessons/HornOperation_spectrometer_description){: .button}
 
 [Description of the spectrometer program (video)](https://youtu.be/50B2Uv-SoDY){: .button}
 
-[How to run the spectrometer (document)](https://wvurail.org/dspira-lessons/HornOperation_runningSpectrometer){: .button}
+[How to run the spectrometer](https://wvurail.org/dspira-lessons/HornOperation_runningSpectrometer){: .button}
 
 [How to save data using the spectrometer (video)](https://youtu.be/dWX0rRU99Z8){: .button}
 
