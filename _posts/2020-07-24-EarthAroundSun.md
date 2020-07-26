@@ -37,8 +37,17 @@ The Earth will be modeled as moving in a circle around the Sun.  The direction t
 
 ## Earth's Motion with respect to the Galactic Center 
 The Earth's Orbit Model generated in the last activity is fine, but the Day #'s in the activity need to be tagged to an actual calandar date.  This activity uses the online 
-planetarium program [Stellarium Web Online](https://stellarium-web.org/) to help connect the calendar to the student's model they created.
+planetarium program [Stellarium Web Online](https://stellarium-web.org/) to help connect the calendar to the student's model they created.   
+
+###### > Click here for Student Activity [Document](https://docs.google.com/document/d/16ibpadOhBioZqrvxWpdrwJ1S6iNAwi7YaRW_QoM-CVI/edit?usp=sharing) 
    
+###### > [Teacher Hint](https://www.youtube.com/watch?v=ApKA6kWlFuQ&feature=youtu.be) Video for Activity 
+### Stellarium - Web vs Download Version  
+Stellarium is a great application for anyone wishing to look at the night sky, or for teachers wanting students to learn about the sky through an interactive experience.  
+If you get into the full DSPIRA Experience with making and using a Radio Horn Telescope, you would probably want to take the longer learning path to the more robust environment of the downloadable version (still currently free).  Watch the video for a DSPIRA opinion on Pros and Cons for each version.  
+
+###### > [Stellarium Web vs Download version](https://www.youtube.com/watch?v=uWdVQG93MO4&list=PLxSg3s3C3JCFns9MFgZ-1VWBV4Y346afq&index=5&t=0s)
+
 
     
    
