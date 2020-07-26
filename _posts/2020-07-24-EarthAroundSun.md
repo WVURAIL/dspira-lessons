@@ -42,7 +42,7 @@ planetarium program [Stellarium Web Online](https://stellarium-web.org/) to help
 ###### > Click here for Student Activity [Document](https://docs.google.com/document/d/16ibpadOhBioZqrvxWpdrwJ1S6iNAwi7YaRW_QoM-CVI/edit?usp=sharing) 
    
 ###### > [Teacher Hint](https://www.youtube.com/watch?v=ApKA6kWlFuQ&feature=youtu.be) Video for Activity 
-### Stellarium - Web vs Download Version  
+#### Stellarium - Web vs Download Version  
 Stellarium is a great application for anyone wishing to look at the night sky, or for teachers wanting students to learn about the sky through an interactive experience.  
 If you get into the full DSPIRA Experience with making and using a Radio Horn Telescope, you would probably want to take the longer learning path to the more robust environment of the downloadable version (still currently free).  Watch the video for a DSPIRA opinion on Pros and Cons for each version.  
 
