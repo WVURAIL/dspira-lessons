@@ -76,6 +76,6 @@ This is an opportunity to gather the whole class data and discuss the results.  
 
 If you have a DSPIRA Radio Horn Telescope and the electronic means to use it, then there is an opportunity to have the students gather actual data from the Center of the Galaxy and run their own spectrum through the same set of analysis that was done in this activity sequence (namely, acitivities 2, 5, and 6)  
 
-![Student's Observing the Galactic Center with a Radio Horn](/dspira-lessons/images/Students Obs GC.png)
+![Students Observing the Galactic Center with a Radio Horn](/dspira-lessons/images/Students Obs GC.png)
 
 
