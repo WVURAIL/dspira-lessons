@@ -57,7 +57,7 @@ Here is a quick 3 minute video that introduces the Doppler Shift, and in the las
 ## 5. Measuring the Earth's Speed around the Sun   
 Actual data generated from the DSPIRA Radio Horn Telescope is given to the students to analyze.  It is a great opportunity for students to learn to dig information out of a graph.  The data lines up with the points created in the Earth Orbit Model from activity #2.  The students will use the Doppler equation to determine the (radial) speed of the Earth towards the Galactic Center. 
 
-###### > Click here for Student Activity [Document](###### > Click here for Student Activity [Document](https://docs.google.com/document/d/16ibpadOhBioZqrvxWpdrwJ1S6iNAwi7YaRW_QoM-CVI/edit?usp=sharing)  
+###### > Click here for Student Activity [Document](https://drive.google.com/file/d/17vAWar6qnTkrmAbeuVLDPLYGMwrpnj2J/view?usp=sharing)  
 
     
    
