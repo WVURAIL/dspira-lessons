@@ -26,7 +26,7 @@ There are (up to) 6 activities to get to using the Horn Telescope
    to determine the speed of the Earth's rotation, revolution around the Sun, and the Sun's speed around the Galaxy.
 ######   >To get to the activity files, click here [How Fast Are We Moving?](http://wvurail.org/dspira-lessons/HowFastAreWeMoving)   
    
-## Modeling Earth's Motion around the Sun    
+## 2. Modeling Earth's Motion around the Sun    
 The Earth will be modeled as moving in a circle around the Sun.  The direction to the Center of the Galaxy(GC) is also included becuase it will eventually be needed for the 
    measurements.  Since the amount of the Earth's motion towards the GC is eventually needed for Doppler considerations, a graphical approach to velocity vector components is 
    used here.  
@@ -35,7 +35,7 @@ The Earth will be modeled as moving in a circle around the Sun.  The direction t
    
 ###### > [Teacher Hint](https://www.youtube.com/watch?v=ke65AuJ-j7I&feature=youtu.be) Video for Activity 
 
-## Earth's Motion with respect to the Galactic Center 
+## 3. Earth's Motion with respect to the Galactic Center 
 The Earth's Orbit Model generated in the last activity is fine, but the Day #'s in the activity need to be tagged to an actual calandar date.  This activity uses the online 
 planetarium program [Stellarium Web Online](https://stellarium-web.org/) to help connect the calendar to the student's model they created.   
 
@@ -48,10 +48,16 @@ If you get into the full DSPIRA Experience with making and using a Radio Horn Te
 
 ###### > [Stellarium Web vs Download version](https://www.youtube.com/watch?v=uWdVQG93MO4&list=PLxSg3s3C3JCFns9MFgZ-1VWBV4Y346afq&index=5&t=0s) 
 
-## Introduction to Doppler Effect   
-There is not a DSPIRA generated activity for Doppler.  The next activity will have a brief discussion on Doppler and there will be math using the Doppler equation.  
+## 4. Introduction to Doppler Effect   
+There is not a DSPIRA generated activity for Doppler.  The next activity will require using the Doppler equation given in the activity, but the students should be 
+exposed to it first through a teacher generated lecture.  
 Here is a quick 3 minute video that introduces the Doppler Shift, and in the last minute, it discusses how astronomers use it to detect motion. 
 ###### > [Popular Youtube Doppler Shift Video](https://www.youtube.com/watch?v=h4OnBYrbCjY)
+
+## 5. Measuring the Earth's Speed around the Sun   
+Actual data generated from the DSPIRA Radio Horn Telescope is given to the students to analyze.  It is a great opportunity for students to learn to dig information out of a graph.  The data lines up with the points created in the Earth Orbit Model from activity #2.  The students will use the Doppler equation to determine the (radial) speed of the Earth towards the Galactic Center. 
+
+###### > Click here for Student Activity [Document](###### > Click here for Student Activity [Document](https://docs.google.com/document/d/16ibpadOhBioZqrvxWpdrwJ1S6iNAwi7YaRW_QoM-CVI/edit?usp=sharing)  
 
     
    
