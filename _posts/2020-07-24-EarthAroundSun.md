@@ -34,6 +34,10 @@ The Earth will be modeled as moving in a circle around the Sun.  The direction t
 ###### > Click here for Student Activity [Diagram](https://drive.google.com/file/d/1AZH7kvTEcVaMl58jet1LkjiGaGwPlmJs/view?usp=sharing) 
    
 ###### > [Teacher Hint](https://www.youtube.com/watch?v=ke65AuJ-j7I&feature=youtu.be) Video for Activity 
+
+## Earth's Motion with respect to the Galactic Center 
+The Earth's Orbit Model generated in the last activity is fine, but the Day #'s in the activity need to be tagged to an actual calandar date.  This activity uses the online 
+planetarium program [Stellarium Web Online](https://stellarium-web.org/) to help connect the calendar to the student's model they created.
    
 
     
