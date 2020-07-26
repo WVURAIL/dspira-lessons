@@ -46,8 +46,12 @@ planetarium program [Stellarium Web Online](https://stellarium-web.org/) to help
 Stellarium is a great application for anyone wishing to look at the night sky, or for teachers wanting students to learn about the sky through an interactive experience.  
 If you get into the full DSPIRA Experience with making and using a Radio Horn Telescope, you would probably want to take the longer learning path to the more robust environment of the downloadable version (still currently free).  Watch the video for a DSPIRA opinion on Pros and Cons for each version.  
 
-###### > [Stellarium Web vs Download version](https://www.youtube.com/watch?v=uWdVQG93MO4&list=PLxSg3s3C3JCFns9MFgZ-1VWBV4Y346afq&index=5&t=0s)
+###### > [Stellarium Web vs Download version](https://www.youtube.com/watch?v=uWdVQG93MO4&list=PLxSg3s3C3JCFns9MFgZ-1VWBV4Y346afq&index=5&t=0s) 
 
+## Introduction to Doppler Effect   
+There is not a DSPIRA generated activity for Doppler.  The next activity will have a brief discussion on Doppler and there will be math using the Doppler equation.  
+Here is a quick 3 minute video that introduces the Doppler Shift, and in the last minute, it discusses how astronomers use it to detect motion. 
+###### > [Popular Youtube Doppler Shift Video](https://www.youtube.com/watch?v=h4OnBYrbCjY)
 
     
    
