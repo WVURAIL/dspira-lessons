@@ -33,7 +33,7 @@ The Earth will be modeled as moving in a circle around the Sun.  The direction t
 ###### > Click here for Student Activity [Document](https://docs.google.com/document/d/1__n0TklTs-efhsMBp2iGLFbOOSoBRgllJImWqw3vCNQ/edit?usp=sharing)    
 ###### > Click here for Student Activity [Diagram](https://drive.google.com/file/d/1AZH7kvTEcVaMl58jet1LkjiGaGwPlmJs/view?usp=sharing) 
    
-   ###### > [Teacher Hint](https://www.youtube.com/watch?v=ke65AuJ-j7I&feature=youtu.be) Video for Activity 
+###### > [Teacher Hint](https://www.youtube.com/watch?v=ke65AuJ-j7I&feature=youtu.be) Video for Activity 
    
 
     
