@@ -62,4 +62,19 @@ Actual data generated from the DSPIRA Radio Horn Telescope is given to the stude
 The following video shows an example of how to analyze the Spectrum in the manner of the activity.  It can help the teacher or student get started with the analysis part of the activity. 
 ###### > Video of [Graph Analysis Example](https://www.youtube.com/watch?v=0yAo1z4kv1w)
    
-    
+## 6. Comparing the Earth Orbit Model to the actual Data Analysis
+
+There has been a long sequence of activities that brings a class to this point.  This is actually a quick activity to direct the students to take all the work they have done so far and put it into one Conclusion/Final Comparison chart.  
+
+###### > Click here for Student Activity [Document](https://drive.google.com/file/d/1Xum-03ijXDn8iplFXZ7dhKvmLEAxcuZu/view?usp=sharing)   
+If each student truly has done their own work throuhg this process, they will all have slightly different values (for the skew between velocity of model and actual data)  
+This is an opportunity to gather the whole class data and discuss the results.  Here is a spreadsheet that a teacher can open, then make a copy that they can allow the students to share and enter the data.  Their data on the spreadsheet has typically yielded a nice histogram.  This allows the students, and you the teacher, to quickly assess how an individual student's results compare to the rest of the class.  There is an example worksheet (lower tabs) to look at once the spreadsheet is open.
+
+###### > Click here [Class Data Spreadsheet](https://docs.google.com/spreadsheets/d/1mQxOA6Tcwsas5Y0UEpoiRx85zhIqMMff7jumb62Mfno/edit?usp=sharing) 
+
+## 7. Students Gathering Data 
+
+If you have a DSPIRA Radio Horn Telescope and the electronic means to use it, then there is an opportunity to have the students gather actual data from the Center of the Galaxy and run their own spectrum through the same set of analysis that was done in this activity sequence (namely, acitivities 2, 5, and 6) 
+![Student's Observing the Galactic Center with a Radio Horn](/dspira-lessons/images/Students Obs GC.png)
+
+
