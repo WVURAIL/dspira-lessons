@@ -9,8 +9,6 @@ categories: ['Horn Operation']
 
 [Instructional video](){: .button}
 
-[![How to Calibrate Spectrometer video](/dspira-lessons/images/CHIME_dishes.jpg | width="400" height="300")](https://www.youtube.com/watch?v=dWX0rRU99Z8)
-
 [<img src="/dspira-lessons/images/CHIME_dishes.jpg" width="400" height="300" />](https://www.youtube.com/watch?v=dWX0rRU99Z8)
 
 #### Some preliminary pointers: 
