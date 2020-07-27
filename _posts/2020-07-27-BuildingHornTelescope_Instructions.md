@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-07-27
-title: Instructions on How to Build a Horn
+title: Instructions on How to Build a Horn Telescope
 summary:  details on how to build a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction'] 
