@@ -35,7 +35,7 @@ categories: ['Horn Operation']
 
    8. The spectrometer is now calibrated, and the graph should now be showing only signals from the galaxy.
 
-   #### Some More Things to Note: 
+#### Some More Things to Note: 
 
    * After completing a calibration, the signal is in units of Kelvin (K). This sounds odd, but it is how radio astronomers quantify radio signals. 
 
