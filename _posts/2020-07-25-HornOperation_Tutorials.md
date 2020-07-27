@@ -19,3 +19,6 @@ categories: ['Horn Operation']
 
 [How to save data using the spectrometer (video)](https://youtu.be/dWX0rRU99Z8){: .button}
 
+[How to Calibrate the Telescope](http://wvurail.org/dspira-lessons/HornOperation_Calibration){: .button}
+
+
