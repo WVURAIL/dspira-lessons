@@ -9,7 +9,7 @@ categories: ['Horn Construction']
 A list of the components that are needed to build and operate a horn radio telescope system is presented below. Links to documentation and instructional videos are provided where applicable.
 
 ### What's Needed for a Complete Horn Telescope System
-   - the horn & antenna assembly – details provided [here](https://drive.google.com/file/d/1_IDQfJlaPI43cPWumYKiKivhqwiIh7C3/view?usp=sharing)
+   - the horn & antenna assembly – details provided [here](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
 
       * the horn
       * the antenna can
