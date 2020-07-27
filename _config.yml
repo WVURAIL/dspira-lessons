@@ -8,6 +8,7 @@ url:         "https://wvurail.org/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
+ - wvurail.html
 
 # Optional features
 animated:             true
