@@ -23,15 +23,15 @@ categories: ['Horn Operation']
 
    2. Switch the `Spectrum Display` to `Hot Calibration`.
 
-   3. Select the `Time Integration` to be `Long Integration`.
+   3. Select the `Time Integration` to `Long Integration`.
 
    4. Watch the spectrum displayed. You may need to change the `ymax` value to view all of the signal on the graph. Wait for the graph to settle to a steady display. Then switch the `Spectrum Display` to `Cold Calibration`. DO NOT MOVE THE TELESCOPE UNTIL THE SPECTRUM DISPLAYED HAS BEEN CHANGED TO `Cold calibration`.
 
    5. Switch the display to `Cold Calibration` and the integration to `Short Integration`.
 
-   6. Point the telescope at open sky. Continue to re-direct it until you find a patch of sky that does not show any hydrogen peak near 1420.4 MHz. After doing so, switch to 'Long Integration'.
+   6. Point the telescope at open sky. Continue to re-direct it until you find a patch of sky that does not show any hydrogen peak near 1420.4 MHz. After doing so, switch to `Long Integration`.
 
-   7. Wait for the graph to settle to a steady display. Then switch the `Spectrum Display` to `Spectrum with Calibration`. DO NOT MOVE THE TELESCOPE UNTIL THE SPECTRUM DISPLAYED HAS BEE CHANGED TO `Spectrum with calibration`.
+   7. Wait for the graph to settle to a steady display. Then switch the `Spectrum Display` to `Spectrum with Calibration`.  DO NOT MOVE THE TELESCOPE UNTIL THE SPECTRUM DISPLAYED HAS BEE CHANGED TO `Spectrum with calibration`.
 
    8. The spectrometer is now calibrated, and the graph should now be showing only signals from the galaxy.
 
