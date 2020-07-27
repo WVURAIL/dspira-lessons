@@ -10,8 +10,12 @@ categories: ['Horn Operation']
 [How to Calibrate the Spectrometer video](){: .button}
 
 #![https://github.com/WVURAIL/dspira-lessons/blob/master/images/CHIME_dishes.jpg](https://youtu.be/dWX0rRU99Z8)
-[![How to Calibrate Spectrometer video](https://github.com/WVURAIL/dspira-lessons/blob/master/images/CHIME_dishes.jpg)](https://www.youtube.com/watch?v=https://youtu.be/dWX0rRU99Z8)
 
+[![How to Calibrate Spectrometer video](https://github.com/WVURAIL/dspira-lessons/blob/master/images/CHIME_dishes.jpg)](https://www.youtube.com/watch?v=dWX0rRU99Z8 "Video Title")
+
+#[![How to Calibrate Spectrometer video](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE "Video Title")
+
+#[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
 
 
 #### Some preliminary pointers: 
