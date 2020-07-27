@@ -9,6 +9,9 @@ categories: ['Horn Operation']
 
 [How to Calibrate the Spectrometer video](){: .button}
 
+![https://github.com/WVURAIL/dspira-lessons/blob/master/images/CHIME_dishes.jpg](https://youtu.be/dWX0rRU99Z8)
+
+
 #### Some preliminary pointers: 
 
    * For the best results, after starting the program, allow the system to warm up for approximately 20 minutes before calibrating.
