@@ -8,12 +8,11 @@ url:         "https://wvurail.org/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - wvurail.html
 
 # Optional features
 animated:             true
 show_related_posts:   true
-show_post_footers:    false
+show_post_footers:    true
 show_social_icons:    true
 
 # Preview image for social media aka og:image and twitter:image
