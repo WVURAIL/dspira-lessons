@@ -7,4 +7,4 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Operation'] 
 ---
 
-[What is a Horn Telescope?](https://youtu.be/uzYvv4nwndM){: .button}
+[Introductory Video: What is a Horn Telescope?](https://youtu.be/uzYvv4nwndM){: .button}
