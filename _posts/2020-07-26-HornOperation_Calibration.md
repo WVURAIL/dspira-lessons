@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-07-26
-title: How to Calibrate the Spectrometer
+title: How to Calibrate the Horn Telescope
 summary:  The procedure for calibrating the telescope using the spectrometer_w_cal program is outlined.
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Operation'] 
@@ -9,7 +9,7 @@ categories: ['Horn Operation']
 
 [Instructional video](https://youtu.be/r8iYuaiFOd8){: .button}
 
-[<img src="/dspira-lessons/images/CHIME_dishes.jpg" width="400" height="300" />](https://www.youtube.com/watch?v=dWX0rRU99Z8)
+[<img src="/dspira-lessons/images/CHIME_dishes.jpg" width="400" height="300" />](https://youtu.be/r8iYuaiFOd8)
 
 #### Some preliminary pointers: 
 
