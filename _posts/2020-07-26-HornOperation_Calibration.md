@@ -7,7 +7,7 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Operation'] 
 ---
 
-[Instructional video](){: .button}
+[Instructional video](https://youtu.be/r8iYuaiFOd8){: .button}
 
 [<img src="/dspira-lessons/images/CHIME_dishes.jpg" width="400" height="300" />](https://www.youtube.com/watch?v=dWX0rRU99Z8)
 
