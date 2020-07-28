@@ -46,7 +46,7 @@ planetarium program [Stellarium Web Online](https://stellarium-web.org/) to help
 Stellarium is a great application for anyone wishing to look at the night sky, or for teachers wanting students to learn about the sky through an interactive experience.  
 If you get into the full DSPIRA Experience with making and using a Radio Horn Telescope, you would probably want to take the longer learning path to the more robust environment of the downloadable version (still currently free).  Watch the video for a DSPIRA opinion on Pros and Cons for each version.  
 
-###### > [Stellarium Web vs Download version](https://www.youtube.com/watch?v=uWdVQG93MO4&list=PLxSg3s3C3JCFns9MFgZ-1VWBV4Y346afq&index=5&t=0s) 
+###### > Video [Stellarium Web vs Download version](https://www.youtube.com/watch?v=uWdVQG93MO4&list=PLxSg3s3C3JCFns9MFgZ-1VWBV4Y346afq&index=5&t=0s) 
 
 ## 4. Introduction to Doppler Effect   
 There is not a DSPIRA generated activity for Doppler.  The next activity will require using the Doppler equation given in the activity, but the students should be 
@@ -76,7 +76,9 @@ This is an opportunity to gather the whole class data and discuss the results.  
 
 If you have a DSPIRA Radio Horn Telescope and the electronic means to use it, then there is an opportunity to have the students gather actual data from the Center of the Galaxy and run their own spectrum through the same set of analysis that was done in this activity sequence (namely, acitivities 2, 5, and 6)  
 
-![Students Observing the Galactic Center with a Radio Horn](/dspira-lessons/images/Students_Obs_GC.png)
+![Students Observing the Galactic Center with a Radio Horn](/dspira-lessons/images/Students_Obs_GC.png)  
+
+###### *Students Observing the Galactic Center with a Radio Horn
 
 Video coming soon! How to go from choosing an object to observe to actually setting up the Horn Telescope and making the Observations
 
