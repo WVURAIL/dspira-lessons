@@ -1,7 +1,7 @@
 ---
 layout: post
 date:  2020-07-28
-title: Software Needs to Run Horn Telescope
+title: Software Requirements for Run Horn Telescope
 summary:  Details of software installation needed for a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
