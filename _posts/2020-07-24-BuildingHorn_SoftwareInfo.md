@@ -74,7 +74,7 @@ Complete the following steps as needed:
       8. Then run the following in the build directory:
 
         ```
-               cmake
+               cmake ..
                make
                sudo make install
         ```
