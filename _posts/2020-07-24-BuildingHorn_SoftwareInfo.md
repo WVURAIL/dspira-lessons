@@ -78,5 +78,15 @@ Complete the following steps as needed:
                make
                sudo make install
         ```
-     
+        
+   * #### How to Update files from gr-radio_astro gr38 (or any repository), i.e. How to update your local repository to the newest commit:
+
+      1. Change to the *gr-radio_astro* folder on your computer.
+
+      2. Type `git status`
+      
+      3. Check to see if you are in the gr38 branch. To change to gr38 branch, type `git checkout gr38`. Type `git status` to check. 
+
+      4. Type `git pull`
+          
 
