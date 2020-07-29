@@ -4,7 +4,7 @@ date:   2020-07-24
 title: "Measuring the Earth's Speed around the Sun"
 summary:  This is a multi-activity lesson leading towards measuring the Speed of the Earth around the Sun
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Astronomy','Earths Speed around Sun'] 
+categories: ['Astronomy'] 
 ---
 This is a fairly intense sequence of activities for High School+ level students with the goal of eventually taking measurements with the DSPIRA Radio Horn Telescope to determine the Earths Speed around the Sun. The reference point to measure this speed with be the Center of the Galaxy (GC).   
 ### Click here for a complete document of [Teacher's Notes](https://docs.google.com/document/d/10zVMqpykbRbOjKvXGvWoZxYcacZ31Ay5AIp2mx70VOk/edit?usp=sharing) for this whole activity sequence
