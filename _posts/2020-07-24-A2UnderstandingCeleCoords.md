@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2020-07-22
+date:   2020-07-23
 title: "Astronomy Activity : Understanding Celestial Coordinate Systems"
 summary:  A quick introduction to different coordinate systems used in astronomy
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
