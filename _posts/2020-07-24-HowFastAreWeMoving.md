@@ -1,10 +1,10 @@
 ---
 layout: post
-date:   20-07-24
+date:   20-07-21
 title: "How Fast Are We Moving?"
 summary:  Exploring how fast we are moving in the Milky Way Galaxy
 tags: ['School-Teachers', 'Students']
-categories: ['Astronomy','Basic Astronomy'] 
+categories: ['Astronomy'] 
 ---
 This lesson is designed at three different levels.  Each is mainly after the students being able to determine the speed of the Earth around the Sun.  
 
