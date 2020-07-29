@@ -2,7 +2,7 @@
 layout: center
 permalink: /tags/
 ---
-![redwood house and laser name and trees and staaaaaars](https://www.wvurail.com/dspira-lessons/images/DspiraGalaxyPic2019.jpg)
+![redwood house and laser name and trees and staaaaaars](/images/DspiraGalaxyPic2019.jpg)
 
   
 {% for tag in site.tags %}
