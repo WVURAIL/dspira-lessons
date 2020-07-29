@@ -83,7 +83,7 @@ Complete the following steps as needed:
             
            File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
 
-#### E. How to Update files from gr-radio_astro gr38 (or any repository), i.e. How to update your local repository to the newest commit:
+#### E. How to Update files from the gr-radio_astro gr38 Repository
 
    1. Change to the *gr-radio_astro* folder on your computer.
 
