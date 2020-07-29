@@ -72,21 +72,20 @@ Complete the following steps as needed:
       7. Make a build directory: `mkdir build`, and then move to it: `cd build`  
       
       8. Then run the following in the build directory:
-
-        ```
+       ```
                cmake ..
                make
                sudo make install
       
         ```
-       
+      
       9. Run the program in Gnuradio:
       
           - In a terminal window type `gnuradio-companion`
           
           - Open the *spectrometer_w_cal.grc* program as follows: 
             
-                File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
+                File --> Open --> gr-radio_astros --> examples --> spectrometer_w_cal.grc
 
 
    * #### How to Update files from gr-radio_astro gr38 (or any repository), i.e. How to update your local repository to the newest commit:
@@ -107,7 +106,7 @@ Complete the following steps as needed:
          
          - Open the new *spectrometer_w_cal.grc* program that is in the updated gr-radio_astro folder: 
             
-                File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
+                File --> Open --> gr-radio_astros --> examples --> spectrometer_w_cal.grc
      
  
  ## Running the *spectrometer_w_cal.grc* program from a Flash Drive
