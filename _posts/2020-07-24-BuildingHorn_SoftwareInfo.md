@@ -1,8 +1,8 @@
 ---
 layout: post
 date:  2020-07-28
-title: Software Needs to Run Horn Telescope
-summary:  Details of software installation needed for a horn telescope
+title: Software Required For a Horn Telescope
+summary:  Details of software installation required for a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
 ---
@@ -11,7 +11,8 @@ categories: ['Horn Construction']
 
 Complete the following steps as needed:
 
-#### A. How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10 
+<ol type="A">
+  <li>How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10 </li>
 
    1. [Download Ubuntu Desktop 20.04 ISO onto hard drive while in Ubuntu.](http://releases.ubuntu.com/20.04/)
 
@@ -28,7 +29,7 @@ Complete the following steps as needed:
    7. After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows 10.
 
 
-#### B. Install Ubuntu 20.04 Alongside with Windows 
+  <li>Install Ubuntu 20.04 Alongside with Windows</li>
 
    1. Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
@@ -101,7 +102,7 @@ Complete the following steps as needed:
             
          File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
      
-
+</ol>
 
 ## Running the *spectrometer_w_cal.grc* program from a Flash Drive
 
