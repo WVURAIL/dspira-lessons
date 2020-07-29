@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DSPIRA
+title: About
 permalink: /about/
 tags: about
 ---

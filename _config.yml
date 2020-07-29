@@ -7,12 +7,13 @@ baseurl:     "/dspira-lessons"
 url:         "https://wvurail.org/"
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
-
+  - tour.md
+  - about.md 
+ 
 # Optional features
 animated:             true
 show_related_posts:   true
-show_post_footers:    true
+show_post_footers:    false
 show_social_icons:    true
 
 # Preview image for social media aka og:image and twitter:image
@@ -30,9 +31,9 @@ show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: true
 share_twitter: true
-share_googleplus: true
+share_googleplus: false
 share_linkedin: true
-share_digg: true
+share_digg: false
 share_tumblr: true
 share_reddit: true
 share_stumbleupon: False
@@ -43,7 +44,7 @@ text:
     newer: 'Newer'
     older: 'Older'
   share_buttons:
-    text:         'Share:'
+    text:         ''
     facebook:     'Share on Facebook'
     twitter:      'Share on Twitter'
     googleplus:   'Share on Google+'

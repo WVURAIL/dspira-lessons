@@ -7,6 +7,559 @@
     <atom:link href="http://localhost:4000/dspira-lessons/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Software Required For a Horn Telescope</title>
+        <description>&lt;h2 id=&quot;running-the-spectrometer-on-a-computer-with-ubuntu-2004&quot;&gt;Running the Spectrometer on a Computer with Ubuntu 20.04&lt;/h2&gt;
+
+&lt;p&gt;Complete the following steps as needed:&lt;/p&gt;
+
+&lt;h4 id=&quot;a-how-to-partition-a-hard-drive-for-ubuntu-2004-alongside-windows-10&quot;&gt;A. How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://releases.ubuntu.com/20.04/&quot;&gt;Download Ubuntu Desktop 20.04 ISO onto hard drive while in Ubuntu.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install a 32 GB or larger flash drive in the usb port.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run &lt;em&gt;balenaEtcher&lt;/em&gt;. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Before installing Ubuntu on the Windows system, you need to partition the hard disk in Windows. Open a Command Prompt window with admin rights, and execute the command &lt;code class=&quot;highlighter-rouge&quot;&gt;diskmgmt.msc&lt;/code&gt; to open the Disk Management utility.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the Windows partition, usually the C: volume, right-click on this partition and select the &lt;strong&gt;Shrink Volume&lt;/strong&gt; option in order to reduce the partition size.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the &lt;strong&gt;Shrink&lt;/strong&gt; button.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows 10.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;b-install-ubuntu-2004-alongside-with-windows&quot;&gt;B. Install Ubuntu 20.04 Alongside with Windows&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.&lt;/p&gt;
+
+    &lt;p&gt;This will complete the installation process, unless there is an error message indicating that device encryption (known as Bitlocker) may need to be turned off. If this is the case, complete the following:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Refer to the following webpage: &lt;a href=&quot;https://www.windowscentral.com/how-enable-device-encryption-windows-10-home&quot;&gt;https://www.windowscentral.com/how-enable-device-encryption-windows-10-home&lt;/a&gt;&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Alternately, boot up in Windows. From the &lt;strong&gt;Start&lt;/strong&gt; Menu, click the &lt;strong&gt;Windows Administrative Tools&lt;/strong&gt;, then &lt;strong&gt;Windows PowerShell&lt;/strong&gt; folder and tap &lt;strong&gt;Windows PowerShell&lt;/strong&gt;.&lt;/p&gt;
+
+        &lt;p&gt;A command line window will open up. From the Powershell command line, type &lt;code class=&quot;highlighter-rouge&quot;&gt;Disable-BitLocker -MountPoint C:&lt;/code&gt;&lt;/p&gt;
+
+        &lt;p&gt;Then reboot with the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.&lt;/p&gt;
+
+        &lt;p&gt;On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;c-install-gnuradio&quot;&gt;C. Install Gnuradio&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open a terminal window.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Type &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install gnuradio&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;d-install-gr-radio_astro&quot;&gt;D. Install gr-radio_astro&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open a terminal window.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install gnuradio external python dependencies and SDR drivers:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Also install the following package: &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install git cmake liborc-0.4-dev&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Clone the repository: From the terminal, type: &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone https://github.com/WVURAIL/gr-radio_astro.git&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Switch to the gr-radio_astro directory: &lt;code class=&quot;highlighter-rouge&quot;&gt;cd gr-radio_astro&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Switch to the GNURadio 3.8 by typing: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout gr38&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make a build directory: &lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir build&lt;/code&gt;, and then move to it: &lt;code class=&quot;highlighter-rouge&quot;&gt;cd build&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Then run the following in the build directory:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cmake
+make
+sudo make install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run the program in Gnuradio:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;In a terminal window type &lt;code class=&quot;highlighter-rouge&quot;&gt;gnuradio-companion&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Open the &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; program as follows:&lt;/p&gt;
+
+        &lt;p&gt;File –&amp;gt; Open –&amp;gt; gr-radio_astros –&amp;gt; examples –&amp;gt; &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;e-how-to-update-files-from-the-gr-radio_astro-gr38-repository&quot;&gt;E. How to Update files from the gr-radio_astro gr38 Repository&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Change to the &lt;em&gt;gr-radio_astro&lt;/em&gt; folder on your computer.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Type &lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Check to see if you are in the gr38 branch. To change to gr38 branch, type &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout gr38&lt;/code&gt;. Type &lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt; to check.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Type &lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run the program in Gnuradio:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;In a terminal window type &lt;code class=&quot;highlighter-rouge&quot;&gt;gnuradio-companion&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Close the existing &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; program if it is in the program.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Open the new &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; program that is in the updated gr-radio_astro folder:&lt;/p&gt;
+
+        &lt;p&gt;File –&amp;gt; Open –&amp;gt; gr-radio_astros –&amp;gt; examples –&amp;gt; &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt;&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;running-the-spectrometer-from-a-flash-drive&quot;&gt;Running the Spectrometer from a Flash Drive&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Write the image to a flash drive&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Run from the flash drive&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 28 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/BuildingHorn_SoftwareInfo</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/BuildingHorn_SoftwareInfo</guid>
+      </item>
+    
+      <item>
+        <title>What is a Horn Telescope?</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/uzYvv4nwndM&quot; class=&quot;button&quot;&gt;Introductory Video: What is a Horn Telescope?&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/HornTelescope_IntroVideo</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/HornTelescope_IntroVideo</guid>
+      </item>
+    
+      <item>
+        <title>Instructions on How to Build a Horn Telescope</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing&quot; class=&quot;button&quot;&gt;Instructions on How to Build a Horn Telescope&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 27 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/BuildingHornTelescope_Instructions</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/BuildingHornTelescope_Instructions</guid>
+      </item>
+    
+      <item>
+        <title>The Milky Way Galaxy</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/dspira-lessons/images/DspiraGalaxyPic2019.jpg&quot; alt=&quot;&amp;quot;DSPIRA Group July 2019, Green Bank, WV&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;dspira-summer-session---july-2019---green-bank-west-virginia&quot;&gt;&lt;em&gt;DSPIRA Summer Session - July 2019 - Green Bank, West Virginia&lt;/em&gt;&lt;/h6&gt;
+
+&lt;p&gt;At the heart of the DSPIRA Experience is the development of the Radio Horn Telescope. It is truly amazing that we can built a low cost device that can reveals secrets from Radio Waves in space.  However, like a starter telescope purchased at a department store can’t see all the wonders that the Hubble Space Telescope can, the DSPIRA Horn Telescope will only be able to detect the brightest radio sources.&lt;/p&gt;
+
+&lt;p&gt;It turns that the brightest radio source is the Milky Way Galaxy, and that is what the DSPIRA Horn Telescope will be detecting, so this little activity/lesson sequence will introduce the Milky Way and lead us to what the radio waves will reveal.&lt;/p&gt;
+
+&lt;h3 id=&quot;click-here-for-a-complete-document-of-teachers-notes-for-this-whole-activity-sequence&quot;&gt;Click here for a complete document of &lt;a href=&quot;https://docs.google.com/document/d/1kXJ99gTiLGk551XCP7-ygE7T5rd5aw0Yu3gccNCzsdc/edit?usp=sharing&quot;&gt;Teacher’s Notes&lt;/a&gt; for this whole activity sequence&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Activity List&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;How Fast Are We Moving?&lt;/li&gt;
+  &lt;li&gt;Celestial Coordinate Systems&lt;/li&gt;
+  &lt;li&gt;Using Stellarium to Find the Galactic Center&lt;/li&gt;
+  &lt;li&gt;Introduction to the Milky Way - What can we see?&lt;/li&gt;
+  &lt;li&gt;Introduction to the Milky Way - What CAN’T we see?&lt;/li&gt;
+  &lt;li&gt;A Model of the Motion within the Milky Way&lt;/li&gt;
+  &lt;li&gt;Getting your own data with your Radio Horn&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;1-how-fast-are-we-moving&quot;&gt;1. How Fast Are We Moving?&lt;/h2&gt;
+
+&lt;p&gt;This activity may have already been done as a stand alone, or as part of the Earth’s Motion sequence. It does have the students determine the speed of the Sun around the Milky Way, so they can do it now, or recall the value from earlier work.&lt;/p&gt;
+
+&lt;h6 id=&quot;-click-for-link-to-how-fast-are-we-moving-page&quot;&gt;&amp;gt; Click for link to &lt;a href=&quot;http://wvurail.org/dspira-lessons/HowFastAreWeMoving&quot;&gt;How Fast Are We Moving?&lt;/a&gt; page&lt;/h6&gt;
+
+&lt;h2 id=&quot;2-understanding-celestial-coordinate-systems&quot;&gt;2. Understanding Celestial Coordinate Systems&lt;/h2&gt;
+
+&lt;p&gt;If the students are heading towards making observations from their location, a basic lesson of coordinate systems is needed.  Galactic Coordinates are covered here.&lt;/p&gt;
+
+&lt;p&gt;This, too, is a separate stand alone lesson within this DSPIRA space.&lt;/p&gt;
+
+&lt;h6 id=&quot;-click-for-link-to-understanding-celestial-coordinates-page&quot;&gt;&amp;gt; Click for link to &lt;a href=&quot;https://wvurail.org//dspira-lessons/A2UnderstandingCeleCoords&quot;&gt;Understanding Celestial Coordinates&lt;/a&gt; page&lt;/h6&gt;
+
+&lt;h2 id=&quot;3-using-stellarium-to-find-the-galactic-center&quot;&gt;3. Using Stellarium to Find the Galactic Center&lt;/h2&gt;
+
+&lt;p&gt;This is more closely related to the Earth Motion Lesson sequence, but would be a good starter for making observations in the sky.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;STELLARIUM NOTE:&lt;/strong&gt; First off, Stellarium is not the only planetarium software available, but it is the one that was used with the DSPIRA Teacher program, and the one being utilized with these activities.&lt;br /&gt;
+&lt;strong&gt;USE DOWNLOAD VERSION&lt;/strong&gt; If you are at this point investigating the Milky Way with the Horn Telescope (or at least heading in that direction) You should have a few versions downloaded on computers you intend on using. It will make the student’s observation planning much easier.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Video (to be created) - Planning for a Horn Telescope Observation - From choosing an object to pointing the Horn at it&lt;/em&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;-click-here-for-student-activity-document&quot;&gt;&amp;gt; Click here for Student Activity &lt;a href=&quot;https://docs.google.com/document/d/16ibpadOhBioZqrvxWpdrwJ1S6iNAwi7YaRW_QoM-CVI/view?usp=sharing&quot;&gt;Document&lt;/a&gt;&lt;/h6&gt;
+
+&lt;h2 id=&quot;4-introduction-to-the-milky-way---what-can-we-see&quot;&gt;4. Introduction to the Milky Way - What can we see?&lt;/h2&gt;
+
+&lt;p&gt;Just a basic chance for the students to get basic information about the Milky Way off the internet. There is also a first pass at understanding the Galactic Coordinate system used for studying the Milky Way.&lt;/p&gt;
+
+&lt;h6 id=&quot;-click-here-for-student-activity-document-1&quot;&gt;&amp;gt; Click here for Student Activity &lt;a href=&quot;https://drive.google.com/file/d/1T441BW8rz3_bVgKN_bKK-ivfudXhQwFa/view?usp=sharing&quot;&gt;Document&lt;/a&gt;&lt;/h6&gt;
+
+&lt;h2 id=&quot;5-introduction-to-the-milky-way---what-cant-we-see&quot;&gt;5. Introduction to the Milky Way - What CAN’T we see?&lt;/h2&gt;
+
+&lt;p&gt;The name is hopefully not misleading, because there is lots that we can’t see.  This activity looks at MOTION as “the thing we can’t see” (without understanding the &lt;a href=&quot;https://www.youtube.com/watch?v=h4OnBYrbCjY&quot;&gt;Doppler Effect&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h6 id=&quot;-click-here-for-student-activity-document-2&quot;&gt;&amp;gt; Click here for Student Activity &lt;a href=&quot;https://drive.google.com/file/d/1xPjeHIYgnBoz7Gs0A-shC9hNVgdAPxlF/view?usp=sharing&quot;&gt;Document&lt;/a&gt;&lt;/h6&gt;
+
+&lt;h6 id=&quot;-computer-simulation-of-galactic-motion&quot;&gt;&amp;gt; &lt;a href=&quot;https://www.youtube.com/watch?v=GLiXR0Jh3o8&quot;&gt;Computer Simulation of Galactic Motion&lt;/a&gt;&lt;/h6&gt;
+
+&lt;h2 id=&quot;6-modeling-the-motion-of-the-milky-way&quot;&gt;6. Modeling the Motion of the Milky Way&lt;/h2&gt;
+
+&lt;p&gt;This is a paper model that allows the students to determine relative radial speeds of stars at locations around the Milky Way Galaxy.  A collaborative class effort can produce a model very similar to current research in Milky Way Astronomy&lt;/p&gt;
+
+&lt;h6 id=&quot;-click-here-for-all-3-student-documents-documentspreadsheetmodel-diagram&quot;&gt;&amp;gt; Click here for all 3 Student documents….. &lt;a href=&quot;https://drive.google.com/file/d/1TKCevAKtUIFev0SgQoPPxSa87RVd7KmC/view?usp=sharing&quot;&gt;Document&lt;/a&gt;……….&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1gwL3GSYX-_zK7E2O1va8yNV41vwuRpVm2QRopB4B5TM/edit?usp=sharing&quot;&gt;Spreadsheet&lt;/a&gt;……….&lt;a href=&quot;https://drive.google.com/file/d/10Ct0UIcqEZzKVll40bz1z-7tCSWLWcfV/view?usp=sharing&quot;&gt;Model Diagram&lt;/a&gt;&lt;/h6&gt;
+
+&lt;p&gt;Here are 3 helpful video companions ……&lt;a href=&quot;https://www.youtube.com/watch?v=sZTpAqn1St4&quot;&gt;MWG Model - Part 1&lt;/a&gt;……….&lt;a href=&quot;https://www.youtube.com/watch?v=kyww_Vu5AZc&quot;&gt;MWG Model - Part 2&lt;/a&gt;……….&lt;a href=&quot;https://www.youtube.com/watch?v=Vf4a7fKUWGE&quot;&gt;MWG Model - Part 3&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7-creating-a-galactic-plane-survey-using-the-radio-horn&quot;&gt;7. Creating a Galactic Plane Survey using the Radio Horn&lt;/h2&gt;
+&lt;p&gt;This is a culminating activity that the teachers and students can take on collecting data of the galaxy… This part of the page is waiting for additional input…. If you have watched videos on creating a horn, then built a horn, downloaded GNU Radio, worked with the DSPIRA Spectrometer…Then you should be set to take on this task yourself!&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 26 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/Astro_MWG</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/Astro_MWG</guid>
+      </item>
+    
+      <item>
+        <title>How to Calibrate the Horn Telescope</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://youtu.be/r8iYuaiFOd8&quot; class=&quot;button&quot;&gt;Instructional video&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/r8iYuaiFOd8&quot;&gt;&lt;img src=&quot;/dspira-lessons/images/CHIME_dishes.jpg&quot; width=&quot;400&quot; height=&quot;300&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;some-preliminary-pointers&quot;&gt;Some preliminary pointers:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;For the best results, after starting the program, allow the system to warm up for approximately 20 minutes before calibrating.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Re-calibrations can be done any time during a viewing session.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For consistency, it is recommended to re-calibrate occasionally during a viewing session.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;procedure&quot;&gt;Procedure&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Point the telescope toward the ground at an angle. The video shows how this is done.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Switch the &lt;code class=&quot;highlighter-rouge&quot;&gt;Spectrum Display&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Hot Calibration&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the &lt;code class=&quot;highlighter-rouge&quot;&gt;Time Integration&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Long Integration&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Watch the spectrum displayed. You may need to change the &lt;code class=&quot;highlighter-rouge&quot;&gt;ymax&lt;/code&gt; value to view all of the signal on the graph. Wait for the graph to settle to a steady display. Then switch the &lt;code class=&quot;highlighter-rouge&quot;&gt;Spectrum Display&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Cold Calibration&lt;/code&gt;. DO NOT MOVE THE TELESCOPE UNTIL THE SPECTRUM DISPLAYED HAS BEEN CHANGED TO &lt;code class=&quot;highlighter-rouge&quot;&gt;Cold calibration&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Switch the display to &lt;code class=&quot;highlighter-rouge&quot;&gt;Cold Calibration&lt;/code&gt; and the integration to &lt;code class=&quot;highlighter-rouge&quot;&gt;Short Integration&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Point the telescope at open sky. Continue to re-direct it until you find a patch of sky that does not show any hydrogen peak near 1420.4 MHz. After doing so, switch to &lt;code class=&quot;highlighter-rouge&quot;&gt;Long Integration&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wait for the graph to settle to a steady display. Then switch the &lt;code class=&quot;highlighter-rouge&quot;&gt;Spectrum Display&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;Spectrum with Calibration&lt;/code&gt;.  DO NOT MOVE THE TELESCOPE UNTIL THE SPECTRUM DISPLAYED HAS BEE CHANGED TO &lt;code class=&quot;highlighter-rouge&quot;&gt;Spectrum with calibration&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The spectrometer is now calibrated, and the graph should now be showing only signals from the galaxy.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;some-more-things-to-note&quot;&gt;Some More Things to Note:&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;After completing a calibration, the signal is in units of Kelvin (K). This sounds odd, but it is how radio astronomers quantify radio signals.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;For most amateur applications, it is not necessary to get bogged down trying to understand why the units are Kelvin.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;After completing a calibration, the baseline signal would theoretically be steady at approximately 10 K, which is the approximate temperature of empty space. However, in reality, the base level after calibration will fluctuate. This is due to several factors, but it is mostly due to the LNA because its temperature will fluctuate some over the span of a viewing session.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The background level can actually go negative! No need to worry. Re-calibrating usually takes care of this and brings the base level back up to approximately 20 K.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The value of the background level will not affect any peak positions or shapes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Even though the background level might not stay the same, the calibrated spectrum can still be used for quantitative analysis by offsetting the data so that the background level is zero. This is typically what is done when analyzing the area of the peaks.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sun, 26 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/HornOperation_Calibration</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/HornOperation_Calibration</guid>
+      </item>
+    
+      <item>
+        <title>Running the Spectrometer Program</title>
+        <description>&lt;h2 id=&quot;using-the-systemp_w_calibrationgrc-program&quot;&gt;Using the &lt;em&gt;systemp_w_calibration.grc&lt;/em&gt; Program&lt;/h2&gt;
+
+&lt;p&gt;The video shown &lt;a href=&quot;https://youtu.be/50B2Uv-SoDY&quot;&gt;here&lt;/a&gt; explains the features in this program.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-before-starting-the-program&quot;&gt;1.	Before Starting The Program&lt;/h3&gt;
+
+&lt;p&gt;The video &lt;a href=&quot;https://youtu.be/Oo28QCEZe_g&quot;&gt;here&lt;/a&gt; explains how set up the horn and make adjustments to the user-defined settings referred to below.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Check the user-defined settings illustrated below. These are the &lt;code class=&quot;highlighter-rouge&quot;&gt;Variable&lt;/code&gt; blocks in the upper right corner of the Gnuradio canvas.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/dspira-lessons/images/UserDefinedBlocks.png&quot; alt=&quot;User-defined blocks&quot; /&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;To change a value, double click on the box and then type the value in the Value box and hit OK.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;integration_time1&lt;/code&gt; is the short integration time, and &lt;code class=&quot;highlighter-rouge&quot;&gt;integration_time2&lt;/code&gt; is the long integration time. These can be changed to any value at 0.4 s or above.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Be sure that the file path in the &lt;code class=&quot;highlighter-rouge&quot;&gt;prefix&lt;/code&gt; box is correct. This is the folder where the data files will be saved.&lt;/p&gt;
+
+        &lt;p&gt;Hints on setting the file path correctly:
+(These steps are explained in the &lt;a href=&quot;https://youtu.be/Oo28QCEZe_g&quot;&gt;setting up the horn video&lt;/a&gt;.)&lt;/p&gt;
+        &lt;ol&gt;
+          &lt;li&gt;Open the File Navigation window (folder icon).&lt;/li&gt;
+          &lt;li&gt;Navigate to the folder to which you want to save the spectrum files.&lt;/li&gt;
+          &lt;li&gt;Right click on the folder.&lt;/li&gt;
+          &lt;li&gt;Select &lt;code class=&quot;highlighter-rouge&quot;&gt;Properties&lt;/code&gt;.&lt;/li&gt;
+          &lt;li&gt;Double click the &lt;code class=&quot;highlighter-rouge&quot;&gt;Parent folder:&lt;/code&gt; path and copy it to the clipboard.&lt;/li&gt;
+          &lt;li&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;prefix&lt;/code&gt; variable box paste the path name inside quotes in the &lt;code class=&quot;highlighter-rouge&quot;&gt;Value&lt;/code&gt; box. (Delete any existing path name.)&lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Then append the actual folder name to the end of the parent path. Be sure to separate folder names with / and end with /.&lt;/p&gt;
+
+            &lt;p&gt;EXAMPLE:&lt;/p&gt;
+
+            &lt;p&gt;Parent folder: &lt;code class=&quot;highlighter-rouge&quot;&gt;home/Jansky/radio_astronomy&lt;/code&gt;&lt;/p&gt;
+
+            &lt;p&gt;data folder name: &lt;code class=&quot;highlighter-rouge&quot;&gt;horn_data_2020&lt;/code&gt;&lt;/p&gt;
+
+            &lt;p&gt;Value to put into the &lt;code class=&quot;highlighter-rouge&quot;&gt;prefix&lt;/code&gt; variable box: &lt;br /&gt;
+“home/Jansky/radio_astronomy/horn_data_2020/”
+(Include the quotes)&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;CAUTION: If you run the program on a laptop without the power cord plugged in, the computer may go into a sleep mode and stop running the program, depending on the length of the run. Change the power settings on your computer so that it never suspends or goes to sleep.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-after-starting-the-program&quot;&gt;2.	After Starting The Program&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The first screen that appears looks like the following:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dspira-lessons/images/filtered_nocal.png&quot; alt=&quot;Opening screen&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;This display is used for most observations that are uncalibrated.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Adjust the &lt;code class=&quot;highlighter-rouge&quot;&gt;ymin&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;ymax&lt;/code&gt; values to scale the graph as desired.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fill in the &lt;code class=&quot;highlighter-rouge&quot;&gt;azimuth&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;elevation&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;location&lt;/code&gt;, if desired. &lt;strong&gt;NOTE: When entering these values, you must hit ENTER after each entry in order for it to get recorded by the program.&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These parameters are included in the title, as described in the &lt;em&gt;Saving a Spectrum to a Data File&lt;/em&gt; section below. This is also demonstrated in the &lt;a href=&quot;https://youtu.be/dWX0rRU99Z8&quot;&gt;video on how to save data&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;Short Integration&lt;/code&gt; option is good for quick observations and demonstrations. Switch to &lt;code class=&quot;highlighter-rouge&quot;&gt;Long Integration&lt;/code&gt; for smoother data when a pointing is settled on and you are ready for a longer run.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;Clipped Spectrum&lt;/code&gt; is the better selection for most viewings. The &lt;code class=&quot;highlighter-rouge&quot;&gt;Full Spectrum&lt;/code&gt; is good for demonstrating how the signal processing affects the spectrum. It also might be useful for the expert user who wants the full spectrum for some reason.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;3-saving-a-spectrum-to-a-data-file-see-the-video-on-how-to-save-data&quot;&gt;3.	Saving a Spectrum to a Data File &lt;a href=&quot;https://youtu.be/dWX0rRU99Z8&quot;&gt;See the video on how to save data&lt;/a&gt;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The spectrum that is currently being displayed on the screen can be written to a .csv data file by clicking the &lt;code class=&quot;highlighter-rouge&quot;&gt;Capture Current Spectrum&lt;/code&gt; button. The data file is written to the folder under the path in the &lt;code class=&quot;highlighter-rouge&quot;&gt;prefix&lt;/code&gt; Variable box.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When &lt;code class=&quot;highlighter-rouge&quot;&gt;Writing to file&lt;/code&gt; is selected under the &lt;code class=&quot;highlighter-rouge&quot;&gt;Write to csv File&lt;/code&gt; window, a data file will be written to a new file in the data folder each time an integration time elapses. For instance, if Long Integration is selected and is 10 s, then every 10 s a new file is written. So for a 20 minute run, a total of 120 files will be written to the data folder.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This option is useful when running a drift scan or for when the user sets the telescope to collect data at a later time when the user is not able to be present.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data File Format:
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;The .csv format is a .txt data file that can be opened in any spreadsheet.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;When opened in a spreadsheet, the data will appear in 2 columns. The first columns contains the frequency, in MHz, from 1414 MHz to 1424 MHz. The second column is the signal.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;A graph of Signal vs. Frequency can easily be created after opening a file in a spreadsheet.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The file name has a format that contains the date, time, location, azimuth, and elevation, with “_spectrum” at the end. The location, azimuth, and elevation are recorded with the values in the corresponding fields on the spectrometer inferface screen.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;As an example, the filename &lt;font size=&quot;1&quot;&gt;“2020-07-15_Morgantown_200_30_spectrum”&lt;/font&gt;  contains data that was collected on July 15, 2020 in Morgantown with the telescope pointed at an azimuth of 200 degrees and an elevation of 30 degrees.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 25 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/HornOperation_runningSpectrometer</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/HornOperation_runningSpectrometer</guid>
+      </item>
+    
+      <item>
+        <title>Horn Operation Tutorials</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://wvurail.org/dspira-lessons/HornOperation_Intro&quot; class=&quot;button&quot;&gt;Introduction to the horn telescope&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/Oo28QCEZe_g&quot; class=&quot;button&quot;&gt;Setting up the horn telescope (video)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wvurail.org/dspira-lessons/HornOperation_spectrometer_description&quot; class=&quot;button&quot;&gt;Description of the spectrometer program&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/50B2Uv-SoDY&quot; class=&quot;button&quot;&gt;Description of the spectrometer program (video)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://wvurail.org/dspira-lessons/HornOperation_runningSpectrometer&quot; class=&quot;button&quot;&gt;How to run the spectrometer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/dWX0rRU99Z8&quot; class=&quot;button&quot;&gt;How to save data using the spectrometer (video)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://wvurail.org/dspira-lessons/HornOperation_Calibration&quot; class=&quot;button&quot;&gt;How to Calibrate the Horn Telescope (document &amp;amp; video)&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 25 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/HornOperation_Tutorials</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/HornOperation_Tutorials</guid>
+      </item>
+    
+      <item>
+        <title>Building a Horn Telescope Overview</title>
+        <description>&lt;p&gt;A list of the components that are needed to build and operate a horn radio telescope system is presented below. Links to documentation and instructional videos are provided where applicable.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-needed-for-a-complete-horn-telescope-system&quot;&gt;What’s Needed for a Complete Horn Telescope System&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;the horn &amp;amp; antenna assembly – details provided &lt;a href=&quot;https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;the horn&lt;/li&gt;
+      &lt;li&gt;the antenna can&lt;/li&gt;
+      &lt;li&gt;the antenna probe&lt;/li&gt;
+      &lt;li&gt;the antenna feedthrough&lt;/li&gt;
+      &lt;li&gt;the horn support stand&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;a low noise amplifier (LNA)
+  All of these will work. The DSPIRA LNA is the most stable and long lasting.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Best option: the DSPIRA LNA – see information and instructions [link]&lt;/li&gt;
+      &lt;li&gt;Next best option: &lt;a href=&quot;https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html&quot;&gt;Nooelec SAWbird+ H1&lt;/a&gt; - Premium SAW Filter &amp;amp; Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications&lt;/li&gt;
+      &lt;li&gt;Next best option: &lt;a href=&quot;https://www.tindie.com/products/gpio/radio-astronomy-hydrogen-line-low-noise-amplifier/&quot;&gt;Radio Astronomy Hydrogen Line Low Noise Amplifier&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;an Airspy Software Defined Radio: &lt;a href=&quot;https://airspy.com/airspy-r2&quot;&gt;Airspy R2&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;coaxial cable with SMA connectors: from coaxrf.com, &lt;a href=&quot;https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr195/sma-male-times-microwave-lmr195/lmr195-sma-male-to-sma-male-coaxial-rf-pigtail-cable-2/&quot;&gt;LMR195 SMA MALE to SMA MALE Coaxial RF Pigtail Cable&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;computer &amp;amp; software needs&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;computer with a Linux (Ubuntu) operating system&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;install Gnuradio 3.8&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;install the program &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; from the Github repository gr-radio_astro&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;computer with Windows operating system - the Gnuradio and spectrometer_w_cal.grc program can be run from a bootable flash drive&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;computer with Mac operating system - the Gnuradio and spectrometer_w_cal.grc program can be run from a bootable flash drive&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Sat, 25 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/BuildingHornTelescope_Overview</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/BuildingHornTelescope_Overview</guid>
+      </item>
+    
+      <item>
         <title>How Fast Are We Moving?</title>
         <description>&lt;p&gt;This lesson is designed at three different levels.  Each is mainly after the students being able to determine the speed of the Earth around the Sun.&lt;/p&gt;
 
@@ -14,7 +567,7 @@
 The Basic version gets to the point in the most direct way, still asking the students to search for some info on the Internet.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://drive.google.com/file/d/1LanYTHlZKrMlAsa0Ofu3uTW39kQYeUhb/view?usp=sharing&quot; class=&quot;button&quot;&gt;Advanced Version&lt;/a&gt;
-The Advanced version is asking the students to think a little bit more before searching for infromation in the Internet.  The outcome is the same.&lt;/p&gt;
+The Advanced version is asking the students to think a little bit more before searching for information in the Internet.  The outcome is the same.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/15UM0xx6I1MEU0DSmq8ptyxpJwmIa3muMem8us5xnG0E/edit?usp=sharing&quot; class=&quot;button&quot;&gt;Physics Version&lt;/a&gt;
 Students already exposed to the Universal Law of Gravity and Circular Motion will be able to do this activity.&lt;/p&gt;
@@ -31,138 +584,139 @@ Students already exposed to the Universal Law of Gravity and Circular Motion wil
       </item>
     
       <item>
-        <title>Measuring the Earth's Speed around the Sun</title>
-        <description>&lt;p&gt;This is meant to be a fairly intense sequence of activities for High School+ level students with the goal of eventually taking measurements with the DSPIRA Radio Horn Telescope to determine the Earths Speed around the Sun.&lt;/p&gt;
+        <title>Horn Telescope Spectrometer Description</title>
+        <description>&lt;p&gt;The program used to run the telescope is a Gnuradio program called &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt;. It is available from the WVURAIL/gr-radio_astro repository in Github. The &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; program has several features to make data collection with the horn telescope user-friendly. Each feature on the display is described below.&lt;/p&gt;
 
-&lt;p&gt;There are (up to) 6 activities to get to using the Horn Telescope&lt;/p&gt;
+&lt;p&gt;Set up the horn and connect the LNA to the Airspy with a cable, and the Airspy to the computer USB.  Then open the spectrum_w_cal.grc program in Gnuradio. 
+&lt;a href=&quot;https://youtu.be/Oo28QCEZe_g&quot;&gt;This video shows how to set up a horn and start the program.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Activity List&lt;/em&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;How Fast Are We Moving?&lt;/li&gt;
-  &lt;li&gt;Modeling Earth’s Motion Around the Sun&lt;/li&gt;
-  &lt;li&gt;Earth’s Motion With Respect to Galactic Center&lt;/li&gt;
-  &lt;li&gt;A teacher created Doppler Effect Lesson -(Currently, no DSPIRA Activity here)&lt;/li&gt;
-  &lt;li&gt;Analyzing DSPIRA Radio Horn Data&lt;/li&gt;
-  &lt;li&gt;Comparing Model to Data&lt;/li&gt;
-  &lt;li&gt;Getting your own data with your Radio Horn&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;You can also watch &lt;a href=&quot;https://youtu.be/50B2Uv-SoDY&quot;&gt;this video&lt;/a&gt;, which describes these user interface features in detail.&lt;/p&gt;
 
-&lt;p&gt;Enter the Lesson posts here&lt;/p&gt;
+&lt;h3 id=&quot;1-features-of-the-spectrum-tab&quot;&gt;&lt;strong&gt;1.	Features of the &lt;em&gt;Spectrum&lt;/em&gt; Tab&lt;/strong&gt;&lt;/h3&gt;
 
-</description>
-        <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/dspira-lessons/EarthAroundSun</link>
-        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/EarthAroundSun</guid>
-      </item>
-    
-      <item>
-        <title>Building a Horn Telescope</title>
-        <description>&lt;p&gt;A list of the components that are needed to build and operate a horn radio telescope system is presented below. Links to documentation and instructional videos are provided where applicable.&lt;/p&gt;
-
-&lt;h3 id=&quot;whats-needed-for-a-complete-horn-telescope-system&quot;&gt;What’s Needed for a Complete Horn Telescope System&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/dspira-lessons/images/filtered_nocal.png&quot; alt=&quot;spectrometer screen&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;the horn &amp;amp; antenna can assembly – details provided &lt;a href=&quot;https://drive.google.com/file/d/1_IDQfJlaPI43cPWumYKiKivhqwiIh7C3/view?usp=sharing&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Graphical Display&lt;/strong&gt; Boxes:&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;
-        &lt;p&gt;the horn&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;Spectrum&lt;/strong&gt; graph – shows the signal vs. frequency spectrum, which is the primary focus of our investigations with a radio telescope.&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;the antenna can&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;the antenna probe&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;the antenna feedthrough&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;the horn stand&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;System Heartbeat&lt;/strong&gt; – This is actually a histogram of signals being detected. During normal, this display should continuously jump up and down during a run. As long as its “beating,” things are good. If this graph looks frozen, then the program has probably stopped running, and you will need to restart the program.&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;a low noise amplifier (LNA)&lt;/p&gt;
-
-    &lt;p&gt;All of these will work. The DSPIRA LNA is the most stable and long lasting.&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Spectrum Display&lt;/strong&gt; options:&lt;/p&gt;
 
     &lt;ul&gt;
       &lt;li&gt;
-        &lt;p&gt;Best option: the DSPIRA LNA – see information and instructions [link]&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;em&gt;filtered spectrum with no calibration&lt;/em&gt;&lt;/strong&gt; - the raw spectrum collected is displayed with the noise spikes filtered out.&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;Next best option: &lt;a href=&quot;https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html&quot;&gt;Nooelec SAWbird+ H1&lt;/a&gt; - Premium SAW Filter &amp;amp; Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;em&gt;spectrum with calibration&lt;/em&gt;&lt;/strong&gt; - the hot and cold calibrations are factored in to display the true signal received from the galaxy.&lt;/p&gt;
       &lt;/li&gt;
       &lt;li&gt;
-        &lt;p&gt;Next best option: &lt;a href=&quot;https://www.tindie.com/products/gpio/radio-astronomy-hydrogen-line-low-noise-amplifier/&quot;&gt;Radio Astronomy Hydrogen Line Low Noise Amplifier&lt;/a&gt;&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;em&gt;hot calibration&lt;/em&gt;&lt;/strong&gt; - Select when pointing the telescope at the “hot” source (the ground) during the calibration procedure.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;em&gt;cold calibration&lt;/em&gt;&lt;/strong&gt; - Select when pointing the telescope at the “hot” source (the ground) during the calibration procedure.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;&lt;em&gt;unfiltered spectrum with no calibration&lt;/em&gt;&lt;/strong&gt; - the raw spectrum collected is displayed with no changes made to it.&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;an Airspy Software Defined Radio: &lt;a href=&quot;https://airspy.com/airspy-r2&quot;&gt;Airspy R2&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;coaxial cable with SMA connectors: from coaxrf.com, &lt;a href=&quot;https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr195/sma-male-times-microwave-lmr195/lmr195-sma-male-to-sma-male-coaxial-rf-pigtail-cable-2/&quot;&gt;LMR195 SMA MALE to SMA MALE Coaxial RF Pigtail Cable&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;computer &amp;amp; software needs&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Integration Time&lt;/strong&gt; options:&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;computer with a Linux (Ubuntu) operating system
+      &lt;li&gt;
+        &lt;p&gt;Because the radio signals being detected are extremely weak, it is necessary for the software to add together (integrate) the signals detected over a period of time. This is the integration time. This averages out the noise in the signal, making the galaxy signal more prominent. The user has the option of setting two different integration times when using this spectrometer.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;The user can change these settings in the integration variable blocks before starting the program.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;strong&gt;Short Integration&lt;/strong&gt;
         &lt;ul&gt;
-          &lt;li&gt;install Gnuradio 3.8&lt;/li&gt;
-          &lt;li&gt;install the program spectrometer_w_cal.grc from the Github repository gr-radio_astro&lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;This is useful for quick sampling of what the telescope is looking at.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;The default setting for the shorter integration time is 0.4 s.&lt;/p&gt;
+          &lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;computer with Windows operating system - the Gnuradio and spectrometer_w_cal.grc program can be run from a bootable flash drive&lt;/p&gt;
+      &lt;li&gt;&lt;strong&gt;Long Integration&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;This is useful for when smoother data is desired. Usually the user will use the longer setting for targeted pointings where “good” data is needed.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;The default setting for the longer integration time is 10 s.&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;computer with Mac operating system - the Gnuradio and spectrometer_w_cal.grc program can be run from a bootable flash drive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Integration Reset&lt;/strong&gt; – This resets the data averaging when the long integration time is selected. This is needed if the telescope pointing is changed in the middle of a long integration to assure the spectrum displayed is the average of the new pointing.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Full or Clipped Spectrum&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Clipped spectrum&lt;/strong&gt; – In this display the ends of the spectrum, between 1414 and 1415 MHz and between 1423 and 1424 MHz, are clipped off. This removes the distracting background portions of the spectrum, as discussed in the &lt;em&gt;The System Background Signal&lt;/em&gt; in the &lt;a href=&quot;http://wvurail.org/dspira-lessons/HornOperation_Intro&quot;&gt;What Can a Horn Telescope Measure?&lt;/a&gt; post.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Full spectrum&lt;/strong&gt; – This is self explanatory.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Capture Current Spectrum&lt;/strong&gt; button&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;The live spectrum being displayed on the main graph can be captured in a .csv text file for easy access later.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Write to .csv File&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;This option enables the spectrum to be written to newly created files once every integration time so that data can be collected without the user’s presence.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;See the video &lt;a href=&quot;link&quot;&gt;Saving Data Using the &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; Program&lt;/a&gt;.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;h3 id=&quot;2-features-of-the-system-tempgain-tab&quot;&gt;&lt;strong&gt;2.	Features of the &lt;em&gt;System Temp/Gain&lt;/em&gt; Tab&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dspira-lessons/images/sys_T&amp;amp;G.png&quot; alt=&quot;System Temp/Gain screen&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;These graphs are not needed during most telescope runs. They are mainly for those who are interested in the quantitative performance of the telescope.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;System Temperature Spectrum&lt;/strong&gt; – This graph is an indication of the amount of signal that is coming from the telescope system itself.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Gain&lt;/strong&gt; – This is the factor that is used by the spectrometer to scale the detected signal into known astronomical units.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/dspira-lessons/AcquiringHornTelescope</link>
-        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/AcquiringHornTelescope</guid>
-      </item>
-    
-      <item>
-        <title>Astronomy Activity : Understanding Celestial Coordinate Systems</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing&quot; class=&quot;button&quot;&gt;Student Activity Document&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/1JVFn5d4mhCN-fU2JmSMRD95g3N5xwSbFM94TUpAUe3k/edit?usp=sharing&quot; class=&quot;button&quot;&gt;Teacher Notes&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;The following are videos from Dr. Loren Anderson from West Virginia University’s Astronomy department.&lt;br /&gt;
-They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.&lt;/p&gt;
-
-&lt;h3 id=&quot;intro-to-motion-in-the-sky&quot;&gt;Intro to Motion in the Sky&lt;/h3&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=wUNDoUoDrCg&lt;/p&gt;
-
-&lt;h3 id=&quot;the-celestial-sphere&quot;&gt;The Celestial Sphere&lt;/h3&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=d8BcwK5nlos&lt;/p&gt;
-
-&lt;h3 id=&quot;earths-motion-and-star-trails&quot;&gt;Earth’s Motion and Star Trails&lt;/h3&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=_L1R1VnMeD4&lt;/p&gt;
-
-&lt;h3 id=&quot;more-celestial-sphere&quot;&gt;More Celestial Sphere&lt;/h3&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=UpYt7238p5g&lt;/p&gt;
-
-&lt;h3 id=&quot;discussion-of-common-misconceptions&quot;&gt;Discussion of Common Misconceptions&lt;/h3&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=nfonuosoHUk&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 24 Jul 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/dspira-lessons/A2UnderstandingCeleCoords</link>
-        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/A2UnderstandingCeleCoords</guid>
+        <link>http://localhost:4000/dspira-lessons/HornOperation_spectrometer_description</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/HornOperation_spectrometer_description</guid>
       </item>
     
   </channel>

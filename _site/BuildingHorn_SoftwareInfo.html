@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Software Required For a Horn Telescope &#8211; Digital Signal Processing in Radio Astronomy - Lessons Portal</title>
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Details of software installation required for a horn telescope">
+    <meta name="robots" content="all">
+    <meta name="author" content="Pranav Sanghavi">
+    <meta name="keywords" content="Horn Construction">
+    <link rel="canonical" href="http://localhost:4000/dspira-lessons/BuildingHorn_SoftwareInfo">
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed for Digital Signal Processing in Radio Astronomy - Lessons Portal" href="/dspira-lessons/feed.xml" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/dspira-lessons/css/style.css?202007290953" type="text/css">
+
+    <!-- Fonts -->
+    <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/v4-shims.min.css    ">
+    
+
+    <!-- Open Graph -->
+    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Software Required For a Horn Telescope">
+    <meta property="og:description" content="Lots of lessons">
+    <meta property="og:url" content="http://localhost:4000/BuildingHorn_SoftwareInfo">
+    <meta property="og:site_name" content="Digital Signal Processing in Radio Astronomy - Lessons Portal">
+    
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    
+        <meta name="twitter:site" content="@pranavsanghavi" />
+        <meta name="twitter:creator" content="@pranavsanghavi" />
+    
+    <meta name="twitter:title" content="Software Required For a Horn Telescope" />
+    <meta name="twitter:description" content="Details of software installation required for a horn telescope" />
+    <meta name="twitter:url" content="http://localhost:4000/BuildingHorn_SoftwareInfo" />
+    
+
+    <!-- Icons -->
+    <link rel="shortcut icon" href="/dspira-lessons/favicon.ico">
+</head>
+
+<body class="site animated fade-in-down">
+
+  <div class="site-wrap">
+    <header class="center site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="/dspira-lessons/" class="site-title button">Digital Signal Processing in Radio Astronomy - Lessons Portal</a>
+      <nav class="site-nav">
+        
+
+
+
+    
+    
+    
+    
+
+    
+
+    
+    
+    
+    
+        <a class="nav-link" href="/dspira-lessons/about/">About</a>
+    
+
+    
+
+
+      </nav>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</header>
+
+
+    <div class="post p2 p-responsive wrap" role="main">
+      <div class="measure">
+        <div>
+  
+    
+      
+      <a class="button" href="/dspira-lessons/categories/horn-construction">Click to see all lessons in the Horn Construction module</a> 
+    
+  
+</div>
+
+
+
+
+
+
+<div class="post-header mb2">
+  <h1>Software Required For a Horn Telescope</h1>
+  <span class="post-meta">Jul 28, 2020 |</span>
+  
+  <span class="post-meta small">
+  
+    3 minute read
+  
+  </span>
+</div>
+
+<article class="post-content">
+  <h2 id="running-the-spectrometer-on-a-computer-with-ubuntu-2004">Running the Spectrometer on a Computer with Ubuntu 20.04</h2>
+
+<p>Complete the following steps as needed:</p>
+
+<h4 id="a-how-to-partition-a-hard-drive-for-ubuntu-2004-alongside-windows-10">A. How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10</h4>
+
+<ol>
+  <li>
+    <p><a href="http://releases.ubuntu.com/20.04/">Download Ubuntu Desktop 20.04 ISO onto hard drive while in Ubuntu.</a></p>
+  </li>
+  <li>
+    <p>Install a 32 GB or larger flash drive in the usb port.</p>
+  </li>
+  <li>
+    <p>Run <em>balenaEtcher</em>. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target.</p>
+  </li>
+  <li>
+    <p>Before installing Ubuntu on the Windows system, you need to partition the hard disk in Windows. Open a Command Prompt window with admin rights, and execute the command <code class="highlighter-rouge">diskmgmt.msc</code> to open the Disk Management utility.</p>
+  </li>
+  <li>
+    <p>Select the Windows partition, usually the C: volume, right-click on this partition and select the <strong>Shrink Volume</strong> option in order to reduce the partition size.</p>
+  </li>
+  <li>
+    <p>Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the <strong>Shrink</strong> button.</p>
+  </li>
+  <li>
+    <p>After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows 10.</p>
+  </li>
+</ol>
+
+<h4 id="b-install-ubuntu-2004-alongside-with-windows">B. Install Ubuntu 20.04 Alongside with Windows</h4>
+
+<ol>
+  <li>
+    <p>Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.</p>
+  </li>
+  <li>
+    <p>On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.</p>
+
+    <p>This will complete the installation process, unless there is an error message indicating that device encryption (known as Bitlocker) may need to be turned off. If this is the case, complete the following:</p>
+
+    <ul>
+      <li>
+        <p>Refer to the following webpage: <a href="https://www.windowscentral.com/how-enable-device-encryption-windows-10-home">https://www.windowscentral.com/how-enable-device-encryption-windows-10-home</a></p>
+      </li>
+      <li>
+        <p>Alternately, boot up in Windows. From the <strong>Start</strong> Menu, click the <strong>Windows Administrative Tools</strong>, then <strong>Windows PowerShell</strong> folder and tap <strong>Windows PowerShell</strong>.</p>
+
+        <p>A command line window will open up. From the Powershell command line, type <code class="highlighter-rouge">Disable-BitLocker -MountPoint C:</code></p>
+
+        <p>Then reboot with the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.</p>
+
+        <p>On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="c-install-gnuradio">C. Install Gnuradio</h4>
+
+<ol>
+  <li>
+    <p>Open a terminal window.</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">sudo apt install gnuradio</code></p>
+  </li>
+</ol>
+
+<h4 id="d-install-gr-radio_astro">D. Install gr-radio_astro</h4>
+
+<ol>
+  <li>
+    <p>Open a terminal window.</p>
+  </li>
+  <li>
+    <p>Install gnuradio external python dependencies and SDR drivers:
+<code class="highlighter-rouge">sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem</code></p>
+  </li>
+  <li>
+    <p>Also install the following package: <code class="highlighter-rouge">sudo apt install git cmake liborc-0.4-dev</code></p>
+  </li>
+  <li>
+    <p>Clone the repository: From the terminal, type: <code class="highlighter-rouge">git clone https://github.com/WVURAIL/gr-radio_astro.git</code></p>
+  </li>
+  <li>
+    <p>Switch to the gr-radio_astro directory: <code class="highlighter-rouge">cd gr-radio_astro</code></p>
+  </li>
+  <li>
+    <p>Switch to the GNURadio 3.8 by typing: <code class="highlighter-rouge">git checkout gr38</code></p>
+  </li>
+  <li>
+    <p>Make a build directory: <code class="highlighter-rouge">mkdir build</code>, and then move to it: <code class="highlighter-rouge">cd build</code></p>
+  </li>
+  <li>
+    <p>Then run the following in the build directory:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cmake
+make
+sudo make install
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Run the program in Gnuradio:</p>
+    <ul>
+      <li>In a terminal window type <code class="highlighter-rouge">gnuradio-companion</code></li>
+      <li>
+        <p>Open the <em>spectrometer_w_cal.grc</em> program as follows:</p>
+
+        <p>File –&gt; Open –&gt; gr-radio_astros –&gt; examples –&gt; <em>spectrometer_w_cal.grc</em></p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h4 id="e-how-to-update-files-from-the-gr-radio_astro-gr38-repository">E. How to Update files from the gr-radio_astro gr38 Repository</h4>
+
+<ol>
+  <li>
+    <p>Change to the <em>gr-radio_astro</em> folder on your computer.</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">git status</code></p>
+  </li>
+  <li>
+    <p>Check to see if you are in the gr38 branch. To change to gr38 branch, type <code class="highlighter-rouge">git checkout gr38</code>. Type <code class="highlighter-rouge">git status</code> to check.</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">git pull</code></p>
+  </li>
+  <li>
+    <p>Run the program in Gnuradio:</p>
+    <ul>
+      <li>In a terminal window type <code class="highlighter-rouge">gnuradio-companion</code></li>
+      <li>Close the existing <em>spectrometer_w_cal.grc</em> program if it is in the program.</li>
+      <li>
+        <p>Open the new <em>spectrometer_w_cal.grc</em> program that is in the updated gr-radio_astro folder:</p>
+
+        <p>File –&gt; Open –&gt; gr-radio_astros –&gt; examples –&gt; <em>spectrometer_w_cal.grc</em></p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="running-the-spectrometer-from-a-flash-drive">Running the Spectrometer from a Flash Drive</h2>
+
+<ol>
+  <li>
+    <p>Write the image to a flash drive</p>
+  </li>
+  <li>
+    <p>Run from the flash drive</p>
+  </li>
+</ol>
+
+</article>
+
+
+  <div class="share-page">
+  <div class="share-links">
+    Share this post!
+
+    
+      <a class="fa fa-facebook" href="https://facebook.com/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo" rel="nofollow" target="_blank" title="Share on Facebook"></a>
+    
+
+    
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=Software+Required+For+a+Horn+Telescope&amp;url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+    
+
+    
+
+    
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;title=Software+Required+For+a+Horn+Telescope" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+    
+
+    
+
+    
+      <a class="fa fa-tumblr" href="http://www.tumblr.com/share/link?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;name=Software+Required+For+a+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Tumblr"></a>
+    
+
+    
+      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;title=Software+Required+For+a+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Reddit"></a>
+    
+
+    
+
+    
+      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;t=Software+Required+For+a+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+<div>
+  <h4>Appropriate for:</h4>
+  
+    
+        
+        <a class="button" href="/dspira-lessons/tags/school-teachers">School-Teachers
+        </a> 
+    
+        
+        <a class="button" href="/dspira-lessons/tags/students">Students
+        </a> 
+    
+        
+        <a class="button" href="/dspira-lessons/tags/hobbyists">Hobbyists
+        </a> 
+    
+  
+</div>
+
+
+
+  <h3 class="related-post-title">Related Lessons</h3>
+  <ul class="related-posts">
+    
+    <li>
+      <a href="/dspira-lessons/HornTelescope_IntroVideo" class="post-link">
+          What is a Horn Telescope?
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/BuildingHornTelescope_Instructions" class="post-link">
+          Instructions on How to Build a Horn Telescope
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/Astro_MWG" class="post-link">
+          The Milky Way Galaxy
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/HornOperation_Calibration" class="post-link">
+          How to Calibrate the Horn Telescope
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/HornOperation_runningSpectrometer" class="post-link">
+          Running the Spectrometer Program
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/HornOperation_Tutorials" class="post-link">
+          Horn Operation Tutorials
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/BuildingHornTelescope_Overview" class="post-link">
+          Building a Horn Telescope Overview
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/HowFastAreWeMoving" class="post-link">
+          How Fast Are We Moving?
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/HornOperation_spectrometer_description" class="post-link">
+          Horn Telescope Spectrometer Description
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/HornOperation_Intro" class="post-link">
+          What Can a Horn Telescope Measure?
+      </a>
+    </li>
+    
+  </ul>
+
+
+
+
+
+      </div>
+    </div>
+  </div>
+  <footer class="center">
+  <div class="measure">
+    <div class="left">
+      <small>
+        &copy; 2020 Digital Signal Processing in Radio Astronomy - Lessons Portal
+      </small>
+    </div>
+    
+      <div class="social-icons right">
+    
+  
+    <a class="fab fa-github" href="https://github.com/wvurail" target="_blank"></a>
+  
+  
+    <a class="fab fa-twitter" href="https://twitter.com/pranavsanghavi" target="_blank"></a>
+  
+  
+  
+    <a class="fas fa-envelope" href="mailto:wvurail@gmail.com"></a>
+  
+  <a class="fas fa-rss" href="/dspira-lessons/feed.xml" target="_blank"></a>
+</div>
+<div class="clearfix"></div>
+
+    
+  </div>
+</footer>
+<script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/dspira-lessons/sw.js")
+    }
+</script>
+
+  <style>
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.333%;
+        height: 0;
+        background: black;
+    }
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }    
+    </style>
+    
+    <script>
+    function get_youtube_id(url) {
+        var p = /^(?:https?:\/\/)?(?:www\.)?(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))((\w|-){11})(?:\S+)?$/;
+        return (url.match(p)) ? RegExp.$1 : false;
+    }
+    function vimeo_embed(url,el) {
+        var id = false;
+        $.ajax({
+          url: 'https://vimeo.com/api/oembed.json?url='+url,
+          async: true,
+          success: function(response) {
+            if(response.video_id) {
+              id = response.video_id;
+              if(url.indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
+              if(url.indexOf('loop=1') !== -1) var loop=1; else var loop=0;
+              var theInnerHTML = '<div class="videoWrapper"><iframe src="https://player.vimeo.com/video/'+id+'/?byline=0&title=0&portrait=0';
+              if(autoplay==1) theInnerHTML += '&autoplay=1';
+              if(loop==1) theInnerHTML += '&loop=1';
+              theInnerHTML += '" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>'; 
+              el.innerHTML = theInnerHTML;
+            }
+          }
+        });
+    }
+    function video_embed() {
+        var p = document.getElementsByTagName('p');
+        for(var i = 0; i < p.length; i++) {
+            //check if this is an external url (that starts with https:// or http://
+            if (p[i].innerHTML.indexOf("http://") == 0 ||
+                p[i].innerHTML.indexOf("https://") == 0) {
+                var youtube_id = get_youtube_id(p[i].innerHTML);
+                if(youtube_id) {
+                    if(p[i].innerHTML.indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
+                    if(p[i].innerHTML.indexOf('loop=1') !== -1) var loop=1; else var loop=0;
+                    var theInnerHTML = '<div class="videoWrapper"><iframe width="720" height="420" src="https://www.youtube.com/embed/' + youtube_id + '?rel=0&showinfo=0';
+                    if(autoplay==1) theInnerHTML += '&autoplay=1';
+                    if(loop==1) theInnerHTML += '&loop=1&playlist='+youtube_id+'&version=3';
+                    if(p[i].innerHTML.indexOf('start=') !== -1) theInnerHTML += '&start='+p[i].innerHTML.substring(p[i].innerHTML.indexOf('start=')+6);
+                    theInnerHTML += '" frameborder="0" allowfullscreen></iframe></div>';
+                    p[i].innerHTML = theInnerHTML;
+                }
+                if(p[i].innerHTML.indexOf('vimeo.com') !== -1) {
+                    //ask vimeo for the id and place the embed
+                    vimeo_embed(p[i].innerHTML,p[i]);
+                }
+            }
+        }
+    }
+    video_embed();
+    
+    function mp3_embed() {
+        var p = document.getElementsByTagName('p');
+        for(var i = 0; i < p.length; i++) {
+            if(p[i].innerHTML.indexOf('.mp3') !== -1) {
+                var str = p[i].innerHTML.split('?');
+                if(str.length == 1) str[1] = '';
+                var str1 = str[1];
+                str1 = str1.replace('&','').replace('&','');
+                str1 = str1.replace('autoplay=1','').replace('autoplay=0','');
+                str1 = str1.replace('loop=1','').replace('loop=0','');
+                str1 = str1.replace('controls=0','').replace('controls=1','');
+    
+                if (str[0].lastIndexOf('.mp3', str[0].length - 4) === str[0].length - 4 && str1.length == 0) {
+                    if(str[1].indexOf('autoplay=1') !== -1) var autoplay=1; else var autoplay=0;
+                    if(str[1].indexOf('loop=1') !== -1) var loop=1; else var loop=0;
+                    if(str[1].indexOf('controls=0') !== -1) var controls=0; else var controls=1;
+                    var newInnerHTML = '<audio';
+                    if(autoplay==1) newInnerHTML += ' autoplay';
+                    if(loop==1) newInnerHTML += ' loop';
+                    if(controls==1) newInnerHTML += ' controls';
+                    newInnerHTML += '><source src="'+str[0]+'" type="audio/mpeg">Your browser does not support the audio element.</audio>';
+                    p[i].innerHTML = newInnerHTML;
+                }
+            }
+        }
+    }
+    mp3_embed();
+    </script>
+    
+</body>
+</html>
