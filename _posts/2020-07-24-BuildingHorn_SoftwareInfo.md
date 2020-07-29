@@ -11,8 +11,7 @@ categories: ['Horn Construction']
 
 Complete the following steps as needed:
 
-<ol type="A">
-  <li>How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10 </li>
+#### A. How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10
 
    1. [Download Ubuntu Desktop 20.04 ISO onto hard drive while in Ubuntu.](http://releases.ubuntu.com/20.04/)
 
@@ -28,8 +27,7 @@ Complete the following steps as needed:
       
    7. After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows 10.
 
-
-  <li>Install Ubuntu 20.04 Alongside with Windows</li>
+#### B. Install Ubuntu 20.04 Alongside with Windows
 
    1. Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
@@ -54,7 +52,7 @@ Complete the following steps as needed:
       
    2. Type `sudo apt install gnuradio`
 
- #### D. Install gr-radio_astro 
+#### D. Install gr-radio_astro 
 
    1. Open a terminal window.
 
@@ -101,10 +99,9 @@ Complete the following steps as needed:
       - Open the new *spectrometer_w_cal.grc* program that is in the updated gr-radio_astro folder: 
             
          File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
-     
-</ol>
 
-## Running the *spectrometer_w_cal.grc* program from a Flash Drive
+
+###  Running the *spectrometer_w_cal.grc* program from a Flash Drive
 
    1. Write the image to a flash drive
 
