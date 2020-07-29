@@ -101,7 +101,7 @@ Complete the following steps as needed:
          File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
 
 
-##  Running the *spectrometer_w_cal.grc* program from a Flash Drive
+##  Running the Spectrometer from a Flash Drive
 
    1. Write the image to a flash drive
 
