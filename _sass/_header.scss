@@ -30,7 +30,7 @@
   padding: 6px 24px;
   cursor: pointer;
   border-radius: 5px;
-  argin-top: calc(0.5em + 0.08vw);
+  margin-top: calc(0.5em + 0.08vw);
   margin-bottom: calc(0.5em + 0.08vw);
   margin-left: auto;
   margin-right: auto;
@@ -49,7 +49,7 @@
 .site-header nav a.nav-active:active {
   color: $nav-link-color;
   opacity: 1;
-  border: 3px solid mediumslateblue;
+  border: 2px solid mediumslateblue;
   padding: 6px 24px;
   cursor: pointer;
   border-radius: 5px;
