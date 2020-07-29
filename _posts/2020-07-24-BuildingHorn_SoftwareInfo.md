@@ -7,7 +7,7 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
 ---
 
-## If You Want to Use a Computer with the Ubuntu 20.04 Operating System
+## Running the Spectrometer on a Computer with Ubuntu 20.04
 
 Complete the following steps as needed:
 
@@ -101,7 +101,7 @@ Complete the following steps as needed:
          File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
 
 
-###  Running the *spectrometer_w_cal.grc* program from a Flash Drive
+##  Running the *spectrometer_w_cal.grc* program from a Flash Drive
 
    1. Write the image to a flash drive
 
