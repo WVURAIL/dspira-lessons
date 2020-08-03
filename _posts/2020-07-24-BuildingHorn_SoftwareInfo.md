@@ -17,12 +17,12 @@ Complete the following steps as needed:
 
    2. Install a 32 GB or larger flash drive in the usb port.
       
-   3. Download BalenaEtcher for Windows and install it if you don’t already have it.
+   3. Download *BalenaEtcher* for Windows and install it if you don’t already have it.
    
    4. Run *BalenaEtcher*. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target.
 
    5. Before installing Ubuntu on the Windows system, you need to partition the hard disk in Windows. 
-      Open a `Command Prompt` window with admin rights. Here are the two ways to find this not-quite-hidden feature.
+      Open a Command Prompt window with admin rights:
          - In the Cortana search field, type in `Command Prompt`, or just CMD.
          - Right click the top result, and select `Run as Administrator`.
          - Click Yes on the popup to allow the app to make changes to your device.
