@@ -55,7 +55,7 @@ Complete the following steps as needed:
 
    3. Then reboot with the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
-   4. On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.
+   4. On the first installation screen, select `Install Ubuntu` and hit Enter to start the installation process.
 
 
 #### C. Install Gnuradio 
@@ -73,29 +73,48 @@ Complete the following steps as needed:
 
    3. Also install the following package: `sudo apt install git cmake liborc-0.4-dev`
       
-   4. Clone the repository: From the terminal, type: `git clone https://github.com/WVURAIL/gr-radio_astro.git`
+   4. Open a Terminal window.
+   
+   5. To clone the repository: in the terminal, type: `git clone https://github.com/WVURAIL/gr-radio_astro.git`
 
-   5. Switch to the gr-radio_astro directory: `cd gr-radio_astro`
+   6. Switch to the gr-radio_astro directory: `cd gr-radio_astro`
 
-   6. Switch to the GNURadio 3.8 by typing: `git checkout gr38`
+   7. Switch to the gr-radio_astro 3.8 branch by typing: `git checkout gr38`
 
-   7. Make a build directory: `mkdir build`, and then move to it: `cd build`  
+   8. Make a build directory: `mkdir build`, and then move to it: `cd build`  
       
-   8. Then run the following in the build directory:
+   9. Then run the following in the build directory:
 
       ```
       cmake ..
       sudo make
       sudo make install
       ```
-      
-   9. Run the program in Gnuradio:
+#### E. Additional Steps for setting the proper Python environment:
+
+   10. Open a terminal window.
+   
+   11. Make sure you are at the home directory (type 'cd' ); type 'gedit .bashrc' to open the *.bashrc* file in an editor.
+   
+   12. Scroll to the very bottom of this file, add a blank line, and then copy and paste the following code: `export PYTHONPATH=/usr/local/lib/python3/dist-packages:/usr/local/lib/python3.8/dist-packages:$PYTHONPATH`
+
+   13. Save and close (x in upper right corner).
+   
+   14. Go to the folder by typing: `cd /usr/local/lib/python3.8/dist-packages`
+   
+   15. Type `ls`
+   
+   16. If the folder `radio_astro` exists, delete it by typing: `sudo rm -rf radio_astro` .If nothing shows up after typing `ls`, then everything is fine.
+ 
+ #### F. Check that the Installation was Successful
+ 
+   17. Run the program in Gnuradio:
          - In a terminal window type `gnuradio-companion`
          - Open the *spectrometer_w_cal.grc* program as follows: 
             
-           File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
+           `File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc* `
 
-#### E. How to Update files from the gr-radio_astro gr38 Repository
+#### G. How to Update files from the gr-radio_astro gr38 Repository
 
    1. Change to the *gr-radio_astro* folder on your computer.
 
@@ -107,7 +126,7 @@ Complete the following steps as needed:
 
    5. Run the program in Gnuradio:
       - In a terminal window type `gnuradio-companion`
-      - Close the existing *spectrometer_w_cal.grc* program if it is in the program.
+      - Close any pre-existing *spectrometer_w_cal.grc* program that would already be loaded in the Gnuradio program.
       - Open the new *spectrometer_w_cal.grc* program that is in the updated gr-radio_astro folder: 
             
          File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
@@ -115,6 +134,4 @@ Complete the following steps as needed:
 
 ##  Running the Spectrometer from a Flash Drive
 
-   1. Write the image to a flash drive
-
-   2. Run from the flash drive
+  INSTRUCTIONS TO FOLLOW
