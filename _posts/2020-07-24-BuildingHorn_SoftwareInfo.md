@@ -94,7 +94,7 @@ Complete the following steps as needed:
 
    10. Open a terminal window.
    
-   11. Make sure you are at the home directory (type 'cd' ); type 'gedit .bashrc' to open the *.bashrc* file in an editor.
+   11. Make sure you are at the home directory (type `cd` ); type `gedit .bashrc` to open the *.bashrc* file in an editor.
    
    12. Scroll to the very bottom of this file, add a blank line, and then copy and paste the following code: `export PYTHONPATH=/usr/local/lib/python3/dist-packages:/usr/local/lib/python3.8/dist-packages:$PYTHONPATH`
 
@@ -104,9 +104,9 @@ Complete the following steps as needed:
    
    15. Type `ls`
    
-   16. If the folder `radio_astro` exists, delete it by typing: `sudo rm -rf radio_astro` .If nothing shows up after typing `ls`, then everything is fine.
+   16. If the folder `radio_astro` exists, delete it by typing: `sudo rm -rf radio_astro` . If nothing shows up after typing `ls`, then everything is fine.
  
- #### F. Check that the Installation was Successful
+#### F. Check that the Installation was Successful
  
    17. Run the program in Gnuradio:
          - In a terminal window type `gnuradio-companion`
