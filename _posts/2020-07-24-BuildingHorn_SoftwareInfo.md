@@ -13,19 +13,27 @@ Complete the following steps as needed:
 
 #### A. How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10
 
-   1. [Download Ubuntu Desktop 20.04 ISO onto hard drive while in Ubuntu.](http://releases.ubuntu.com/20.04/)
+   1. [Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.](http://releases.ubuntu.com/20.04/)
 
    2. Install a 32 GB or larger flash drive in the usb port.
       
-   3. Run *balenaEtcher*. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target.
+   3. Download BalenaEtcher for Windows and install it if you don’t already have it.
+   
+   4. Run *BalenaEtcher*. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target.
 
-   4. Before installing Ubuntu on the Windows system, you need to partition the hard disk in Windows. Open a Command Prompt window with admin rights, and execute the command `diskmgmt.msc` to open the Disk Management utility.
+   5. Before installing Ubuntu on the Windows system, you need to partition the hard disk in Windows. 
+      Open a `Command Prompt` window with admin rights. Here are the two ways to find this not-quite-hidden feature.
+         - In the Cortana search field, type in `Command Prompt`, or just CMD.
+         - Right click the top result, and select `Run as Administrator`.
+         - Click Yes on the popup to allow the app to make changes to your device.
+         
+   6. Enter the command `diskmgmt.msc` to open the Disk Management utility.
 
-   5. Select the Windows partition, usually the C: volume, right-click on this partition and select the **Shrink Volume** option in order to reduce the partition size.
+   7. Select the Windows partition, usually the C: volume, right-click on this partition and select the **Shrink Volume** option in order to reduce the partition size.
 
-   6. Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the **Shrink** button.
+   8. Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the **Shrink** button.
       
-   7. After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows 10.
+   9. After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows 10.
 
 #### B. Install Ubuntu 20.04 Alongside with Windows
 
@@ -72,8 +80,8 @@ Complete the following steps as needed:
    8. Then run the following in the build directory:
 
       ```
-      cmake
-      make
+      cmake ..
+      sudo make
       sudo make install
       ```
       
