@@ -44,14 +44,18 @@ Complete the following steps as needed:
       This will complete the installation process, unless there is an error message indicating that device encryption (known as Bitlocker) may need to be turned off. If this is the case, complete the following:
 
       - Refer to the following webpage: [https://www.windowscentral.com/how-enable-device-encryption-windows-10-home](https://www.windowscentral.com/how-enable-device-encryption-windows-10-home)
-
-      - Alternately, boot up in Windows. From the **Start** Menu, click the **Windows Administrative Tools**, then **Windows PowerShell** folder and tap **Windows PowerShell**.
       
-        A command line window will open up. From the Powershell command line, type `Disable-BitLocker -MountPoint C:`
+      - If you have Windows 10 Home, there is no Bitlocker easily accessible. Instead, turning off encryption can be done from a command line. In Windows from the `Start Menu`, click the `Windows PowerShell` folder and tap `Windows PowerShell`.
 
-        Then reboot with the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
+      - A command line window will open up. From the Powershell command line, type `Disable-BitLocker -MountPoint C:` and hit Enter.
+      
+      Another option is to do the following:
+         + In the `Start Menu` search box, type `Services`. Then scroll to `Bitlocker`. 
+         + Open it or view its `Properties`, and then `Disable` it.
 
-        On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.
+   3. Then reboot with the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
+
+   4. On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.
 
 
 #### C. Install Gnuradio 
