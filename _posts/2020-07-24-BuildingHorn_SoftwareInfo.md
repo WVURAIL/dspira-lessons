@@ -116,7 +116,7 @@ Complete the following steps as needed:
 
 #### G. How to Update files from the gr-radio_astro gr38 Repository
 
-   1. Change to the *gr-radio_astro* folder on your computer: `cd gr-radio_astro'
+   1. Change to the *gr-radio_astro* folder on your computer: `cd gr-radio_astro`
 
    2. Type `git status`
       
