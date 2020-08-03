@@ -25,13 +25,13 @@ Complete the following steps as needed:
       Open a Command Prompt window with admin rights:
          - In the Cortana search field, type in `Command Prompt`, or just CMD.
          - Right click the top result, and select `Run as Administrator`.
-         - Click Yes on the popup to allow the app to make changes to your device.
+         - Click `Yes` on the popup to allow the app to make changes to your device.
          
    6. Enter the command `diskmgmt.msc` to open the Disk Management utility.
 
-   7. Select the Windows partition, usually the C: volume, right-click on this partition and select the **Shrink Volume** option in order to reduce the partition size.
+   7. Select the Windows partition, usually the C: volume, right-click on this partition and select the `Shrink Volume` option in order to reduce the partition size.
 
-   8. Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the **Shrink** button.
+   8. Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the 'Shrink' button. The partition size to shrink by (which is the amount that will be allotted to Ubuntu) should be a minimum of 50 GB, and we recommend 100 GB or more, depending on the size of your hard drive.
       
    9. After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows 10.
 
