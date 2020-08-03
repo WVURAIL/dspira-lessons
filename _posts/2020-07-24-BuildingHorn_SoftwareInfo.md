@@ -126,18 +126,16 @@ Complete the following steps as needed:
 #### G. How to Update files from the gr-radio_astro gr38 Repository
 
    1. Switch to the *gr-radio_astro* folder on your computer: `cd gr-radio_astro`
-
-   2. Enter: `git status`
       
-   3. To check to see if you are in the gr38 branch, enter `git status`. The descriptor "On branch gr38" should appear at the top of the displayed text.
+   2. To check to see if you are in the gr38 branch, enter `git status`. The descriptor "On branch gr38" should appear at the top of the displayed text.
    
-      To change to gr38 branch, type `git checkout gr38`. Then type `git status` to check. 
+      To switch to the gr38 branch, type `git checkout gr38`. Then type `git status` to check. 
 
-   4. Type `git pull`. This should update your gr-radio_astro files on your computer.
+   3. Type `git pull`. This should update your gr-radio_astro files on your computer.
 
-   5. Run the program in Gnuradio:
+   4. Run the *spectrometer_w_cal.grc* program in Gnuradio:
       - In a terminal window type `gnuradio-companion`
-      - Close any pre-existing *spectrometer_w_cal.grc* program that would already be loaded in the Gnuradio program.
+      - Close any pre-existing *spectrometer_w_cal.grc* program that may already be loaded in the Gnuradio program.
       - Open the new *spectrometer_w_cal.grc* program that is in the updated gr-radio_astro folder: 
             
          `File --> Open --> gr-radio_astros --> examples --> spectrometer_w_cal.grc`
