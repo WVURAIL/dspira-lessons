@@ -129,7 +129,7 @@ Complete the following steps as needed:
       - Close any pre-existing *spectrometer_w_cal.grc* program that would already be loaded in the Gnuradio program.
       - Open the new *spectrometer_w_cal.grc* program that is in the updated gr-radio_astro folder: 
             
-         File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc*
+         `File --> Open --> gr-radio_astros --> examples --> spectrometer_w_cal.grc`
 
 
 ##  Running the Spectrometer from a Flash Drive
