@@ -39,7 +39,7 @@ Complete the following steps as needed:
 
    1. Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
-   2. On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.
+   2. On the first installation screen, select `Install Ubuntu` and hit Enter to start the installation process.
 
       This will complete the installation process, unless there is an error message indicating that device encryption (known as Bitlocker) may need to be turned off. If this is the case, complete the following:
 
