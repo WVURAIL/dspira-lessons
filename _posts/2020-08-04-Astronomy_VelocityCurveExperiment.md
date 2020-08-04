@@ -9,15 +9,21 @@ categories: ['Astronomy', 'Horn Operation']
 
 ### Velocity Curve Activity 1: Galactic Observation 1
 
+A Word document of these Teacher Notes is available [here.]()
+
+The lessons for this activity are available here:
+    + [Velocity Curve Activity:_Galactic Plane Observation 1](VelocityCurveActivity_GalacticPlaneObservation1)
+
 **TEACHER NOTES**
 
-- Level: HS Advanced, College
+- **Level:** HS Advanced, College
 
 
 - **Objective:**  In this activity, the students will take measurements of HI spectra along the galactic plane in the quadrants II and III  to find evidence that the Milky Way Galaxy rotates.
 
 
 - **Pre-Knowledge of Students:** 
+
     + The students have been exposed to the horn telescope and understand how to read a spectrum. 
     
     + The students understand what radio waves are, and they understand that the spin-flip in hydrogen atoms is the source of the 21-cm waves detected by the horn telescope. 
