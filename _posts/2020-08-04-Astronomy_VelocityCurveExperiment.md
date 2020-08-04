@@ -89,5 +89,5 @@ categories: ['Astronomy', 'Horn Operation']
 
     + Because quadrants II and III are farther from the galactic center than us (the sun), these results suggest that the galaxy is rotating, with the inner portion (us) spinning faster than the outer portion (the observed hydrogen).
     
-    + Notice that these results are consistent with the known velocity curve that shows that the Milky Way Galaxy has a mostly flat (constant) velocity curve. Parts of the galaxy at different distances from the center have the same speed, and so a point that is closer to the center has a faster angular velocity than those farther out, according to  = vr, where v = constant (approximately) for all distances from the GC.
+    + Notice that these results are consistent with the known velocity curve that shows that the Milky Way Galaxy has a mostly flat (constant) velocity curve. Parts of the galaxy at different distances from the center have the same speed, and so a point that is closer to the center has a faster angular velocity, w, than those farther out, according to w = vr, where v = constant (approximately) for all distances from the GC.
 
