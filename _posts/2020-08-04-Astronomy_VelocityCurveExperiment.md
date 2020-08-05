@@ -85,9 +85,9 @@ categories: ['Astronomy', 'Horn Operation']
     + Have each student/group share their results with the class in a table similar to the one below.
 
 
-    <p align="center">
+
     ![velocity curve data table](img src=/dspira-lessons/images/VelocityCurve_dataTable.jpg)
-    </p>
+
 
 
 - 
