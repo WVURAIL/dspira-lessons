@@ -88,6 +88,8 @@ categories: ['Astronomy', 'Horn Operation']
 |--------------------|----------|-----------------| -------------------|------------------- |
 |                    |          |                 |                    |                    |
 |                    |          |                 |                    |                    |
+|--------------------|----------|-----------------|--------------------|--------------------|
+
 
 + 
     + Most of the quadrant II peaks should be blue-shifted, and most of the quadrant III should be red-shifted. This implies that the earth/sun is moving away from quadrant III and toward quadrant II. 
