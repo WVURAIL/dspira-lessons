@@ -86,7 +86,7 @@ categories: ['Astronomy', 'Horn Operation']
 
 
 
-    ![velocity curve data table](img src=/dspira-lessons/images/VelocityCurve_dataTable.jpg)
+![velocity curve data table](/dspira-lessons/images/VelocityCurve_dataTable.jpg)
 
 
 
