@@ -7,12 +7,9 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Astronomy', 'Horn Operation'] 
 ---
 
-## Determining a Velocity Curve of the MWG
-
-**TEACHER NOTES**
+**OVERVIEW FOR THE TEACHER**
 
 - **Level:** HS Advanced, College
-
 
 - **Objective:**  In this sequence of activities, using a horn telescope, the students will take measurements of HI spectra along the galactic plane of the Milky Way Galaxy. From their observations of galactic quadrants II & III the students will be able to deduce that the MWG is rotating. From their observations of galactic quadrant I the students will be able to determine a velocity curve of the MWG and compare it to expected curves for different galactic mass distributions.
 
@@ -51,25 +48,21 @@ categories: ['Astronomy', 'Horn Operation']
 
     + The teacher should be familiar with the tangent method and how the motion of an object toward the sun along a tangent is related to the galactic distances and angles involved. See the Teacher Notes under Part 2: Galactic Quadrant I Observation.
 
-- **Activity Notes:** 
-
-    Sequence of activities:
+- **Sequence of activities:** - The Teacher Notes for each part provide more details.
 
     1. The students collect spectra at different galactic longitudes along the galactic plane in quadrants II and III.
     
-           a. The student analyze the spectra to determine the relative velocity of the detected hydrogen.
+          a. The student analyze the spectra to determine the relative velocity of the detected hydrogen.
     
-           b. The students determine that the galaxy is rotating.
+          b. The students determine that the galaxy is rotating.
     
     2. The students then collect spectra at different galactic longitudes along the galactic plane in quadrant I.
 
-           a. Assuming circular motion of the galaxy, the speed of the tangent point along the observation line is calculated.
+          a. Assuming circular motion of the galaxy, the speed of the tangent point along the observation line is calculated.
     
-           b. A graph showing galactic speed vs distance from the galactic center is created using these results.
+          b. A graph showing galactic speed vs distance from the galactic center is created using these results.
            
-           c. This graph is compared to the graph expected in different models of mass distribution in the galaxy.
-
-    3. The Teacher Notes for each part provide more details.
+          c. This graph is compared to the graph expected in different models of mass distribution in the galaxy.
 
 
 ### Part 1: Galactic Quadrants II & III Observation
