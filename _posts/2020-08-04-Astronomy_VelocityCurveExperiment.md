@@ -84,13 +84,13 @@ categories: ['Astronomy', 'Horn Operation']
     
     + Have each student/group share their results with the class in a table similar to the one below.
 
-<div align=”center”>
+    <div align=”center”>
 
-![velocity curve data table](/dspira-lessons/images/VelocityCurve_dataTable.jpg)
+    ![velocity curve data table](/dspira-lessons/images/VelocityCurve_dataTable.jpg)
 
-<div/>
+    <div/>
 
-+ 
+- 
     + Most of the quadrant II peaks should be blue-shifted, and most of the quadrant III should be red-shifted. This implies that the earth/sun is moving away from quadrant III and toward quadrant II. 
 
     + **Important:** Depending on the time of year this activity is done, the quadrant II peaks may not all be blue-shifted, and the quadrant III may not all be red-shifted. This is due to the earth’s relative motion around the sun, which contributes to the relative velocity detected and can be as much as ±29 km/s.
