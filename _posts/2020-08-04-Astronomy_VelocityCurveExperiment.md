@@ -9,10 +9,11 @@ categories: ['Astronomy', 'Horn Operation']
 
 ### Velocity Curve Activity 1: Galactic Observation 1
 
-A Word document of these Teacher Notes is available [here.]()
+[Student Activity Document 1](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit?usp=sharing){: .button}
 
-The lessons for this activity are available here:
-    + [Velocity Curve Activity:_Galactic Plane Observation 1](VelocityCurveActivity_GalacticPlaneObservation1)
+[Student Activity Document 2](https://docs.google.com/document/d/1aVUFzAvC14gPeV6RSYumYPlkclgILeoaI5LpUZNSV5U/edit?usp=sharing){: .button}
+
+[These Teacher Notes](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit?usp=sharing){: .button}
 
 **TEACHER NOTES**
 
