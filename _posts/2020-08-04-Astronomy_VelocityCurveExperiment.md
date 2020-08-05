@@ -84,7 +84,9 @@ categories: ['Astronomy', 'Horn Operation']
     
     + Have each student/group share their results with the class in a table similar to the one below.
 
-<div align='center'>![velocity curve data table](/dspira-lessons/images/VelocityCurve_dataTable.jpg)<div/>
+<div align='center'>
+    ![velocity curve data table](/dspira-lessons/images/VelocityCurve_dataTable.jpg)
+</div>
 
 - 
     + Most of the quadrant II peaks should be blue-shifted, and most of the quadrant III should be red-shifted. This implies that the earth/sun is moving away from quadrant III and toward quadrant II. 
