@@ -8,4 +8,5 @@ categories: ['Digital Signal Processing']
 ---
 
 [Making Waves with Fourier Series](https://docs.google.com/document/d/15jXZiNi-5c7DPsuN7TeNhTUL93faWo4_k8ZufcIDNSY/edit?usp=sharing/dotcom){: button}
-![GNURadio .grc file for Fourier Activity](/dspira-lessons/images/Fourier_Series_Wave_Explorer.grc)
+
+[GNURadio .grc file for Fourier Activity](/dspira-lessons/images/Fourier_Series_Wave_Explorer.grc){: button}
