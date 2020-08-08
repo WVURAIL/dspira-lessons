@@ -1,13 +1,13 @@
 ---
 layout: post
 date:   2020-08-07
-title: How to Install Ubuntu with spectrometer_w_cal.grc on Bootable Flashdrive
+title: How to Install Ubuntu 20.04 with spectrometer_w_cal.grc on Bootable Flashdrive
 summary:  Instructions for copying the Ubuntu/spectrometer_w_cal image on a bootable flashdrive
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Operation'] 
+categories: ['Horn Operation', 'Horn Construction'] 
 ---
 
-#### How to Install Ubuntu/Gnuradio/spectrometer_w_cal.grc on a Bootable Flashdrive
+#### How to Install Ubuntu20.04/Gnuradio3.8/spectrometer_w_cal.grc on a Bootable Flashdrive
 
 1. Before starting, you will need the program *balenaEtcher*, which is an easy-to-use cross-platform tool for burning images to SD cards, USB drives and other removable devices. It can be downloaded from https://www.balena.io/etcher/.
 
