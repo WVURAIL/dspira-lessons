@@ -26,7 +26,7 @@ This is an introductory activity to get the students to dig around the internet 
 
 ### Intro Video to the Importance of Spectroscopy
 
-https://youtube/jjy-eqWM38g?t=433
+https://youtube/jjy-eqWM38g
 
 ## 2. Understanding Celestial Coordinate Systems
 
