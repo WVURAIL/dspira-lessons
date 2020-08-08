@@ -28,13 +28,12 @@ This is an introductory activity to get the students to dig around the internet 
 
 https://www.youtube.com/watch?v=jjy-eqWM38g?t=433
 
-## 2. Understanding Celestial Coordinate Systems
+## 2. The Doppler Effect
 
-If the students are heading towards making observations from their location, a basic lesson of coordinate systems is needed.  Galactic Coordinates are covered here.
+Doppler Effect lessons and activities are common, but this DSPIRA lesson actually uses data received by DSPIRA teachers using radio telescopes.
 
-This, too, is a separate stand alone lesson within this DSPIRA space. 
 
-###### > Click for link to [Understanding Celestial Coordinates](https://wvurail.org//dspira-lessons/A2UnderstandingCeleCoords) page
+###### > Click for link to [The Doppler Effect](https://drive.google.com/file/d/1gbDCY0ZIlvnDZP1k5oq9_Hr0P6gqWSqr/view?usp=sharing) 
 
 ## 3. Using Stellarium to Find the Galactic Center
 
