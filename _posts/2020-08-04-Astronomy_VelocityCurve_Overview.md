@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2020-08-04
+date:   2020-07-19
 title: Determining a Velocity Curve of the Milky Way Galaxy
 summary: Instructions and handouts for determining a velocity curve of the MWG
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
