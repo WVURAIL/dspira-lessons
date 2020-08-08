@@ -52,13 +52,13 @@ They are short clips from the his 2nd lecture given to the DSPIRA Teachers durin
 
 ###### [Intro to Motion in the Sky](https://www.youtube.com/watch?v=wUNDoUoDrCg){: .button}
 
-[The Celestial Sphere](https://www.youtube.com/watch?v=d8BcwK5nlos){: .button}
+###### [The Celestial Sphere](https://www.youtube.com/watch?v=d8BcwK5nlos){: .button}
 
-[Earth's Motion and Star Trails](https://www.youtube.com/watch?v=_L1R1VnMeD4){: .button}
+###### [Earth's Motion and Star Trails](https://www.youtube.com/watch?v=_L1R1VnMeD4){: .button}
 
-[More Celestial Sphere](https://www.youtube.com/watch?v=UpYt7238p5g){: .button}
+###### [More Celestial Sphere](https://www.youtube.com/watch?v=UpYt7238p5g){: .button}
 
-[Discussion of Common Misconceptions](https://www.youtube.com/watch?v=nfonuosoHUk){: .button}
+###### [Discussion of Common Misconceptions](https://www.youtube.com/watch?v=nfonuosoHUk){: .button}
 
 
 ###### > Click here for Student Activity [Document](https://docs.google.com/document/d/16ibpadOhBioZqrvxWpdrwJ1S6iNAwi7YaRW_QoM-CVI/view?usp=sharing) 
