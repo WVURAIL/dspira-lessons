@@ -143,6 +143,3 @@ Complete the following steps as needed:
       - Make sure an Airspy radio is plugged into a USB port. Execute the program to check that it is updated successfully.
 
 
-##  Running the Spectrometer from a Flash Drive
-
-  INSTRUCTIONS TO FOLLOW
