@@ -26,7 +26,7 @@ This is an introductory activity to get the students to dig around the internet 
 
 ### Intro Video to the Importance of Spectroscopy
 
-https://www.youtube.com/watch?v=jjy-eqWM38g?t=433
+https://www.youtube.com/watch?v=jjy-eqWM38g&feature=youtu.be&t=433
 
 ## 2. The Doppler Effect
 
