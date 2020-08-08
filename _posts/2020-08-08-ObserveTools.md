@@ -24,7 +24,7 @@ This is an introductory activity to get the students to dig around the internet 
 
 ###### > Click for link to [Intro to the EM Spectrum](https://drive.google.com/file/d/1iS-GHQtLvbfvYz1GLT67Ofp9SjeH1XYB/view?usp=sharing) page
 
-### Intro Video to the Importance of Spectroscopy
+### Intro Video to the Importance of Spectroscopy **_To get to main point, go to time 7:13 on the video_** 
 
 https://www.youtube.com/watch?v=jjy-eqWM38g&feature=youtu.be&t=433
 
