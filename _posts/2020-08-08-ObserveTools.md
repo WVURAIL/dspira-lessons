@@ -61,34 +61,19 @@ They are short clips from the his 2nd lecture given to the DSPIRA Teachers durin
 ###### [Discussion of Common Misconceptions](https://www.youtube.com/watch?v=nfonuosoHUk){: .button}
 
 
-###### > Click here for Student Activity [Document](https://docs.google.com/document/d/16ibpadOhBioZqrvxWpdrwJ1S6iNAwi7YaRW_QoM-CVI/view?usp=sharing) 
+## 4. Observing Celestial Coordinates using Stellarium
 
-## 4. Introduction to the Milky Way - What can we see?
+This activity is a nice introduction to using the Stellarium Web Online planetarium program 
 
-Just a basic chance for the students to get basic information about the Milky Way off the internet. There is also a first pass at understanding the Galactic Coordinate system used for studying the Milky Way.  
+###### > Click here for [Student Activity Document](https://drive.google.com/file/d/1T441BW8rz3_bVgKN_bKK-ivfudXhQwFa/view?usp=sharing) 
 
-###### > Click here for Student Activity [Document](https://drive.google.com/file/d/1T441BW8rz3_bVgKN_bKK-ivfudXhQwFa/view?usp=sharing) 
+###### > Click here for [Teacher Notes Document](https://docs.google.com/document/d/1_rUbPuXiTXhHVkVDIOzbh-0F8xSCeMn5sbd4OHJzIrg/edit?usp=sharing) 
 
-## 5. Introduction to the Milky Way - What CAN'T we see? 
+###### > A tutorial video [Using Stellarium Online](https://www.youtube.com/watch?v=ApKA6kWlFuQ)
 
-The name is hopefully not misleading, because there is lots that we can't see.  This activity looks at MOTION as "the thing we can't see" (without understanding the [Doppler Effect](https://www.youtube.com/watch?v=h4OnBYrbCjY))
 
-###### > Click here for Student Activity [Document](https://drive.google.com/file/d/1xPjeHIYgnBoz7Gs0A-shC9hNVgdAPxlF/view?usp=sharing) 
+## 5. Introduction to Radio Astronomy 
 
-###### > [Computer Simulation of Galactic Motion](https://www.youtube.com/watch?v=GLiXR0Jh3o8)
+If you are going to continue on with the DSPIRA Experience, then this is a great [Introduction video to Radio Astronomy](https://www.youtube.com/watch?v=-UrzmAa62ho) created by MIT students.
 
-## 6. Modeling the Motion of the Milky Way
 
-This is a paper model that allows the students to determine relative radial speeds of stars at locations around the Milky Way Galaxy.  A collaborative class effort can produce a model very similar to current research in Milky Way Astronomy
-
-###### > Click here for all 3 Student documents
-###### -----> [Document](https://drive.google.com/file/d/1TKCevAKtUIFev0SgQoPPxSa87RVd7KmC/view?usp=sharing)
-###### -----> [Spreadsheet](https://docs.google.com/spreadsheets/d/1gwL3GSYX-_zK7E2O1va8yNV41vwuRpVm2QRopB4B5TM/edit?usp=sharing)
-###### -----> [Model Diagram](https://drive.google.com/file/d/10Ct0UIcqEZzKVll40bz1z-7tCSWLWcfV/view?usp=sharing)  
-
-###### Here are 3 helpful video companions 
-[MWG Model - Part 1](https://www.youtube.com/watch?v=sZTpAqn1St4){: .button}[MWG Model - Part 2](https://www.youtube.com/watch?v=kyww_Vu5AZc){: .button}[MWG Model - Part 3](https://www.youtube.com/watch?v=Vf4a7fKUWGE){: .button}
-
-## 7. Creating a Velocity Curve for the Milky Way Galaxy
-This is a culminating activity that the teachers and students can take on collecting data of the galaxy... If you go back to the Lesson Module Page, there is a complete other lesson sequence to accomplish this. 
-    
