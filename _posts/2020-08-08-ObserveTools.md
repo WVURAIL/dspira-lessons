@@ -18,13 +18,16 @@ The ultimate goal of the DSPIRA Astronomy Lessons Module is to give the teachers
    4. Observing Celestial Coordinate Systems using Stellarium
    5. Introduction to Radio Astronomy
    
+   The first two activities center around the Nature of Light...
+   
 ## 1. Introduction to the ElectroMagnetic Spectrum  
 
 This is an introductory activity to get the students to dig around the internet to fill out information on the full EM Spectrum. 
 
 ###### > Click for link to [Intro to the EM Spectrum](https://drive.google.com/file/d/1iS-GHQtLvbfvYz1GLT67Ofp9SjeH1XYB/view?usp=sharing) page
 
-### Intro Video to the Importance of Spectroscopy **_To get to main point, go to time 7:13 on the video_** 
+### Intro Video to the Importance of Spectroscopy 
+_To get to main point, go to time 7:13 on the video_ 
 
 https://www.youtube.com/watch?v=jjy-eqWM38g&feature=youtu.be&t=433
 
@@ -35,14 +38,13 @@ Doppler Effect lessons and activities are common, but this DSPIRA lesson actuall
 
 ###### > Click for link to [The Doppler Effect](https://drive.google.com/file/d/1gbDCY0ZIlvnDZP1k5oq9_Hr0P6gqWSqr/view?usp=sharing) 
 
-## 3. Using Stellarium to Find the Galactic Center
 
-This is more closely related to the Earth Motion Lesson sequence, but would be a good starter for making observations in the sky.
+The next activities are to help the user get familiar with how we divide up the sky into different coordinate systems, and how we can use our location and knowledge of the coordinate systems to find our way around the sky for making observaations.
 
-**STELLARIUM NOTE:** First off, Stellarium is not the only planetarium software available, but it is the one that was used with the DSPIRA Teacher program, and the one being utilized with these activities.  
-**USE DOWNLOAD VERSION** If you are at this point investigating the Milky Way with the Horn Telescope (or at least heading in that direction) You should have a few versions downloaded on computers you intend on using. It will make the student's observation planning much easier.
+## 3. Understanding Celestial Coordinate Systems
 
-*Video (to be created) - Planning for a Horn Telescope Observation - From choosing an object to pointing the Horn at it*
+
+
 
 ###### > Click here for Student Activity [Document](https://docs.google.com/document/d/16ibpadOhBioZqrvxWpdrwJ1S6iNAwi7YaRW_QoM-CVI/view?usp=sharing) 
 
