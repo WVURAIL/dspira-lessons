@@ -73,7 +73,7 @@ Complete the following steps as needed:
    
    3. Type and enter `sudo apt upgrade`
       
-   2. Type `sudo apt install gnuradio`
+   2. Type and enter `sudo apt install gnuradio`
 
    3. You may need to respond 'Y' to a few prompts before installation is complete.
 
