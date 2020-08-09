@@ -4,7 +4,7 @@ date:  2020-07-28
 title: Software Needs for Running the Horn Telescope
 summary:  Details of software installation needed for a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Construction']
+categories: ['Horn Construction', 'Horn Operation']
 ---
 
 ## Installing the Software Needed to Run the Spectrometer on a Computer That is Using Ubuntu 20.04
