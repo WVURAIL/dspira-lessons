@@ -1,13 +1,13 @@
 ---
 layout: post
 date:  2020-07-28
-title: Installing Software Needed to Run a Horn Telescope
+title: Software Needs for Runing the Horn Telescope
 summary:  Details of software installation needed for a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
 ---
 
-## Running the Spectrometer on a Computer with Ubuntu 20.04
+## Installing the Software Needed to Run the Spectrometer on a Computer That is Using Ubuntu 20.04
 
 Complete the following steps as needed:
 
@@ -19,7 +19,7 @@ Complete the following steps as needed:
       
    3. Download *BalenaEtcher* for Windows and install it if you don’t already have it.
    
-   4. Run *BalenaEtcher*. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target.
+   4. Run *BalenaEtcher*. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target. It will take some time for this to run.
 
    5. Before installing Ubuntu on the hard disk, you need to partition the hard disk in Windows.
    
@@ -50,6 +50,7 @@ Complete the following steps as needed:
           + Click on `Update & Security`.
           + Click on `Device encryption`.
           + Under the "Device encryption" section, click the `Turn off` button.
+          + Wait until Windows 10 has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install.
       
       - For some Windows 10 Home system, the Bitlocker or Device encryption is not visible. Complete the following to turn off encryption from a command line.
       
@@ -61,12 +62,16 @@ Complete the following steps as needed:
          + In the `Start Menu` search box, type `Services`. Then scroll to `Bitlocker`. 
          + Open it, or view its `Properties`, and then `Disable` it.
 
-       - After disabling the encryption in Windows, repeat steps 1 and 2 above.
+       - After disabling the encryption in Windows, repeat steps 1 and 2 above. Be sure to wait until Windows 10 has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install.
 
 
 #### C. Install Gnuradio 
 
    1. Open a terminal window.
+
+   2. Type and enter `sudo apt update`
+   
+   3. Type and enter `sudo apt upgrade`
       
    2. Type `sudo apt install gnuradio`
 
@@ -100,30 +105,30 @@ Complete the following steps as needed:
       ```
 **Additional Steps for setting the proper Python environment:**
 
-   10. Open a terminal window.
+   9. Open a terminal window.
    
-   11. Make sure you are at the home directory (type and Enter `cd` ). Then type `gedit .bashrc` to open the *.bashrc* file in an editor.
+   10. Make sure you are at the home directory (type and Enter `cd` ). Then type `gedit .bashrc` to open the *.bashrc* file in an editor.
    
-   12. Scroll to the very bottom of this file, add a blank line, and then copy and paste the following code: `export PYTHONPATH=/usr/local/lib/python3/dist-packages:/usr/local/lib/python3.8/dist-packages:$PYTHONPATH`
+   11. Scroll to the very bottom of this file, add a blank line, and then copy and paste the following code: `export PYTHONPATH=/usr/local/lib/python3/dist-packages:/usr/local/lib/python3.8/dist-packages:$PYTHONPATH`
 
-   13. Save and close (x in upper right corner).
+   12. Save and close (x in upper right corner).
    
-   14. Go to the following by typing: `cd /usr/local/lib/python3.8/dist-packages`
+   13. Go to the following by typing: `cd /usr/local/lib/python3.8/dist-packages`
    
-   15. Enter `ls`
+   14. Enter `ls`
    
-   16. If the folder `radio_astro` exists, delete it by typing: `sudo rm -rf radio_astro` . If nothing shows up after typing `ls`, then everything is fine.
+   15. If the folder `radio_astro` exists, delete it by typing: `sudo rm -rf radio_astro` . If nothing shows up after typing `ls`, then everything is fine.
  
 **Check that the Installation was Successful**
  
-   17. Run the program in Gnuradio:
+   16. Run the program in Gnuradio:
          - In a terminal window type `gnuradio-companion`
          - Open the *spectrometer_w_cal.grc* program as follows: 
             
            `File --> Open --> gr-radio_astros --> examples --> *spectrometer_w_cal.grc* `
-         - Plug an Airspy radio into the USB port. Run the program by hitting the start triangle ("execute the flowgraph") on the menu bar at top. If no errors occur, you are all set!
+         - Plug an Airspy radio, with the LNA attached, into the USB port. Run the program by hitting the start triangle ("execute the flowgraph") on the menu bar at top. If no errors occur, you are all set!
 
-#### G. How to Update files from the gr-radio_astro gr38 Repository
+#### E. How to Update files from the gr-radio_astro gr38 Repository
 
    1. Switch to the *gr-radio_astro* folder on your computer: `cd gr-radio_astro`
       
@@ -141,5 +146,4 @@ Complete the following steps as needed:
          `File --> Open --> gr-radio_astros --> examples --> spectrometer_w_cal.grc`
          
       - Make sure an Airspy radio is plugged into a USB port. Execute the program to check that it is updated successfully.
-
 
