@@ -1,7 +1,7 @@
 ---
 layout: post
 date:  2020-07-28
-title: Software Needs for Runing the Horn Telescope
+title: Software Needs for Running the Horn Telescope
 summary:  Details of software installation needed for a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
@@ -13,7 +13,7 @@ Complete the following steps as needed:
 
 #### A. How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10
 
-   1. [Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.](http://releases.ubuntu.com/20.04/)
+   1. [Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.](http://releases.ubuntu.com/20.04/) You want to choose the Desktop version. It will take some time to download this file.
 
    2. Install a 32 GB or larger flash drive in the usb port.
       
