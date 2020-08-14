@@ -3,20 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Software Required For a Horn Telescope &#8211; Digital Signal Processing in Radio Astronomy - Lessons Portal</title>
+    <title>Software Needs for Running the Horn Telescope &#8211; Digital Signal Processing in Radio Astronomy - Lessons Portal</title>
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Details of software installation required for a horn telescope">
+    <meta name="description" content="Details of software installation needed for a horn telescope">
     <meta name="robots" content="all">
     <meta name="author" content="Pranav Sanghavi">
-    <meta name="keywords" content="Horn Construction">
+    <meta name="keywords" content="Horn Construction, Horn Operation">
     <link rel="canonical" href="http://localhost:4000/dspira-lessons/BuildingHorn_SoftwareInfo">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Digital Signal Processing in Radio Astronomy - Lessons Portal" href="/dspira-lessons/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/dspira-lessons/css/style.css?202007291119" type="text/css">
+    <link rel="stylesheet" href="/dspira-lessons/css/style.css?202008141550" type="text/css">
 
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
@@ -30,7 +30,7 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Software Required For a Horn Telescope">
+    <meta property="og:title" content="Software Needs for Running the Horn Telescope">
     <meta property="og:description" content="Lots of lessons">
     <meta property="og:url" content="http://localhost:4000/BuildingHorn_SoftwareInfo">
     <meta property="og:site_name" content="Digital Signal Processing in Radio Astronomy - Lessons Portal">
@@ -42,8 +42,8 @@
         <meta name="twitter:site" content="@pranavsanghavi" />
         <meta name="twitter:creator" content="@pranavsanghavi" />
     
-    <meta name="twitter:title" content="Software Required For a Horn Telescope" />
-    <meta name="twitter:description" content="Details of software installation required for a horn telescope" />
+    <meta name="twitter:title" content="Software Needs for Running the Horn Telescope" />
+    <meta name="twitter:description" content="Details of software installation needed for a horn telescope" />
     <meta name="twitter:url" content="http://localhost:4000/BuildingHorn_SoftwareInfo" />
     
 
@@ -88,6 +88,9 @@
       
       <a class="button" href="/dspira-lessons/categories/horn-construction">Click to see all lessons in the Horn Construction module</a> 
     
+      
+      <a class="button" href="/dspira-lessons/categories/horn-operation">Click to see all lessons in the Horn Operation module</a> 
+    
   
 </div>
 
@@ -97,18 +100,18 @@
 
 
 <div class="post-header mb2">
-  <h1>Software Required For a Horn Telescope</h1>
+  <h1>Software Needs for Running the Horn Telescope</h1>
   <span class="post-meta">Jul 28, 2020 |</span>
   
   <span class="post-meta small">
   
-    3 minute read
+    5 minute read
   
   </span>
 </div>
 
 <article class="post-content">
-  <h2 id="running-the-spectrometer-on-a-computer-with-ubuntu-2004">Running the Spectrometer on a Computer with Ubuntu 20.04</h2>
+  <h2 id="installing-the-software-needed-to-run-the-spectrometer-on-a-computer-that-is-using-ubuntu-2004">Installing the Software Needed to Run the Spectrometer on a Computer That is Using Ubuntu 20.04</h2>
 
 <p>Complete the following steps as needed:</p>
 
@@ -116,27 +119,39 @@
 
 <ol>
   <li>
-    <p><a href="http://releases.ubuntu.com/20.04/">Download Ubuntu Desktop 20.04 ISO onto hard drive while in Ubuntu.</a></p>
+    <p><a href="http://releases.ubuntu.com/20.04/">Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.</a> You want to choose the Desktop version. It will take some time to download this file.</p>
   </li>
   <li>
     <p>Install a 32 GB or larger flash drive in the usb port.</p>
   </li>
   <li>
-    <p>Run <em>balenaEtcher</em>. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target.</p>
+    <p>Download <em>BalenaEtcher</em> for Windows and install it if you don’t already have it.</p>
   </li>
   <li>
-    <p>Before installing Ubuntu on the Windows system, you need to partition the hard disk in Windows. Open a Command Prompt window with admin rights, and execute the command <code class="highlighter-rouge">diskmgmt.msc</code> to open the Disk Management utility.</p>
+    <p>Run <em>BalenaEtcher</em>. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target. It will take some time for this to run.</p>
   </li>
   <li>
-    <p>Select the Windows partition, usually the C: volume, right-click on this partition and select the <strong>Shrink Volume</strong> option in order to reduce the partition size.</p>
+    <p>Before installing Ubuntu on the hard disk, you need to partition the hard disk in Windows.</p>
+
+    <p>Open a Command Prompt window with admin rights:</p>
+    <ul>
+      <li>In the Cortana search field, type in <code class="highlighter-rouge">Command Prompt</code>, or just CMD.</li>
+      <li>Right click the top result, and select <code class="highlighter-rouge">Run as Administrator</code>.</li>
+      <li>Click <code class="highlighter-rouge">Yes</code> on the popup to allow the app to make changes to your device.</li>
+    </ul>
   </li>
   <li>
-    <p>Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the <strong>Shrink</strong> button.</p>
+    <p>Enter the command <code class="highlighter-rouge">diskmgmt.msc</code> to open the Disk Management utility.</p>
   </li>
   <li>
-    <p>After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows 10.</p>
+    <p>Select the Windows partition, usually the C: volume. Right-click on this partition and select the <code class="highlighter-rouge">Shrink Volume</code> option in order to reduce the partition size.</p>
+  </li>
+  <li>
+    <p>Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the ‘Shrink’ button. The partition size to shrink by (which is the amount that will be allotted to Ubuntu) should be a minimum of 50 GB, and we recommend 100 GB or more, depending on the size of your hard drive.</p>
   </li>
 </ol>
+
+<p>After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows</p>
 
 <h4 id="b-install-ubuntu-2004-alongside-with-windows">B. Install Ubuntu 20.04 Alongside with Windows</h4>
 
@@ -145,23 +160,41 @@
     <p>Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.</p>
   </li>
   <li>
-    <p>On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.</p>
-
-    <p>This will complete the installation process, unless there is an error message indicating that device encryption (known as Bitlocker) may need to be turned off. If this is the case, complete the following:</p>
+    <p>On the first installation screen, select <code class="highlighter-rouge">Install Ubuntu</code> and hit Enter to start the installation process. This will complete the installation process, unless an error message appears.</p>
+  </li>
+  <li>
+    <p>IF AN ERROR APPEARS REGARDING DEVICE ENCRYPTION, you probably need to disable device encryption in Windows. This is known as Bitlocker. To disable it, complete the following:</p>
 
     <ul>
-      <li>
-        <p>Refer to the following webpage: <a href="https://www.windowscentral.com/how-enable-device-encryption-windows-10-home">https://www.windowscentral.com/how-enable-device-encryption-windows-10-home</a></p>
+      <li>For most Windows systems, the following can be followed to turn off encryption:
+        <ul>
+          <li>Boot up the computer in Windows.</li>
+          <li>Open <code class="highlighter-rouge">Settings</code>.</li>
+          <li>Click on <code class="highlighter-rouge">Update &amp; Security</code>.</li>
+          <li>Click on <code class="highlighter-rouge">Device encryption</code>.</li>
+          <li>Under the “Device encryption” section, click the <code class="highlighter-rouge">Turn off</code> button.</li>
+          <li>Wait until Windows 10 has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install.</li>
+        </ul>
       </li>
       <li>
-        <p>Alternately, boot up in Windows. From the <strong>Start</strong> Menu, click the <strong>Windows Administrative Tools</strong>, then <strong>Windows PowerShell</strong> folder and tap <strong>Windows PowerShell</strong>.</p>
+        <p>For some Windows 10 Home system, the Bitlocker or Device encryption is not visible. Complete the following to turn off encryption from a command line.</p>
 
-        <p>A command line window will open up. From the Powershell command line, type <code class="highlighter-rouge">Disable-BitLocker -MountPoint C:</code></p>
-
-        <p>Then reboot with the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.</p>
-
-        <p>On the first installation screen, select Install Ubuntu and hit Enter to start the installation process.</p>
+        <ul>
+          <li>
+            <p>In Windows from the <code class="highlighter-rouge">Start Menu</code>, click the <code class="highlighter-rouge">Windows PowerShell</code> folder and tap <code class="highlighter-rouge">Windows PowerShell</code>.</p>
+          </li>
+          <li>
+            <p>A command line window will open up. From the Powershell command line, type <code class="highlighter-rouge">Disable-BitLocker -MountPoint C:</code> and hit Enter.</p>
+          </li>
+        </ul>
       </li>
+      <li>Another option for systems with Windows 10 Home is the following:
+        <ul>
+          <li>In the <code class="highlighter-rouge">Start Menu</code> search box, type <code class="highlighter-rouge">Services</code>. Then scroll to <code class="highlighter-rouge">Bitlocker</code>.</li>
+          <li>Open it, or view its <code class="highlighter-rouge">Properties</code>, and then <code class="highlighter-rouge">Disable</code> it.</li>
+        </ul>
+      </li>
+      <li>After disabling the encryption in Windows, repeat steps 1 and 2 above. Be sure to wait until Windows 10 has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install.</li>
     </ul>
   </li>
 </ol>
@@ -173,31 +206,42 @@
     <p>Open a terminal window.</p>
   </li>
   <li>
-    <p>Type <code class="highlighter-rouge">sudo apt install gnuradio</code></p>
+    <p>Type and enter <code class="highlighter-rouge">sudo apt update</code></p>
+  </li>
+  <li>
+    <p>Type and enter <code class="highlighter-rouge">sudo apt upgrade</code></p>
+  </li>
+  <li>
+    <p>Type and enter <code class="highlighter-rouge">sudo apt install gnuradio</code></p>
+  </li>
+  <li>
+    <p>You may need to respond ‘Y’ to a few prompts before installation is complete.</p>
   </li>
 </ol>
 
 <h4 id="d-install-gr-radio_astro">D. Install gr-radio_astro</h4>
 
+<p>This will install the spectrometer program <em>spectrometer_w_cal.grc</em>.</p>
+
 <ol>
   <li>
-    <p>Open a terminal window.</p>
+    <p>Open a terminal window in Ubuntu.</p>
   </li>
   <li>
-    <p>Install gnuradio external python dependencies and SDR drivers:
-<code class="highlighter-rouge">sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem</code></p>
+    <p>Install gnuradio external python dependencies and SDR drivers by typing the following:
+<code class="highlighter-rouge">sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem</code>, and hit Enter.</p>
   </li>
   <li>
     <p>Also install the following package: <code class="highlighter-rouge">sudo apt install git cmake liborc-0.4-dev</code></p>
   </li>
   <li>
-    <p>Clone the repository: From the terminal, type: <code class="highlighter-rouge">git clone https://github.com/WVURAIL/gr-radio_astro.git</code></p>
+    <p>To clone the repository: in the terminal, type and Enter: <code class="highlighter-rouge">git clone https://github.com/WVURAIL/gr-radio_astro.git</code></p>
   </li>
   <li>
     <p>Switch to the gr-radio_astro directory: <code class="highlighter-rouge">cd gr-radio_astro</code></p>
   </li>
   <li>
-    <p>Switch to the GNURadio 3.8 by typing: <code class="highlighter-rouge">git checkout gr38</code></p>
+    <p>Switch to the gr-radio_astro 3.8 branch by typing: <code class="highlighter-rouge">git checkout gr38</code></p>
   </li>
   <li>
     <p>Make a build directory: <code class="highlighter-rouge">mkdir build</code>, and then move to it: <code class="highlighter-rouge">cd build</code></p>
@@ -205,20 +249,47 @@
   <li>
     <p>Then run the following in the build directory:</p>
 
-    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cmake
-make
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cmake ..
+sudo make
 sudo make install
 </code></pre></div>    </div>
+    <p><strong>Additional Steps for setting the proper Python environment:</strong></p>
   </li>
   <li>
-    <p>Run the program in Gnuradio:</p>
+    <p>Open a terminal window.</p>
+  </li>
+  <li>
+    <p>Make sure you are at the home directory (type and Enter <code class="highlighter-rouge">cd</code> ). Then type <code class="highlighter-rouge">gedit .bashrc</code> to open the <em>.bashrc</em> file in an editor.</p>
+  </li>
+  <li>
+    <p>Scroll to the very bottom of this file, add a blank line, and then copy and paste the following code: <code class="highlighter-rouge">export PYTHONPATH=/usr/local/lib/python3/dist-packages:/usr/local/lib/python3.8/dist-packages:$PYTHONPATH</code></p>
+  </li>
+  <li>
+    <p>Save and close (x in upper right corner).</p>
+  </li>
+  <li>
+    <p>Go to the following by typing: <code class="highlighter-rouge">cd /usr/local/lib/python3.8/dist-packages</code></p>
+  </li>
+  <li>
+    <p>Enter <code class="highlighter-rouge">ls</code></p>
+  </li>
+  <li>
+    <p>If the folder <code class="highlighter-rouge">radio_astro</code> exists, delete it by typing: <code class="highlighter-rouge">sudo rm -rf radio_astro</code> . If nothing shows up after typing <code class="highlighter-rouge">ls</code>, then everything is fine.</p>
+  </li>
+</ol>
+
+<p><strong>Check that the Installation was Successful</strong></p>
+
+<ol>
+  <li>Run the program in Gnuradio:
     <ul>
       <li>In a terminal window type <code class="highlighter-rouge">gnuradio-companion</code></li>
       <li>
         <p>Open the <em>spectrometer_w_cal.grc</em> program as follows:</p>
 
-        <p>File –&gt; Open –&gt; gr-radio_astros –&gt; examples –&gt; <em>spectrometer_w_cal.grc</em></p>
+        <p><code class="highlighter-rouge">File --&gt; Open --&gt; gr-radio_astros --&gt; examples --&gt; *spectrometer_w_cal.grc* </code></p>
       </li>
+      <li>Plug an Airspy radio, with the LNA attached, into the USB port. Run the program by hitting the start triangle (“execute the flowgraph”) on the menu bar at top. If no errors occur, you are all set!</li>
     </ul>
   </li>
 </ol>
@@ -227,41 +298,31 @@ sudo make install
 
 <ol>
   <li>
-    <p>Change to the <em>gr-radio_astro</em> folder on your computer.</p>
+    <p>Switch to the <em>gr-radio_astro</em> folder on your computer: <code class="highlighter-rouge">cd gr-radio_astro</code></p>
   </li>
   <li>
-    <p>Type <code class="highlighter-rouge">git status</code></p>
+    <p>To check to see if you are in the gr38 branch, enter <code class="highlighter-rouge">git status</code>. The descriptor “On branch gr38” should appear at the top of the displayed text.</p>
+
+    <p>To switch to the gr38 branch, type <code class="highlighter-rouge">git checkout gr38</code>. Then type <code class="highlighter-rouge">git status</code> to check.</p>
   </li>
   <li>
-    <p>Check to see if you are in the gr38 branch. To change to gr38 branch, type <code class="highlighter-rouge">git checkout gr38</code>. Type <code class="highlighter-rouge">git status</code> to check.</p>
+    <p>Type <code class="highlighter-rouge">git pull</code>. This should update your gr-radio_astro files on your computer.</p>
   </li>
   <li>
-    <p>Type <code class="highlighter-rouge">git pull</code></p>
-  </li>
-  <li>
-    <p>Run the program in Gnuradio:</p>
+    <p>Run the <em>spectrometer_w_cal.grc</em> program in Gnuradio:</p>
     <ul>
       <li>In a terminal window type <code class="highlighter-rouge">gnuradio-companion</code></li>
-      <li>Close the existing <em>spectrometer_w_cal.grc</em> program if it is in the program.</li>
+      <li>Close any pre-existing <em>spectrometer_w_cal.grc</em> program that may already be loaded in the Gnuradio program.</li>
       <li>
         <p>Open the new <em>spectrometer_w_cal.grc</em> program that is in the updated gr-radio_astro folder:</p>
 
-        <p>File –&gt; Open –&gt; gr-radio_astros –&gt; examples –&gt; <em>spectrometer_w_cal.grc</em></p>
+        <p><code class="highlighter-rouge">File --&gt; Open --&gt; gr-radio_astros --&gt; examples --&gt; spectrometer_w_cal.grc</code></p>
       </li>
+      <li>Make sure an Airspy radio is plugged into a USB port. Execute the program to check that it is updated successfully.</li>
     </ul>
   </li>
 </ol>
 
-<h2 id="running-the-spectrometer-from-a-flash-drive">Running the Spectrometer from a Flash Drive</h2>
-
-<ol>
-  <li>
-    <p>Write the image to a flash drive</p>
-  </li>
-  <li>
-    <p>Run from the flash drive</p>
-  </li>
-</ol>
 
 </article>
 
@@ -275,29 +336,29 @@ sudo make install
     
 
     
-      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=Software+Required+For+a+Horn+Telescope&amp;url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo" rel="nofollow" target="_blank" title="Share on Twitter"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/intent/tweet?text=Software+Needs+for+Running+the+Horn+Telescope&amp;url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo" rel="nofollow" target="_blank" title="Share on Twitter"></a>
     
 
     
 
     
-      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;title=Software+Required+For+a+Horn+Telescope" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
+      <a class="fa fa-linkedin" href="http://www.linkedin.com/shareArticle?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;title=Software+Needs+for+Running+the+Horn+Telescope" rel="nofollow" target="_blank" title="Share on LinkedIn"></a>
     
 
     
 
     
-      <a class="fa fa-tumblr" href="http://www.tumblr.com/share/link?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;name=Software+Required+For+a+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Tumblr"></a>
+      <a class="fa fa-tumblr" href="http://www.tumblr.com/share/link?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;name=Software+Needs+for+Running+the+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Tumblr"></a>
     
 
     
-      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;title=Software+Required+For+a+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Reddit"></a>
+      <a class="fa fa-reddit" href="http://reddit.com/submit?url=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;title=Software+Needs+for+Running+the+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Reddit"></a>
     
 
     
 
     
-      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;t=Software+Required+For+a+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
+      <a class="fa fa-hacker-news" onclick="parent.postMessage('submit','*')" href="https://news.ycombinator.com/submitlink?u=http%3A%2F%2Flocalhost%3A4000%2FBuildingHorn_SoftwareInfo&amp;t=Software+Needs+for+Running+the+Horn+Telescope" rel="nofollow" target="_blank" title="Share on Hacker News"></a>
     
   </div>
 </div>
@@ -332,62 +393,62 @@ sudo make install
   <ul class="related-posts">
     
     <li>
+      <a href="/dspira-lessons/dsplab-fourier2/" class="post-link">
+          Digital Signal Processsing using GNURadio - Fourier Analysis and Radio Astronomy
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/dsplab-filters/" class="post-link">
+          Digital Signal Processsing using GNURadio - Digital Filter
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/dsplab-fourier1/" class="post-link">
+          Digital Signal Processsing using GNURadio - Fourier Analysis
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/dsplab-sdr/" class="post-link">
+          Digital Signal Processsing using GNURadio - Software Defined Radio
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/dsplab-intro/" class="post-link">
+          Digital Signal Processsing using GNURadio - Introductory Lab
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/dsp" class="post-link">
+          Digital Signal Processsing
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive" class="post-link">
+          How to Install Ubuntu 20.04 with spectrometer_w_cal.grc on Bootable Flashdrive
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/MakingWavesFourier" class="post-link">
+          Making Waves with Fourier Series
+      </a>
+    </li>
+    
+    <li>
+      <a href="/dspira-lessons/ObserveTools" class="post-link">
+          Tools for Observational Astronomy
+      </a>
+    </li>
+    
+    <li>
       <a href="/dspira-lessons/HornTelescope_IntroVideo" class="post-link">
           What is a Horn Telescope?
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/BuildingHornTelescope_Instructions" class="post-link">
-          Instructions on How to Build a Horn Telescope
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/HornOperation_Calibration" class="post-link">
-          How to Calibrate the Horn Telescope
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/HornOperation_runningSpectrometer" class="post-link">
-          Running the Spectrometer Program
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/HornOperation_Tutorials" class="post-link">
-          Horn Operation Tutorials
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/BuildingHornTelescope_Overview" class="post-link">
-          Building a Horn Telescope Overview
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/HowFastAreWeMoving" class="post-link">
-          How Fast Are We Moving?
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/HornOperation_spectrometer_description" class="post-link">
-          Horn Telescope Spectrometer Description
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/HornOperation_Intro" class="post-link">
-          What Can a Horn Telescope Measure?
-      </a>
-    </li>
-    
-    <li>
-      <a href="/dspira-lessons/A2UnderstandingCeleCoords" class="post-link">
-          Astronomy Activity : Understanding Celestial Coordinate Systems
       </a>
     </li>
     
@@ -404,8 +465,18 @@ sudo make install
   <div class="measure">
     <div class="left">
       <small>
-        &copy; 2020 <a href="/dspira-lessons/about/">Digital Signal Processing in Radio Astronomy - Lessons Portal</a>
+        &copy; 2020 <a class="button" href="/dspira-lessons/about/">About Digital Signal Processing in Radio Astronomy</a>
       </small>
+      <div class="boxsmall">
+        <img src="/dspira-lessons/images/gb.svg">
+      </div>
+      <div>
+        <img src="/dspira-lessons/images/nsf.svg">
+      </div>
+      <div>
+        <img src="/dspira-lessons/images/wvu.svg">
+      </div>
+      </div>
     </div>
     
       <div class="social-icons right">

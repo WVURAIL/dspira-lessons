@@ -1,6 +1,6 @@
 ---
 layout: center
-permalink: /tags/
+permalink: /user-levels/
 ---
 ![redwood house and laser name and trees and staaaaaars](/dspira-lessons/images/DspiraGalaxyPic2019.jpg)
 

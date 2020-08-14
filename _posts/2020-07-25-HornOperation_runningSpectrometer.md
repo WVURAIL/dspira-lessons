@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2020-07-25
+date: 2020-07-25
 title: Running the Spectrometer Program
 summary:  Steps on running spectrometer_w_cal.grc program in Gnuradio
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]

@@ -1,6 +1,6 @@
 ---
 layout: center
-permalink: /categories/
+permalink: /lesson-modules/
 ---
 
 {% for category in site.categories %}

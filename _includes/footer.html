@@ -2,8 +2,18 @@
   <div class="measure">
     <div class="left">
       <small>
-        &copy; {{ site.time | date:"%Y" }} <a href="{{ site.baseurl }}/about/">{{ site.title }}</a>
+        &copy; {{ site.time | date:"%Y" }} <a class="button" href="{{ site.baseurl }}/about/">About Digital Signal Processing in Radio Astronomy</a>
       </small>
+      <div class="boxsmall">
+        <img src="{{ site.baseurl }}/images/gb.svg">
+      </div>
+      <div>
+        <img src="{{ site.baseurl }}/images/nsf.svg">
+      </div>
+      <div>
+        <img src="{{ site.baseurl }}/images/wvu.svg">
+      </div>
+      </div>
     </div>
     {% if site.show_social_icons %}
       {% include social_links.html %}
