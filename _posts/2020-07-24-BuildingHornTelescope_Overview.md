@@ -18,7 +18,8 @@ A list of the components that are needed to build and operate a horn radio teles
       * the horn support stand
 
    - a low noise amplifier (LNA)
-       All of these will work. The DSPIRA LNA is the most stable and long lasting.
+   
+       All of the following work fine for use with the horn telescope. The DSPIRA LNA is the most stable and long lasting.
 
       * Best option: the DSPIRA LNA – see information and instructions [link]
       * Next best option: [Nooelec SAWbird+ H1](https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html) - Premium SAW Filter & Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications
