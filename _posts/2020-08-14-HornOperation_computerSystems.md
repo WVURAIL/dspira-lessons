@@ -7,7 +7,7 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Operation', 'Horn Construction'] 
 ---
 
-- Installation of any of the following software options will allow the user to run the spectrometer program to operate the horn telescope equipped with an LNA, software defined radio (Airspy or equivalent), and the proper cables. See the document [What is Needed to Build a Horn Telescope](https://wvurail.org/dspira-lessons/BuildingHornTelescope_Overview) and links therein for more details about the telescope system.
+- Installation of any of the following software options will allow the user to run the spectrometer program to operate a horn telescope that is equipped with an LNA, software defined radio (Airspy or equivalent), and the proper cables. See the document [What is Needed to Build a Horn Telescope](https://wvurail.org/dspira-lessons/BuildingHornTelescope_Overview) and links therein for more details about the telescope system.
 
 - Different options for operating the horn telescope spectrometer program, *spectrometer_w_cal.grc*, are presented here. The options provided vary depending on the user's computer system and his or her comfort level working with computers.
 
