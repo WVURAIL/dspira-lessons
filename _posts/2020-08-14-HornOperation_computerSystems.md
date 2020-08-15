@@ -4,7 +4,7 @@ date:   2020-08-14
 title: Computer and Software Needs for the Horn Telescope Spectrometer
 summary:  Details on computer systems that can be used to operate the horn spectrometer
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Operation'] 
+categories: ['Horn Operation', 'Horn Construction'] 
 ---
 
 - Installation of any of the following software options will allow the user to run the spectrometer program to operate the horn telescope equipped with an LNA, software defined radio (Airspy or equivalent), and the proper cables. See the document [What is Needed to Build a Horn Telescope](https://wvurail.org/dspira-lessons/BuildingHornTelescope_Overview) and links therein for more details about the telescope system.
