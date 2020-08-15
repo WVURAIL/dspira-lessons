@@ -1,8 +1,8 @@
 ---
 layout: post
 date:  2020-07-25
-title: Building a Horn Telescope Overview
-summary:  Overview of what's required for building a horn telescope
+title: What is Needed to Build a Horn Telescope
+summary:  Overview of the different parts of a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
 ---
