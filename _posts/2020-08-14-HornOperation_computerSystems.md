@@ -15,11 +15,11 @@ The options presented below include a brief description of the system requiremen
 
 1. [Download a fully operating image onto a flash drive that can be operated from most computer systems.](https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive)
 
-    - Easiest for those who are the less experienced in operating computer systems.
+    - Easiest for those who are the less experienced in working with computer system software.
 
     - Requires a computer and a 32 GB, 3.0 USB flash drive. 
 
-    - Once the flash drive image is created, the spectrometer program can be run from the following systems:
+    - Once the flash drive image is created, the spectrometer program can be run on the following systems:
 
         - pc with Windows: minimum system specs?, brand names?
 
@@ -27,7 +27,7 @@ The options presented below include a brief description of the system requiremen
 
         - Linux system, such as one running Ubuntu 20.04.
 
-        - The software needed is free
+        - The software needed is to complete the installation is free and easy to install.
 
     - Click [here](https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive) for installation instructions.
     
@@ -35,11 +35,11 @@ The options presented below include a brief description of the system requiremen
 
     - This option is for those who are more experienced with computers and feel comfortable installing software on a hard drive.
 
-    - Requires a computer that either runs Ubuntu on it, or has a hard drive running Windows that can be partitioned.
+    - Requires a computer that either already runs on the Ubuntu operating system, or has a hard drive running Windows that can be partitioned.
 
     - It may require partitioning a hard drive in Windows and installing Ubuntu 20.04 on it, if the system is not already running Ubuntu.
 
-    - Once Ubuntu is installed, further installations include installing *GnuRadio* and then the spectrometer program from Github.
+    - Once Ubuntu is installed, further installations include installing the free & open-source software *GnuRadio*, and then installing the spectrometer program from Github.
 
     - After installation, the computer will be able to run the telescope system directly.
 
