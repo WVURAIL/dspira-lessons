@@ -13,7 +13,7 @@ categories: ['Horn Operation', 'Horn Construction']
 
 The options presented below include a brief description of the system requirements and what is involved in the installation process.
 
-1. Download a fully operating image onto a flash drive that can be operated from most computer systems.
+1. [Download a fully operating image onto a flash drive that can be operated from most computer systems.](https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive)
 
     - Easiest for those who are the less experienced in operating computer systems.
 
@@ -27,9 +27,11 @@ The options presented below include a brief description of the system requiremen
 
         - Linux system, such as one running Ubuntu 20.04.
 
-        - The software needed is free 
+        - The software needed is free
+
+    - Click [here](https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive) for installation instructions.
     
-2. Install the free & open-source software, *GnuRadio*, on a Linux system operating Ubuntu 20.04.
+2. [Install the free & open-source software, *GnuRadio*, on a Linux system operating Ubuntu 20.04.](https://wvurail.org/dspira-lessons/BuildingHorn_SoftwareInfo)
 
     - This option is for those who are more experienced with computers and feel comfortable installing software on a hard drive.
 
@@ -40,6 +42,8 @@ The options presented below include a brief description of the system requiremen
     - Once Ubuntu is installed, further installations include installing *GnuRadio* and then the spectrometer program from Github.
 
     - After installation, the computer will be able to run the telescope system directly.
+
+    - Click [here](https://wvurail.org/dspira-lessons/BuildingHorn_SoftwareInfo) for installation instructions.
 
 3. Install the spectrometer program on a Raspberry Pi.
 
