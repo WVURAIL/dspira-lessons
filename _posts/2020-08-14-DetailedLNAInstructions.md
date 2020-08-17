@@ -18,7 +18,7 @@ The construction of the LNA is complicated and you may wonder how and where to s
      c. Get a spool of solder. Most solders are a mixture of tin and lead. There are also solders made up of tin and silver, but they melt at a higher temperature and are much harder to use. Solder also comes in different thicknesses or diameters. A thickness of 0.025 inches is a good size for the soldering you'll be doing.  
      d. The following is a picture of a typical soldering station. It is also called a rework station. The setup shown was purchased from Amazon for about $100. You can also go online and search for soldering irons, hot air guns, rework stations, and soldering stations.   
      
-![A Typical Soldering Station](/dspira-lessons/images/SolderingStation.jpg)
+![A Typical Soldering Station](/dspira-lessons/images/SolderingStation.JPG)
 
 2. Order and purchase the components of the LNA.  
      a. Click on the link for the list of LNA components and where they can be purchased: [LNA Ordering Parts Info](https://drive.google.com/file/d/1aHKy0YQeys0RdvzMzBeTztgR0km7af_V/view?usp=sharing){: .button}  
