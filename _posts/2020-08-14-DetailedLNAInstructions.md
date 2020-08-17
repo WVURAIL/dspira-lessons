@@ -21,7 +21,7 @@ The construction of the LNA is complicated and you may wonder how and where to s
 
 ### Second: Order and Purchase the Components of the LNA  
 
-1. Click on the link for the list of LNA components and where they can be purchased: [LNA Ordering Parts Info](https://drive.google.com/file/d/1aHKy0YQeys0RdvzMzBeTztgR0km7af_V/view?usp=sharing){: .button}  
+1. Click on the link for the list of LNA components and where they can be purchased: [LNA Ordering Parts Info](https://drive.google.com/file/d/1aHKy0YQeys0RdvzMzBeTztgR0km7af_V/view?usp=sharing){: button}  
 2. Order a bottle of silicone conformal coating. Although this is not a component of the LNA, you will need to coat your circuit board after you are done soldering everything on. This coating will protect your LNA from moisture, corrosion, fungus, dirt, dust, thermal shock, short circuits, and static discharge. This product is available through Amazon. You can also do a Google search for silicone conformal coating to find other sellers.  
      
 ### Third: Solder the Components onto the Circuit Board  
@@ -30,7 +30,7 @@ The construction of the LNA is complicated and you may wonder how and where to s
 2. If you have some soldering experience, I would suggest soldering the hardest components first: transistors, ICs, inductors, resistors, capacitors, SMA connectors, and the cover.  
 3. The following is a link to an image of the circuit board showing the labelled locations of each component. There is also a circuit diagram of the LNA.  
      
-[Circuit Diagram of LNA and Image of the Circuit Board](https://drive.google.com/file/d/1PwT-tn9KpN2fMcUG9MIAAlKz2KKEgYRl/view?usp=sharing){: .button}
+[Circuit Diagram of LNA and Image of the Circuit Board](https://drive.google.com/file/d/1PwT-tn9KpN2fMcUG9MIAAlKz2KKEgYRl/view?usp=sharing){: button}
 
 ## Detailed Soldering Instructions for Each Component
 
