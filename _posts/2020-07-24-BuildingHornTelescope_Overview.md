@@ -12,7 +12,7 @@ A list of the components that are needed to build and operate a horn radio teles
    - the horn & antenna assembly
 
       * the front end horn [Click here for horn details](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
-      * the back end feedthrough antenna and can [Click here for CAN details](https://wvurail.org/dspira-lessons/AssemblingtheCAN)
+      * the back end can and feedthrough antenna [Click here for CAN details](https://wvurail.org/dspira-lessons/AssemblingtheCAN)
       * the front end and back end support stand [Click here for stand details](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
 
    - a low noise amplifier (LNA)
