@@ -1,21 +1,19 @@
 ---
 layout: post
 date:  2020-07-25
-title: What is Needed to Build a Horn Telescope
+title: What is Needed to Build a Horn Radio Telescope
 summary:  Overview of the different parts of a horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction']
 ---
 A list of the components that are needed to build and operate a horn radio telescope system is presented below. Links to documentation and instructional videos are provided where applicable.
 
-### What's Needed for a Complete Horn Telescope System
-   - the horn & antenna assembly – details provided [here](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
+### What's Needed for a Complete Horn Radio Telescope System
+   - the horn & antenna assembly
 
-      * the horn
-      * the antenna can
-      * the antenna probe
-      * the antenna feedthrough
-      * the horn support stand
+      * the front end horn [Click here for horn details](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
+      * the back end feedthrough antenna and can [Click here for CAN details](https://wvurail.org/dspira-lessons/AssemblingtheCAN)
+      * the front end and back end support stand [Click here for stand details](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
 
    - a low noise amplifier (LNA)
    
