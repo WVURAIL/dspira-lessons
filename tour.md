@@ -12,7 +12,7 @@ https://www.youtube.com/embed/mfUJNtRLFJY
 
 As explained in the video this program was designed to be provide trachers the training and materials in the field of Radio Astronomy. This acts as a stepping stone for an eclectic journey through science and engineering with the given context in Astronomy. The culmination of this program are lessons and extercises designed by te participating cohort of teachers themsleves. These lessons involve all aspects of Radio astronomy from building a radio telescope  and its operation: 
 
-[Horn Construction]({{ site.baseurl }}/categories/horn-construction/){: .button} [Horn Operations]({{ site.baseurl }}/horn-operations/){: .button} [Digital Signal Processing]({{ site.baseurl}}/digital-signal-processing/){: .button}
+[Horn Construction]({{ site.baseurl }}/categories/horn-construction/){: .button} [Horn Operation]({{ site.baseurl }}/categories/horn-operation/){: .button} [Digital Signal Processing]({{ site.baseurl}}/categories/digital-signal-processing/){: .button}
 
 Additionally we have several lesson in Astornomy to work on with or without these telescopes:
 
