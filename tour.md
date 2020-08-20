@@ -10,11 +10,11 @@ Check out this short video for a quick introduction to DSPIRA
 
 https://www.youtube.com/embed/mfUJNtRLFJY
 
-As explained in the video this program was designed to be provide trachers the training and materials in the field of Radio Astronomy. This acts as a stepping stone for an eclectic journey through science and engineering with the given context in Astronomy. The culmination of this program are lessons and extercises designed by te participating cohort of teachers themsleves. These lessons involve all aspects of Radio astronomy from building a radio telescope  and its operation: 
+As explained in the video this program was designed to be provide teachers the training and materials in the field of Radio Astronomy. This acts as a stepping stone for an eclectic journey through science and engineering with the given context in Astronomy. The culmination of this program are lessons and exercises designed by the participating cohort of teachers themselves. These lessons involve all aspects of Radio astronomy from building a radio telescope  to its operation: 
 
 [Horn Construction]({{ site.baseurl }}/categories/horn-construction/){: .button} [Horn Operation]({{ site.baseurl }}/categories/horn-operation/){: .button} [Digital Signal Processing]({{ site.baseurl}}/categories/digital-signal-processing/){: .button}
 
-Additionally we have several lesson in Astornomy to work on with or without these telescopes:
+Additionally we have several lesson in Astronomy to work on with or without these telescopes:
 
 [Astronomy]({{ site.baseurl}}/categories/astronomy/){: .button}
 
