@@ -22,6 +22,7 @@ layout: default
         The teachers were given experience in the engineering method, via involvement in the research, design, development,
         and prototyping of digital signal processing (DSP) techniques and applications targeted for the next generation of
         radio telescopes.
+        </p>
 </div>
 <div>
         <a href="https://hermandspira2018.travellerspoint.com/" class="button">Tad's Blog</a>
