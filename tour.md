@@ -18,6 +18,9 @@ Additionally we have several lesson in Astornomy to work on with or without thes
 
 [Astronomy]({{ site.baseurl}}/astronomy/){: .button}
 
+
+All of these moduels are organised in this page: 
+
 [Lesson Modules]({{ site.baseurl }}/lesson-modules/){: .button} 
 
 These lessons are in the form of posts tagged according to user confort levels from teachers in schools to afficianados:
