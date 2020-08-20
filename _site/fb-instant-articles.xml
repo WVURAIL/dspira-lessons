@@ -9,6 +9,75 @@
     
         
             <item>
+                <title>Detailed Instructions for Assembling the CAN</title>
+                <link>http://localhost:4000/AssemblingtheCAN</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>The CAN is the back end of the horn antenna. The CAN is made up of two parts:</p>
+<ul>
+  <li>a paint thinner can</li>
+  <li>a feedthrough antenna</li>
+</ul>
+
+<h2 id="making-the-feedthrough-antenna">Making the Feedthrough Antenna</h2>
+
+<p>The feedthrough antenna is made up of two parts:</p>
+<ul>
+  <li>a 5.25 cm length of 4 gauge copper wire</li>
+  <li>a panel mount 4 hole male SMA connector</li>
+</ul>
+
+<p>The two parts are soldered together. The simplest way of doing this is by placing each part horizontally in the clips of the helping hands of your soldering stand. A small drop of solder is melted onto the tip of the SMA connector and onto the tip of copper wire. The two soldered ends are brought together and then soldered together. Make sure that the SMA connector and the copper wire are aligned horizontally before soldering. <strong>Remember that the parts will be hot!</strong> Do not handle the parts too quickly after applying the solder to the tip of the SMA connector and the copper wire. Use tweezers or needle nose pliers to handle the hot parts. You can also let the parts cool before handling. Click on the video link to watch a demonstration of soldering the SMA connector to the copper wire.</p>
+
+<p>https://youtu.be/lt63VYeqB38</p>
+
+<h2 id="preparing-the-can">Preparing the Can</h2>
+
+<p>Making the paint thinner can into the back end of the radio telescope requires four steps:<br />
+     1. Removing the bottom of the paint thinner can
+     2. Drilling the hole for the antenna
+     3. Taping the spout of the paint thinner can
+     4. Attaching the antenna to the paint thinner can</p>
+
+<h3 id="removing-the-bottom-of-the-paint-thinner-can">Removing the Bottom of the Paint Thinner Can</h3>
+
+<p>Removing the bottom of the paint thinner can is best done with a smooth edge can opener. The OXO Smooth Edge Can Opener model number 2128100 works the best. This can opener cuts on the outside of the can instead of the inside and leaves a very smooth edge. This can opener also has a top turning knob. Do not get a side turning knob can opener. The side turning knob hits the side of the paint thinner can. A regular can opener will also not engage far enough down the inside edge of the paint thinner can to cut properly or at all. The rounded corners of a paint thinner can are also impossible for a regular can opener to navigate. Click on the video link to watch a demonstration of cutting the bottom off the paint thinner can.</p>
+
+<p>https://youtu.be/IFm9_-f6lvQ</p>
+
+<h3 id="drilling-the-feedthrough-hole">Drilling the Feedthrough Hole</h3>
+
+<p>A hole needs to be drilled in the paint thinner can for the feedthrough antenna. The hole is 1/4 of an inch in diameter and is located 5.25cm from the edge of the top of the paint thinner can (the uncut side) and 3.25 inches from the side (the centerline of the can). You should also place a snuggly fitting wooden support block in the can under the spot where the hole is to be drilled. This will insure a clean, smooth, and circular hole. Click on the video link to watch a demonstration of drilling the feedthrough hole.</p>
+
+<p>https://youtu.be/nOl8OJEHZHQ</p>
+
+<h3 id="taping-the-spout">Taping the Spout</h3>
+
+<p>You should tape the spout opening of the can before attaching the feedthrough antenna. You will need two 2 inches long pieces of aluminum tape to cover the outside and inside of the spout. This is assuming that the roll of aluminum tape is 1.5 inches wide. Do your best to keep the tape smooth and flush with the edges of the spout. Click on the video link to watch a demonstration of taping the spout.</p>
+
+<p>https://youtu.be/t-MNZw7UhMI</p>
+
+<h3 id="attaching-the-feedthrough-antenna">Attaching the Feedthrough Antenna</h3>
+
+<p>The feedthrough antenna is soldered onto the paint thinner can. First use the soldering iron or hot air gun to melt enough solder to surround the 1/4 inch hole and also be a pool of solder the size of the base of the SMA connector. Let the solder cool. Drop the feedthrough antenna into the hole  copper wire side down. Look into the paint thinner can and center the feedthrough antenna in the 1/4 inch hole. You do not want the copper wire or solder touching the metal can. Use the hot air gun to heat up the SMA connector, ring of solder, and metal can. When all three pieces are at the correct temperature, the solder will liquify and pull the SMA connector down level with the metal can. This should be  a solid connection between the metal can and the SMA connector. Click on the video link to watch a demonstration of attaching the feedthrough antenna.</p>
+
+<p>https://youtu.be/dH5D2EP3ODM</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/AssemblingtheCAN</guid>
+                <description>
+                    
+                    The CAN is made up of a paint thinner can and an antenna
+                    
+                </description>
+                <pubDate>Mon, 17 Aug 2020 00:00:00 -0400</pubDate>
+                <author>Pranav Sanghavi</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>Digital Signal Processsing using GNURadio - Fourier Analysis and Radio Astronomy</title>
                 <link>http://localhost:4000/dsplab-fourier2/</link>
                 <content:encoded>
@@ -1434,6 +1503,216 @@ Otherwise you can open it by clicking on the “circuit board” icon next to th
     
         
             <item>
+                <title>Computer and Software Needs for the Horn Telescope Spectrometer</title>
+                <link>http://localhost:4000/HornOperation_computerSystems</link>
+                <content:encoded>
+                    <![CDATA[
+                    <ul>
+  <li>
+    <p>Installation of any of the following software options will allow the user to run the spectrometer program to operate a horn telescope that is equipped with an LNA, software defined radio (Airspy or equivalent), and the proper cables. See the document <a href="https://wvurail.org/dspira-lessons/BuildingHornTelescope_Overview">What is Needed to Build a Horn Telescope</a> and links therein for more details about the telescope system.</p>
+  </li>
+  <li>
+    <p>Different options for operating the horn telescope spectrometer program, <em>spectrometer_w_cal.grc</em>, are presented here. The options provided vary depending on the user’s computer system and his or her comfort level working with computers.</p>
+  </li>
+</ul>
+
+<p>The options presented below include a brief description of the system requirements and what is involved in the installation process.</p>
+
+<ol>
+  <li>
+    <p><a href="https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive">Download a fully operating image onto a flash drive that can be operated from most computer systems.</a></p>
+
+    <ul>
+      <li>
+        <p>Easiest for those who are the less experienced in working with computer system software.</p>
+      </li>
+      <li>
+        <p>Requires a computer and a 32 GB, 3.0 USB flash drive.</p>
+      </li>
+      <li>
+        <p>Once the flash drive image is created, the spectrometer program can be run on the following systems:</p>
+
+        <ul>
+          <li>
+            <p>pc with Windows: minimum system specs?, brand names?</p>
+          </li>
+          <li>
+            <p>MAC with OS ?? or higher</p>
+          </li>
+          <li>
+            <p>Linux system, such as one running Ubuntu 20.04.</p>
+          </li>
+          <li>
+            <p>The software needed is to complete the installation is free and easy to install.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>Click <a href="https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive">here</a> for installation instructions.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://wvurail.org/dspira-lessons/BuildingHorn_SoftwareInfo">Install the free &amp; open-source software, <em>GnuRadio</em>, on a Linux system operating Ubuntu 20.04.</a></p>
+
+    <ul>
+      <li>
+        <p>This option is for those who are more experienced with computers and feel comfortable installing software on a hard drive.</p>
+      </li>
+      <li>
+        <p>Requires a computer that either already runs on the Ubuntu operating system, or has a hard drive running Windows that can be partitioned.</p>
+      </li>
+      <li>
+        <p>It may require partitioning a hard drive in Windows and installing Ubuntu 20.04 on it, if the system is not already running Ubuntu.</p>
+      </li>
+      <li>
+        <p>Once Ubuntu is installed, further installations include installing the free &amp; open-source software <em>GnuRadio</em>, and then installing the spectrometer program from Github.</p>
+      </li>
+      <li>
+        <p>After installation, the computer will be able to run the telescope system directly.</p>
+      </li>
+      <li>
+        <p>Click <a href="https://wvurail.org/dspira-lessons/BuildingHorn_SoftwareInfo">here</a> for installation instructions.</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Install the spectrometer program on a Raspberry Pi.</p>
+
+    <ul>
+      <li>
+        <p>This can be done, but the details have not been fully worked out by us (the DSPIRA group).</p>
+      </li>
+      <li>
+        <p>Details to follow.</p>
+      </li>
+    </ul>
+  </li>
+</ol>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/HornOperation_computerSystems</guid>
+                <description>
+                    
+                    Details on computer systems that can be used to operate the horn spectrometer
+                    
+                </description>
+                <pubDate>Fri, 14 Aug 2020 00:00:00 -0400</pubDate>
+                <author>Pranav Sanghavi</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Detailed LNA Construction Instructions</title>
+                <link>http://localhost:4000/DetailedLNAInstructions</link>
+                <content:encoded>
+                    <![CDATA[
+                    <h2 id="overview-of-constructing-the-lna">Overview of Constructing the LNA</h2>
+
+<p>The construction of the LNA is complicated and you may wonder how and where to start.</p>
+<h3 id="first-assemble-a-soldering-station">First: Assemble a Soldering Station</h3>
+
+<ol>
+  <li>Get a soldering iron and a hot air gun that have temperature controls. The cheap hobby soldering iron will not do. You should set the operating temperature of the soldering iron and hot air gun to 350°C.</li>
+  <li>Get a soldering stand. It should consist of a magnifying glass, a light, moveable helping hands, a cleaning sponge, fine tip twezzers, and a cleaning mesh.</li>
+  <li>Get a spool of solder. Most solders are a mixture of tin and lead. There are also solders made up of tin and silver, but they melt at a higher temperature and are much harder to use. Solder also comes in different thicknesses or diameters. A thickness of 0.025 inches is a good size for the soldering you’ll be doing.</li>
+  <li>The following is a picture of a typical soldering station. It is also called a rework station. The setup shown was purchased from Amazon for about $100. You can also go online and search for soldering irons, hot air guns, rework stations, and soldering stations.</li>
+</ol>
+
+<p><img src="/dspira-lessons/images/SolderingStation.JPG" alt="A Typical Soldering Station" /></p>
+
+<h3 id="second-order-and-purchase-the-components-of-the-lna">Second: Order and Purchase the Components of the LNA</h3>
+
+<ol>
+  <li>Click on the <em><a href="https://drive.google.com/file/d/1aHKy0YQeys0RdvzMzBeTztgR0km7af_V/view?usp=sharing">LNA Ordering Parts Info</a></em> link for the list of components and where the components can be purchased.</li>
+  <li>Order a bottle of silicone conformal coating. Although this is not a component of the LNA, you will need to coat your circuit board after you are done soldering everything on. This coating will protect your LNA from moisture, corrosion, fungus, dirt, dust, thermal shock, short circuits, and static discharge. This product is available through Amazon. You can also do a Google search for silicone conformal coating to find other sellers.</li>
+</ol>
+
+<h3 id="third-solder-the-components-onto-the-circuit-board">Third: Solder the Components onto the Circuit Board</h3>
+
+<ol>
+  <li>There is no best order for soldering the components onto the circuit board. If you are new to soldering, soldering all the  components of one type before soldering all the components of another type is a good approach. The following order of soldering is typical for a person new to soldering: capacitors, resistors, inductors, transistors, ICs, SMA connectors, and the cover. Capacitors and resistors are the easiest components to solder onto the circuit board and will give the novice a chance to learn the proper techniques for successful soldering.</li>
+  <li>If you have some soldering experience, I would suggest soldering the hardest components first: transistors, ICs, inductors, resistors, capacitors, SMA connectors, and the cover.</li>
+  <li>The following is a link to a <em><a href="https://drive.google.com/file/d/1PwT-tn9KpN2fMcUG9MIAAlKz2KKEgYRl/view?usp=sharing">Circuit Diagram of the LNA and an Image of the Circuit Board</a></em>.</li>
+</ol>
+
+<h2 id="detailed-soldering-instructions-for-each-component">Detailed Soldering Instructions for Each Component</h2>
+
+<h3 id="soldering-a-capacitor">Soldering a Capacitor</h3>
+
+<p>Place the tip of the soldering iron onto one of the pads and melt a small drop of solder onto the pad. The drop should barely fill the pad. Place one end of the capacitor onto the drop of solder. Touch both the end of the capacitor and drop of solder with the tip of the soldering iron and the heat should melt the solder and the solder should pull the capacitor to the pad. This should make a good connection between the capacitor and pad. Solder the other end of the capacitor to the other pad by touching the tip of the soldering iron to both the pad and the end of the capacitor. Touch the solder to the end of the capacitor and soldering iron. A drop of solder should melt and adhere to the pad and the end of the capacitor. Click on the video link for a demonstration of soldering a capacitor.</p>
+
+<p>https://youtu.be/sOWDIGIjmGE</p>
+
+<h3 id="soldering-a-resistor">Soldering a Resistor</h3>
+
+<p>Soldering a resistor is identical to soldering a capacitor. You may encounter difficulty in getting solder to melt on the pad. That is because the pad you chose is part of the ground and the ground is the copper that goes all around the circuit board. So you’re heating up a large portion of the circuit board before the pad you’re interested in comes up to the correct temperature. Click on the video link for a demonstration of soldering a resistor.</p>
+
+<p>https://youtu.be/EFwzL3n3f7s</p>
+
+<h3 id="soldering-an-inductor">Soldering an Inductor</h3>
+
+<p>Soldering an inductor starts the same way as a resistor, a capacitor, or any component to be soldered onto the circuit board: a small drop of solder melted onto a pad. The tricky part of soldering an inductor is that the metal plate is on the bottom of the inductor and not on the side like a resistor or a capacitor. It is important to have the tip of the soldering iron touching the bottom plate of the inductor. It is also important to leave as much room as possible on the other pad. The pad will be soldered to the thin side of the bottom plate of the inductor. Click on the video link for a demonstration of soldering an inductor.</p>
+
+<p>https://youtu.be/9CNtz4u5we0</p>
+
+<h3 id="soldering-a-transistor">Soldering a Transistor</h3>
+
+<p>There are three different types of transistors to be soldered onto the circuit board. Each one has its own difficulties in soldering onto the circuit board. You sould watch each of the following videos before soldering to determine the orientation of each transistor.</p>
+
+<h4 id="transistors-u1--u3">Transistors U1 &amp; U3</h4>
+
+<p>https://youtu.be/DP3ABBXyuwY</p>
+
+<h4 id="transistor-u2">Transistor U2</h4>
+
+<p>https://youtu.be/kvlXMtPB2FY</p>
+
+<h4 id="transistors-u4--u5">Transistors U4 &amp; U5</h4>
+
+<p>https://youtu.be/xhfXKow-tOs</p>
+
+<h3 id="soldering-an-integrated-circuit-ic">Soldering an Integrated Circuit (IC)</h3>
+
+<p>Soldering an IC is similar to soldering transistors U1 and U3. Click on the video link for a demonstration of soldering an IC.</p>
+
+<p>https://youtu.be/Vwu3AeRIN9w</p>
+
+<h3 id="soldering-the-sma-connectors">Soldering the SMA Connectors</h3>
+
+<p>There are two SMA connectors on the circuit board: X1 and X2. One SMA connects the antenna feed to the LNA (X1) and the other SMA is the output of the LNA to the AirSpy (X2). Click on the video link for a demonstration of soldering an SMA connector.</p>
+
+<p>https://youtu.be/3jxUv_rlqTI</p>
+
+<h3 id="soldering-on-the-protective-cover">Soldering on the Protective Cover</h3>
+
+<p>The protective cover should not be soldered on until after the LNA is tested and is determined to function properly. Once the protective cover is soldered on, it will be difficult to make any repairs. The protective cover is also hard to remove after it has been soldered on. Click on the video link for a demonstration of soldering on the protective cover.</p>
+
+<p>Video link to be determined</p>
+
+<h3 id="applying-the-protective-coating">Applying the Protective Coating</h3>
+
+<p>Applying the silicone conformal coating is the last step for constructing the LNA. Click on the video link for a demonstration of how to cover the LNA with the silicone conformal coating.</p>
+
+<p>Video link to be determined</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/DetailedLNAInstructions</guid>
+                <description>
+                    
+                    LNA Soldering Instructions for Each Component
+                    
+                </description>
+                <pubDate>Fri, 14 Aug 2020 00:00:00 -0400</pubDate>
+                <author>Pranav Sanghavi</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>How to Install Ubuntu 20.04 with spectrometer_w_cal.grc on Bootable Flashdrive</title>
                 <link>http://localhost:4000/Install_Ubuntu_spectrometer_onFlashdrive</link>
                 <content:encoded>
@@ -1515,9 +1794,13 @@ Otherwise you can open it by clicking on the “circuit board” icon next to th
                 <link>http://localhost:4000/MakingWavesFourier</link>
                 <content:encoded>
                     <![CDATA[
-                    <p><a href="https://docs.google.com/document/d/15jXZiNi-5c7DPsuN7TeNhTUL93faWo4_k8ZufcIDNSY/edit?usp=sharing/dotcom">Making Waves with Fourier Series</a></p>
+                    <p>To access the classroom activity click on the following link:</p>
 
-<p><a href="/dspira-lessons/images/Fourier_Series_Wave_Explorer.grc">GNURadio .grc file for Fourier Activity</a></p>
+<p><a href="https://docs.google.com/document/d/15jXZiNi-5c7DPsuN7TeNhTUL93faWo4_k8ZufcIDNSY/edit?usp=sharing/dotcom">Making Waves with Fourier Series</a></p>
+
+<p>Clicking on the following link will download the zip file to your computer. On a Mac computer it will automatically un-zip to your Downloads folder. On computers running Ubuntu, you will need to un-zip the file before using it in GNURadio. You can leave the un-zipped file in the Downloads folder.</p>
+
+<p><a href="/dspira-lessons/images/Fourier_Series_Wave_Explorer.grc.zip">GNURadio .grc file for Fourier Activity</a></p>
 
                     ]]>
                 </content:encoded>
@@ -2161,31 +2444,30 @@ They are short clips from the his 2nd lecture given to the DSPIRA Teachers durin
     
         
             <item>
-                <title>Building a Horn Telescope Overview</title>
+                <title>What is Needed to Build a Horn Radio Telescope</title>
                 <link>http://localhost:4000/BuildingHornTelescope_Overview</link>
                 <content:encoded>
                     <![CDATA[
                     <p>A list of the components that are needed to build and operate a horn radio telescope system is presented below. Links to documentation and instructional videos are provided where applicable.</p>
 
-<h3 id="whats-needed-for-a-complete-horn-telescope-system">What’s Needed for a Complete Horn Telescope System</h3>
+<h3 id="whats-needed-for-a-complete-horn-radio-telescope-system">What’s Needed for a Complete Horn Radio Telescope System</h3>
 <ul>
   <li>
-    <p>the horn &amp; antenna assembly – details provided <a href="https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing">here</a></p>
+    <p>the horn &amp; antenna assembly</p>
 
     <ul>
-      <li>the horn</li>
-      <li>the antenna can</li>
-      <li>the antenna probe</li>
-      <li>the antenna feedthrough</li>
-      <li>the horn support stand</li>
+      <li>the front end horn <a href="https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing">Click here for horn details</a></li>
+      <li>the back end can and feedthrough antenna <a href="https://wvurail.org/dspira-lessons/AssemblingtheCAN">Click here for CAN details</a></li>
+      <li>the front end and back end support stand <a href="https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing">Click here for stand details</a></li>
     </ul>
   </li>
   <li>
-    <p>a low noise amplifier (LNA)
-  All of these will work. The DSPIRA LNA is the most stable and long lasting.</p>
+    <p>a low noise amplifier (LNA)</p>
+
+    <p>All of the following work fine for use with the horn telescope. The DSPIRA LNA is the most stable and long lasting.</p>
 
     <ul>
-      <li>Best option: the DSPIRA LNA – see information and instructions [link]</li>
+      <li>Best option: the DSPIRA LNA – click on the <a href="http://wvurail.org/dspira-lessons/DetailedLNAInstructions">Detailed Information and Instructions Link</a></li>
       <li>Next best option: <a href="https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html">Nooelec SAWbird+ H1</a> - Premium SAW Filter &amp; Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications</li>
       <li>Next best option: <a href="https://www.tindie.com/products/gpio/radio-astronomy-hydrogen-line-low-noise-amplifier/">Radio Astronomy Hydrogen Line Low Noise Amplifier</a></li>
     </ul>
@@ -2228,7 +2510,7 @@ They are short clips from the his 2nd lecture given to the DSPIRA Teachers durin
                 <guid isPermaLink="false">/BuildingHornTelescope_Overview</guid>
                 <description>
                     
-                    Overview of what's required for building a horn telescope
+                    Overview of the different parts of a horn telescope
                     
                 </description>
                 <pubDate>Sat, 25 Jul 2020 00:00:00 -0400</pubDate>

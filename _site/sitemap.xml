@@ -69,6 +69,14 @@
 <lastmod>2020-08-07T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/dspira-lessons/DetailedLNAInstructions</loc>
+<lastmod>2020-08-14T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dspira-lessons/HornOperation_computerSystems</loc>
+<lastmod>2020-08-14T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/dspira-lessons/dsp</loc>
 <lastmod>2020-08-14T00:00:00-04:00</lastmod>
 </url>
@@ -91,6 +99,10 @@
 <url>
 <loc>http://localhost:4000/dspira-lessons/dsplab-fourier2/</loc>
 <lastmod>2020-08-14T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/dspira-lessons/AssemblingtheCAN</loc>
+<lastmod>2020-08-17T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/dspira-lessons/iq/</loc>

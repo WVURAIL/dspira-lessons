@@ -1,12 +1,8 @@
-#container {
-    width:100%;
-    text-align:center;
-}
-#container > div {
-    width: calc(100% / 6);  
-    display: inline-block;
-    vertical-align: top;   
-    text-align:center;
-    margin:2%;    
-    padding:20px;
-}
+containing {
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    float: left;
+    width: 100vw;
+  }

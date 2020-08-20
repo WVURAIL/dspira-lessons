@@ -7,6 +7,63 @@
     <atom:link href="http://localhost:4000/dspira-lessons/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Detailed Instructions for Assembling the CAN</title>
+        <description>&lt;p&gt;The CAN is the back end of the horn antenna. The CAN is made up of two parts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a paint thinner can&lt;/li&gt;
+  &lt;li&gt;a feedthrough antenna&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;making-the-feedthrough-antenna&quot;&gt;Making the Feedthrough Antenna&lt;/h2&gt;
+
+&lt;p&gt;The feedthrough antenna is made up of two parts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;a 5.25 cm length of 4 gauge copper wire&lt;/li&gt;
+  &lt;li&gt;a panel mount 4 hole male SMA connector&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The two parts are soldered together. The simplest way of doing this is by placing each part horizontally in the clips of the helping hands of your soldering stand. A small drop of solder is melted onto the tip of the SMA connector and onto the tip of copper wire. The two soldered ends are brought together and then soldered together. Make sure that the SMA connector and the copper wire are aligned horizontally before soldering. &lt;strong&gt;Remember that the parts will be hot!&lt;/strong&gt; Do not handle the parts too quickly after applying the solder to the tip of the SMA connector and the copper wire. Use tweezers or needle nose pliers to handle the hot parts. You can also let the parts cool before handling. Click on the video link to watch a demonstration of soldering the SMA connector to the copper wire.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/lt63VYeqB38&lt;/p&gt;
+
+&lt;h2 id=&quot;preparing-the-can&quot;&gt;Preparing the Can&lt;/h2&gt;
+
+&lt;p&gt;Making the paint thinner can into the back end of the radio telescope requires four steps:&lt;br /&gt;
+     1. Removing the bottom of the paint thinner can
+     2. Drilling the hole for the antenna
+     3. Taping the spout of the paint thinner can
+     4. Attaching the antenna to the paint thinner can&lt;/p&gt;
+
+&lt;h3 id=&quot;removing-the-bottom-of-the-paint-thinner-can&quot;&gt;Removing the Bottom of the Paint Thinner Can&lt;/h3&gt;
+
+&lt;p&gt;Removing the bottom of the paint thinner can is best done with a smooth edge can opener. The OXO Smooth Edge Can Opener model number 2128100 works the best. This can opener cuts on the outside of the can instead of the inside and leaves a very smooth edge. This can opener also has a top turning knob. Do not get a side turning knob can opener. The side turning knob hits the side of the paint thinner can. A regular can opener will also not engage far enough down the inside edge of the paint thinner can to cut properly or at all. The rounded corners of a paint thinner can are also impossible for a regular can opener to navigate. Click on the video link to watch a demonstration of cutting the bottom off the paint thinner can.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/IFm9_-f6lvQ&lt;/p&gt;
+
+&lt;h3 id=&quot;drilling-the-feedthrough-hole&quot;&gt;Drilling the Feedthrough Hole&lt;/h3&gt;
+
+&lt;p&gt;A hole needs to be drilled in the paint thinner can for the feedthrough antenna. The hole is 1/4 of an inch in diameter and is located 5.25cm from the edge of the top of the paint thinner can (the uncut side) and 3.25 inches from the side (the centerline of the can). You should also place a snuggly fitting wooden support block in the can under the spot where the hole is to be drilled. This will insure a clean, smooth, and circular hole. Click on the video link to watch a demonstration of drilling the feedthrough hole.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/nOl8OJEHZHQ&lt;/p&gt;
+
+&lt;h3 id=&quot;taping-the-spout&quot;&gt;Taping the Spout&lt;/h3&gt;
+
+&lt;p&gt;You should tape the spout opening of the can before attaching the feedthrough antenna. You will need two 2 inches long pieces of aluminum tape to cover the outside and inside of the spout. This is assuming that the roll of aluminum tape is 1.5 inches wide. Do your best to keep the tape smooth and flush with the edges of the spout. Click on the video link to watch a demonstration of taping the spout.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/t-MNZw7UhMI&lt;/p&gt;
+
+&lt;h3 id=&quot;attaching-the-feedthrough-antenna&quot;&gt;Attaching the Feedthrough Antenna&lt;/h3&gt;
+
+&lt;p&gt;The feedthrough antenna is soldered onto the paint thinner can. First use the soldering iron or hot air gun to melt enough solder to surround the 1/4 inch hole and also be a pool of solder the size of the base of the SMA connector. Let the solder cool. Drop the feedthrough antenna into the hole  copper wire side down. Look into the paint thinner can and center the feedthrough antenna in the 1/4 inch hole. You do not want the copper wire or solder touching the metal can. Use the hot air gun to heat up the SMA connector, ring of solder, and metal can. When all three pieces are at the correct temperature, the solder will liquify and pull the SMA connector down level with the metal can. This should be  a solid connection between the metal can and the SMA connector. Click on the video link to watch a demonstration of attaching the feedthrough antenna.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/dH5D2EP3ODM&lt;/p&gt;
+</description>
+        <pubDate>Mon, 17 Aug 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/AssemblingtheCAN</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/AssemblingtheCAN</guid>
+      </item>
+    
+      <item>
         <title>Digital Signal Processsing using GNURadio - Fourier Analysis and Radio Astronomy</title>
         <description>&lt;h1 id=&quot;5-fourier-analysis---expert-mode&quot;&gt;5. Fourier Analysis - Expert Mode!&lt;/h1&gt;
 
@@ -1360,6 +1417,192 @@ Otherwise you can open it by clicking on the “circuit board” icon next to th
       </item>
     
       <item>
+        <title>Computer and Software Needs for the Horn Telescope Spectrometer</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Installation of any of the following software options will allow the user to run the spectrometer program to operate a horn telescope that is equipped with an LNA, software defined radio (Airspy or equivalent), and the proper cables. See the document &lt;a href=&quot;https://wvurail.org/dspira-lessons/BuildingHornTelescope_Overview&quot;&gt;What is Needed to Build a Horn Telescope&lt;/a&gt; and links therein for more details about the telescope system.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Different options for operating the horn telescope spectrometer program, &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt;, are presented here. The options provided vary depending on the user’s computer system and his or her comfort level working with computers.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The options presented below include a brief description of the system requirements and what is involved in the installation process.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive&quot;&gt;Download a fully operating image onto a flash drive that can be operated from most computer systems.&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Easiest for those who are the less experienced in working with computer system software.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Requires a computer and a 32 GB, 3.0 USB flash drive.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Once the flash drive image is created, the spectrometer program can be run on the following systems:&lt;/p&gt;
+
+        &lt;ul&gt;
+          &lt;li&gt;
+            &lt;p&gt;pc with Windows: minimum system specs?, brand names?&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;MAC with OS ?? or higher&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;Linux system, such as one running Ubuntu 20.04.&lt;/p&gt;
+          &lt;/li&gt;
+          &lt;li&gt;
+            &lt;p&gt;The software needed is to complete the installation is free and easy to install.&lt;/p&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Click &lt;a href=&quot;https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive&quot;&gt;here&lt;/a&gt; for installation instructions.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://wvurail.org/dspira-lessons/BuildingHorn_SoftwareInfo&quot;&gt;Install the free &amp;amp; open-source software, &lt;em&gt;GnuRadio&lt;/em&gt;, on a Linux system operating Ubuntu 20.04.&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;This option is for those who are more experienced with computers and feel comfortable installing software on a hard drive.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Requires a computer that either already runs on the Ubuntu operating system, or has a hard drive running Windows that can be partitioned.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;It may require partitioning a hard drive in Windows and installing Ubuntu 20.04 on it, if the system is not already running Ubuntu.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Once Ubuntu is installed, further installations include installing the free &amp;amp; open-source software &lt;em&gt;GnuRadio&lt;/em&gt;, and then installing the spectrometer program from Github.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;After installation, the computer will be able to run the telescope system directly.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Click &lt;a href=&quot;https://wvurail.org/dspira-lessons/BuildingHorn_SoftwareInfo&quot;&gt;here&lt;/a&gt; for installation instructions.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install the spectrometer program on a Raspberry Pi.&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;This can be done, but the details have not been fully worked out by us (the DSPIRA group).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Details to follow.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/HornOperation_computerSystems</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/HornOperation_computerSystems</guid>
+      </item>
+    
+      <item>
+        <title>Detailed LNA Construction Instructions</title>
+        <description>&lt;h2 id=&quot;overview-of-constructing-the-lna&quot;&gt;Overview of Constructing the LNA&lt;/h2&gt;
+
+&lt;p&gt;The construction of the LNA is complicated and you may wonder how and where to start.&lt;/p&gt;
+&lt;h3 id=&quot;first-assemble-a-soldering-station&quot;&gt;First: Assemble a Soldering Station&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Get a soldering iron and a hot air gun that have temperature controls. The cheap hobby soldering iron will not do. You should set the operating temperature of the soldering iron and hot air gun to 350°C.&lt;/li&gt;
+  &lt;li&gt;Get a soldering stand. It should consist of a magnifying glass, a light, moveable helping hands, a cleaning sponge, fine tip twezzers, and a cleaning mesh.&lt;/li&gt;
+  &lt;li&gt;Get a spool of solder. Most solders are a mixture of tin and lead. There are also solders made up of tin and silver, but they melt at a higher temperature and are much harder to use. Solder also comes in different thicknesses or diameters. A thickness of 0.025 inches is a good size for the soldering you’ll be doing.&lt;/li&gt;
+  &lt;li&gt;The following is a picture of a typical soldering station. It is also called a rework station. The setup shown was purchased from Amazon for about $100. You can also go online and search for soldering irons, hot air guns, rework stations, and soldering stations.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;/dspira-lessons/images/SolderingStation.JPG&quot; alt=&quot;A Typical Soldering Station&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;second-order-and-purchase-the-components-of-the-lna&quot;&gt;Second: Order and Purchase the Components of the LNA&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Click on the &lt;em&gt;&lt;a href=&quot;https://drive.google.com/file/d/1aHKy0YQeys0RdvzMzBeTztgR0km7af_V/view?usp=sharing&quot;&gt;LNA Ordering Parts Info&lt;/a&gt;&lt;/em&gt; link for the list of components and where the components can be purchased.&lt;/li&gt;
+  &lt;li&gt;Order a bottle of silicone conformal coating. Although this is not a component of the LNA, you will need to coat your circuit board after you are done soldering everything on. This coating will protect your LNA from moisture, corrosion, fungus, dirt, dust, thermal shock, short circuits, and static discharge. This product is available through Amazon. You can also do a Google search for silicone conformal coating to find other sellers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;third-solder-the-components-onto-the-circuit-board&quot;&gt;Third: Solder the Components onto the Circuit Board&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;There is no best order for soldering the components onto the circuit board. If you are new to soldering, soldering all the  components of one type before soldering all the components of another type is a good approach. The following order of soldering is typical for a person new to soldering: capacitors, resistors, inductors, transistors, ICs, SMA connectors, and the cover. Capacitors and resistors are the easiest components to solder onto the circuit board and will give the novice a chance to learn the proper techniques for successful soldering.&lt;/li&gt;
+  &lt;li&gt;If you have some soldering experience, I would suggest soldering the hardest components first: transistors, ICs, inductors, resistors, capacitors, SMA connectors, and the cover.&lt;/li&gt;
+  &lt;li&gt;The following is a link to a &lt;em&gt;&lt;a href=&quot;https://drive.google.com/file/d/1PwT-tn9KpN2fMcUG9MIAAlKz2KKEgYRl/view?usp=sharing&quot;&gt;Circuit Diagram of the LNA and an Image of the Circuit Board&lt;/a&gt;&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;detailed-soldering-instructions-for-each-component&quot;&gt;Detailed Soldering Instructions for Each Component&lt;/h2&gt;
+
+&lt;h3 id=&quot;soldering-a-capacitor&quot;&gt;Soldering a Capacitor&lt;/h3&gt;
+
+&lt;p&gt;Place the tip of the soldering iron onto one of the pads and melt a small drop of solder onto the pad. The drop should barely fill the pad. Place one end of the capacitor onto the drop of solder. Touch both the end of the capacitor and drop of solder with the tip of the soldering iron and the heat should melt the solder and the solder should pull the capacitor to the pad. This should make a good connection between the capacitor and pad. Solder the other end of the capacitor to the other pad by touching the tip of the soldering iron to both the pad and the end of the capacitor. Touch the solder to the end of the capacitor and soldering iron. A drop of solder should melt and adhere to the pad and the end of the capacitor. Click on the video link for a demonstration of soldering a capacitor.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/sOWDIGIjmGE&lt;/p&gt;
+
+&lt;h3 id=&quot;soldering-a-resistor&quot;&gt;Soldering a Resistor&lt;/h3&gt;
+
+&lt;p&gt;Soldering a resistor is identical to soldering a capacitor. You may encounter difficulty in getting solder to melt on the pad. That is because the pad you chose is part of the ground and the ground is the copper that goes all around the circuit board. So you’re heating up a large portion of the circuit board before the pad you’re interested in comes up to the correct temperature. Click on the video link for a demonstration of soldering a resistor.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/EFwzL3n3f7s&lt;/p&gt;
+
+&lt;h3 id=&quot;soldering-an-inductor&quot;&gt;Soldering an Inductor&lt;/h3&gt;
+
+&lt;p&gt;Soldering an inductor starts the same way as a resistor, a capacitor, or any component to be soldered onto the circuit board: a small drop of solder melted onto a pad. The tricky part of soldering an inductor is that the metal plate is on the bottom of the inductor and not on the side like a resistor or a capacitor. It is important to have the tip of the soldering iron touching the bottom plate of the inductor. It is also important to leave as much room as possible on the other pad. The pad will be soldered to the thin side of the bottom plate of the inductor. Click on the video link for a demonstration of soldering an inductor.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/9CNtz4u5we0&lt;/p&gt;
+
+&lt;h3 id=&quot;soldering-a-transistor&quot;&gt;Soldering a Transistor&lt;/h3&gt;
+
+&lt;p&gt;There are three different types of transistors to be soldered onto the circuit board. Each one has its own difficulties in soldering onto the circuit board. You sould watch each of the following videos before soldering to determine the orientation of each transistor.&lt;/p&gt;
+
+&lt;h4 id=&quot;transistors-u1--u3&quot;&gt;Transistors U1 &amp;amp; U3&lt;/h4&gt;
+
+&lt;p&gt;https://youtu.be/DP3ABBXyuwY&lt;/p&gt;
+
+&lt;h4 id=&quot;transistor-u2&quot;&gt;Transistor U2&lt;/h4&gt;
+
+&lt;p&gt;https://youtu.be/kvlXMtPB2FY&lt;/p&gt;
+
+&lt;h4 id=&quot;transistors-u4--u5&quot;&gt;Transistors U4 &amp;amp; U5&lt;/h4&gt;
+
+&lt;p&gt;https://youtu.be/xhfXKow-tOs&lt;/p&gt;
+
+&lt;h3 id=&quot;soldering-an-integrated-circuit-ic&quot;&gt;Soldering an Integrated Circuit (IC)&lt;/h3&gt;
+
+&lt;p&gt;Soldering an IC is similar to soldering transistors U1 and U3. Click on the video link for a demonstration of soldering an IC.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/Vwu3AeRIN9w&lt;/p&gt;
+
+&lt;h3 id=&quot;soldering-the-sma-connectors&quot;&gt;Soldering the SMA Connectors&lt;/h3&gt;
+
+&lt;p&gt;There are two SMA connectors on the circuit board: X1 and X2. One SMA connects the antenna feed to the LNA (X1) and the other SMA is the output of the LNA to the AirSpy (X2). Click on the video link for a demonstration of soldering an SMA connector.&lt;/p&gt;
+
+&lt;p&gt;https://youtu.be/3jxUv_rlqTI&lt;/p&gt;
+
+&lt;h3 id=&quot;soldering-on-the-protective-cover&quot;&gt;Soldering on the Protective Cover&lt;/h3&gt;
+
+&lt;p&gt;The protective cover should not be soldered on until after the LNA is tested and is determined to function properly. Once the protective cover is soldered on, it will be difficult to make any repairs. The protective cover is also hard to remove after it has been soldered on. Click on the video link for a demonstration of soldering on the protective cover.&lt;/p&gt;
+
+&lt;p&gt;Video link to be determined&lt;/p&gt;
+
+&lt;h3 id=&quot;applying-the-protective-coating&quot;&gt;Applying the Protective Coating&lt;/h3&gt;
+
+&lt;p&gt;Applying the silicone conformal coating is the last step for constructing the LNA. Click on the video link for a demonstration of how to cover the LNA with the silicone conformal coating.&lt;/p&gt;
+
+&lt;p&gt;Video link to be determined&lt;/p&gt;
+</description>
+        <pubDate>Fri, 14 Aug 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/dspira-lessons/DetailedLNAInstructions</link>
+        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/DetailedLNAInstructions</guid>
+      </item>
+    
+      <item>
         <title>How to Install Ubuntu 20.04 with spectrometer_w_cal.grc on Bootable Flashdrive</title>
         <description>&lt;h4 id=&quot;how-to-install-ubuntu2004gnuradio38spectrometer_w_calgrc-on-a-bootable-flashdrive&quot;&gt;How to Install Ubuntu20.04/Gnuradio3.8/spectrometer_w_cal.grc on a Bootable Flashdrive&lt;/h4&gt;
 
@@ -1422,312 +1665,6 @@ Otherwise you can open it by clicking on the “circuit board” icon next to th
         <pubDate>Fri, 07 Aug 2020 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive</link>
         <guid isPermaLink="true">http://localhost:4000/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive</guid>
-      </item>
-    
-      <item>
-        <title>Making Waves with Fourier Series</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://docs.google.com/document/d/15jXZiNi-5c7DPsuN7TeNhTUL93faWo4_k8ZufcIDNSY/edit?usp=sharing/dotcom&quot;&gt;Making Waves with Fourier Series&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/dspira-lessons/images/Fourier_Series_Wave_Explorer.grc&quot;&gt;GNURadio .grc file for Fourier Activity&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 05 Aug 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/dspira-lessons/MakingWavesFourier</link>
-        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/MakingWavesFourier</guid>
-      </item>
-    
-      <item>
-        <title>Software Needs for Running the Horn Telescope</title>
-        <description>&lt;h2 id=&quot;installing-the-software-needed-to-run-the-spectrometer-on-a-computer-that-is-using-ubuntu-2004&quot;&gt;Installing the Software Needed to Run the Spectrometer on a Computer That is Using Ubuntu 20.04&lt;/h2&gt;
-
-&lt;p&gt;Complete the following steps as needed:&lt;/p&gt;
-
-&lt;h4 id=&quot;a-how-to-partition-a-hard-drive-for-ubuntu-2004-alongside-windows-10&quot;&gt;A. How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;http://releases.ubuntu.com/20.04/&quot;&gt;Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.&lt;/a&gt; You want to choose the Desktop version. It will take some time to download this file.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install a 32 GB or larger flash drive in the usb port.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Download &lt;em&gt;BalenaEtcher&lt;/em&gt; for Windows and install it if you don’t already have it.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Run &lt;em&gt;BalenaEtcher&lt;/em&gt;. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target. It will take some time for this to run.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Before installing Ubuntu on the hard disk, you need to partition the hard disk in Windows.&lt;/p&gt;
-
-    &lt;p&gt;Open a Command Prompt window with admin rights:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;In the Cortana search field, type in &lt;code class=&quot;highlighter-rouge&quot;&gt;Command Prompt&lt;/code&gt;, or just CMD.&lt;/li&gt;
-      &lt;li&gt;Right click the top result, and select &lt;code class=&quot;highlighter-rouge&quot;&gt;Run as Administrator&lt;/code&gt;.&lt;/li&gt;
-      &lt;li&gt;Click &lt;code class=&quot;highlighter-rouge&quot;&gt;Yes&lt;/code&gt; on the popup to allow the app to make changes to your device.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Enter the command &lt;code class=&quot;highlighter-rouge&quot;&gt;diskmgmt.msc&lt;/code&gt; to open the Disk Management utility.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Select the Windows partition, usually the C: volume. Right-click on this partition and select the &lt;code class=&quot;highlighter-rouge&quot;&gt;Shrink Volume&lt;/code&gt; option in order to reduce the partition size.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the ‘Shrink’ button. The partition size to shrink by (which is the amount that will be allotted to Ubuntu) should be a minimum of 50 GB, and we recommend 100 GB or more, depending on the size of your hard drive.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows&lt;/p&gt;
-
-&lt;h4 id=&quot;b-install-ubuntu-2004-alongside-with-windows&quot;&gt;B. Install Ubuntu 20.04 Alongside with Windows&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;On the first installation screen, select &lt;code class=&quot;highlighter-rouge&quot;&gt;Install Ubuntu&lt;/code&gt; and hit Enter to start the installation process. This will complete the installation process, unless an error message appears.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;IF AN ERROR APPEARS REGARDING DEVICE ENCRYPTION, you probably need to disable device encryption in Windows. This is known as Bitlocker. To disable it, complete the following:&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;For most Windows systems, the following can be followed to turn off encryption:
-        &lt;ul&gt;
-          &lt;li&gt;Boot up the computer in Windows.&lt;/li&gt;
-          &lt;li&gt;Open &lt;code class=&quot;highlighter-rouge&quot;&gt;Settings&lt;/code&gt;.&lt;/li&gt;
-          &lt;li&gt;Click on &lt;code class=&quot;highlighter-rouge&quot;&gt;Update &amp;amp; Security&lt;/code&gt;.&lt;/li&gt;
-          &lt;li&gt;Click on &lt;code class=&quot;highlighter-rouge&quot;&gt;Device encryption&lt;/code&gt;.&lt;/li&gt;
-          &lt;li&gt;Under the “Device encryption” section, click the &lt;code class=&quot;highlighter-rouge&quot;&gt;Turn off&lt;/code&gt; button.&lt;/li&gt;
-          &lt;li&gt;Wait until Windows 10 has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;For some Windows 10 Home system, the Bitlocker or Device encryption is not visible. Complete the following to turn off encryption from a command line.&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;p&gt;In Windows from the &lt;code class=&quot;highlighter-rouge&quot;&gt;Start Menu&lt;/code&gt;, click the &lt;code class=&quot;highlighter-rouge&quot;&gt;Windows PowerShell&lt;/code&gt; folder and tap &lt;code class=&quot;highlighter-rouge&quot;&gt;Windows PowerShell&lt;/code&gt;.&lt;/p&gt;
-          &lt;/li&gt;
-          &lt;li&gt;
-            &lt;p&gt;A command line window will open up. From the Powershell command line, type &lt;code class=&quot;highlighter-rouge&quot;&gt;Disable-BitLocker -MountPoint C:&lt;/code&gt; and hit Enter.&lt;/p&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Another option for systems with Windows 10 Home is the following:
-        &lt;ul&gt;
-          &lt;li&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;Start Menu&lt;/code&gt; search box, type &lt;code class=&quot;highlighter-rouge&quot;&gt;Services&lt;/code&gt;. Then scroll to &lt;code class=&quot;highlighter-rouge&quot;&gt;Bitlocker&lt;/code&gt;.&lt;/li&gt;
-          &lt;li&gt;Open it, or view its &lt;code class=&quot;highlighter-rouge&quot;&gt;Properties&lt;/code&gt;, and then &lt;code class=&quot;highlighter-rouge&quot;&gt;Disable&lt;/code&gt; it.&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;After disabling the encryption in Windows, repeat steps 1 and 2 above. Be sure to wait until Windows 10 has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;c-install-gnuradio&quot;&gt;C. Install Gnuradio&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Open a terminal window.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Type and enter &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt update&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Type and enter &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt upgrade&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Type and enter &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install gnuradio&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;You may need to respond ‘Y’ to a few prompts before installation is complete.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;d-install-gr-radio_astro&quot;&gt;D. Install gr-radio_astro&lt;/h4&gt;
-
-&lt;p&gt;This will install the spectrometer program &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt;.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Open a terminal window in Ubuntu.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install gnuradio external python dependencies and SDR drivers by typing the following:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem&lt;/code&gt;, and hit Enter.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Also install the following package: &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo apt install git cmake liborc-0.4-dev&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;To clone the repository: in the terminal, type and Enter: &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone https://github.com/WVURAIL/gr-radio_astro.git&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Switch to the gr-radio_astro directory: &lt;code class=&quot;highlighter-rouge&quot;&gt;cd gr-radio_astro&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Switch to the gr-radio_astro 3.8 branch by typing: &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout gr38&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Make a build directory: &lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir build&lt;/code&gt;, and then move to it: &lt;code class=&quot;highlighter-rouge&quot;&gt;cd build&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Then run the following in the build directory:&lt;/p&gt;
-
-    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cmake ..
-sudo make
-sudo make install
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
-    &lt;p&gt;&lt;strong&gt;Additional Steps for setting the proper Python environment:&lt;/strong&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Open a terminal window.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Make sure you are at the home directory (type and Enter &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; ). Then type &lt;code class=&quot;highlighter-rouge&quot;&gt;gedit .bashrc&lt;/code&gt; to open the &lt;em&gt;.bashrc&lt;/em&gt; file in an editor.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Scroll to the very bottom of this file, add a blank line, and then copy and paste the following code: &lt;code class=&quot;highlighter-rouge&quot;&gt;export PYTHONPATH=/usr/local/lib/python3/dist-packages:/usr/local/lib/python3.8/dist-packages:$PYTHONPATH&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Save and close (x in upper right corner).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Go to the following by typing: &lt;code class=&quot;highlighter-rouge&quot;&gt;cd /usr/local/lib/python3.8/dist-packages&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Enter &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;If the folder &lt;code class=&quot;highlighter-rouge&quot;&gt;radio_astro&lt;/code&gt; exists, delete it by typing: &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo rm -rf radio_astro&lt;/code&gt; . If nothing shows up after typing &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt;, then everything is fine.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;Check that the Installation was Successful&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Run the program in Gnuradio:
-    &lt;ul&gt;
-      &lt;li&gt;In a terminal window type &lt;code class=&quot;highlighter-rouge&quot;&gt;gnuradio-companion&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Open the &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; program as follows:&lt;/p&gt;
-
-        &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;File --&amp;gt; Open --&amp;gt; gr-radio_astros --&amp;gt; examples --&amp;gt; *spectrometer_w_cal.grc* &lt;/code&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Plug an Airspy radio, with the LNA attached, into the USB port. Run the program by hitting the start triangle (“execute the flowgraph”) on the menu bar at top. If no errors occur, you are all set!&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;e-how-to-update-files-from-the-gr-radio_astro-gr38-repository&quot;&gt;E. How to Update files from the gr-radio_astro gr38 Repository&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Switch to the &lt;em&gt;gr-radio_astro&lt;/em&gt; folder on your computer: &lt;code class=&quot;highlighter-rouge&quot;&gt;cd gr-radio_astro&lt;/code&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;To check to see if you are in the gr38 branch, enter &lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt;. The descriptor “On branch gr38” should appear at the top of the displayed text.&lt;/p&gt;
-
-    &lt;p&gt;To switch to the gr38 branch, type &lt;code class=&quot;highlighter-rouge&quot;&gt;git checkout gr38&lt;/code&gt;. Then type &lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt; to check.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Type &lt;code class=&quot;highlighter-rouge&quot;&gt;git pull&lt;/code&gt;. This should update your gr-radio_astro files on your computer.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Run the &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; program in Gnuradio:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;In a terminal window type &lt;code class=&quot;highlighter-rouge&quot;&gt;gnuradio-companion&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;Close any pre-existing &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; program that may already be loaded in the Gnuradio program.&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Open the new &lt;em&gt;spectrometer_w_cal.grc&lt;/em&gt; program that is in the updated gr-radio_astro folder:&lt;/p&gt;
-
-        &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;File --&amp;gt; Open --&amp;gt; gr-radio_astros --&amp;gt; examples --&amp;gt; spectrometer_w_cal.grc&lt;/code&gt;&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;Make sure an Airspy radio is plugged into a USB port. Execute the program to check that it is updated successfully.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        <pubDate>Tue, 28 Jul 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/dspira-lessons/BuildingHorn_SoftwareInfo</link>
-        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/BuildingHorn_SoftwareInfo</guid>
-      </item>
-    
-      <item>
-        <title>Tools for Observational Astronomy</title>
-        <description>&lt;p&gt;The ultimate goal of the DSPIRA Astronomy Lessons Module is to give the teachers and students an opportunity to actually make observations in the sky using the DSPIRA Radio Horn Telescope.  If you are starting from ground zero in this discipline, then they will need to develop some basic tools, whether it is where to look in your hometown skies, to understanding what electromagnetic radiation is and what can we learn from it.&lt;/p&gt;
-
-&lt;h3 id=&quot;click-here-for-a-complete-document-of-teachers-notes-for-this-whole-activity-sequence&quot;&gt;Click here for a complete document of &lt;a href=&quot;https://docs.google.com/document/d/1ml9wJJ3wSbEf1A7UIMpiVHuxSqeQe7dbE3UrJ_Wq-hk/edit?usp=sharing&quot;&gt;Teacher’s Notes&lt;/a&gt; for this whole activity sequence&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Activity List&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;Introduction to the ElectroMagnetic Spectrum&lt;/li&gt;
-  &lt;li&gt;The Doppler Effect&lt;/li&gt;
-  &lt;li&gt;Understanding Celestial Coordinate Systems&lt;/li&gt;
-  &lt;li&gt;Observing Celestial Coordinate Systems using Stellarium&lt;/li&gt;
-  &lt;li&gt;Introduction to Radio Astronomy&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The first two activities center around the Nature of Light…&lt;/p&gt;
-
-&lt;h2 id=&quot;1-introduction-to-the-electromagnetic-spectrum&quot;&gt;1. Introduction to the ElectroMagnetic Spectrum&lt;/h2&gt;
-
-&lt;p&gt;This is an introductory activity to get the students to dig around the internet to fill out information on the full EM Spectrum.&lt;/p&gt;
-
-&lt;h6 id=&quot;-click-for-link-to-intro-to-the-em-spectrum-page&quot;&gt;&amp;gt; Click for link to &lt;a href=&quot;https://drive.google.com/file/d/1iS-GHQtLvbfvYz1GLT67Ofp9SjeH1XYB/view?usp=sharing&quot;&gt;Intro to the EM Spectrum&lt;/a&gt; page&lt;/h6&gt;
-
-&lt;h3 id=&quot;intro-video-to-the-importance-of-spectroscopy&quot;&gt;Intro Video to the Importance of Spectroscopy&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;To get to main point, go to time 7:13 on the video&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;https://www.youtube.com/watch?v=jjy-eqWM38g&amp;amp;feature=youtu.be&amp;amp;t=433&lt;/p&gt;
-
-&lt;h2 id=&quot;2-the-doppler-effect&quot;&gt;2. The Doppler Effect&lt;/h2&gt;
-
-&lt;p&gt;Doppler Effect lessons and activities are common, but this DSPIRA lesson actually uses data received by DSPIRA teachers using radio telescopes.&lt;/p&gt;
-
-&lt;h6 id=&quot;-click-for-link-to-the-doppler-effect&quot;&gt;&amp;gt; Click for link to &lt;a href=&quot;https://drive.google.com/file/d/1gbDCY0ZIlvnDZP1k5oq9_Hr0P6gqWSqr/view?usp=sharing&quot;&gt;The Doppler Effect&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h2 id=&quot;3-understanding-celestial-coordinate-systems&quot;&gt;3. Understanding Celestial Coordinate Systems&lt;/h2&gt;
-
-&lt;p&gt;The next activities are to help the user get familiar with how we divide up the sky into different coordinate systems, and how we can use our location and knowledge of the coordinate systems to find our way around the sky for making observaations.&lt;/p&gt;
-
-&lt;h6 id=&quot;student-activity-document&quot;&gt;&lt;a href=&quot;https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing&quot;&gt;Student Activity Document&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h6 id=&quot;teacher-notes&quot;&gt;&lt;a href=&quot;https://docs.google.com/document/d/1JVFn5d4mhCN-fU2JmSMRD95g3N5xwSbFM94TUpAUe3k/edit?usp=sharing&quot;&gt;Teacher Notes&lt;/a&gt;&lt;/h6&gt;
-
-&lt;p&gt;The following are videos from Dr. Loren Anderson from West Virginia University’s Astronomy department.&lt;br /&gt;
-They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.&lt;/p&gt;
-
-&lt;h6 id=&quot;intro-to-motion-in-the-sky&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=wUNDoUoDrCg&quot; class=&quot;button&quot;&gt;Intro to Motion in the Sky&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h6 id=&quot;the-celestial-sphere&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=d8BcwK5nlos&quot; class=&quot;button&quot;&gt;The Celestial Sphere&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h6 id=&quot;earths-motion-and-star-trails&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_L1R1VnMeD4&quot; class=&quot;button&quot;&gt;Earth’s Motion and Star Trails&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h6 id=&quot;more-celestial-sphere&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UpYt7238p5g&quot; class=&quot;button&quot;&gt;More Celestial Sphere&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h6 id=&quot;discussion-of-common-misconceptions&quot;&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=nfonuosoHUk&quot; class=&quot;button&quot;&gt;Discussion of Common Misconceptions&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h2 id=&quot;4-observing-celestial-coordinates-using-stellarium&quot;&gt;4. Observing Celestial Coordinates using Stellarium&lt;/h2&gt;
-
-&lt;p&gt;This activity is a nice introduction to using the Stellarium Web Online planetarium program&lt;/p&gt;
-
-&lt;h6 id=&quot;-click-here-for-student-activity-document&quot;&gt;&amp;gt; Click here for &lt;a href=&quot;https://drive.google.com/file/d/1T441BW8rz3_bVgKN_bKK-ivfudXhQwFa/view?usp=sharing&quot;&gt;Student Activity Document&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h6 id=&quot;-click-here-for-teacher-notes-document&quot;&gt;&amp;gt; Click here for &lt;a href=&quot;https://docs.google.com/document/d/1_rUbPuXiTXhHVkVDIOzbh-0F8xSCeMn5sbd4OHJzIrg/edit?usp=sharing&quot;&gt;Teacher Notes Document&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h6 id=&quot;-a-tutorial-video-using-stellarium-online&quot;&gt;&amp;gt; A tutorial video &lt;a href=&quot;https://www.youtube.com/watch?v=ApKA6kWlFuQ&quot;&gt;Using Stellarium Online&lt;/a&gt;&lt;/h6&gt;
-
-&lt;h2 id=&quot;5-introduction-to-radio-astronomy&quot;&gt;5. Introduction to Radio Astronomy&lt;/h2&gt;
-
-&lt;p&gt;If you are going to continue on with the DSPIRA Experience, then this is a great &lt;a href=&quot;https://www.youtube.com/watch?v=-UrzmAa62ho&quot;&gt;Introduction video to Radio Astronomy&lt;/a&gt; created by MIT students.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 27 Jul 2020 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/dspira-lessons/ObserveTools</link>
-        <guid isPermaLink="true">http://localhost:4000/dspira-lessons/ObserveTools</guid>
       </item>
     
   </channel>
