@@ -16,7 +16,7 @@ As explained in the video this program was designed to be provide trachers the t
 
 Additionally we have several lesson in Astornomy to work on with or without these telescopes:
 
-[Astronomy]({{ site.baseurl}}/astronomy/){: .button}
+[Astronomy]({{ site.baseurl}}/categories/astronomy/){: .button}
 
 
 All of these moduels are organised in this page: 
@@ -30,3 +30,10 @@ These lessons are in the form of posts tagged according to user confort levels f
 All of our offerings are here:
 
 [All Lessons]({{ site.baseurl }}/all/){: .button}
+
+
+<hr>
+
+If you would like to contribute to your own radio astronomy lessons please [email us](pranav.sanghavi@mail.wvu.edu) and use this:
+
+[New post]({{ site.baseurl}}/newpost/)
