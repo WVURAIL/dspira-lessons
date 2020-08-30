@@ -43,8 +43,6 @@ It consists of a cradle that holds the horn/can assembly and a base to support t
 Details on how to construct the stand shown in the picture above are provided in the document [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
 
 The cost of the parts is under $50.
-
-  
   
 ## The Back-end Electronics
 
