@@ -37,3 +37,12 @@ All of our offerings are here:
 If you would like to contribute to your own radio astronomy lessons please [email us](mailto:pranav.sanghavi@mail.wvu.edu) and use this:
 
 [New post]({{ site.baseurl}}/newpost/){: .button}
+
+
+<script src="https://utteranc.es/client.js"
+        repo="WVURAIL/dspira-lessons"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
