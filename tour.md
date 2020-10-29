@@ -42,7 +42,7 @@ If you would like to contribute to your own radio astronomy lessons please [emai
 <script src="https://utteranc.es/client.js"
         repo="WVURAIL/dspira-lessons"
         issue-term="pathname"
-        theme="github-dark"
+        theme="github-light"
         crossorigin="anonymous"
         async>
 </script>
