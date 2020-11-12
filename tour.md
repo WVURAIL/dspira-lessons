@@ -47,6 +47,8 @@ If you would like to contribute to your own radio astronomy lessons please [emai
 
 [New post]({{ site.baseurl}}/newpost/){: .button}
 
-*OR* Visit the forums to start a discussion: 
+<hr>
+
+Visit the forums to start a discussion: 
 
 [Forums]({{ site.baseurl}}/forum/){: .button}
