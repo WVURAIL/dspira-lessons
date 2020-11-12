@@ -23,7 +23,7 @@ The parts needed are listed under each section described below.
 
 The antenna consists of the horn panels, a metal can, the wire probe, and a low noise amplifier.
 
-The horn panels and metal can are assembled as a single unit. Detailed instructions on assembling the horn panels, metal can, and stand can be found [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing) Complete details on assembling the metal can apparatus are found [here.](http://wvurail.org/dspira-lessons/AssemblingtheCAN)
+The horn panels and metal can are assembled as a single unit. For detailed instructions on assembling the horn panels, metal can, and stand, click [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing) More complete details on assembling the metal can apparatus are found [here.](http://wvurail.org/dspira-lessons/AssemblingtheCAN)
 
 The low noise amplifier (LNA) connects to the antenna probe through a standard SMA connector that is part of the can assembly. (See diagram above??)
 
