@@ -25,7 +25,7 @@ The horn panels and metal can are assembled as a single unit. For detailed instr
 
 A low noise amplifier (LNA) connects to the antenna probe through a standard SMA connector that is part of the can assembly. (See diagram above??) Professor Kevin Bandura at WVU designed the DSPIRA 1420 MHz LNA to operate in urban environments. The total cost to build this LNA circuit is approximately $60. Details on ordering the parts and instructions on how to solder the circuit are provided [here.](http://wvurail.org/dspira-lessons/DetailedLNAInstructions) 
 	
-Pre-made LNA circuits can be used instead. The options listed below are not quite as good as the DSPIRA LNA described above but will work with the DSPIRA horn telescope and software.
+A pre-made LNA circuit can be used if preferred. The options listed below will work with the DSPIRA horn telescope and software.
 
 + [Nooelec SAWbird+ H1](https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html) - Premium SAW Filter & Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications; $44.95.
 
