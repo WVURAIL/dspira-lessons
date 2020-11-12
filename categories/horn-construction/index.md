@@ -25,17 +25,12 @@ The antenna consists of the horn panels, a metal can, the wire probe, and a low 
 
 The horn panels and metal can are assembled as a single unit. For detailed instructions on assembling the horn panels, metal can, and stand, click [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing) More complete details on assembling the metal can apparatus are found [here.](http://wvurail.org/dspira-lessons/AssemblingtheCAN)
 
-The low noise amplifier (LNA) connects to the antenna probe through a standard SMA connector that is part of the can assembly. (See diagram above??)
+A low noise amplifier (LNA) connects to the antenna probe through a standard SMA connector that is part of the can assembly. (See diagram above??) The DSPIRA LNA is designed for a 1420 MHz radio telescope by Professor Kevin Bandura at WVU. The total cost to build this LNA circuit is approximately $60. Details on ordering the parts and instructions on how to solder the circuit are provided [here.](http://wvurail.org/dspira-lessons/DetailedLNAInstructions) 
+	
+If you prefer not to solder together a circuit, other options for obtaining a low noise amplifier include the following. All of these will work with the dSPIRA horn telescope and software.
++[Nooelec SAWbird+ H1](https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html) - Premium SAW Filter & Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications; $44.95.
 
-Some options for obtaining a low noise amplifier include the following. All of these will work with the dSPIRA horn telescope and software.
-
-+ Best option: the DSPIRA LNA – This amplifier was designed for a 1420 MHz radio telescope by Professor Kevin Bandura at WVU. This option requires ordering the circuit board and components, and then assembling the components by soldering. Details on ordering the parts and instructions on how to solder the circuit are provided [here.](http://wvurail.org/dspira-lessons/DetailedLNAInstructions)
-
-	The total cost for the parts of this circuit is approximately $60.
-
-+ Next best option: [Nooelec SAWbird+ H1](https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html) - Premium SAW Filter & Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications; $44.95.
-
-+ Third best option: [Radio Astronomy Hydrogen Line Low Noise Amplifier](https://www.tindie.com/products/gpio/radio-astronomy-hydrogen-line-low-noise-amplifier/); $49.50.
++ [Radio Astronomy Hydrogen Line Low Noise Amplifier](https://www.tindie.com/products/gpio/radio-astronomy-hydrogen-line-low-noise-amplifier/); $49.50.
 
 ### The Support Stand
 
