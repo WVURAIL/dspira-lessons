@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Forums
+title: Digital Signal Processing Forum
 permalink: /forum/dsp/
 ---
 
