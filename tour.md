@@ -26,7 +26,7 @@ Additionally we have several lesson in Astronomy to work on with or without thes
 
 [Astronomy]({{ site.baseurl}}/categories/astronomy/){: .button}
 
-The radio horn telescope to be used for some basic observation and research that could be done at the high school level, or for enthusiast hobbyists. CLick here to access the Astronomy Module, which delves into the topics within astronomy that can be investigated using a horn telescope.  
+The radio horn telescope to be used for some basic observation and research that could be done at the high school level, or for enthusiast hobbyists. Click here to access the Astronomy Module, which delves into the topics within astronomy that can be investigated using a horn telescope.  
 
 All of the modules are organised in this page: 
 
