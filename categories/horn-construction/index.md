@@ -3,8 +3,6 @@ layout: catpag
 category: Horn Construction
 ---
 
-### OVERVIEW
-
 A horn telescope consists of 3 major parts: the **antenna**, the **support stand**, and the **back-end electronics**, as illustrated in the picture below. 
 
 {picture to come}
