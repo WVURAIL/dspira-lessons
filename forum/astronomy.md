@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Forums
+title: Astronomy Forum
 permalink: /forum/astronomy/
 ---
 
