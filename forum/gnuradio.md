@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Forums
+title: GNURadio Forum
 permalink: /forum/gnuradio/
 ---
 
