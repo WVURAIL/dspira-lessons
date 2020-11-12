@@ -47,11 +47,6 @@ If you would like to contribute to your own radio astronomy lessons please [emai
 
 [New post]({{ site.baseurl}}/newpost/){: .button}
 
+*OR* Visit the forums to start a discussion: 
 
-<script src="https://utteranc.es/client.js"
-        repo="WVURAIL/dspira-lessons"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+[Forums]({{ site.baseurl}}/forum/){: .button}
