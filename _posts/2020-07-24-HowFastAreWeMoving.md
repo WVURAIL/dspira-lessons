@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-07-24
+date: 
 title: "How Fast Are We Moving?"
 summary:  Exploring how fast we are moving in the Milky Way Galaxy
 tags: ['School-Teachers', 'Students']
