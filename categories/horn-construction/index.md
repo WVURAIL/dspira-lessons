@@ -3,8 +3,6 @@ layout: catpag
 category: Horn Construction
 ---
 
-## Building a Horn Telescope
-
 ### OVERVIEW
 
 A horn telescope consists of 3 major parts: the **antenna**, the **support stand**, and the **back-end electronics**, as illustrated in the picture below. 
@@ -25,7 +23,7 @@ The parts needed are listed under each section described below.
 
 The antenna consists of the horn panels, a metal can, the wire probe, and a low noise amplifier.
 
-The horn panels and metal can are assembled as a single unit. Detailed instructions on the parts involved and their assembly can be found [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
+The horn panels and metal can are assembled as a single unit. Detailed instructions on building the horn panels can be found [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing) Detailed instructions on building the metal can are found [here.](http://wvurail.org/dspira-lessons/AssemblingtheCAN)
 
 The low noise amplifier (LNA) connects to the antenna probe through a standard SMA connector that is part of the can assembly. (See diagram above??)
 
