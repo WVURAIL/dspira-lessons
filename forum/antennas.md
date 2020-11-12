@@ -4,8 +4,7 @@ title: Forums
 permalink: /forum/antennas/
 ---
 
-# Discussions on Antennas, Horn Telescopes, designs. 
-
+# Discussions on Antennas, Horn Telescopes, Designs and Operations
 
 <script src="https://utteranc.es/client.js"
         repo="WVURAIL/dspira-lessons"
