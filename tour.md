@@ -18,6 +18,8 @@ A horn telescope, which consists of 3 major parts: the **antenna**, the **suppor
 
 [Horn Operation]({{ site.baseurl }}/categories/horn-operation/){: .button} 
 
+You've built a horn telescope. Now what? How do I take measurements with it? No problem! Click here for detailed instructions for operating a DSPIRA horn telescope.
+
 [Digital Signal Processing]({{ site.baseurl}}/categories/digital-signal-processing/){: .button}
 
 Additionally we have several lesson in Astronomy to work on with or without these telescopes:
