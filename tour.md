@@ -14,6 +14,8 @@ As explained in the video this program was designed to be provide teachers the t
 
 [Horn Construction]({{ site.baseurl }}/categories/horn-construction/){: .button} 
 
+A horn telescope, which consists of 3 major parts: the **antenna**, the **support stand**, and the **back-end electronics**, can be built by anyone. The cost is only a few hundred dollars. Click here for detailed instructions for constructing a horn telescope.
+
 [Horn Operation]({{ site.baseurl }}/categories/horn-operation/){: .button} 
 
 [Digital Signal Processing]({{ site.baseurl}}/categories/digital-signal-processing/){: .button}
