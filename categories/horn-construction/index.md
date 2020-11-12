@@ -23,7 +23,7 @@ The antenna consists of the horn panels, a metal can, the wire probe, and a low 
 
 The horn panels and metal can are assembled as a single unit. For detailed instructions on assembling the horn panels, metal can, and stand, click [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing) More complete details on assembling the metal can apparatus are found [here.](http://wvurail.org/dspira-lessons/AssemblingtheCAN)
 
-A low noise amplifier (LNA) connects to the antenna probe through a standard SMA connector that is part of the can assembly. (See diagram above??) The DSPIRA LNA is designed for a 1420 MHz radio telescope by Professor Kevin Bandura at WVU. The total cost to build this LNA circuit is approximately $60. Details on ordering the parts and instructions on how to solder the circuit are provided [here.](http://wvurail.org/dspira-lessons/DetailedLNAInstructions) 
+A low noise amplifier (LNA) connects to the antenna probe through a standard SMA connector that is part of the can assembly. (See diagram above??) Professor Kevin Bandura at WVU designed the DSPIRA 1420 MHz LNA to operate in urban environments. The total cost to build this LNA circuit is approximately $60. Details on ordering the parts and instructions on how to solder the circuit are provided [here.](http://wvurail.org/dspira-lessons/DetailedLNAInstructions) 
 	
 Pre-made LNA circuits can be used instead. The options listed below are not quite as good as the DSPIRA LNA described above but will work with the DSPIRA horn telescope and software.
 
