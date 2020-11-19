@@ -36,7 +36,7 @@ You've built a horn telescope. Now what? How do I take measurements with it? No 
 
 [Astronomy]({{ site.baseurl}}/categories/astronomy/){: .button}
 
-<img class="img-circle" src="astronomy.png">
+<img class="img-circle" src="astronomy.jpg">
 
 The radio horn telescope to be used for some basic observation and research that could be done at the high school level, or for enthusiast hobbyists. Click here to access the Astronomy Module, which delves into the topics within astronomy that can be investigated using a horn telescope.  
 
