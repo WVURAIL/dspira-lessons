@@ -16,22 +16,27 @@ As explained in the video this program was designed to be provide teachers the t
 
 [Horn Construction]({{ site.baseurl }}/categories/horn-construction/){: .button} 
 
+<img class="img-circle" src="horn.jpeg">
+
 A horn telescope, which consists of 3 major parts: the **antenna**, the **support stand**, and the **back-end electronics**, is easy to build. The cost is only a few hundred dollars. Click here for detailed instructions for constructing a horn telescope.
 
 <hr>
 
 [Horn Operation]({{ site.baseurl }}/categories/horn-operation/){: .button} 
 
+<img class="img-circle" src="horn-ops.jpeg">
+
 You've built a horn telescope. Now what? How do I take measurements with it? No problem! Click here for detailed instructions for operating a DSPIRA horn telescope.
 
 <hr>
-
 
 [Digital Signal Processing]({{ site.baseurl}}/categories/digital-signal-processing/){: .button}
 
 <hr>
 
 [Astronomy]({{ site.baseurl}}/categories/astronomy/){: .button}
+
+<img class="img-circle" src="astronomy.png">
 
 The radio horn telescope to be used for some basic observation and research that could be done at the high school level, or for enthusiast hobbyists. Click here to access the Astronomy Module, which delves into the topics within astronomy that can be investigated using a horn telescope.  
 
