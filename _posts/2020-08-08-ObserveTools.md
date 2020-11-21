@@ -65,7 +65,7 @@ They are short clips from the his 2nd lecture given to the DSPIRA Teachers durin
 
 This activity is a nice introduction to using the Stellarium Web Online planetarium program 
 
-###### > Click here for [Student Activity Document](https://drive.google.com/file/d/1T441BW8rz3_bVgKN_bKK-ivfudXhQwFa/view?usp=sharing) 
+###### > Click here for [Student Activity Document](https://docs.google.com/document/d/1_AqfrH3EmqX0GnkzMcA-iTKe62dqW4h8mwduzmP6hu4/edit?usp=sharing) 
 
 ###### > Click here for [Teacher Notes Document](https://docs.google.com/document/d/1_rUbPuXiTXhHVkVDIOzbh-0F8xSCeMn5sbd4OHJzIrg/edit?usp=sharing) 
 
