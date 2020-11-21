@@ -24,7 +24,7 @@ The ultimate goal of the DSPIRA Astronomy Lessons Module is to give the teachers
 
 This is an introductory activity to get the students to dig around the internet to fill out information on the full EM Spectrum. 
 
-###### > Click for link to [Intro to the EM Spectrum](https://drive.google.com/file/d/1iS-GHQtLvbfvYz1GLT67Ofp9SjeH1XYB/view?usp=sharing) page
+###### > Click for link to [Intro to the EM Spectrum](https://drive.google.com/file/d/1iS-GHQtLvbfvYz1GLT67Ofp9SjeH1XYB/view?usp=sharing) Student Activity Document
 
 ### Intro Video to the Importance of Spectroscopy 
 _To get to main point, go to time 7:13 on the video_ 
@@ -36,7 +36,7 @@ https://www.youtube.com/watch?v=jjy-eqWM38g&feature=youtu.be&t=433
 Doppler Effect lessons and activities are common, but this DSPIRA lesson actually uses data received by DSPIRA teachers using radio telescopes.
 
 
-###### > Click for link to [The Doppler Effect](https://drive.google.com/file/d/1gbDCY0ZIlvnDZP1k5oq9_Hr0P6gqWSqr/view?usp=sharing) 
+###### > Click for link to [The Doppler Effect](https://drive.google.com/file/d/1gbDCY0ZIlvnDZP1k5oq9_Hr0P6gqWSqr/view?usp=sharing) Student Activity Document
 
 
 ## 3. Understanding Celestial Coordinate Systems
