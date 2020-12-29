@@ -24,6 +24,8 @@ From a high school or college class perspective, each topic has about one to two
 
  Velocity Curve Lessons
 
+   * [Overview of Velocity Curve Activities: Teacher Notes](https://docs.google.com/document/d/1Rltdd6kSORlVFIaczRCB88xuIuG9YNwl-tOnGOPAy2o/edit)
+
    * [Introduction to Horn Telescope](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro.pdf)
    
    * [Introduction to Horn Telescope Follow-up](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
