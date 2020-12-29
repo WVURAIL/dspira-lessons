@@ -26,21 +26,21 @@ From a high school or college class perspective, each topic has about one to two
 
    * [Lesson 1: Introductory Activity](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson1_2018.pdf)
    
-   * [Lesson 1: Introductory Activity Follow-up](/Files_uploaded/VelocityCurve_Lesson1_Followup_2018.pdf)
+   * [Lesson 1: Introductory Activity Follow-up](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson1_Followup_2018.pdf)
    
-   * [Lesson 2: The Electromagnetic Spectrum](/Files_uploaded/VelocityCurve_Lesson2_2018.pdf)
+   * [Lesson 2: The Electromagnetic Spectrum](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson2_2018.pdf)
    
-   * [Lesson 3: The 21 cm Wavelength of Neutral Hydrogen](/Files_uploaded/VelocityCurve_Lesson3_2018.pdf)
+   * [Lesson 3: The 21 cm Wavelength of Neutral Hydrogen](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson3_2018.pdf)
    
-   * [Lesson 4: Celestial Coordinate Systems](/Files_uploaded/VelocityCurve_Lesson4_2018.pdf)
+   * [Lesson 4: Celestial Coordinate Systems](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson4_2018.pdf)
    
-   * [Lesson 5: Using Stellarium](/Files_uploaded/VelocityCurve_Lesson5_2018.pdf)
+   * [Lesson 5: Using Stellarium](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson5_2018.pdf)
    
-   * [Lesson 6: Galactic Plane Observation 1](/Files_uploaded/VelocityCurve_Lesson6_GalacticPlaneObservation1_2018.pdf)
+   * [Lesson 6: Galactic Plane Observation 1](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson6_GalacticPlaneObservation1_2018.pdf)
    
-   * [Lesson 6: Galactic Plane Observation 1 - Conclusions](/Files_uploaded/VelocityCurve_Lesson6_GalacticPlaneObservation1_Conclusions_2018.pdf)
+   * [Lesson 6: Galactic Plane Observation 1 - Conclusions](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson6_GalacticPlaneObservation1_Conclusions_2018.pdf)
    
-   * [Lesson 7: Galactic Plane Observation 2](/Files_uploaded/APPhysics_AstroLesson7_GalacticPlaneObservation2_2019.pdf)
+   * [Lesson 7: Galactic Plane Observation 2](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/APPhysics_AstroLesson7_GalacticPlaneObservation2_2019.pdf)
    
 
 
