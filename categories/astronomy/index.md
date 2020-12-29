@@ -21,3 +21,26 @@ From a high school or college class perspective, each topic has about one to two
  
 ## Determining a Velocity Curve of the Milky Way Galaxy 
 - This is the true culmination of the DSPIRA Program in that the radio horn telescope is constructed and will be used to explore some of the rotational nature of the Milky Way.  A rudimentary map of the Milky Way can begin to be constructed from the data from the scope.  This can then lead to discussions for the necessity of Dark Matter to account for the velocities being observed.  
+
+ Velocity Curve Lessons
+
+   * [Lesson 1: Introductory Activity](/Files_uploaded/VelocityCurve_Lesson1_2018.pdf)
+   
+   * [Lesson 1: Introductory Activity Follow-up](/Files_uploaded/VelocityCurve_Lesson1_Followup_2018.pdf)
+   
+   * [Lesson 2: The Electromagnetic Spectrum](/Files_uploaded/VelocityCurve_Lesson2_2018.pdf)
+   
+   * [Lesson 3: The 21 cm Wavelength of Neutral Hydrogen](/Files_uploaded/VelocityCurve_Lesson3_2018.pdf)
+   
+   * [Lesson 4: Celestial Coordinate Systems](/Files_uploaded/VelocityCurve_Lesson4_2018.pdf)
+   
+   * [Lesson 5: Using Stellarium](/Files_uploaded/VelocityCurve_Lesson5_2018.pdf)
+   
+   * [Lesson 6: Galactic Plane Observation 1](/Files_uploaded/VelocityCurve_Lesson6_GalacticPlaneObservation1_2018.pdf)
+   
+   * [Lesson 6: Galactic Plane Observation 1 - Conclusions](/Files_uploaded/VelocityCurve_Lesson6_GalacticPlaneObservation1_Conclusions_2018.pdf)
+   
+   * [Lesson 7: Galactic Plane Observation 2](/Files_uploaded/APPhysics_AstroLesson7_GalacticPlaneObservation2_2019.pdf)
+   
+
+
