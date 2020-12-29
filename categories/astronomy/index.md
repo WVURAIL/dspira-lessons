@@ -24,7 +24,7 @@ From a high school or college class perspective, each topic has about one to two
 
  Velocity Curve Lessons
 
-   * [Lesson 1: Introduction to Horn Telescope](https://drive.google.com/drive/folders/1YoTWEM2rvov09mo8GRmlCMHE816SpKmC)
+   * [Introduction to Horn Telescope](FilesUploaded/VelocityCurve_21cmHI.pdf)
    
    * [Lesson 1: Introduction to Horn Telescope Follow-up](https://drive.google.com/drive/folders/1YoTWEM2rvov09mo8GRmlCMHE816SpKmC)
    
