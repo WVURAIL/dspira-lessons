@@ -26,7 +26,7 @@ From a high school or college class perspective, each topic has about one to two
 
    * [Introduction to Horn Telescope](/FilesUploaded/VelocityCurve_21cmHI.pdf)
    
-   * [Lesson 1: Introduction to Horn Telescope Follow-up](/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
+   * [Introduction to Horn Telescope Follow-up](/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
    
    * [Lesson 2: The Electromagnetic Spectrum](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson2_2018.pdf)
    
