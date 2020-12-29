@@ -24,7 +24,7 @@ From a high school or college class perspective, each topic has about one to two
 
  Velocity Curve Lessons
 
-   * [Lesson 1: Introductory Activity](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson1_2018.pdf)
+   * [Lesson 1: Introductory Activity](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit)
    
    * [Lesson 1: Introductory Activity Follow-up](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson1_Followup_2018.pdf)
    
