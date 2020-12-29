@@ -24,9 +24,9 @@ From a high school or college class perspective, each topic has about one to two
 
  Velocity Curve Lessons
 
-   * [Lesson 1: Introductory Activity](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit)
+   * [Lesson 1: Introduction to Horn Telescope](https://drive.google.com/drive/folders/1YoTWEM2rvov09mo8GRmlCMHE816SpKmC)
    
-   * [Lesson 1: Introductory Activity Follow-up](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson1_Followup_2018.pdf)
+   * [Lesson 1: Introduction to Horn Telescope Follow-up](https://drive.google.com/drive/folders/1YoTWEM2rvov09mo8GRmlCMHE816SpKmC)
    
    * [Lesson 2: The Electromagnetic Spectrum](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson2_2018.pdf)
    
