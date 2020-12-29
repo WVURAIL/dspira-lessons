@@ -38,11 +38,17 @@ From a high school or college class perspective, each topic has about one to two
    
    * [Using Stellarium](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_Stellarium.pdf)
    
-   * [Galactic Plane Observation 1](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson6_GalacticPlaneObservation1_2018.pdf)
+   * [Galactic Plane Quadrants II&III Observations: Teacher Notes](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit)
    
-   * [Galactic Plane Observation 1 - Conclusions](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/VelocityCurve_Lesson6_GalacticPlaneObservation1_Conclusions_2018.pdf)
+   * [Galactic Plane Quadrants II&III Observations](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit)
    
-   * [Galactic Plane Observation 2](https://github.com/WVURAIL/cra/tree/master/Files_uploaded/APPhysics_AstroLesson7_GalacticPlaneObservation2_2019.pdf)
+   * [Galactic Plane Quadrants II&III Observations: Conclusions](https://docs.google.com/document/d/1aVUFzAvC14gPeV6RSYumYPlkclgILeoaI5LpUZNSV5U/edit)
+      
+   * [Galactic Plane Quadrant I Observations: Teacher Notes](https://docs.google.com/document/d/1BSLoZjrFtA2qEoVzgvXjHdufQFRWmxtQWSAl8k1yJu8/edit)
    
-
+   * [Galactic Plane Quadrant I Observations](https://docs.google.com/document/d/1V4wUx8VtX358x-gIWdH9FaYi3579bz_Unl38_ShrbKE/edit)
+   
+   * [Galactic Plane Quadrant I Observations: The Tangent Method](https://docs.google.com/document/d/1wA_tVKYrAyjvuVqUY9c_stwNpO1dGDFnIL6TiHq5hx8/edit)   
+   
+   * [Galactic Plane Quadrant I Observations: Analysis & Conclusions](https://docs.google.com/document/d/1J9w1DH5fQW24XDvesYTzsR943Px_13uTZQQS5qi6rxg/edit)   
 
