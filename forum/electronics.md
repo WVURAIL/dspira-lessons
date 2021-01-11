@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Electronics Forum
-permalink: /forum/antennas/
+permalink: /forum/electronics/
 ---
 
 # Discussions on Electronics for Radio Astronomy  
