@@ -3,6 +3,8 @@ layout: page
 title: DSPIRA Forum
 permalink: /forum/
 ---
+
+Use the following Discussion Rooms or use [GitHub Discussions](https://github.com/WVURAIL/dspira-lessons/discussions){: .button}
 # Discussion Rooms 
 
 [Antennas Forum]({{ site.baseurl }}/forum/antennas/){: .button}
