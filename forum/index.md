@@ -15,7 +15,7 @@ Use the following Discussion Rooms or use [GitHub Discussions](https://github.co
 
 [Astronomy Forum]({{ site.baseurl }}/forum/astronomy/){: .button}
 
-[GNURadio Forum]({{ site.baseurl }}/forum/astronomy/){: .button}
+[GNURadio Forum]({{ site.baseurl }}/forum/gnuradio/){: .button}
 
 ## General Discussions
 
