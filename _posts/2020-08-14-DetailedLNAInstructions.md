@@ -78,14 +78,14 @@ There are two SMA connectors on the circuit board: X1 and X2. One SMA connects t
 
 https://youtu.be/3jxUv_rlqTI
 
-### Soldering on the Protective Cover
+### Soldering on the Protective Cover/RF Shield
 
 The protective cover should not be soldered on until after the LNA is tested and is determined to function properly. Once the protective cover is soldered on, it will be difficult to make any repairs. The protective cover is also hard to remove after it has been soldered on. Click on the video link for a demonstration of soldering on the protective cover.
 
-Video link to be determined
+https://youtu.be/H1GZ_IfYmNQ
 
 ### Applying the Protective Coating
 
 Applying the silicone conformal coating is the last step for constructing the LNA. Click on the video link for a demonstration of how to cover the LNA with the silicone conformal coating.
 
-Video link to be determined
+https://youtu.be/aINHPuxA2VM
