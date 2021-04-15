@@ -21,7 +21,7 @@ The construction of the LNA is complicated and you may wonder how and where to s
 
 ### Second: Order and Purchase the Components of the LNA  
 
-1. Click on the *[LNA Ordering Parts Info](https://drive.google.com/file/d/1T7hi79kJvbDzek5PbHVrnjLKBXRcP8YW/view?usp=sharing){: button}* link for the list of components and where the components can be purchased.  
+1. Click on the *[LNA Ordering Parts Info](https://drive.google.com/file/d/1_8qzYX0wq48ErP7H5tAy8F8_bijaBQUf/view?usp=sharing){: button}* link for the list of components and where the components can be purchased.  
 2. Order a bottle of silicone conformal coating. Although this is not a component of the LNA, you will need to coat your circuit board after you are done soldering everything on. This coating will protect your LNA from moisture, corrosion, fungus, dirt, dust, thermal shock, short circuits, and static discharge. This product is available through Amazon. You can also do a Google search for silicone conformal coating to find other sellers.  
      
 ### Third: Solder the Components onto the Circuit Board  
