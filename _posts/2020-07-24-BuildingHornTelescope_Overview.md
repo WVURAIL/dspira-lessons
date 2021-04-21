@@ -27,7 +27,7 @@ A list of the components that are needed to build and operate a horn radio teles
 
    - A [coaxial cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr240/sma-male-times-microwave-lmr240/lmr240-sma-male-to-sma-male-coaxial-rf-pigtail-cable/) with SMA connectors is needed to connect the LNA to the SDR.
 
-   - computer & software needs
+   - computer & software options:
 
       * computer with a Linux (Ubuntu) operating system
 
