@@ -25,7 +25,7 @@ A list of the components that are needed to build and operate a horn radio teles
 
    - an Airspy Software Defined Radio: [Airspy R2](https://airspy.com/airspy-r2) 
 
-   - coaxial cable with SMA connectors: from coaxrf.com, [LMR195 SMA MALE to SMA MALE Coaxial RF Pigtail Cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr195/sma-male-times-microwave-lmr195/lmr195-sma-male-to-sma-male-coaxial-rf-pigtail-cable-2/)
+   - A [coaxial cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr240/sma-male-times-microwave-lmr240/lmr240-sma-male-to-sma-male-coaxial-rf-pigtail-cable/) with SMA connectors is needed to connect the LNA to the SDR.
 
    - computer & software needs
 
