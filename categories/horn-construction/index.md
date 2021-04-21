@@ -45,6 +45,6 @@ The radio signals detected by the horn telescope are digitized by a **software d
 
 + A less expensive option is the [Airspy Mini](https://airspy.com/airspy-r2), $99. It operates in a 6 MHz bandwidth. Only a minor adjustment to the software is needed if this SDR is used. Contact us for more information about the changes that would need to be done.
 
-+ A coaxial cable [link??] is needed to connect the LNA to the SDR. Refer to the diagram above.
++ A [coaxial cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr240/sma-male-times-microwave-lmr240/lmr240-sma-male-to-sma-male-coaxial-rf-pigtail-cable/) is needed to connect the LNA to the SDR. Typically a 10 ft length is adequate, but any length up to 25 ft should work fine.
 
 The spectrometer program on the computer is run in GnuRadio, which is a free and open source software program. Information about setting up the computer with the necessary software can be found [here.](http://wvurail.org/dspira-lessons/HornOperation_computerSystems)
