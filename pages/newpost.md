@@ -44,7 +44,7 @@ In Google Drive:
 EXAMPLE:
 - To add a Google doc lesson:
 ```
-[Name of your lesson](https://link/to/your/document/dotcom){: button}
+[Name of your lesson](https://link/to/your/document/dotcom){: .button}
 ```
 
 - Add YouTube link:
