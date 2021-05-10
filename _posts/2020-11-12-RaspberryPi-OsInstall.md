@@ -10,9 +10,9 @@ categories: ['Gnuradio', 'Raspberry Pi']
 # Radio Astronomy with Raspberry Operating System
 ### Glen Langston,  2020 October 21
 
-[Click to read this Document](https://drive.google.com/file/d/1Clyo3tW8s_1xhXjnvwi-_GTXlZI_uS-Z/view){: button}
+[Click to read this Document](https://drive.google.com/file/d/1Clyo3tW8s_1xhXjnvwi-_GTXlZI_uS-Z/view){: .button}
 
-
+***
 *The text of the pdf is below*
 
 This document describes the Operating System provided by our research group for Raspberry Pis computers configured for Science Aficionado Radio Astronomy.    The Operating System (OS) is courtesy of nearly countless volunteers in the Raspberry Pi Foundation, the Ubuntu Organization, the GnuRadio Collaboration and the folks at SDRplay.  The GnuRadio Collaboration made home radio astronomy possible, thanks to their free software for digital signal processing.   The community of volunteers have been very helpful in creating a fun to use package for learning the fundamentals of modern communications.    The SDRplay company put together the basis of the OS package including GnuRadio, in order to ease testing of their RSP1A for numerous applications.
