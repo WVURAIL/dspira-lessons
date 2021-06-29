@@ -13,7 +13,7 @@ category: Horn Construction
 
 * The horn panels, can, cradle, and support stand can be constructed for under $50.
 
-## Horn-Can Assembly ## - details on assembling the can & horn panels
+1. [Horn-Can Assembly ## - details on assembling the can & horn panels](https://wvurail.org//dspira-lessons/Horn_can){: .button}
 
 ## The Support Stand
 
