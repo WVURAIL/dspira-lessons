@@ -3,48 +3,21 @@ layout: catpag
 category: Horn Construction
 ---
 
-A horn telescope consists of 3 major parts: the **antenna**, the **support stand**, and the **back-end electronics**, as illustrated in the picture below. 
+**Overview of Telescope Design** 
 
-{picture to come}
+*  The horn telescope is designed as an ‘optimal’ horn, constructed from 1 gallon square paint thinner can and aluminized insulation board.
 
-The radio signals that reach the antenna on the horn surface are guided into the can and picked up by the wire probe. These signals are then immediately amplified by the **low noise amplifier (LNA)**. 
+* The cradle provides a frame for the horn to be easily connected to any support stand of your choice. The cradle design presented here provides an ability for the horn to rotate on an axis for easy elevation angle control.
 
-From there the amplified signal is passed into the software defined radio (SDR), which digitizes the signal to be fed into the computer. These signals are input to the GnuRadio **spectrometer program** which processes the signals and outputs a graph showing the signal strength vs. radio frequency. 
+* The cradle can be connected to any base desired. The wooden support stand presented here provides sturdy support for the horn. It is a simple design that is affordable and easy to construct. Its largest dimension is 75 cm so that it just fits through a standard doorway.
 
-These horn telescopes are designed specifically to detect the 1420.4 MHz radio signal that is emitted by cold hydrogen atoms that permeate the Milky Way Galaxy. These spectra contain information that enables us to determine the relative amounts of hydrogen atoms in the galaxy and their relative motions.
+* The horn panels, can, cradle, and support stand can be constructed for under $50.
 
-A complete horn telescope system can be built for a few hundred dollars, the actual cost depending on the options you choose and whether or not you have a computer. No building experience is needed, as we have tried to provide enough details for anyone to build the telescope. The tools needed include a drill, an electric screwdriver (or screwdriver drill bit), a saw, and a soldering iron.
+## Horn-Can Assembly ## - details on assembling the can & horn panels
 
-The parts needed are listed under each section described below.
+## The Support Stand
 
-### The Antenna
+## The Low Noise Amplifier (LNA) - This is a critical component for successful telescope operation.
 
-The antenna consists of the horn panels, a metal can, the wire probe, and a low noise amplifier.
+## Software Defined Radio (SDR) Options - needed to digitize the radio signal
 
-The horn panels and metal can are assembled as a single unit. For detailed instructions on assembling the horn panels, metal can, and stand, click [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing) More complete details on assembling the metal can apparatus are found [here.](http://wvurail.org/dspira-lessons/AssemblingtheCAN)
-
-A low noise amplifier (LNA) connects to the antenna probe through a standard SMA connector that is part of the can assembly. (See diagram above??) Professor Kevin Bandura at WVU designed the DSPIRA 1420 MHz LNA to operate in urban environments. The total cost to build this LNA circuit is approximately $60. Details on ordering the parts and instructions on how to solder the circuit are provided [here.](http://wvurail.org/dspira-lessons/DetailedLNAInstructions) 
-	
-A pre-made LNA circuit can be used if preferred. The options listed below will work with the DSPIRA horn telescope and software.
-
-+ [Low Noise Amplifier Filtered Hydrogen Line 1420 MHz LNA *32 dB* Gain LNA with Bias Tee](https://gpio.com/products/hydrogen-line-lna-with-bias-tee); $54.
-
-+ [Nooelec SAWbird+ H1](https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html) - Premium SAW Filter & Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications; $44.95.
-
-### The Support Stand
-
-The support stand described here is intended to be simple and affordable to anyone. It can be constructed out of standard lumber that can be found at any home improvement store.
-
-The support stand consists of a cradle that holds the horn/can assembly and a base to support the cradle. The cost of the parts is under $50. Details on how to construct the stand shown in the picture above are provided in the document [here.](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
-
-### The Back-end Electronics and Spectrometer
-
-The radio signals detected by the horn telescope are digitized by a **software defined radio (SDR)** and then processed by digital signaling processing software. The SDR comes with a cable that connects to a USB port on the computer.
-
-+ The SDR we prefer is the [Airspy R2](https://airspy.com/airspy-r2), $169. This operates in a 10 MHz bandwidth and is the SDR that the DSPIRA software is coded for.
-
-+ A less expensive option is the [Airspy Mini](https://airspy.com/airspy-r2), $99. It operates in a 6 MHz bandwidth. Only a minor adjustment to the software is needed if this SDR is used. Contact us for more information about the changes that would need to be done.
-
-+ A [coaxial cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr240/sma-male-times-microwave-lmr240/lmr240-sma-male-to-sma-male-coaxial-rf-pigtail-cable/) is needed to connect the LNA to the SDR. Typically a 10 ft length is adequate, but any length up to 25 ft should work fine.
-
-The spectrometer program on the computer is run in GnuRadio, which is a free and open source software program. Information about setting up the computer with the necessary software can be found [here.](http://wvurail.org/dspira-lessons/HornOperation_computerSystems)
