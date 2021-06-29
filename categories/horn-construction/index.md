@@ -13,11 +13,13 @@ category: Horn Construction
 
 * The horn panels, can, cradle, and support stand can be constructed for under $50.
 
-1. [Horn-Can Assembly ## - details on assembling the can & horn panels](https://wvurail.org//dspira-lessons/Horn_can){: .button}
+1. [Horn-Can Assembly ## - details on assembling the can with the horn panels](https://wvurail.org//dspira-lessons/Horn_can){: .button}
 
-## The Support Stand
+2. [The Horn Cradle](<a href="https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/Cradle_Assembly_2021.pdf">){: .button}
 
-## The Low Noise Amplifier (LNA) - This is a critical component for successful telescope operation.
+3. [The Support Stand](<a href="https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/Stand_Assembly_2021.pdf">){: .button}
 
-## Software Defined Radio (SDR) Options - needed to digitize the radio signal
+4. [The Low Noise Amplifier (LNA) - This is a critical component for successful telescope operation.](https://wvurail.org//dspira-lessons/Horn_can){: .button}
+
+5. [Software Defined Radio (SDR) Options - needed to digitize the radio signal](https://wvurail.org//dspira-lessons/Horn_can){: .button}
 
