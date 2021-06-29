@@ -7,8 +7,6 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Construction'] 
 ---
 
-## Overview of Constructing the LNA  
-
 ### First: Order and Purchase the Components of the LNA  
 
 1. Click on the *[LNA Ordering Parts Info](https://drive.google.com/file/d/1_8qzYX0wq48ErP7H5tAy8F8_bijaBQUf/view?usp=sharing){: button}* link for the list of components and where the components can be purchased.  
