@@ -15,15 +15,15 @@ category: Telescope Hardware Setup
 
 **Instructions for assembling the horn and base, and acquiring the needed electronic components:**
 
-[1. **Horn-Can Assembly** - details on assembling the can with the horn panels](https://wvurail.org//dspira-lessons/Horn_can){: .button}
+[1. **Horn-Can Assembly**](https://wvurail.org//dspira-lessons/Horn_can){: .button} - details on assembling the can with the horn panels
 
-[2. The Horn Cradle - instructions for assembling a frame to support the horn](https://wvurail.org/dspira-lessons/FilesUploaded/Cradle_Assembly_2021.pdf){: .button}
+[2. The Horn Cradle](https://wvurail.org/dspira-lessons/FilesUploaded/Cradle_Assembly_2021.pdf){: .button} - instructions for assembling a frame to support the horn
 
-[3. The Base Stand - instructions for building a simple, sturdy base for the telescope](https://wvurail.org/dspira-lessons/FilesUploaded/Stand_Assembly_2021.pdf){: .button}
+[3. The Base Stand](https://wvurail.org/dspira-lessons/FilesUploaded/Stand_Assembly_2021.pdf){: .button} - instructions for building a simple, sturdy base for the telescope
 
-[4. A Completed Horn Assembled - video showing how the horn-can, cradle, and base stand are assembled](https://youtu.be/LT0h3Frd-_k){: .button}
+[4. A Completed Horn Assembled](https://youtu.be/LT0h3Frd-_k){: .button} - video showing how the horn-can, cradle, and base stand are assembled
 
-[5. The Low Noise Amplifier (LNA) - This is a critical component for successful telescope operation.](https://wvurail.org//dspira-lessons/LNA){: .button}
+[5. The Low Noise Amplifier (LNA)](https://wvurail.org//dspira-lessons/LNA){: .button} - This is a critical component for successful telescope operation.
 
-[6. Software Defined Radio (SDR) Options - needed to digitize the radio signal](https://wvurail.org//dspira-lessons/SDR){: .button}
+[6. Software Defined Radio (SDR) Options](https://wvurail.org//dspira-lessons/SDR){: .button} - needed to digitize the radio signal
 
