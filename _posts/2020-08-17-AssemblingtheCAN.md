@@ -4,7 +4,7 @@ date:   2020-08-17
 title: Detailed Instructions for Assembling the CAN
 summary:  The CAN is made up of a paint thinner can and an antenna
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Construction'] 
+categories: ['Telescope Hardware Setup'] 
 permalink: "/assemblingcan"
 ---
 
