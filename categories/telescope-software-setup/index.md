@@ -20,7 +20,7 @@ category: Telescope Software Setup
 
 1. **Acquire Necessary Software:**
 
-* [Installation on a Bootable Flashdrive](){: .button} - All of the software needs to operate the telescope are loaded onto a bootable flashdrive, including GNURadio and the `spectrometer_w_cal.grc` program, are provided here.
+* [Installation on a Bootable Flashdrive](){: .button} - All of the software needs to operate the telescope are loaded onto a bootable flashdrive, including *GNURadio* and the `spectrometer_w_cal.grc` program, are provided here.
 
 * [Installation of Ubuntu and SDR software on a computer](){: .button} - Steps for installing the linux OS Ubuntu on a computer, loading *GNURadio*, and the `spectrometer_w_cal.grc` program are provided here.
 
