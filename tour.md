@@ -15,14 +15,14 @@ As explained in the video this program was designed to be provide teachers the t
 <hr>
 
 <img class="img-circle" style="float:left;" src="{{ site.baseurl }}/images/horn.jpeg">
-[Horn Construction]({{ site.baseurl }}/categories/horn-construction/){: .button} 
+[Telescope Hardware Setup]({{ site.baseurl }}/categories/telescope-hardware-setup/){: .button} 
 
 A horn telescope, which consists of 3 major parts: the **antenna**, the **support stand**, and the **back-end electronics**, is easy to build. The cost is only a few hundred dollars. Click here for detailed instructions for constructing a horn telescope.
 
 <hr>
 
 <img class="img-circle" style="float:right;" src="{{ site.baseurl }}/images/horn-ops.jpeg">
-[Horn Operation]({{ site.baseurl }}/categories/horn-operation/){: .button} 
+[Telescope Software Setup]({{ site.baseurl }}/categories/telescope-software-setup/){: .button} 
 
 You've built a horn telescope. Now what? How do I take measurements with it? No problem! Click here for detailed instructions for operating a DSPIRA horn telescope.
 
