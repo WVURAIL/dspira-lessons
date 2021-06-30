@@ -13,15 +13,15 @@ category: Telescope Software Setup
 
 * Instructions for building a simple spectrometer in *GNURadio* are provided here.
 
-* The spectrometer program built and developed by DSPIRA is called `spectrometer_w_cal.grc`. Instructions for installing this program are also provided here. 
+* The spectrometer program built and developed by DSPIRA is called *spectrometer_w_cal.grc*. Instructions for installing this program are also provided here. 
 
 
 **Software N for the Horn Telescope:**
 
 1. **Acquire Necessary Software:**
 
-* [Installation on a Bootable Flashdrive](){: .button} - All of the software needs to operate the telescope are loaded onto a bootable flashdrive, including *GNURadio* and the `spectrometer_w_cal.grc` program, are provided here.
+* [Installation on a Bootable Flashdrive](){: .button} - All of the software needs to operate the telescope are loaded onto a bootable flashdrive, including *GNURadio* and the *spectrometer_w_cal.grc* program, are provided here.
 
-* [Installation of Ubuntu and SDR software on a computer](){: .button} - Steps for installing the linux OS Ubuntu on a computer, loading *GNURadio*, and the `spectrometer_w_cal.grc` program are provided here.
+* [Installation of Ubuntu and SDR software on a computer](){: .button} - Steps for installing the linux OS Ubuntu on a computer, loading *GNURadio*, and the *spectrometer_w_cal.grc* program are provided here.
 
-2. [**Simple Spectrometer**](https://wvurail.org//dspira-lessons/???){: .button} - Build a simple spectrometer in *GNURadio* for the telescope.
+2. [**Simple Spectrometer**](https://wvurail.org//dspira-lessons/???){: .button} - Use *GNURadio* to build a simple spectrometer for the telescope.
