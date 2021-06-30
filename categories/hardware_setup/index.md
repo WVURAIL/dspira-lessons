@@ -1,6 +1,6 @@
 ---
 layout: catpag
-category: Horn Construction
+category: Telescope Hardware Setup
 ---
 
 **Overview of Telescope Design** 
