@@ -11,7 +11,7 @@ category: Horn Construction
 
 * The cradle can be connected to any base desired. The wooden support stand presented here provides sturdy support for the horn. It is a simple design that is affordable and easy to construct. Its largest dimension is 75 cm so that it just fits through a standard doorway.
 
-* The horn panels, can, cradle, and support stand can be constructed for under $50.
+* The horn telescope presented here is designed to be affordable and easily constructed using materials that mostly can be obtained from a local home improvement store.
 
 **Instructions for assembling the horn and base, and acquiring the needed electronic components:**
 
