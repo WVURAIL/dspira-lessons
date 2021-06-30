@@ -24,4 +24,4 @@ category: Telescope Software Setup
 
 * [Installation of Ubuntu and SDR software on a computer](){: .button} - Steps for installing the linux OS Ubuntu on a computer, loading *GNURadio*, and the `spectrometer_w_cal.grc` program are provided here.
 
-2. [**Simple Spectrometer**](https://wvurail.org//dspira-lessons/???){: .button} - Build a simple spectrometer in GNURadio for the telescope.
+2. [**Simple Spectrometer**](https://wvurail.org//dspira-lessons/???){: .button} - Build a simple spectrometer in *GNURadio* for the telescope.
