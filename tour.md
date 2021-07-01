@@ -21,10 +21,17 @@ A horn telescope, which consists of 3 major parts: the **antenna**, the **suppor
 
 <hr>
 
-<img class="img-circle" style="float:right;" src="{{ site.baseurl }}/images/horn-ops.jpeg">
+<img class="img-circle" style="float:right;" src="{{ site.baseurl }}/images/GNURadio_image.png">
 [Telescope Software Setup]({{ site.baseurl }}/categories/telescope-software-setup/){: .button} 
 
-You've built a horn telescope. Now what? How do I take measurements with it? No problem! Click here for detailed instructions for operating a DSPIRA horn telescope.
+The horn telescope uses digital signal processing (DSP) technology to operate, which requires proper software to use. Click here for computer hardware and software options and detailed instructions for installing.
+
+<hr>
+
+<img class="img-circle" style="float:right;" src="{{ site.baseurl }}/images/horn-ops.jpeg">
+[Telescope Operation]({{ site.baseurl }}/categories/telescope-operation/){: .button} 
+
+You've built a horn telescope. Now what? How do I set it up. How do I take measurements with it? No problem! Click here for detailed instructions for operating a DSPIRA horn telescope.
 
 <hr>
 
