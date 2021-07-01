@@ -71,7 +71,7 @@ You can also watch [this video](https://youtu.be/50B2Uv-SoDY), which describes t
 
        - This option enables the spectrum to be written to newly created files once every integration time so that data can be collected without the user’s presence.
 
-       - See the video [Saving Data Using the *spectrometer_w_cal.grc* Program](link).
+       - See the video [Saving Data Using the *spectrometer_w_cal.grc* Program](https://youtu.be/dWX0rRU99Z8).
 
 
 ### **2.	Features of the *System Temp/Gain* Tab**

@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2020-07-27
-title: Instructions on Running *spectrometer_w_cal*
+title: Instructions on Running spectrometer_w_cal
 summary:  Instructions on how to use the *spectrometer_w_cal* program
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Telescope Operation'] 
