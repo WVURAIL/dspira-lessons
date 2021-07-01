@@ -4,7 +4,7 @@ date:   2020-07-25
 title: Horn Operation Tutorials
 summary:  Documents and videos explaining the operation of the horn telescope
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Operation'] 
+categories: ['Telescope Operation'] 
 ---
 
 [Introduction to the horn telescope](https://wvurail.org/dspira-lessons/HornOperation_Intro){: .button}

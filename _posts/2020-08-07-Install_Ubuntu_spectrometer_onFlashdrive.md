@@ -4,7 +4,7 @@ date:   2020-08-07
 title: Installing Ubuntu 20.04 with spectrometer_w_cal.grc on Bootable Flashdrive
 summary:  Instructions for copying the Ubuntu/spectrometer_w_cal image on a bootable flashdrive
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Operation', 'Horn Construction'] 
+categories: ['Telescope Software Setup'] 
 ---
 
 #### Image the Flashdrive:
