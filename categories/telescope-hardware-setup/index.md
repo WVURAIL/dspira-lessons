@@ -17,13 +17,13 @@ category: Telescope Hardware Setup
 
 [1. **Horn-Can Assembly**](https://wvurail.org//dspira-lessons/Horn_can) - details on assembling the can with the horn panels
 
-[2. The Horn Cradle](https://wvurail.org/dspira-lessons/FilesUploaded/Cradle_Assembly_2021.pdf) - instructions for assembling a frame to support the horn
+[2. **The Horn Cradle**](https://wvurail.org/dspira-lessons/FilesUploaded/Cradle_Assembly_2021.pdf) - instructions for assembling a frame to support the horn
 
-[3. The Base Stand](https://wvurail.org/dspira-lessons/FilesUploaded/Stand_Assembly_2021.pdf) - instructions for building a simple, sturdy base for the telescope
+[3. **The Base Stand**](https://wvurail.org/dspira-lessons/FilesUploaded/Stand_Assembly_2021.pdf) - instructions for building a simple, sturdy base for the telescope
 
-[4. A Completed Horn Assembled](https://youtu.be/LT0h3Frd-_k) - video showing how the horn-can, cradle, and base stand are assembled
+[4. **A Completed Horn Assembled**](https://youtu.be/LT0h3Frd-_k) - video showing how the horn-can, cradle, and base stand are assembled
 
-[5. The Low Noise Amplifier (LNA)](https://wvurail.org//dspira-lessons/LNA) - This is a critical component for successful telescope operation.
+[5. **The Low Noise Amplifier (LNA)**](https://wvurail.org//dspira-lessons/LNA) - This is a critical component for successful telescope operation.
 
-[6. Software Defined Radio (SDR) Options](https://wvurail.org//dspira-lessons/SDR) - needed to digitize the radio signal
+[6. **Software Defined Radio (SDR) Options**](https://wvurail.org//dspira-lessons/SDR) - needed to digitize the radio signal
 
