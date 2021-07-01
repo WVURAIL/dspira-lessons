@@ -16,12 +16,12 @@ category: Telescope Software Setup
 * Another option is to build a simple spectrometer program in *GNURadio*. Instructions for doing this are provided here too. Lessons on how to use GNURadio are provided. This is followed by basic lessons in digital signal processing (DSP) that introduce the processes used in the spectrometer. Then the steps on how to build a simple Spectrometer in *GNURadio* are provided.  
 
 
-1. **Acquire Necessary Software:**
+**Acquire Necessary Software:**
 
 * [Installation on a Bootable Flashdrive](https://wvurail.org//dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive){: .button} - All of the software needs to operate the telescope are loaded onto a bootable flashdrive, including the operating system Ubuntu, *GNURadio* and the *spectrometer_w_cal.grc* program.
 
 * [Installation of Ubuntu and SDR software on a computer](){: .button} - Includes steps for installing the linux Ubuntu OS on a computer, loading *GNURadio*, and installing the *spectrometer_w_cal.grc* program.  
 
-2. **Build a Simple Spectrometer in *GNURadio*:**
+**Build a Simple Spectrometer in *GNURadio*:**
 
 * [**Simple Spectrometer**](https://wvurail.org//dspira-lessons/???){: .button} - Includes an introduction to *GNURadio*, some lessons in DSP, and steps on how to build a simple spectrometer in *GNURadio*.
