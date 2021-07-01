@@ -9,7 +9,7 @@ categories: ['Telescope Operation']
 
 The video shown [here](https://youtu.be/50B2Uv-SoDY) explains the features in this program.
 
-## 1.	Before Starting The Program
+1.	Before Starting The Program
 
 The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and make adjustments to the user-defined settings referred to below.
 
@@ -46,7 +46,7 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
    * CAUTION: If you run the program on a laptop without the power cord plugged in, the computer may go into a sleep mode and stop running the program, depending on the length of the run. Change the power settings on your computer so that it never suspends or goes to sleep.
 
 
-## 2.	After Starting The Program
+2.	After Starting The Program
 
    * The first screen that appears looks like the following:
 
@@ -65,7 +65,7 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
 
    * The `Clipped Spectrum` is the better selection for most viewings. The `Full Spectrum` is good for demonstrating how the signal processing affects the spectrum. It also might be useful for the expert user who wants the full spectrum for some reason.
 
-## 3.	[Saving a Spectrum to a Data File](https://youtu.be/dWX0rRU99Z8) - video describing how to save data
+3.	[Saving a Spectrum to a Data File](https://youtu.be/dWX0rRU99Z8) - video describing how to save data
 
    * The spectrum that is currently being displayed on the screen can be written to a .csv data file by clicking the `Capture Current Spectrum` button. The data file is written to the folder under the path in the `prefix` Variable box.
 
