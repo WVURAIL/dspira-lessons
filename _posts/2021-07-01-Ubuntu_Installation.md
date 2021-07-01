@@ -9,7 +9,7 @@ categories: ['Telescope Software Setup']
 
 Complete the following steps:
 
-#### A. How to Partition a Hard Drive for Ubuntu 20.04 Alongside Windows 10
+A. Partition a Hard Drive and Ubuntu 20.04 Alongside Windows 10
 
    1. [Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.](http://releases.ubuntu.com/20.04/) You want to choose the Desktop version. It will take some time to download this file.
 
@@ -32,9 +32,10 @@ Complete the following steps:
 
    8. Wait for the system to collect partition size data; then add the desired amount of space you want to shrink, and hit in the 'Shrink' button. The partition size to shrink by (which is the amount that will be allotted to Ubuntu) should be a minimum of 50 GB, and we recommend 100 GB or more, depending on the size of your hard drive.
       
-   After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows
+   After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows.  
+     
 
-#### B. Install Ubuntu 20.04 Alongside with Windows
+B. Install Ubuntu 20.04 Alongside with Windows
 
    1. Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
