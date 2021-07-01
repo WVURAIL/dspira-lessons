@@ -11,7 +11,7 @@ category: Telescope Operation
 
 * Radio telescopes detect radio waves any time of day, rain or shine. Enjoy!
 
-[**Set-up the Telescope**](https://wvurail.org//dspira-lessons/Telescope_Setup) - Instructions on how to set up the telescope are provided here.
+[**Setting Up the Telescope**](https://wvurail.org//dspira-lessons/Telescope_Setup) - Instructions on how to set up the telescope are provided here.
 
 [**Running the *spectrometer_w_cal.grc* Program**](https://wvurail.org//dspira-lessons/spectrometer_w_cal_Instructions) - Detailed instructions on running the DSPIRA spectrometer program.
 
