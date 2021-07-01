@@ -9,7 +9,7 @@ categories: ['Telescope Operation']
 
 The video shown [here](https://youtu.be/50B2Uv-SoDY) explains the features in this program.
 
-# 1.	Before Starting The Program
+#### Before Starting The Program
 
 The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and make adjustments to the user-defined settings referred to below.
 
@@ -46,7 +46,7 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
    * CAUTION: If you run the program on a laptop without the power cord plugged in, the computer may go into a sleep mode and stop running the program, depending on the length of the run. Change the power settings on your computer so that it never suspends or goes to sleep.
 
 
-# 2.	After Starting The Program
+# After Starting The Program
 
    * The first screen that appears looks like the following:
 

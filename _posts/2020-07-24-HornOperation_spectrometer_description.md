@@ -4,7 +4,7 @@ date:   2020-07-24
 title: Horn Telescope Spectrometer Description
 summary:  Description of the spectrometer_w_cal.grc program features
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Operation'] 
+categories: ['Telescope Operation'] 
 ---
 
 The program used to run the telescope is a Gnuradio program called *spectrometer_w_cal.grc*. It is available from the WVURAIL/gr-radio_astro repository in Github. The *spectrometer_w_cal.grc* program has several features to make data collection with the horn telescope user-friendly. Each feature on the display is described below.
