@@ -9,4 +9,4 @@ categories: ['Telescope Operation']
 
 + [Using the *spectrometer_w_cal* program](http://wvurail.org/dspira-lessons/HornOperation_runningSpectrometer) - Describes how to use the *spectrometer_w_cal* program.
 
-+ [Features of the *spectrometer_w_cal* program explained](http://wvurail.org/dspira-lessons/HornOperation_spectrometer_description) - A document with links to videos describing the features and operation of the *spectrometer_w_cal* program.
++ [Features of the *spectrometer_w_cal* program explained](http://wvurail.org/dspira-lessons/HornOperation_spectrometer_description) - A document with links to videos describing the features and basic operation of the *spectrometer_w_cal* program.
