@@ -18,9 +18,9 @@ category: Telescope Software Setup
 
 **Acquire Necessary Software:**
 
-* [Installation on a Bootable Flashdrive](https://wvurail.org//dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive) - All of the software needs to operate the telescope are loaded onto a bootable flashdrive, including the operating system Ubuntu, *GNURadio* and the *spectrometer_w_cal.grc* program.
+* [**Installation on a Bootable Flashdrive**](https://wvurail.org//dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive) - All of the software needs to operate the telescope are loaded onto a bootable flashdrive, including the operating system Ubuntu, *GNURadio* and the *spectrometer_w_cal.grc* program.
 
-* [Installation of Ubuntu and SDR software on a computer](https://wvurail.org//dspira-lessons/BuildingHorn_SoftwareInfo) - Includes steps for installing the linux Ubuntu OS on a computer, loading *GNURadio*, and installing the *spectrometer_w_cal.grc* program.  
+* [**Installation of Ubuntu and SDR software on a computer**](https://wvurail.org//dspira-lessons/BuildingHorn_SoftwareInfo) - Includes steps for installing the linux Ubuntu OS on a computer, loading *GNURadio*, and installing the *spectrometer_w_cal.grc* program.  
 
 **Build a Simple Spectrometer in *GNURadio*:**
 
