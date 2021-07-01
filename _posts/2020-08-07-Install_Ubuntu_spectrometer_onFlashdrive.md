@@ -7,7 +7,7 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Horn Operation', 'Horn Construction'] 
 ---
 
-Complete the following steps:
+#### Image the Flashdrive:
 
 1. Before starting, you will need the program *balenaEtcher*, which is an easy-to-use cross-platform tool for burning images to SD cards, USB drives and other removable devices. It can be downloaded from https://www.balena.io/etcher/.
 
@@ -20,7 +20,7 @@ Complete the following steps:
 5. Run *balenaEtcher*. Choose the file *ubuntu_radio_astro20202.iso* as the image and the flash drive as the target.
 
 
-6. The **Ubuntu with spectrometer_w_cal.grc** image should now be on this bootable flashdrive.
+6. The *Ubuntu with spectrometer_w_cal.grc* image should now be on this bootable flashdrive.
 
 #### How to Run Gnuradio and the spectrometer_w_cal.grc program from the flashdrive. 
 
