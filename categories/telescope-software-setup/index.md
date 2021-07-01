@@ -13,7 +13,7 @@ category: Telescope Software Setup
 
 * The spectrometer program built and developed by DSPIRA is called *spectrometer_w_cal.grc*. Instructions for installing this program are also provided here. 
 
-* Another option is to build a simple spectrometer program in *GNURadio*. Instructions for doing this are provided here too. Lessons on how to use GNURadio are provided. This is followed by basic lessons in digital signal processing (DSP) that introduce the processes used in the spectrometer. Then the steps on how to build a simple Spectrometer in *GNURadio* are provided.  
+* Another option is to build a simple spectrometer program in *GNURadio*. Instructions for doing this are provided here too. Lessons on how to use *GNURadio* are provided. This is followed by basic lessons in digital signal processing (DSP) that introduce the processes used in the spectrometer. Then the steps on how to build a simple Spectrometer in *GNURadio* are provided.  
 
 
 **Acquire Necessary Software:**
