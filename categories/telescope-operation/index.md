@@ -15,4 +15,4 @@ category: Telescope Operation
 
 [**Running the *spectrometer_w_cal.grc* Program**](https://wvurail.org//dspira-lessons/spectrometer_w_cal_Instructions) - Detailed instructions on running the DSPIRA spectrometer program.
 
-[**Running the Simple Spectrometer Program**](https://wvurail.org//dspira-lessons/Horn_can) - Instructions on collecting data using the simple spectrometer program are provided here.
+[**Running the Simple Spectrometer Program**](https://wvurail.org//dspira-lessons/) - Instructions on collecting data using the simple spectrometer program are provided here.
