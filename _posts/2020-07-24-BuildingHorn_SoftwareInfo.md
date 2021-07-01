@@ -7,12 +7,10 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Telescope Software Setup']
 ---
 
-## Installing the Software Needed to Run the Spectrometer on a Computer That is Using Ubuntu 20.04
-
 Complete the following steps as needed:
 
-#### A. [Install Ubuntu 20.04](https://wvurail.org//dspira-lessons/Ubuntu_Installation) - Partition a Hard Drive and install Ubuntu 20.04 Alongside Windows 10
+A. [**Install Ubuntu 20.04**](https://wvurail.org//dspira-lessons/Ubuntu_Installation) - Partition a Hard Drive and install Ubuntu 20.04 Alongside Windows 10
 
-#### B. [Install *GNURadio*](https://wvurail.org//dspira-lessons/GNURadio_Installation) - Install *GNURadio* on a computer.
+B. [**Install *GNURadio***](https://wvurail.org//dspira-lessons/GNURadio_Installation) - Install *GNURadio* on a computer.
 
-#### C. [Install gr-radio_astro](https://wvurail.org//dspira-lessons/gr_radio_astro_Installation) - Install the gr-radio_astro *GNURadio* files, which includes the *spectrometer_w_cal.grc* program.
+C. [**Install gr-radio_astro**](https://wvurail.org//dspira-lessons/gr_radio_astro_Installation) - Install the gr-radio_astro *GNURadio* files, which includes the *spectrometer_w_cal.grc* program.
