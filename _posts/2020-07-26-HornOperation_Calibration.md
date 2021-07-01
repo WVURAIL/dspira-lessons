@@ -21,7 +21,7 @@ categories: ['Telescope Operation']
 
 #### Procedure 
 
-   1. Point the telescope toward the ground at a approximately 45^o^ angle. The video above shows how this is done.
+   1. Point the telescope toward the ground at a approximately 45 &#2070 angle. The video above shows how this is done.
 
    2. Switch the `Spectrum Display` to `Hot Calibration`.
 
