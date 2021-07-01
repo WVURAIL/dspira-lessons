@@ -1,17 +1,15 @@
 ---
 layout: post
 date: 2020-07-25
-title: Running the Spectrometer Program
-summary:  Steps on running spectrometer_w_cal.grc program in Gnuradio
+title: Running the systemp_w_calibration.grc Program
+summary:  Instructions on how to use the spectrometer_w_cal.grc program in GNURadio
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Operation'] 
+categories: ['Telescope Operation'] 
 ---
-
-## Using the *systemp_w_calibration.grc* Program
 
 The video shown [here](https://youtu.be/50B2Uv-SoDY) explains the features in this program.
 
-### 1.	Before Starting The Program
+## 1.	Before Starting The Program
 
 The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and make adjustments to the user-defined settings referred to below.
 
@@ -48,7 +46,7 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
    * CAUTION: If you run the program on a laptop without the power cord plugged in, the computer may go into a sleep mode and stop running the program, depending on the length of the run. Change the power settings on your computer so that it never suspends or goes to sleep.
 
 
-### 2.	After Starting The Program
+## 2.	After Starting The Program
 
    * The first screen that appears looks like the following:
 
@@ -58,7 +56,8 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
 
    * Adjust the `ymin` and `ymax` values to scale the graph as desired.
 
-   * Fill in the `azimuth`, `elevation`, and `location`, if desired. **NOTE: When entering these values, you must hit ENTER after each entry in order for it to get recorded by the program.**
+   * Fill in the `azimuth`, `elevation`, and `location`, if desired. 
+   **NOTE: When entering these values, you must hit ENTER after each entry in order for it to get recorded by the program.**
 
    These parameters are included in the title, as described in the *Saving a Spectrum to a Data File* section below. This is also demonstrated in the [video on how to save data](https://youtu.be/dWX0rRU99Z8).
 
@@ -66,7 +65,7 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
 
    * The `Clipped Spectrum` is the better selection for most viewings. The `Full Spectrum` is good for demonstrating how the signal processing affects the spectrum. It also might be useful for the expert user who wants the full spectrum for some reason.
 
-### 3.	Saving a Spectrum to a Data File [See the video on how to save data](https://youtu.be/dWX0rRU99Z8)
+## 3.	[Saving a Spectrum to a Data File](https://youtu.be/dWX0rRU99Z8) - video describing how to save data
 
    * The spectrum that is currently being displayed on the screen can be written to a .csv data file by clicking the `Capture Current Spectrum` button. The data file is written to the folder under the path in the `prefix` Variable box.
 
@@ -83,5 +82,5 @@ The video [here](https://youtu.be/Oo28QCEZe_g) explains how set up the horn and 
 
       - The file name has a format that contains the date, time, location, azimuth, and elevation, with “_spectrum” at the end. The location, azimuth, and elevation are recorded with the values in the corresponding fields on the spectrometer inferface screen.
 
-      - As an example, the filename <font size="1">“2020-07-15_Morgantown_200_30_spectrum”</font>  contains data that was collected on July 15, 2020 in Morgantown with the telescope pointed at an azimuth of 200 degrees and an elevation of 30 degrees.
+      - As an example, the filename `2020-07-15_Morgantown_200_30_spectrum.csv`  contains data that was collected on July 15, 2020 in Morgantown with the telescope pointed at an azimuth of 200 degrees and an elevation of 30 degrees.
     
