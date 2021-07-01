@@ -43,7 +43,7 @@ categories: ['Telescope Operation']
 
    * After completing a calibration, the baseline signal would theoretically be steady at approximately 10 K, which is the approximate temperature of empty space. However, in reality, the base level after calibration will drift up and down. This is due to several factors, but it is mostly due to the LNA because its temperature will fluctuate some over the span of a viewing session.
 
-   * The background level can actually go negative! No need to worry. Re-calibrating usually takes care of this and brings the base level back up to approximately 20 K. The `y-min` value can be adjusted to negative values.
+   * The background level can actually go negative! No need to worry. Re-calibrating usually takes care of this and brings the base level back up to approximately 20 K. Also, the `y-min` value can be adjusted to negative values.
  
    * The value of the background level will not affect any peak positions or shapes.
 
