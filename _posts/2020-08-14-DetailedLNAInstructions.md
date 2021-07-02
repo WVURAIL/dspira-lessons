@@ -25,7 +25,7 @@ categories: ['Horn Construction']
 
 1. There is no best order for soldering the components onto the circuit board. If you are new to soldering, soldering all the  components of one type before soldering all the components of another type is a good approach. The following order of soldering is typical for a person new to soldering: capacitors, resistors, inductors, transistors, ICs, SMA connectors, and the cover. Capacitors and resistors are the easiest components to solder onto the circuit board and will give the novice a chance to learn the proper techniques for successful soldering.  
 2. If you have some soldering experience, I would suggest soldering the hardest components first: transistors, ICs, inductors, resistors, capacitors, SMA connectors, and the cover.  
-3. The following is a link to an easy to read *[Image of the Component Locations on the Circuit Board](https://wvurail.org/dspira-lessons/FilesUploaded/Neutral_Hydrogen_amplifier_v3.pdf){: button}*.
+3. The following is a link to an easy to read *[Image of the Component Locations on the Circuit Board](https://wvurail.org/dspira-lessons/FilesUploaded/circuit board componet locations Final1.jpg){: button}*.
 
 ## Detailed Soldering Instructions for Each Component
 
