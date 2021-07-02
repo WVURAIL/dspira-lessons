@@ -9,7 +9,7 @@ categories: ['Horn Construction']
 
 ### First: Order the Components of the LNA  
 
-1. Click on the *[LNA Ordering Parts Info](https://wvurail.org/dspira-lessons/FilesUploaded/LNA_OrderingParts_Info_3.pdf){: button}* link for the list of components and where the components can be purchased.  
+1. Click on the *[LNA Ordering Parts Info](https://wvurail.org/dspira-lessons/FilesUploaded/LNA_OrderingParts_Info_4.pdf){: button}* link for the list of components and where the components can be purchased.  
 2. Order a bottle of silicone conformal coating. Although this is not a component of the LNA, you will need to coat your circuit board after you are done soldering everything on. This coating will protect your LNA from moisture, corrosion, fungus, dirt, dust, thermal shock, short circuits, and static discharge. This product is available through Amazon. You can also do a Google search for silicone conformal coating to find other sellers.  
      
 ### Second: Assemble a Soldering Station  
@@ -25,7 +25,7 @@ categories: ['Horn Construction']
 
 1. There is no best order for soldering the components onto the circuit board. If you are new to soldering, soldering all the  components of one type before soldering all the components of another type is a good approach. The following order of soldering is typical for a person new to soldering: capacitors, resistors, inductors, transistors, ICs, SMA connectors, and the cover. Capacitors and resistors are the easiest components to solder onto the circuit board and will give the novice a chance to learn the proper techniques for successful soldering.  
 2. If you have some soldering experience, I would suggest soldering the hardest components first: transistors, ICs, inductors, resistors, capacitors, SMA connectors, and the cover.  
-3. The following is a link to a *[Circuit Diagram of the LNA and an Image of the Circuit Board](https://wvurail.org/dspira-lessons/FilesUploaded/Neutral_Hydrogen_amplifier_v3.pdf){: button}*.
+3. The following is a link to an easy to read *[Image of the Component Locations on the Circuit Board](https://wvurail.org/dspira-lessons/FilesUploaded/Neutral_Hydrogen_amplifier_v3.pdf){: button}*.
 
 ## Detailed Soldering Instructions for Each Component
 
