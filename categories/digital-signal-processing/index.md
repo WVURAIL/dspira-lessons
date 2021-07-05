@@ -3,8 +3,9 @@ layout: catpag
 category: Digital Signal Processing
 ---
 
+***Note: These lessons were constructed using GNURadio 3.8. They should be able to be done on different versions of GNURadio, but be aware that there might be slight differences in some of the blocks.
 
-**Introduction to GNURadio and Some Basic DSP**
+**A. Introduction to GNURadio and Some Basic DSP**
 
 * These are the lessons that appear on the [Build a Simple Spectrometer](https://wvurail.org//dspira-lessons/Simple_Spectrometer) page.
 
