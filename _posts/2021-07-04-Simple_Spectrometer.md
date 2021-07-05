@@ -15,4 +15,4 @@ categories: ['Telescope Software Setup']
     - [Lesson 4](https://wvurail.org/dspira-lessons/FilesUploaded/Gnuradio_Lesson4_FFT.pdf) - Demonstration of how an FFT block works.
     - [Lesson 5](https://wvurail.org/dspira-lessons/FilesUploaded/Gnuradio_Lesson5_Filters.pdf) - Filter basics.
 
-+ [Build a Simple Spectrometer](https://wvurail.org/dspira-lessons/FilesUploaded/BuildingSimpleSpectrometer_Explained) - Directions on building a simple spectrometer for a horn telescope, with detailed explanations of the blocks.
++ [Build a Simple Spectrometer](https://wvurail.org/dspira-lessons/FilesUploaded/BuildingSimpleSpectrometer_Explained.pdf) - Directions on building a simple spectrometer for a horn telescope, with detailed explanations of the blocks.
