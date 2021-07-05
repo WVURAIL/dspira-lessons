@@ -24,4 +24,4 @@ category: Telescope Software Setup
 
 **Build a Simple Spectrometer in *GNURadio*:**
 
-* [**Simple Spectrometer**](https://wvurail.org//dspira-lessons/???) - Includes an introduction to *GNURadio*, some lessons in DSP, and steps on how to build a simple spectrometer in *GNURadio*.
+* [**Simple Spectrometer**](https://wvurail.org//dspira-lessons/Simple_Spectrometer) - Includes an introduction to *GNURadio* with some basic lessons in DSP, and steps on how to build a simple spectrometer in *GNURadio*.
