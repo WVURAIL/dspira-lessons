@@ -15,6 +15,8 @@ category: Telescope Software Setup
 
 * Another option is to build a simple spectrometer program in *GNURadio*. Instructions for doing this are provided here too. Lessons on how to use *GNURadio* are provided. This is followed by basic lessons in digital signal processing (DSP) that introduce the processes used in the spectrometer. Then the steps on how to build a simple Spectrometer in *GNURadio* are provided.  
 
+**Warning-Novice Computer Users - Does UBUNTU or Command Line Interface sound new to you?**
+You may wish to read the following intro to the UBUNTU environment. [**What is UBUNTU**]?(https://docs.google.com/document/d/14U9ANGS9YM3PnQY-n2ykO4uKVwVDf8NeHfauRmGDmw0/edit?usp=sharing)
 
 **Acquire Necessary Software:**
 
