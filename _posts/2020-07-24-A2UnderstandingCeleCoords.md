@@ -11,7 +11,7 @@ categories: []
 
 [Teacher Notes](https://docs.google.com/document/d/1JVFn5d4mhCN-fU2JmSMRD95g3N5xwSbFM94TUpAUe3k/edit?usp=sharing){: .button}
     
-The following are videos from Dr. Loren Anderson at West Virginia University's Astronomy department.  
+The following are videos from Dr. Loren Anderson AT West Virginia University's Astronomy department.  
 They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.
 
 ### Intro to Motion in the Sky
