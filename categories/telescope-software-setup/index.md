@@ -7,7 +7,7 @@ category: Telescope Software Setup
 
 * The horn telescope uses software defined radio (SDR) for collecting and processing the radio signals collected.
 
-* An SDR dongle is needed for this system. See the [SDR Options page.](https://wvurail.org//dspira-lessons/SDR)
+* An SDR device (dongle) is needed for this system. See the [SDR Options page.](https://wvurail.org//dspira-lessons/SDR)
 
 * The "back end" of the telescope is a spectrometer program that runs on the free, open-source software *GNURadio*. Options for acquiring this program are provided below.
 
