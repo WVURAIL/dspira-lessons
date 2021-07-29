@@ -22,7 +22,7 @@ You may wish to read the following intro to the UBUNTU environment. [**What is U
 
 * [**Installation on a Bootable Flashdrive**](https://wvurail.org//dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive) - This is the DSPIRA-preferred method to have all the needed softwware for operating the horn telescope.  By having simple 32G flashdrives that can be put in any Windows based computer, the user doesn't need to have dedicated PCs to run the software. All of the software needed to operate the telescope are loaded onto a bootable flashdrive, including the operating system Ubuntu, *GNURadio* and the *spectrometer_w_cal.grc* program.
 
-* [**Installation of Ubuntu and SDR software on a computer**](https://wvurail.org//dspira-lessons/BuildingHorn_SoftwareInfo) - Includes steps for installing the linux Ubuntu OS on a computer, loading *GNURadio*, and installing the *spectrometer_w_cal.grc* program.  
+* [**Installation of Ubuntu and SDR software on a Windows-based computer**](https://wvurail.org//dspira-lessons/BuildingHorn_SoftwareInfo) - Includes steps for installing the linux Ubuntu OS on a computer, loading *GNURadio*, and installing the *spectrometer_w_cal.grc* program.  APPLE COMPUTERS - DSPIRA has had no success with running GNURadio on Apple computers, so we have no support material here for Apple products. 
 
 **Build a Simple Spectrometer in *GNURadio*:**
 
