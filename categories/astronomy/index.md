@@ -40,18 +40,6 @@ From a high school or college class perspective, each topic has about one to two
 
  Velocity Curve Lessons
 
-   * [Introduction to Horn Telescope](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro.pdf)
-   
-   * [Introduction to Horn Telescope Follow-up](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
-   
-   * [The Electromagnetic Spectrum](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf)
-   
-   * [The 21 cm Wavelength of Neutral Hydrogen](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_21cmHI.pdf)
-   
-   * [Celestial Coordinate Systems](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_CoordinateSystems.pdf)
-   
-   * [Using Stellarium](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_Stellarium.pdf)
-   
    * [Galactic Plane Quadrants II&III Observations: Teacher Notes](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit)
    
    * [Galactic Plane Quadrants II&III Observations](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit)
