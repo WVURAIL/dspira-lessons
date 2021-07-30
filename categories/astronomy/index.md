@@ -31,7 +31,7 @@ From a high school or college class perspective, each topic has about one to two
 ## The Milky Way Galaxy 
 <img src="/dspira-lessons/images/MWG.png" align="left" width="150px"/> - The radio horn telescope is best at detecting neutral hydrogen in the Milky Way Galaxy.  This topic takes on a set of lessons to familiarize you, or your students, with the basic nature of the Milky Way, with emphasis on understanding the rotational aspects of our home galaxy through modeling. 
 
-[Go to Milky Way Activities](/dspira-lessons/_posts/2020-07-24-EarthAroundSun.md/){: .button}
+[Go to Milky Way Activities](/dspira-lessons/_posts/2020-07-24-EarthAroundSun.md){: .button}
  
 ## Determining a Velocity Curve of the Milky Way Galaxy 
 <img src="/dspira-lessons/images/HIMap.png" align="left" width="170px"/>
