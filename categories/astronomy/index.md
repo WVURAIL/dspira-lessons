@@ -11,7 +11,7 @@ The serendipitous discovery of radio waves coming from beyond the Earth by Karl 
 
 <img class="img-circle" style="float:left;" src="/dspira-lessons/images/GBTHerman.jpg">
 
-The DSPIRA program truly encompasses the full nature of this symbiotic relationship between Science and Engineers.  The fact that you can now build a simple radio horn telescope to receive and decipher astronomical radio signals is amazing.  The *Telescope Hardware and Software Setup Modules* on this website takes you through getting the instrument ready.   
+The DSPIRA program truly encompasses the full nature of this symbiotic relationship between Science and Engineering.  The fact that YOU can now build a simple radio horn telescope to receive and decipher astronomical radio signals is amazing.  The *Telescope Hardware and Software Setup Modules* on this website takes you through getting the instrument ready.   
 
 This Astronomy Module delves into the topics within astronomy that will build a knowledge base to eventually allow the radio horn telescope to be used for some basic observation and research that could be done at the high school level, or for enthusiast hobbyists.
 
