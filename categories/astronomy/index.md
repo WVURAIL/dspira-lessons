@@ -21,23 +21,23 @@ From a high school or college class perspective, each topic has about one to two
 ## 1. Tools for Observational Astronomy 
 <img src="/dspira-lessons/images/Celestial_Sphere_-_Equatorial_Coordinate_System.png" align="left" width="120px"/> - If you are starting from ground zero in this discipline, then you will need to develop some basic tools, whether it is where to look in your hometown skies, through to understanding what “electromagnetic radiation” is, how “radio” fits and what we can learn from it.
 
-[Go to "Basic Tools" Activities](https://wvurail.org//_posts/2020-08-08-ObserveTools.md/){: .button}
+[Go to "Basic Tools" Activities](https://wvurail.org//dspira-lessons/ObserveTools){: .button}
 
 ## Measuring the Earth's Speed around the Sun
 <img src="/dspira-lessons/images/EarthSun.png" align="left" width="150px"/> - The contains a traditional physics/astronomy examination of gravity to predict the speed of the Earth around the Sun. It also looks at the Doppler effect for measuring relative radial motion.  This all leads to using the radio horn telescope to observationally verify the speed of the Earth around the Sun by using the center of the Milky Way as a reference point.
 
-[Go to "Earth Around Sun" Activities](https://wvurail.org//dspira-lessons/_posts/2020-07-28-Astro_MWG.md/){: .button}
+[Go to "Earth Around Sun" Activities](https://wvurail.org//dspira-lessons/Astro_MWG){: .button}
  
 ## The Milky Way Galaxy 
 <img src="/dspira-lessons/images/MWG.png" align="left" width="150px"/> - The radio horn telescope is best at detecting neutral hydrogen in the Milky Way Galaxy.  This topic takes on a set of lessons to familiarize you, or your students, with the basic nature of the Milky Way, with emphasis on understanding the rotational aspects of our home galaxy through modeling. 
 
-[Go to Milky Way Activities](https://wvurail.org//dspira-lessons/_posts/2020-07-24-EarthAroundSun.md){: .button}
+[Go to Milky Way Activities](https://wvurail.org//dspira-lessons/EarthAroundSun){: .button}
  
 ## Determining a Velocity Curve of the Milky Way Galaxy 
 <img src="/dspira-lessons/images/HIMap.png" align="left" width="170px"/>
 - This is the true culmination of the DSPIRA Program in that the radio horn telescope is constructed and will be used to explore some of the rotational nature of the Milky Way.  A rudimentary map of the Milky Way can begin to be constructed from the data from the scope.  This can then lead to discussions for the necessity of Dark Matter to account for the velocities being observed.  
 
-[Go to Velocity Curve Activities](https://wvurail.org//dspira-lessons/_posts/2020-08-04-Astronomy_VelocityCurve_Overview.md/){: .button}
+[Go to Velocity Curve Activities](https://wvurail.org//dspira-lessons/Astronomy_VelocityCurve_Overview){: .button}
 
  Velocity Curve Lessons
 
