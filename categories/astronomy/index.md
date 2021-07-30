@@ -3,11 +3,10 @@ layout: catpag
 category: Astronomy
 ---
 
-<div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
 
-<img class="img-rounded" style="float:left;" src="/dspira-lessons/images/JanskyHerman.jpg">
+<img class="img-circle" style="float:left;" src="/dspira-lessons/images/JanskyHerman.jpg">
 
-is it here now?
+now?
 
 ![The Original Jansky Telescope](/dspira-lessons/images/JanskyHerman.jpg)
 
