@@ -26,10 +26,13 @@ From a high school or college class perspective, each topic has about one to two
 ## Measuring the Earth's Speed around the Sun
 <img src="/dspira-lessons/images/EarthSun.png" align="left" width="150px"/> - The contains a traditional physics/astronomy examination of gravity to predict the speed of the Earth around the Sun. It also looks at the Doppler effect for measuring relative radial motion.  This all leads to using the radio horn telescope to observationally verify the speed of the Earth around the Sun by using the center of the Milky Way as a reference point.
 
-[Go to "Earth Around Sun" Activities](/dspira-lessons/_posts/2020-07-24-EarthAroundSun.md/){: .button}
+[Go to "Earth Around Sun" Activities](/dspira-lessons/_posts/2020-07-28-Astro_MWG.md/){: .button}
  
 ## The Milky Way Galaxy 
-- The radio horn telescope is best at detecting neutral hydrogen in the Milky Way Galaxy.  This topic takes on a set of lessons to familiarize you, or your students, with the basic nature of the Milky Way, with emphasis on understanding the rotational aspects of our home galaxy through modeling. 
+<img src="/dspira-lessons/images/MWG.png" align="left" width="150px"/> - The radio horn telescope is best at detecting neutral hydrogen in the Milky Way Galaxy.  This topic takes on a set of lessons to familiarize you, or your students, with the basic nature of the Milky Way, with emphasis on understanding the rotational aspects of our home galaxy through modeling. 
+
+
+[Go to Milky Way Activities](/dspira-lessons/_posts/2020-07-24-EarthAroundSun.md/){: .button}
  
 ## Determining a Velocity Curve of the Milky Way Galaxy 
 - This is the true culmination of the DSPIRA Program in that the radio horn telescope is constructed and will be used to explore some of the rotational nature of the Milky Way.  A rudimentary map of the Milky Way can begin to be constructed from the data from the scope.  This can then lead to discussions for the necessity of Dark Matter to account for the velocities being observed.  
