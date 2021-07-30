@@ -77,17 +77,17 @@ OBJECTIVE: These activities allow this *Velocity Curve of the MWG* module be abl
 
 *Teacher Notes*  Since there is an activity with "discovering" what the horn telescope can do, it is suggested to assign all 4 activities so that students can be busy while other small groups are working with the scope(s) your have set up. (Most teachers very likely with have only one scope)
 
-* [Introduction to Horn Telescope](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro.pdf)
+* [Introduction to Horn Telescope](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro.pdf){: .button}
    
    * [Introduction to Horn Telescope Follow-up](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
    
-* [The Electromagnetic Spectrum](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf)
+* [The Electromagnetic Spectrum](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf){: .button}
    
-* [The 21 cm Wavelength of Neutral Hydrogen](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_21cmHI.pdf)
+* [The 21 cm Wavelength of Neutral Hydrogen](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_21cmHI.pdf){: .button}
    
-* [Celestial Coordinate Systems](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_CoordinateSystems.pdf)
+* [Celestial Coordinate Systems](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_CoordinateSystems.pdf){: .button}
    
-* [Using Stellarium](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_Stellarium.pdf)
+* [Using Stellarium](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_Stellarium.pdf){: .button}
 ### Part 1: Galactic Quadrants II & III Observation
 
 OBJECTIVE: In this activity, the students collect spectra of the MWG along the galactic plane in quadrants II & III. From these they should be able to deduce that the MWG is rotating and the direction of rotation.
