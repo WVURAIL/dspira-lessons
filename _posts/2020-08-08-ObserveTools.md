@@ -74,7 +74,7 @@ This activity is a nice introduction to using the Stellarium Web Online planetar
 
 ## 5. Introduction to Radio Astronomy 
 
-If you are going to continue on with the DSPIRA Experience, then this is a great [Introduction video to Radio Astronomy](https://www.youtube.com/watch?v=-UrzmAa62ho) created by MIT students.
+If you are going to continue on with the DSPIRA Experience, then this is a great [**Introduction video to Radio Astronomy**](https://www.youtube.com/watch?v=-UrzmAa62ho) created by MIT students.
 
 If you want to start to understand the nature of Neutral Hydrogen and the 21-centimeter radio waves it gives off, you have go to this website.  [**Essentials of Radio Astronomy**](https://physicsopenlab.org/2020/09/08/milky-way-structure-detected-with-the-21-cm-neutral-hydrogen-emission/)
 
