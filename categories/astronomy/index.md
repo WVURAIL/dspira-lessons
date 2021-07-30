@@ -6,7 +6,6 @@ category: Astronomy
 
 <img class="img-circle" style="float:right;" src="/dspira-lessons/images/JanskyHerman.jpg">
 
-ZOINKS!
 The serendipitous discovery of radio waves coming from beyond the Earth by Karl Jansky in 1932 (his telescope pictured at right) led to the birth of the science of Radio Astronomy.  There was a growing demand on engineers to build better radio detectors to suit the desired observations of the radio astronomers. This, in turn, was followed by new discoveries by these scientists using the instruments.  The new discoveries motivated the engineers to design bigger and more innovative ways of receiving and grooming the data.   This incredible cycle of theory and technology has taken us from slight whispers of radio static to the first picture of a black hole, and the very current buzz over Fast Radio Bursts being detected all over the sky. The image below is the Green Bank Telescope in West Virginia.
 
 <img class="img-circle" style="float:left;" src="/dspira-lessons/images/GBTHerman.jpg">
@@ -26,12 +25,12 @@ From a high school or college class perspective, each topic has about one to two
 ## Measuring the Earth's Speed around the Sun
 <img src="/dspira-lessons/images/EarthSun.png" align="left" width="150px"/> - The contains a traditional physics/astronomy examination of gravity to predict the speed of the Earth around the Sun. It also looks at the Doppler effect for measuring relative radial motion.  This all leads to using the radio horn telescope to observationally verify the speed of the Earth around the Sun by using the center of the Milky Way as a reference point.
 
-[Go to "Earth Around Sun" Activities](https://wvurail.org//dspira-lessons/Astro_MWG){: .button}
+[Go to "Earth Around Sun" Activities](https://wvurail.org//dspira-lessons/EarthAroundSun){: .button}
  
 ## The Milky Way Galaxy 
 <img src="/dspira-lessons/images/MWG.png" align="left" width="150px"/> - The radio horn telescope is best at detecting neutral hydrogen in the Milky Way Galaxy.  This topic takes on a set of lessons to familiarize you, or your students, with the basic nature of the Milky Way, with emphasis on understanding the rotational aspects of our home galaxy through modeling. 
 
-[Go to Milky Way Activities](https://wvurail.org//dspira-lessons/EarthAroundSun){: .button}
+[Go to Milky Way Activities](https://wvurail.org//dspira-lessons/Astro_MWG){: .button}
  
 ## Determining a Velocity Curve of the Milky Way Galaxy 
 <img src="/dspira-lessons/images/HIMap.png" align="left" width="170px"/>
