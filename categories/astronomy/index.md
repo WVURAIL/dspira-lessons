@@ -7,7 +7,7 @@ category: Astronomy
 
 <img class="img-rounded" style="float:left;" src="/dspira-lessons/images/JanskyHerman.jpg">
 
-is it here?
+is it here now?
 
 ![The Original Jansky Telescope](/dspira-lessons/images/JanskyHerman.jpg)
 
