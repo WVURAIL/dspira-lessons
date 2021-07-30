@@ -3,7 +3,6 @@ layout: catpag
 category: Astronomy
 ---
 
-<img {display:block;max-width:100%;height:auto;}>
 ![The Original Jansky Telescope](/dspira-lessons/images/JanskyHerman.jpg)
 
 The serendipitous discovery of radio waves coming from beyond the Earth by Karl Jansky in 1932 led to the birth of the science of Radio Astronomy.  There was a growing necessity for building radio detectors, by engineers, to suit the desired observations of the radio astronomers. This, in turn, was followed by new discoveries by these scientists using the instruments.  The new discoveries motivated the engineers to design bigger and more innovative ways of receiving and grooming the data.   This incredible cycle of theory and technology has taken us from slight whispers of radio static to the first picture of a black hole, and the current buzz over Fast Radio Bursts being detected all over the sky.
