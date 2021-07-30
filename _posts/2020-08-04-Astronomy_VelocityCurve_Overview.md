@@ -54,7 +54,7 @@ categories: ['Astronomy', 'Horn Operation']
     
     a. These 4 activities could be grouped together so that smaller groups could work with the horn telescope for the one hands on activity.
     
-    b. The students may have had some of these experiences if other lesson mosdules have been done (Basic Observational Tools) 
+    b. The students may have had some of these experiences if other lesson modules have been done (Basic Observational Tools) 
        
      **PART I** The students collect spectra at different galactic longitudes along the galactic plane in quadrants II and III.
      
