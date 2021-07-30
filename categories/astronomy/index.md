@@ -3,6 +3,7 @@ layout: catpag
 category: Astronomy
 ---
 
+<div class="w-25 p-3" style="background-color: #eee;">Width 25%</div>
 
 <img class="img-rounded" style="float:left;" src="/dspira-lessons/images/JanskyHerman.jpg">
 
