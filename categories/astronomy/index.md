@@ -19,7 +19,7 @@ This Astronomy Module delves into the topics within astronomy that will build a 
 From a high school or college class perspective, each topic has about one to two weeks of individual lessons within it. They are a combination of class assignments, online interactives, and information videos to give a solid foundation to understanding of radio astronomy. The Topics are reasonably sequential. The “Tools” is an essential starting point.  “Earth’s Speed” could be done on its own track.  “Milky Way” should be done before “Velocity Curve”.  
 
 ## 1. Tools for Observational Astronomy 
-<img src="/dspira-lessons/images/Celestial_Sphere_-_Equatorial_Coordinate_System.png" width="100" height="100"> - If you are starting from ground zero in this discipline, then you will need to develop some basic tools, whether it is where to look in your hometown skies, through to understanding what “electromagnetic radiation” is, how “radio” fits and what we can learn from it.
+<img src="/dspira-lessons/images/Celestial_Sphere_-_Equatorial_Coordinate_System.png" align="left" width="100px"/> - If you are starting from ground zero in this discipline, then you will need to develop some basic tools, whether it is where to look in your hometown skies, through to understanding what “electromagnetic radiation” is, how “radio” fits and what we can learn from it.
 
 ## Measuring the Earth's Speed around the Sun
 - The contains a traditional physics/astronomy examination of gravity to predict the speed of the Earth around the Sun. It also looks at the Doppler effect for measuring relative radial motion.  This all leads to using the radio horn telescope to observationally verify the speed of the Earth around the Sun by using the center of the Milky Way as a reference point.
