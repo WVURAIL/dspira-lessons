@@ -50,6 +50,12 @@ categories: ['Astronomy', 'Horn Operation']
 
 - **Sequence of activities:** - The Teacher Notes for each part provide more details.
 
+    INTRO - The students can run through this sequence of activities to build a rudimentary understanding of the concepts and exposure to the horn telescope.
+    
+          a. These 4 activities could be grouped together so that smaller groups could work with the horn telescope for the one hands on activity.
+          
+          b. The students may have had some of these experiences if other lesson mosdules have been done (Basic Observational Tools) 
+          
     1. The students collect spectra at different galactic longitudes along the galactic plane in quadrants II and III.
     
           a. The student analyze the spectra to determine the relative velocity of the detected hydrogen.
