@@ -50,27 +50,44 @@ categories: ['Astronomy', 'Horn Operation']
 
 - **Sequence of activities:** - The Teacher Notes for each part provide more details.
 
-    **INTRO:** The students can run through this sequence of activities to build a rudimentary understanding of the concepts and exposure to the horn telescope
+**INTRO:** The students can run through this sequence of activities to build a rudimentary understanding of the concepts and exposure to the horn telescope
     
-    a. These 4 activities could be grouped together so that smaller groups could work with the horn telescope for the one hands on activity.
+   a. These 4 activities could be grouped together so that smaller groups could work with the horn telescope for the one hands on activity.
     
-    b. The students may have had some of these experiences if other lesson modules have been done (Basic Observational Tools) 
+   b. The students may have had some of these experiences if other lesson modules have been done (Basic Observational Tools) 
        
-     **PART I** The students collect spectra at different galactic longitudes along the galactic plane in quadrants II and III.
+ **PART I** The students collect spectra at different galactic longitudes along the galactic plane in quadrants II and III.
      
-    a. The student analyze the spectra to determine the relative velocity of the detected hydrogen.
+   a. The student analyze the spectra to determine the relative velocity of the detected hydrogen.
     
-    b. The students determine that the galaxy is rotating.
+   b. The students determine that the galaxy is rotating.
     
-    **PART II** The students then collect spectra at different galactic longitudes along the galactic plane in quadrant I.
+  **PART II** The students then collect spectra at different galactic longitudes along the galactic plane in quadrant I.
     
-    a. Assuming circular motion of the galaxy, the speed of the tangent point along the observation line is calculated.
+   a. Assuming circular motion of the galaxy, the speed of the tangent point along the observation line is calculated.
     
-    b. A graph showing galactic speed vs distance from the galactic center is created using these results.
+   b. A graph showing galactic speed vs distance from the galactic center is created using these results.
     
-    c. This graph is compared to the graph expected in different models of mass distribution in the galaxy.
+   c. This graph is compared to the graph expected in different models of mass distribution in the galaxy.
 
 
+### Intro Activities for Radio Astronomy
+
+OBJECTIVE: These activities allow this *Velocity Curve of the MWG* module be able to stand alone from start to finish. There is also some overlap with the *Basic Observational Tools* module. These basic activities will bring fuller understanding to creating the galactic velocity curve.
+
+*Teacher Notes*  Since there is an activity with "discovering" what the horn telescope can do, it is suggested to assign all 4 activities so that students can be busy while other small groups are working with the scope(s) your have set up. (Most teachers very likely with have only one scope)
+
+* [Introduction to Horn Telescope](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro.pdf)
+   
+   * [Introduction to Horn Telescope Follow-up](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
+   
+   * [The Electromagnetic Spectrum](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf)
+   
+   * [The 21 cm Wavelength of Neutral Hydrogen](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_21cmHI.pdf)
+   
+   * [Celestial Coordinate Systems](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_CoordinateSystems.pdf)
+   
+   * [Using Stellarium](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/VelocityCurve_Stellarium.pdf)
 ### Part 1: Galactic Quadrants II & III Observation
 
 OBJECTIVE: In this activity, the students collect spectra of the MWG along the galactic plane in quadrants II & III. From these they should be able to deduce that the MWG is rotating and the direction of rotation.
