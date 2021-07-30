@@ -31,11 +31,13 @@ From a high school or college class perspective, each topic has about one to two
 ## The Milky Way Galaxy 
 <img src="/dspira-lessons/images/MWG.png" align="left" width="150px"/> - The radio horn telescope is best at detecting neutral hydrogen in the Milky Way Galaxy.  This topic takes on a set of lessons to familiarize you, or your students, with the basic nature of the Milky Way, with emphasis on understanding the rotational aspects of our home galaxy through modeling. 
 
-
 [Go to Milky Way Activities](/dspira-lessons/_posts/2020-07-24-EarthAroundSun.md/){: .button}
  
 ## Determining a Velocity Curve of the Milky Way Galaxy 
+<img src="/dspira-lessons/images/HIMap.png" align="left" width="150px"/>
 - This is the true culmination of the DSPIRA Program in that the radio horn telescope is constructed and will be used to explore some of the rotational nature of the Milky Way.  A rudimentary map of the Milky Way can begin to be constructed from the data from the scope.  This can then lead to discussions for the necessity of Dark Matter to account for the velocities being observed.  
+
+[Go to Velocity Curve Activities](/dspira-lessons/_posts/2020-08-04-Astronomy_VelocityCurve_Overview.md/){: .button}
 
  Velocity Curve Lessons
 
