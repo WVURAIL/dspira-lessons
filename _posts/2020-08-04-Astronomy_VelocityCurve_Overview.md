@@ -50,23 +50,25 @@ categories: ['Astronomy', 'Horn Operation']
 
 - **Sequence of activities:** - The Teacher Notes for each part provide more details.
 
-    INTRO - The students can run through this sequence of activities to build a rudimentary understanding of the concepts and exposure to the horn telescope.
-        a. These 4 activities could be grouped together so that smaller groups could work with the horn telescope for the one hands on activity.
-        b. The students may have had some of these experiences if other lesson mosdules have been done (Basic Observational Tools) 
+    **INTRO:** The students can run through this sequence of activities to build a rudimentary understanding of the concepts and exposure to the horn telescope
+    
+    a. These 4 activities could be grouped together so that smaller groups could work with the horn telescope for the one hands on activity.
+    
+    b. The students may have had some of these experiences if other lesson mosdules have been done (Basic Observational Tools) 
        
-    1. The students collect spectra at different galactic longitudes along the galactic plane in quadrants II and III.
+     **PART I** The students collect spectra at different galactic longitudes along the galactic plane in quadrants II and III.
+     
+    a. The student analyze the spectra to determine the relative velocity of the detected hydrogen.
     
-          a. The student analyze the spectra to determine the relative velocity of the detected hydrogen.
-
-          b. The students determine that the galaxy is rotating.
+    b. The students determine that the galaxy is rotating.
     
-    2. The students then collect spectra at different galactic longitudes along the galactic plane in quadrant I.
-
-          a. Assuming circular motion of the galaxy, the speed of the tangent point along the observation line is calculated.
+    **PART II** The students then collect spectra at different galactic longitudes along the galactic plane in quadrant I.
     
-          b. A graph showing galactic speed vs distance from the galactic center is created using these results.
-           
-          c. This graph is compared to the graph expected in different models of mass distribution in the galaxy.
+    a. Assuming circular motion of the galaxy, the speed of the tangent point along the observation line is calculated.
+    
+    b. A graph showing galactic speed vs distance from the galactic center is created using these results.
+    
+    c. This graph is compared to the graph expected in different models of mass distribution in the galaxy.
 
 
 ### Part 1: Galactic Quadrants II & III Observation
