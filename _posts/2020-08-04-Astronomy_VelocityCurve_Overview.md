@@ -81,7 +81,7 @@ OBJECTIVE: These activities allow this *Velocity Curve of the MWG* module be abl
    
    * [Introduction to Horn Telescope Follow-up](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
    
-* [The Electromagnetic Spectrum](https://github.com/WVURAIL/dspira-lessons/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf){: .button}
+* [The Electromagnetic Spectrum](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf){: .button}
    
 * [The 21 cm Wavelength of Neutral Hydrogen](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_21cmHI.pdf){: .button}
    
