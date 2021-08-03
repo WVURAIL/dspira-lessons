@@ -60,20 +60,41 @@ Complete the following steps:
    
 #### How to Update files from the gr-radio_astro gr38 Repository
 
-   1. Switch to the *gr-radio_astro* folder on your computer: `cd gr-radio_astro`
+   1. Open the terminal window.
       
-   2. To check to see if you are in the gr38 branch, enter `git status`. The descriptor "On branch gr38" should appear at the top of the displayed text.
+   2. From your home directory (cd ), go to the gr-radio_astro folder: `cd gr-radio_astro`
    
-      To switch to the gr38 branch, type `git checkout gr38`. Then type `git status` to check. 
+   3. Type `git status`. Check the "On branch ..." statement at the top. You want to be in the gr38 branch. To get there, type `git checkout gr38`.
 
-   3. Type `git pull`. This should update your gr-radio_astro files on your computer.
+   4. If a warning message shows up about local changes made that could overwrite files, type `git stash`.
 
-   4. Run the *spectrometer_w_cal.grc* program in Gnuradio:
-      - In a terminal window type `gnuradio-companion`
-      - Close any pre-existing *spectrometer_w_cal.grc* program that may already be loaded in the Gnuradio program.
-      - Open the new *spectrometer_w_cal.grc* program that is in the updated gr-radio_astro folder: 
+   5. Type `git status` to check that you are "On branch gr38".
+
+   6. Type `git pull`. 
+      - If a warning message shows up about local changes made that could overwrite files, type `git stash`. 
+      - Then type `git pull` again.
+
+   7. Change to the `build` directory: `cd build`
+
+   8. Type `rm -rf *`. NOTE: Make sure you are in the `build` directory before typing `rm -rf *`!
+
+   9. Then run the following:
+         `cmake ..`
+         `sudo make`
+         `sudo make install`
+
+   10. The update is complete.
+   
+   #### To Run the *spectrometer_w_cal.grc* program in Gnuradio After Updating:
+   
+   1. In a terminal window type `gnuradio-companion`.
+
+   2. Close any previous version of `spectrometer_w_cal.grc` that might be open in Gnuradio.
+   
+   3. Open the new version of `spectrometer_w_cal.grc` from the folder `/gr-radio_astro/examples/`
             
-         `File --> Open --> gr-radio_astros --> examples --> spectrometer_w_cal.grc`
+      - under `File` select `Open`; 
+      - Navigate to the` gr-radio_astro` folder.
+      - Under `examples` open `DSPIRA`; then select `spectrometer_w_cal.grc`.
          
-      - Make sure an Airspy radio is plugged into a USB port. Execute the program to check that it is updated successfully.
-
+   
