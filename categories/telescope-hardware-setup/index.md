@@ -23,7 +23,9 @@ category: Telescope Hardware Setup
 
 [4. **A Completed Horn Assembled**](https://youtu.be/LT0h3Frd-_k) - A video showing how the horn-can, cradle, and base stand are assembled.
 
-[5. **The Low Noise Amplifier (LNA)**](https://wvurail.org//dspira-lessons/LNA) - This is a critical component for successful telescope operation.
+[5. **Other Horn Designs**](https://wvurail.org//dspira-lessons/Other_Horn_Designs) - Links to a DSPIRA mini-horn and to similar non-DSPIRA designs are provided here.
 
-[6. **Software Defined Radio (SDR) Options**](https://wvurail.org//dspira-lessons/SDR) - An SDR is needed for digitizing the radio signal for the computer.
+[6. **The Low Noise Amplifier (LNA)**](https://wvurail.org//dspira-lessons/LNA) - This is a critical component for successful telescope operation.
+
+[7. **Software Defined Radio (SDR) Options**](https://wvurail.org//dspira-lessons/SDR) - An SDR is needed for digitizing the radio signal for the computer.
 
