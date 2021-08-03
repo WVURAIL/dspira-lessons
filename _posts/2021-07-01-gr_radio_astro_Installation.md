@@ -79,16 +79,16 @@ Complete the following steps:
    8. Type `rm -rf *`. NOTE: Make sure you are in the `build` directory before typing `rm -rf *`!
 
    9. Then run the following:
-         `cmake ..`
-
-         `sudo make`
-
-         `sudo make install`
+         ```
+      cmake ..
+      sudo make
+      sudo make install
+      ```
 
    10. The update is complete.
+
    
-   
-   #### To Run the __spectrometer_w_cal.grc__ program in Gnuradio After Updating:
+   ***To Run the __spectrometer_w_cal.grc__ program in Gnuradio After Updating:***
    
    1. In a terminal window type `gnuradio-companion`.
 
