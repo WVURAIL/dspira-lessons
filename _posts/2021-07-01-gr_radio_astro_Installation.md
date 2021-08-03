@@ -80,12 +80,15 @@ Complete the following steps:
 
    9. Then run the following:
          `cmake ..`
+
          `sudo make`
+
          `sudo make install`
 
    10. The update is complete.
    
-   #### To Run the *spectrometer_w_cal.grc* program in Gnuradio After Updating:
+   
+   #### To Run the __spectrometer_w_cal.grc__ program in Gnuradio After Updating:
    
    1. In a terminal window type `gnuradio-companion`.
 
