@@ -1,17 +1,19 @@
 ---
 layout: post
 date:  2021-07-01
-title: Installing Ubuntu 20.04
+title: Installing Ubuntu
 summary:  Details for partitioning and installing Ubuntu OS
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Telescope Software Setup']
 ---
 
+  *Ubuntu versions 20.04 LTS onwards are supported*
+
 Complete the following steps:
 
 A. Partition a Hard Drive and Ubuntu 20.04 Alongside Windows 10
 
-   1. [Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.](http://releases.ubuntu.com/20.04/) You want to choose the Desktop version. It will take some time to download this file.
+   1. [Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.](http://releases.ubuntu.com/20.04/) You want to choose the Desktop version. It will take some time to download this file. [Latest versions can be downloaded from](https://ubuntu.com/download/desktop). Our software is tested to work up to 21.04.
 
    2. Install a 32 GB or larger flash drive in the usb port.
       
