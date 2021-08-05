@@ -50,8 +50,9 @@ Complete the following steps:
    15. If the folder `radio_astro` exists, delete it by typing: `sudo rm -rf radio_astro` . If nothing shows up after typing `ls`, then everything is fine.
  
 **Check that the Installation was Successful**
- 
-   16. Run the program in Gnuradio:
+   
+
+   16. *Restart your terminal window*. Run the program in Gnuradio:
          - In a terminal window type `gnuradio-companion`
          - Open the *spectrometer_w_cal.grc* program as follows: 
             
