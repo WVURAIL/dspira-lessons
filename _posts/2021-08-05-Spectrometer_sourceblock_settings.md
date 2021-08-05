@@ -40,8 +40,6 @@ Options:
     - `samp_rate Variable` block: The Lime SDR can use a 10 MHz samp_rate; so no change is needed in this block.
 
     - POWER TO THE LNA: The Lime SDR does not power the LNA. Therefore, it is necessary that external power is provided to the LNA. This is done through a [bias-T](https://www.minicircuits.com/WebStore/dashboard.html?model=ZFBT-282-1.5A%2B), which is connected to the LNA and Lime as shown:
-
-        <img src="/dspira-lessons/images/Bias_T_connections.png" align="center" width="329px"/>
         
         <img align="center" width="329" height="199" src="/dspira-lessons/images/Bias_T_connections.png">
 
