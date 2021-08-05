@@ -40,7 +40,10 @@ Options:
     - `samp_rate Variable` block: The Lime SDR can use a 10 MHz samp_rate; so no change is needed in this block.
 
     - POWER TO THE LNA: The Lime SDR does not power the LNA. Therefore, it is necessary that external power is provided to the LNA. This is done through a [bias-T](https://www.minicircuits.com/WebStore/dashboard.html?model=ZFBT-282-1.5A%2B), which is connected to the LNA and Lime as shown:
-    <img src="/dspira-lessons/images/Bias_T_connections.png" align="center" width="329px"/>
+
+        <img src="/dspira-lessons/images/Bias_T_connections.png" align="center" width="329px"/>
+
+        An [SMA female to female connector/adapter](https://www.data-alliance.net/sma-female-to-sma-female-adapter-coupler-gender-changer/) will be needed for the connection from the bias-T to the LNA cable, as indicated in the diagram above.
 
 + ADALM-PLUTO - will need to make a minor change in the source block in the Gnuradio program.
 
