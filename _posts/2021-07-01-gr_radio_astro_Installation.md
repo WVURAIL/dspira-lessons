@@ -99,5 +99,7 @@ Complete the following steps:
       - under `File` select `Open`; 
       - Navigate to the` gr-radio_astro` folder.
       - Under `examples` open `DSPIRA`; then select `spectrometer_w_cal.grc`.
+
+   4. Connect an Airspy SDR to a USB port, and start the program running (Hit the black triangle at the top middle ribbon bar.)
          
    
