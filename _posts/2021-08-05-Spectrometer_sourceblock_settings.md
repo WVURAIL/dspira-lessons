@@ -42,6 +42,8 @@ Options:
     - POWER TO THE LNA: The Lime SDR does not power the LNA. Therefore, it is necessary that external power is provided to the LNA. This is done through a [bias-T](https://www.minicircuits.com/WebStore/dashboard.html?model=ZFBT-282-1.5A%2B), which is connected to the LNA and Lime as shown:
 
         <img src="/dspira-lessons/images/Bias_T_connections.png" align="center" width="329px"/>
+        
+        <img align="center" width="329" height="199" src="/dspira-lessons/images/Bias_T_connections.png">
 
         An [SMA female to female connector/adapter](https://www.data-alliance.net/sma-female-to-sma-female-adapter-coupler-gender-changer/) will be needed for the connection from the bias-T to the LNA cable, as indicated in the diagram above.
 
