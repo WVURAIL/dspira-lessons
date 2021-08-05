@@ -29,18 +29,18 @@ Options:
 
 + Lime 
 
-    - Source block: the `LimeSDR Source (RX)` block is used. Click on the `osmocom` block and hit Delete. Then in the search window on the tool bar at the top, type "LimeSDR". Grab the `LimeSDR Source (RX)` and drag it onto the canvas where the `osmocom` block was. Connect it to the `Stream to Vector` block, the three `Delay` blocks, and the `Complex to Real` block by clicking one-by-one on the blue output of the `LimeSDR Source (RX)` block and the blue inputs of each of these blocks.
+    - Source block: the Lime uses the `LimeSDR Source (RX)` block. Click on the `osmocom` block and hit Delete. Then in the search window on the tool bar at the top, type "LimeSDR". Grab the `LimeSDR Source (RX)` and drag it onto the canvas where the `osmocom` block was. Connect the blue output of the `LimeSDR Source (RX)` block to the `Stream to Vector` block, the three `Delay` blocks, and the `Complex to Real` one-by-one.
     
     - Open the `LimeSDR Source (RX)` block (by double-clicking) and set the following:
-        - On the "General" tab, set "RF frequency" to "freq" [without the quotes], and check that the "Sample rate" is "samp_rate" [without the quotes]. "Channel" should be on "A".
+        - On the "General" tab, set "RF frequency" to "freq" [without the quotes], and check that the "Sample rate" is "samp_rate" [without the quotes]. "Channel" should be on "A" [without the quotes].
 
         - The settings on the Channel A tab should be as shown:
-        <img src="/dspira-lessons/images/Lime_channelA.png" align="center" width="170px"/>
+        <img src="/dspira-lessons/images/Lime_channelA.png" align="center" width="500px"/>
         
     - `samp_rate Variable` block: The Lime SDR can use a 10 MHz samp_rate; so no change is needed in this block.
 
-    - POWER TO THE LNA: The Lime SDR does not power the LNA. Therefore, it is necessary that external power is provided to the LNA. This is done through a bias-T, and is connected to the LNA and Lime as shown:
-
+    - POWER TO THE LNA: The Lime SDR does not power the LNA. Therefore, it is necessary that external power is provided to the LNA. This is done through a [bias-T](https://www.minicircuits.com/WebStore/dashboard.html?model=ZFBT-282-1.5A%2B), which is connected to the LNA and Lime as shown:
+    <img src="/dspira-lessons/images/Bias_T_connections.png" align="center" width="329px"/>
 
 + ADALM-PLUTO - will need to make a minor change in the source block in the Gnuradio program.
 
