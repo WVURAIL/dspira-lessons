@@ -65,7 +65,7 @@ _NOTE_: Raspberry Pi is built on an ARM based architecture  any version of Ubunt
    6. More info on SSH [here](https://www.raspberrypi.org/documentation/remote-access/ssh/){:target="_blank"}
 3. Using PuTTy on Windows: 
    1. [Download PuTTy](https://www.putty.org){:target="_blank"}.
-   2. Add IP address in
+   2. Add IP address in the hostname field.
 4. Using VNC: More info [here](https://www.raspberrypi.org/documentation/remote-access/vnc/README.md){:target="_blank"} 
     
     
