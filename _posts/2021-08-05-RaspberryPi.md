@@ -58,13 +58,13 @@ _NOTE_: Raspberry Pi is built on an ARM based architecture  any version of Ubunt
 1. Using a moniter and mouse and keyboard like any other desktop. 
 2. Using SSH:
    1. This method can be used on any machine with ssh server enabled.
-   2. Install X server on your computer. [VcXcrv](https://sourceforge.net/projects/vcxsrv/){:target="_blank"} on windows and [XQuartz](https://www.xquartz.org/){:target="_blank"}for macOS. 
+   2. Install X server on your computer. [VcXcrv](https://sourceforge.net/projects/vcxsrv/){:target="_blank"} on windows and [XQuartz](https://www.xquartz.org/){:target="_blank"} for macOS. 
    3. Power up the Raspberry Pi and connect your computer via ethernet cable
-   4. First we need to determine the IP address of the raspberry PI. [How to determine Raspberry PI IP address](https://www.raspberrypi.org/documentation/remote-access/ip-address.md){:target="_blank"}
+   4. First we need to determine the IP address of the raspberry PI: [How to determine Raspberry PI IP address](https://www.raspberrypi.org/documentation/remote-access/ip-address.md){:target="_blank"}
    5. If the determined IP address is `<IP address>` then in the terminal type `ssh -Y pi@<IP address>`
    6. More info on SSH [here](https://www.raspberrypi.org/documentation/remote-access/ssh/){:target="_blank"}
 3. Using PuTTy on Windows: 
-   1. [DownloadPuTTy](https://www.putty.org){:target="_blank"}.
+   1. [Download PuTTy](https://www.putty.org){:target="_blank"}.
    2. Add IP address in
 4. Using VNC: More info [here](https://www.raspberrypi.org/documentation/remote-access/vnc/README.md){:target="_blank"} 
     
