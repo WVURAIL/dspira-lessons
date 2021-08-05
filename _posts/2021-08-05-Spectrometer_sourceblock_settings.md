@@ -21,11 +21,11 @@ Options:
 
 + RTL-SDR
 
-    - Source block: change the "Device Arguments" 
-
-    - `samp_rate Variable` block: This block is on the left side of the canvas in the `spectrometer_w_cal.grc` program. Open this block by double-clicking it. Change the "Device Argument" to: rtl=0, bias=1, pack=0
+    - Source block: Change the "Device Argument" to: rtl=0, bias=1, pack=0, as shown:
+            <img align="center" width="300" height="385" src="/dspira-lessons/images/RTL_SDR_source.png">
 
     - `samp_rate Variable` block: This block is in the upper left corner of the canvas in the `spectrometer_w_cal.grc` program next to the `Options` block. Open this block by double-clicking it. Change the "Value" to "2.4e6" (which is 2.4 MHz).
+    <img align="center" width="300" height="149" src="/dspira-lessons/images/RTL_SDR_samp_rate.png">
 
 + Lime 
 
