@@ -9,14 +9,16 @@ categories: ['Telescope Software Setup']
 
 Raspberry Pi's are inexpensive and the more modern Pi's are powerful enough to keep up with the level of signal processing on GNURadio associated with Radio Astronomy applications. 
 
-- [Supported Raspberry Pi Devices](#supported-raspberry-pi-devices)
-- [Operating system requirement](#operating-system-requirement)
-- [Installing Ubuntu on Raspberry Pi](#installing-ubuntu-on-raspberry-pi)
-  - [Prerequisites](#prerequisites)
-- [Post Installation actions:](#post-installation-actions)
-  - [Interacting with the Raspberry Pi](#interacting-with-the-raspberry-pi)
-- [Installing `gr-radio_astro`: Installing gr-radio_astro{:target="_blank"}](#installing-gr-radio_astro-installing-gr-radio_astro-sitebaseurl-gr_radio_astro_installationtarget_blank)
-- [Installing Ubuntu image with radio astronomy preinstalled  on a Raspberry Pi](#installing-ubuntu-image-with-radio-astronomy-preinstalled--on-a-raspberry-pi)
+
+  - [Supported Raspberry Pi Devices](#supported-raspberry-pi-devices)
+  - [Operating system requirement](#operating-system-requirement)
+  - [Installing Ubuntu on Raspberry Pi](#installing-ubuntu-on-raspberry-pi)
+    - [Prerequisites](#prerequisites)
+  - [Post Installation actions:](#post-installation-actions)
+    - [Interacting with the Raspberry Pi](#interacting-with-the-raspberry-pi)
+  - [Installing gr-radio_astro](#installing-gr-radioastro-installing-gr-radioastro-sitebaseurl-grradioastroinstallationtarget%22blank%22)
+  - [Installing Ubuntu image with radio astronomy preinstalled  on a Raspberry Pi](#installing-ubuntu-image-with-radio-astronomy-preinstalled-on-a-raspberry-pi)
+
 
 
 ## Supported Raspberry Pi Devices
@@ -56,7 +58,7 @@ _NOTE_: Raspberry Pi is built on an ARM based architecture  any version of Ubunt
 1. Using a moniter and mouse and keyboard like any other desktop. 
 2. Using SSH:
    1. This method can be used on any machine with ssh server enabled.
-   2. Install X server on your computer. [VcXcrv]{https://sourceforge.net/projects/vcxsrv/}{:target="_blank"} on windows and [XQuartz](https://www.xquartz.org/){:target="_blank"}for macOS. 
+   2. Install X server on your computer. [VcXcrv](https://sourceforge.net/projects/vcxsrv/){:target="_blank"} on windows and [XQuartz](https://www.xquartz.org/){:target="_blank"}for macOS. 
    3. Power up the Raspberry Pi and connect your computer via ethernet cable
    4. First we need to determine the IP address of the raspberry PI. [How to determine Raspberry PI IP address](https://www.raspberrypi.org/documentation/remote-access/ip-address.md){:target="_blank"}
    5. If the determined IP address is `<IP address>` then in the terminal type `ssh -Y pi@<IP address>`
