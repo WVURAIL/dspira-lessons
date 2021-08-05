@@ -13,20 +13,19 @@ Complete the following steps:
 
    1. Open a terminal window in Ubuntu.
 
-   2. Install gnuradio external python dependencies and SDR drivers by typing the following:
-      `sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem`, and hit Enter.
+   2. Install gnuradio external python dependencies and SDR drivers by typing the following and hit enter:
+   ```
+      sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem git cmake liborc-0.4-dev -y
+   ```
+   3. To clone the repository: in the terminal, type and Enter: `git clone https://github.com/WVURAIL/gr-radio_astro.git`
 
-   3. Also install the following package: `sudo apt install git cmake liborc-0.4-dev`
-         
-   4. To clone the repository: in the terminal, type and Enter: `git clone https://github.com/WVURAIL/gr-radio_astro.git`
+   4. Switch to the gr-radio_astro directory: `cd gr-radio_astro`
 
-   5. Switch to the gr-radio_astro directory: `cd gr-radio_astro`
+   5. Switch to the gr-radio_astro 3.8 branch by typing: `git checkout gr38`
 
-   6. Switch to the gr-radio_astro 3.8 branch by typing: `git checkout gr38`
-
-   7. Make a build directory: `mkdir build`, and then move to it: `cd build`  
+   6. Make a build directory: `mkdir build`, and then move to it: `cd build`  
       
-   8. Then run the following in the build directory:
+   7. Then run the following in the build directory:
 
       ```
       cmake ..
@@ -43,16 +42,14 @@ Complete the following steps:
 
    12. Save and close (x in upper right corner).
    
-   13. Go to the following by typing: `cd /usr/local/lib/python3.8/dist-packages`
-   
-   14. Enter `ls`
-   
-   15. If the folder `radio_astro` exists, delete it by typing: `sudo rm -rf radio_astro` . If nothing shows up after typing `ls`, then everything is fine.
+   13. Additionally you can create appropriate symbolic links
+       1.  Check which python is the installed version of GNURadio by opening  `gnuradio-companion` in a terminal window and click on `Help --> About` and noting the python version on the dialog box that open.  
+       2.  Go to the following by typing: `cd /usr/local/lib/python3.8/dist-packages` or `cd /usr/local/lib/python3.9/dist-packages` for the appropriate python version. 
+       3.  Type `ln -s /usr/local/lib/python3/dist-packages/radio_astro`   
  
 **Check that the Installation was Successful**
-   
 
-   16. *Restart your terminal window*. Run the program in Gnuradio:
+   1.  *Restart your terminal window*. Run the program in Gnuradio:
          - In a terminal window type `gnuradio-companion`
          - Open the *spectrometer_w_cal.grc* program as follows: 
             
