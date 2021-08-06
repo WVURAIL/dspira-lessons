@@ -20,21 +20,29 @@ Raspberry Pi's are inexpensive and the more modern Pi's are powerful enough to k
   - [Installing gr-radio_astro](#installing-gr-radioastro-installing-gr-radioastro-sitebaseurl-grradioastroinstallationtarget%22blank%22)
 
 
-## Supported Raspberry Pi Devices
+# Supported Raspberry Pi Devices
 
 *All devices must have RAM greater than 4GB*
 1. Raspberry Pi 4 Model B
 2. Raspberry Pi 400
 
 
-## Installing Ubuntu image with radio astronomy preinstalled  on a Raspberry Pi
-
-1. Download the image [here]()
-2. Use [Raspberry Pi Imager]() to install the image. 
+# Installing Ubuntu image with radio astronomy preinstalled  on a Raspberry Pi
+This image requires a minimum of 16GB of space on the SD card. 
+1. Download the image [here](https://drive.google.com/file/d/1KzfgMEwgwTTZUaCeNR5kRgLj9MfMKyAh/view?usp=sharing)
+2. Use [Raspberry Pi Imager](https://www.raspberrypi.org/software/) to install this image. 
+   1. Insert SD card into your card reader on your computer
+   2. Open Raspberry Pi imager.
+   3. Click `Choose OS`, and choose `Use Custom`. 
+   4. Select the correct image file from your system.
+   5. Click `Choose storage` and select your inserted SD card.
+   6. Click write. 
+   7. More info [here](https://www.raspberrypi.org/documentation/installation/installing-images/) and a [video](https://www.youtube.com/watch?v=ntaXWS8Lk34) 
 3. Insert SD card to Raspberry Pi and power it up.
-4. Open Raspberry Pi Imager to install the image
+4. The default user name is `pi`, with password `raspberry`. Change the password after first boot. 
 
 
+# Setting OS and installing software from scratch. 
 ## Operating system requirement
 
 1. Ubuntu for Raspberry Pi [Click here for more Info](https://ubuntu.com/raspberry-pi)
@@ -42,7 +50,6 @@ Raspberry Pi's are inexpensive and the more modern Pi's are powerful enough to k
 _Note_: The custom `gr-radio_astro` [software]({{ site.baseurl }}/gr_radio_astro_Installation)  is now only supported for `GNURadio 3.8` only. The Raspberry Pi OS by default installs `GNURadio 3.7` which is not longer supported. 
 
 ## Installing Ubuntu on Raspberry Pi
-
 ### Prerequisites
 
 1. Support Raspberry Pi
@@ -51,8 +58,7 @@ _Note_: The custom `gr-radio_astro` [software]({{ site.baseurl }}/gr_radio_astro
 4. A micro USB-C power cable 
 5. A monitor with an HDMI interface (Optionally for installing Ubuntu Server)
 6. A micro HDMI cable (Optionally for installing Ubuntu Server)
-7. A USB keyboard (Optionally for installing Ubuntu Server)
-
+7. A USB keyboard and mouse (Optionally for installing Ubuntu Server)
 
 [Instructions from Ubuntu to install the OS on the Raspberry Pi 4](https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overview){:target="_blank"}
 
