@@ -46,9 +46,15 @@ Options:
 
         <img src="/dspira-lessons/images/Lime_channelA.png" align="center" width="500px"/>
         
-    - `samp_rate Variable` block: The Lime SDR can use a 10 MHz samp_rate; so no change is needed in this block.
+    - `samp_rate Variable` block: The Lime SDR can use a 10 MHz samp_rate; so no change is needed in this block.sta
 
-    - POWER TO THE LNA: The Lime SDR does not power the LNA. Therefore, it is necessary that external power is provided to the LNA. This is done through a [bias-T](https://www.minicircuits.com/WebStore/dashboard.html?model=ZFBT-282-1.5A%2B), which is connected to the LNA and Lime as shown:
+    - Install gr-limesdr - software needed for the Lime SDR block to run in GNURadio.
+
+        - Open a terminal window.
+
+        - Type and enter: `sudo apt install gr-limesdr`
+
+    - POWER TO THE LNA: The Lime SDR does not power the LNA. Therefore, it is necessary to provide +5 V dc external power to the LNA through a [bias-T](https://www.minicircuits.com/WebStore/dashboard.html?model=ZFBT-282-1.5A%2B), which is connected to the LNA and Lime as shown:
         
         <img align="center" width="329" height="199" src="/dspira-lessons/images/Bias_T_connections.png">
 
@@ -71,7 +77,12 @@ Options:
 
         <img align="center" width="300" height="106" src="/dspira-lessons/images/PlutoSDR_samp_rate.png">
         <img align="center" width="298" height="130" src="/dspira-lessons/images/PlutoSDR_freq.png">
-            
+    
+    - POWER TO THE LNA: The Pluto SDR does not power the LNA. Therefore, it is necessary to provide +5 V dc external power to the LNA through a [bias-T](https://www.minicircuits.com/WebStore/dashboard.html?model=ZFBT-282-1.5A%2B), which is connected to the LNA and Pluto SDR as shown:
+        
+        <img align="center" width="329" height="199" src="/dspira-lessons/images/Bias_T_connections_PlutoSDR.png">
+
+        An [SMA female to female connector/adapter](https://www.data-alliance.net/sma-female-to-sma-female-adapter-coupler-gender-changer/) will be needed for the connection from the bias-T to the LNA cable, as indicated in the diagram above.
 
 
 **Cable Hardware:** A [coaxial cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr240/sma-male-times-microwave-lmr240/lmr240-sma-male-to-sma-male-coaxial-rf-pigtail-cable/) is needed to connect the LNA to the SDR. Typically a 10 ft length is adequate, but any length up to 25 ft should work fine.
