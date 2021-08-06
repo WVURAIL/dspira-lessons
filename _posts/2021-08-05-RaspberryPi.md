@@ -30,16 +30,17 @@ Raspberry Pi's are inexpensive and the more modern Pi's are powerful enough to k
 # Installing Ubuntu image with radio astronomy preinstalled  on a Raspberry Pi
 This image requires a minimum of 16GB of space on the SD card. 
 1. Download the image [here](https://drive.google.com/file/d/1KzfgMEwgwTTZUaCeNR5kRgLj9MfMKyAh/view?usp=sharing)
-2. Use [Raspberry Pi Imager](https://www.raspberrypi.org/software/) to install this image. 
+2. Unzip the `.zip` file.
+3. Use [Raspberry Pi Imager](https://www.raspberrypi.org/software/) to install this image. 
    1. Insert SD card into your card reader on your computer
    2. Open Raspberry Pi imager.
    3. Click `Choose OS`, and choose `Use Custom`. 
-   4. Select the correct image file from your system.
+   4. Select the correct image file downloaded in step 1 and 2 from your system.
    5. Click `Choose storage` and select your inserted SD card.
    6. Click write. 
    7. More info [here](https://www.raspberrypi.org/documentation/installation/installing-images/) and a [video](https://www.youtube.com/watch?v=ntaXWS8Lk34) 
-3. Insert SD card to Raspberry Pi and power it up.
-4. The default user name is `pi`, with password `raspberry`. Change the password after first boot. 
+4. Insert SD card to Raspberry Pi and power it up.
+5. The default user name is `pi`, with password `raspberry`. Change the password after first boot. 
 
 
 # Setting OS and installing software from scratch. 
