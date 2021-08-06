@@ -73,8 +73,5 @@ Options:
         <img align="center" width="298" height="130" src="/dspira-lessons/images/PlutoSDR_freq.png">
             
 
-For details on the changes needed in the source block mentioned above, refer to the [spectrometer page here](https://wvurail.org//dspira-lessons/tba??).
 
-Needed for connecting:
-
-+ A [coaxial cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr240/sma-male-times-microwave-lmr240/lmr240-sma-male-to-sma-male-coaxial-rf-pigtail-cable/) is needed to connect the LNA to the SDR. Typically a 10 ft length is adequate, but any length up to 25 ft should work fine.
+**Cable Hardware:** A [coaxial cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr240/sma-male-times-microwave-lmr240/lmr240-sma-male-to-sma-male-coaxial-rf-pigtail-cable/) is needed to connect the LNA to the SDR. Typically a 10 ft length is adequate, but any length up to 25 ft should work fine.
