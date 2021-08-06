@@ -34,16 +34,16 @@ Complete the following steps:
       ```
 **Additional Steps for setting the proper Python environment:**
 
-   9. Open a terminal window.
+   8. Open a terminal window.
    
-   10. Make sure you are at the home directory (type and Enter `cd` ). Then type `gedit .bashrc` to open the *.bashrc* file in an editor.
+   9. Make sure you are at the home directory (type and Enter `cd` ). Then type `gedit .bashrc` to open the *.bashrc* file in an editor.
    
-   11. Scroll to the very bottom of this file, add a blank line, and then copy and paste the following code: `export PYTHONPATH=/usr/local/lib/python3/dist-packages:/usr/local/lib/python3.8/dist-packages:$PYTHONPATH`
+   10. Scroll to the very bottom of this file, add a blank line, and then copy and paste the following code: `export PYTHONPATH=/usr/local/lib/python3/dist-packages:/usr/local/lib/python3.8/dist-packages:$PYTHONPATH`
 
-   12. Save and close (x in upper right corner).
+   11. Save and close (x in upper right corner).
    
-   13. Additionally you can create appropriate symbolic links
-       1.  Check which python is the installed version of GNURadio by opening  `gnuradio-companion` in a terminal window and click on `Help --> About` and noting the python version on the dialog box that open.  
+   12. Additionally you can create appropriate symbolic links
+       1.  Check which python is the installed version of GNURadio by opening  `gnuradio-companion` in a terminal window and click on `Help --> About` and noting the python version on the dialog box that opens.  
        2.  Go to the following by typing: `cd /usr/local/lib/python3.8/dist-packages` or `cd /usr/local/lib/python3.9/dist-packages` for the appropriate python version. 
        3.  Type `ln -s /usr/local/lib/python3/dist-packages/radio_astro`   
  
