@@ -11,9 +11,9 @@ categories: ['Telescope Software Setup']
 
 1. Before starting, you will need the program *balenaEtcher*, which is an easy-to-use cross-platform tool for burning images to SD cards, USB drives and other removable devices. It can be downloaded from https://www.balena.io/etcher/.
 
-2. Download the file [ubuntu_radio_astro20202.iso.zip](https://drive.google.com/file/d/1mRlEbGkABSX9IvDsFQRQHE9Q_SEBOqrc/view?usp=sharing) while in either Windows or Ubuntu.
+2. Download the file [ubuntu_radio_astro2021.zip](https://drive.google.com/file/d/1mRlEbGkABSX9IvDsFQRQHE9Q_SEBOqrc/view?usp=sharing) while in either Windows or Ubuntu.
 
-3. Unzip this file in a folder of your choice to create the file *ubuntu_radio_astro20202.iso*
+3. Unzip this file in a folder of your choice.
 
 4. Install a 32 GB or larger flash drive in the usb port. [We recommend a Samsung 32 GB flash drive.]
 
