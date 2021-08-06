@@ -15,4 +15,6 @@ category: Telescope Operation
 
 [**Running the *spectrometer_w_cal.grc* Program**](https://wvurail.org//dspira-lessons/spectrometer_w_cal_Instructions) - Detailed instructions on running the DSPIRA spectrometer program.
 
-[**Running the Simple Spectrometer Program**](https://wvurail.org//dspira-lessons/) - Instructions on collecting data using the simple spectrometer program are provided here.
+[**Running the Simple Spectrometer Program**](https://wvurail.org//dspira-lessons/Simple_Spectrometer) - Instructions on building and collecting data using the simple spectrometer program are provided here.
+
+[**Setting Up a 2-Horn Interferometer and Running the Simple Spectrometer Program**]((https://wvurail.org/dspira-lessons/SettingUp_2Horn_Interferometer.pdf) - A pdf that provides instructions on setting up a 2-horn interferometer and using either a spectrometer program for an adding interferometer or a spectrometer program for a multiplying interferometer.
