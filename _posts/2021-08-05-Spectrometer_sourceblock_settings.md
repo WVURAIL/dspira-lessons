@@ -56,6 +56,8 @@ Options:
 
 + ADALM-PLUTO 
 
+    - The Adalm-Pluto SDR uses the `PlutoSDRSource` block that will need to be installed. Complete the [steps outlined here] to install this block on your computer.
+
     - Source block: the Adalm-Pluto uses the `PlutoSDRSource` block. Click on the `osmocom` block and hit Delete. Then in the search window on the tool bar at the top, type "PlutoSDR". Grab the `PlutoSDRSource` and drag it onto the canvas where the `osmocom` block was. Then one-by-one connect the blue output of the `PlutoSDRSource` block to the `Stream to Vector` block, the three `Delay` blocks, and the `Complex to Real`. The final connections should look like the following:
 
     <img align="center" width="277" height="237" src="/dspira-lessons/images/PlutoSDR_sourceBlock_connections.png">
