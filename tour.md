@@ -70,3 +70,6 @@ If you would like to contribute to your own radio astronomy lessons please [emai
 Visit the forums to start a discussion: 
 
 [Forums]({{ site.baseurl}}/forum/){: .button}
+
+<hr>
+
