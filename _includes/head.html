@@ -16,6 +16,16 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
     <!-- for mathjax support -->
+    <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+          processEscapes: true
+        }
+      });
+    </script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     {% if page.usemathjax %}
       <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
