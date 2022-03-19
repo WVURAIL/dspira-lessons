@@ -40,7 +40,7 @@ From a high school or college class perspective, each topic has about one to two
 
  Velocity Curve Lessons
 
-   * [Galactic Plane Quadrants II&III Observations: Teacher Notes](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit)
+   * [Galactic Plane Quadrants II&III Observations: Teacher Notes](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit?usp=sharing)
    
    * [Galactic Plane Quadrants II&III Observations](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit)
    
