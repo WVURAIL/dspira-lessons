@@ -36,6 +36,8 @@ From a high school or college class perspective, each topic has about one to two
 <img src="/dspira-lessons/images/HIMap.png" align="left" width="170px"/>
 - This is the true culmination of the DSPIRA Program in that the radio horn telescope is constructed and will be used to explore some of the rotational nature of the Milky Way.  A rudimentary map of the Milky Way can begin to be constructed from the data from the scope.  This can then lead to discussions for the necessity of Dark Matter to account for the velocities being observed.  
 
+<a><button name="Go to Velocity Curve Activities" style = "color: red" onclick="https://wvurail.org//dspira-lessons/Astronomy_VelocityCurve_Overview"></button></a>
+
 [Go to Velocity Curve Activities](https://wvurail.org//dspira-lessons/Astronomy_VelocityCurve_Overview){: .button}
 
  Velocity Curve Lessons
