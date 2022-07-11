@@ -58,7 +58,7 @@ From a high school or college class perspective, each topic has about one to two
 
 This LightWork memo describes the theory behind simple additive interferometry and how to set up and operate 2 horns to do this.
 
-[Go to Interferometry Lesson](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/2Horn_AddingInterferometry_LightWorkMemo31.pdf)
+[Go to Interferometry Lesson](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/2Horn_AddingInterferometry_LightWorkMemo31.pdf){: .button}
 
 
 
