@@ -56,5 +56,7 @@ From a high school or college class perspective, each topic has about one to two
 
 ## 5. [Additive Interferometry Using 2 Horns](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/2Horn_AddingInterferometry_LightWorkMemo31.pdf)
 
+This LightWork memo describes the theory behind simple additive interferometry and how to set up and operate 2 horns to do this.
+
 
 
