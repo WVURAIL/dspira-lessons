@@ -36,8 +36,6 @@ From a high school or college class perspective, each topic has about one to two
 <img src="/dspira-lessons/images/HIMap.png" align="left" width="170px"/>
 - This is the true culmination of the DSPIRA Program in that the radio horn telescope is constructed and will be used to explore some of the rotational nature of the Milky Way.  A rudimentary map of the Milky Way can begin to be constructed from the data from the scope.  This can then lead to discussions for the necessity of Dark Matter to account for the velocities being observed.  
 
-<a><button name="Go to Velocity Curve Activities" style = "color: red" onclick="https://wvurail.org//dspira-lessons/Astronomy_VelocityCurve_Overview"></button></a>
-
 [Go to Velocity Curve Activities](https://wvurail.org//dspira-lessons/Astronomy_VelocityCurve_Overview){: .button}
 
  Velocity Curve Lessons
@@ -56,9 +54,12 @@ From a high school or college class perspective, each topic has about one to two
    
    * [Galactic Plane Quadrant I Observations: Analysis & Conclusions](https://docs.google.com/document/d/1J9w1DH5fQW24XDvesYTzsR943Px_13uTZQQS5qi6rxg/edit)   
 
-## 5. [Additive Interferometry Using 2 Horns](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/2Horn_AddingInterferometry_LightWorkMemo31.pdf)
+## 5. Additive Interferometry Using 2 Horns
 
 This LightWork memo describes the theory behind simple additive interferometry and how to set up and operate 2 horns to do this.
+
+[Go to Interferometry Lesson](https://github.com/WVURAIL/dspira-lessons/blob/master/FilesUploaded/2Horn_AddingInterferometry_LightWorkMemo31.pdf)
+
 
 
 
