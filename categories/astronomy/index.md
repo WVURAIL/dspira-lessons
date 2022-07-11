@@ -54,7 +54,7 @@ From a high school or college class perspective, each topic has about one to two
    
    * [Galactic Plane Quadrant I Observations: Analysis & Conclusions](https://docs.google.com/document/d/1J9w1DH5fQW24XDvesYTzsR943Px_13uTZQQS5qi6rxg/edit)   
 
-## 5. Additive Interferometry Using 2 Horns
+### 5. Additive Interferometry Using 2 Horns
 
 This LightWork memo describes the theory behind simple additive interferometry and how to set up and operate 2 horns to do this.
 
