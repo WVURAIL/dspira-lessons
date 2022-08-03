@@ -7,19 +7,19 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Telescope Software Setup']
 ---
 
-  *Ubuntu versions 20.04 LTS onwards are supported*
+  *Ubuntu versions 22.04 LTS onwards are supported*
 
 Complete the following steps:
 
-A. Partition a Hard Drive and Ubuntu 20.04 Alongside Windows 10
+A. Partition a Hard Drive and Ubuntu 22.04 Alongside Windows 10
 
-   1. [Download Ubuntu Desktop 20.04 ISO onto hard drive in Windows.](http://releases.ubuntu.com/20.04/) You want to choose the Desktop version. It will take some time to download this file. [Latest versions can be downloaded from](https://ubuntu.com/download/desktop). Our software is tested to work up to 21.04.
+   1. [Download Ubuntu Desktop 22.04 ISO onto hard drive in Windows.](http://releases.ubuntu.com/22.04/) You want to choose the Desktop version. It will take some time to download this file. [Latest versions can be downloaded from](https://ubuntu.com/download/desktop). Our software is tested to work up to 22.04.
 
    2. Install a 32 GB or larger flash drive in the usb port.
       
    3. Download *BalenaEtcher* for Windows and install it if you don’t already have it.
    
-   4. Run *BalenaEtcher*. Choose the Ubuntu20.04.iso file as the image and the flash drive as the target. It will take some time for this to run.
+   4. Run *BalenaEtcher*. Choose the Ubuntu 22.04.iso file as the image and the flash drive as the target. It will take some time for this to run.
 
    5. Before installing Ubuntu on the hard disk, you need to partition the hard disk in Windows.
    
@@ -37,7 +37,7 @@ A. Partition a Hard Drive and Ubuntu 20.04 Alongside Windows 10
    After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows.  
      
 
-B. Install Ubuntu 20.04 Alongside with Windows
+B. Install Ubuntu 22.04 Alongside with Windows
 
    1. Place the bootable flash drive in the USB port, and reboot the machine, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
