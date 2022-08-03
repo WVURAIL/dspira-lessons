@@ -9,7 +9,7 @@ categories: ['Telescope Software Setup']
 
 Complete the following steps as needed:
 
-A. [**Install Ubuntu 22.04**](https://wvurail.org//dspira-lessons/Ubuntu_Installation) - Partition a Hard Drive and install Ubuntu 20.04 Alongside Windows 10
+A. [**Install Ubuntu 22.04**](https://wvurail.org//dspira-lessons/Ubuntu_Installation) - Partition a Hard Drive and install Ubuntu 22.04 Alongside Windows 10
 
 B. [**Install *GNURadio***](https://wvurail.org//dspira-lessons/GNURadio_Installation) - Install *GNURadio* on a computer.
 
