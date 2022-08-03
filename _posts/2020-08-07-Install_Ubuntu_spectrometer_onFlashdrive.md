@@ -9,7 +9,7 @@ categories: ['Telescope Software Setup']
 
 #### Image the Flashdrive:
 
-1. Before starting, you will need the program *balenaEtcher*, which is an easy-to-use cross-platform tool for burning images to SD cards, USB drives and other removable devices. It can be downloaded from https://www.balena.io/etcher/.
+1. Before starting, you will need the program *balenaEtcher*, which is an easy-to-use cross-platform tool for burning images to SD cards, USB drives and other removable devices. It can be downloaded from <https://www.balena.io/etcher/>.
 
 2. Download the file [ubuntu_radio_astro08_2022_2.zip](https://drive.google.com/file/d/1qAk6Z-XyFaoyRFH1mHWrmuKy9UBirV1s/view?usp=sharing) while in either Windows or Ubuntu.
 
