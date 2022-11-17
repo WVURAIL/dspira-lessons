@@ -72,3 +72,17 @@ Visit the forums to start a discussion:
 
 <hr>
 
+# Lightwork memo series: Many hands make light work
+
+The LightWork Memo series is an informal series of numbered memoranda on topics related to Citizen Science with Radio Telescopes.
+
+This series is intended to encourage the public in the United States, and throughout the world, to collaborate on the design, construction and operation of Radio Telescopes for the purpose of furthering science, engineering and education. LightWork memos series guidelines are described in Memo 0, below. The creation of a memo series is motivated by the success that a focused memo series can have on organizing design and construction of large astronomical facilities.
+
+[Lightwork Memos]({{ site.baseurl}}/lightwork/){: .button}
+
+# Request a Radio Telescope kit
+
+If you are an educator or a community organizer enthusiastic about radio astornomy and are slowed down by access to equipment such as SDR dongles and 21cm LNAs you can fill out the following form to request a starter kit. We can ship them to you until supplies last. Please fill within the form your shipment details and your tentative plans or the work you have conducted with your students/community. 
+
+[Form to Request a Radio teelscope]({{ }}){: .button}
+
