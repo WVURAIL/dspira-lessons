@@ -1,7 +1,8 @@
 ---
-layout: page
-title: DSPIRA Guided Tour
+layout: redirected
+sitemap: false
 permalink: /tour/
+redirect_to:  /
 ---
 
 Digital Signal Processing in Radio Astronomy (DSPIRA) is an NSF Research Experiences for Teachers (RET) in Engineering and Computer Science Site at the West Virginia University Lane Department of Computer Science and Engineering.
