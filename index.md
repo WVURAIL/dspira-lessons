@@ -78,7 +78,7 @@ The LightWork Memo series is an informal series of numbered memoranda on topics 
 
 This series is intended to encourage the public in the United States, and throughout the world, to collaborate on the design, construction and operation of Radio Telescopes for the purpose of furthering science, engineering and education. The creation of a memo series is motivated by the success that a focused memo series can have on organizing design and construction of large astronomical facilities.
 
-[Lightwork Memos]({{ site.baseurl}}/lightwork/){: .button}
+[Lightwork Memos](https://wvurail.org/lightwork/){: .button}
 
 # Request a Radio Telescope kit
 
