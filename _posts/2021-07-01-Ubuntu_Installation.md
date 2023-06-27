@@ -54,7 +54,7 @@ A. Partition a Hard Drive - Before installing Ubuntu on the hard disk, you need 
 
 B. Download Ubuntu 22.04 onto a Bootable Flashdrive
 
-   1. You need to [download Ubuntu Desktop 22.04 ISO](http://releases.ubuntu.com/22.04/) onto the hard drive in Windows. You want to choose the Desktop version. It will take some time to download this file.
+   1. You need to [download Ubuntu Desktop 22.04 ISO](http://releases.ubuntu.com/22.04/){:target="_blank"} onto the hard drive in Windows. You want to choose the Desktop version. It will take some time to download this file.
       
    2. Download *BalenaEtcher* for Windows and install it if you don’t already have it.
 
