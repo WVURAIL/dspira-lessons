@@ -1,13 +1,13 @@
 ---
 layout: post
 date:  2021-07-01
-title: Installing GNURadio 3.8
-summary:  Details for installing GNURadio 3.8
+title: Installing GNURadio
+summary:  Details for installing GNURadio
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Telescope Software Setup']
 ---
 
-Complete the following steps:
+To install GNURadio, complete the following:
 
    1. Open a terminal window.
 
@@ -15,7 +15,5 @@ Complete the following steps:
    
    3. Type and enter `sudo apt upgrade`
       
-   2. Type and enter `sudo apt install gnuradio`
-
-   3. You may need to respond 'Y' to a few prompts before installation is complete.
+   4. Type and enter `sudo apt install gnuradio'. You may need to respond 'Y' to a few prompts before installation is complete.
 
