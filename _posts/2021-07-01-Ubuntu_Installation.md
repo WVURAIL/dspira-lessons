@@ -9,7 +9,7 @@ categories: ['Telescope Software Setup']
 
   *Ubuntu versions 22.04 LTS onwards are supported*
 
-Installing the Ubuntu OS on a Windows computer will require you to partition the hard drive, copy Ubuntu OS onto a bootable flashdrive, and intalling it onto the partition, as follows:
+Installing the Ubuntu OS on a Windows computer will require you to partition the hard drive, copy Ubuntu OS onto a bootable flashdrive, and install it onto the partition, as follows:
 
 A. Partition a Hard Drive - Before installing Ubuntu on the hard disk, you need to partition the hard disk in Windows.
 
@@ -18,11 +18,11 @@ A. Partition a Hard Drive - Before installing Ubuntu on the hard disk, you need 
    Before proceeding check that Device Encryption is OFF. (This is also known as Bitlocker.)
 
    For most Windows systems, the following can be followed to turn off encryption:
-      * Boot up the computer in Windows.
-      * Open `Settings`.
+   * Boot up the computer in Windows.
+   * Open `Settings`.
       * Click on `Update & Security`.
       * Click on `Device encryption`.
-      * Under the "Device encryption" section, click the `Turn off` button if needed.
+      * Under the 'Device encryption' section, click the `Turn off` button if needed.
       * Wait until Windows 10 has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install. This could take some time.
       
       - NOTE: For some Windows 10 Home systems, the Bitlocker or Device encryption is not visible. Complete the following to turn off encryption from a command line.
