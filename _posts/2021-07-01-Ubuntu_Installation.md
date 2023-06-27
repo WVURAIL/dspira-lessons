@@ -7,7 +7,7 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Telescope Software Setup']
 ---
 
-  *Ubuntu versions 22.04 LTS onwards are supported*
+  *Our software works under Ubuntu versions 22.04 LTS and older.*
 
 Installing the Ubuntu OS on a Windows computer will require you to partition the hard drive, copy Ubuntu OS onto a bootable flashdrive, and install it onto the partition, as follows:
 
@@ -23,19 +23,19 @@ A. Partition a Hard Drive - Before installing Ubuntu on the hard disk, you need 
       * Click on `Update & Security`.
       * Click on `Device encryption`.
       * Under the 'Device encryption' section, click the `Turn off` button if needed.
-      * Wait until Windows 10 has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install. This could take some time.
+      * Wait until Windows has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install. This could take some time.
       
-      - NOTE: For some Windows 10 Home systems, the Bitlocker or Device encryption is not visible. Complete the following to turn off encryption from a command line.
+      - NOTE: For some Windows Home systems, the Bitlocker or Device encryption is not visible. Complete the following to turn off encryption from a command line.
       
          +  In Windows from the `Start Menu`, click the `Windows PowerShell` folder and tap `Windows PowerShell`.
 
          + A command line window will open up. From the Powershell command line, type `Disable-BitLocker -MountPoint C:` and hit Enter.
       
-      - Another option for systems with Windows 10 Home is the following:
+      - Another option for systems with Windows Home is the following:
          + In the `Start Menu` search box, type `Services`. Then scroll to `Bitlocker`. 
          + Open it, or view its `Properties`, and then `Disable` it.
 
-       - Be sure to wait until Windows 10 has completed un-encrypting the hard drive before continuing.
+       - Be sure to wait until Windows has completed un-encrypting the hard drive before continuing.
 
    Now you are ready to partition the hard drive.
    
@@ -54,7 +54,7 @@ A. Partition a Hard Drive - Before installing Ubuntu on the hard disk, you need 
 
 B. Download Ubuntu 22.04 onto a Bootable Flashdrive
 
-   1. You need to [download Ubuntu Desktop 22.04 ISO](http://releases.ubuntu.com/22.04/) onto the hard drive in Windows. You want to choose the Desktop version. It will take some time to download this file. [Latest versions can be downloaded from](https://ubuntu.com/download/desktop). Our software is tested to work up to 22.04.
+   1. You need to [download Ubuntu Desktop 22.04 ISO](http://releases.ubuntu.com/22.04/) onto the hard drive in Windows. You want to choose the Desktop version. It will take some time to download this file.
       
    2. Download *BalenaEtcher* for Windows and install it if you don’t already have it.
 
