@@ -60,7 +60,7 @@ B. Download Ubuntu 22.04 onto a Bootable Flashdrive
 
    3. Install a 32 GB or larger flash drive in the usb port.
    
-   4. Run *BalenaEtcher*. Choose the Ubuntu 22.04.iso file as the image and the flash drive as the target. It will take some time for this to run.
+   4. Run [BalenaEtcher](https://etcher.balena.io/){:target="_blank"}. Choose the Ubuntu 22.04.iso file as the image and the flash drive as the target. It will take some time for this to run.
      
 C. Install Ubuntu 22.04 Alongside Windows
 
