@@ -7,7 +7,9 @@ tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Telescope Software Setup']
 ---
 
-*    This will install the spectrometer program *spectrometer_w_cal.grc*.
+This will install the spectrometer program *spectrometer_w_cal.grc* as well as other useful radio astronomy GNURadio programs.
+
+**NOTE:** If you are using Ubuntu 20.04 LTS, click here for the installation.
 
 Complete the following steps:
 
