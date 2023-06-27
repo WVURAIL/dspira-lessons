@@ -11,7 +11,7 @@ categories: ['Telescope Software Setup']
 
 Installing the Ubuntu OS on a Windows computer will require you to partition the hard drive, copy Ubuntu OS onto a bootable flashdrive, and install it onto the partition, as follows:
 
-A. Partition a Hard Drive - Before installing Ubuntu on the hard disk, you need to partition the hard disk in Windows.
+**A. Partition a Hard Drive** - Before installing Ubuntu on the hard disk, you need to partition the hard disk in Windows.
 
    NOTE: A hard drive with at least 250 GB is recommended.
    
@@ -52,17 +52,17 @@ A. Partition a Hard Drive - Before installing Ubuntu on the hard disk, you need 
       
    After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows, as described below. 
 
-B. Download Ubuntu 22.04 onto a Bootable Flashdrive
+**B. Download Ubuntu 22.04 onto a Bootable Flashdrive**
 
    1. You need to [download Ubuntu Desktop 22.04 ISO](http://releases.ubuntu.com/22.04/){:target="_blank"} onto the hard drive in Windows. You want to choose the Desktop version. It will take some time to download this file.
       
-   2. Download *BalenaEtcher* for Windows and install it if you don’t already have it.
+   2. Download [BalenaEtcher](https://etcher.balena.io/){:target="_blank"} for Windows and install it if you don’t already have it.
 
    3. Install a 32 GB or larger flash drive in the usb port.
    
-   4. Run [BalenaEtcher](https://etcher.balena.io/){:target="_blank"}. Choose the Ubuntu 22.04.iso file as the image and the flash drive as the target. It will take some time for this to run.
+   4. Run *BalenaEtcher*. Choose the Ubuntu 22.04.iso file as the image and the flash drive as the target. It will take some time for this to run.
      
-C. Install Ubuntu 22.04 Alongside Windows
+**C. Install Ubuntu 22.04 Alongside Windows**
 
    1. Turn off the computer. Place the bootable flash drive in the USB port. Turn on the computer, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
