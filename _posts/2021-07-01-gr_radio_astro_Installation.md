@@ -17,7 +17,7 @@ Complete the following steps:
 
    2. If you have not already done so in the Install GNURadio step, install the gnuradio external python dependencies and SDR drivers by typing the following and hit enter:
    
-      sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem git cmake liborc-0.4-dev -y
+      `sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem git cmake liborc-0.4-dev -y`
    
    3. In the terminal type and Enter:
 
@@ -41,7 +41,7 @@ Complete the following steps:
    * In a terminal window type `gnuradio-companion`
    * Open the *spectrometer_w_cal.grc* program as follows from the File menu:
             
-           `File --> Open --> gr-radio_astros --> examples --> DSPIRA --> *spectrometer_w_cal.grc* `
+           File --> Open --> gr-radio_astros --> examples --> DSPIRA --> *spectrometer_w_cal.grc*
    
       * Plug an Airspy radio, with the LNA attached, into the USB port. Run the program by hitting the start triangle ("execute the flowgraph") on the menu bar at top. If no errors occur, you are all set!
 
