@@ -15,26 +15,26 @@ Installing the Ubuntu OS on a Windows computer will require you to partition the
 
    NOTE: A hard drive with at least 250 GB is recommended.
    
-   Before proceeding check that Device Encryption is OFF. (This is also known as Bitlocker.) For most Windows systems, this can be done as follows:
+   Before proceeding, check that Device Encryption is OFF. (This is also known as Bitlocker.) For most Windows systems, this can be done as follows:
    * Boot up the computer in Windows.
-   * Open the Start menu.
+   * Open the *Start* menu.
       * In the search box type "encryption".
-      * In the menu that pops up, click on `Manage Bitlocker`.
+      * In the menu that pops up, click on *Manage Bitlocker*.
       * Verify that it is off and turn off if needed.
       * If it was on and you turn it off, you will need to wait until Windows has completed un-encrypting the hard drive before you can proceed. This could take some time.
 
    Now you are ready to partition the hard drive.
    
-   1. Open a Command Prompt window with admin rights:
+   1. Open a Command Prompt window with admin rights, as follows:
          - In the search field, type `Command Prompt`, or just CMD.
-         - Click on `Run as Administrator` from the selections on the right side of the window that pops up.
-         - Click `Yes` on the pop-up to allow the app to make changes to your device.
+         - Click on *Run as Administrator* from the selections on the right side of the window that pops up.
+         - Click *Yes* on the pop-up to allow the app to make changes to your device.
          
    2. In the Command Prompt window that pops up, enter the command `diskmgmt.msc` to open the Disk Management utility.
 
-   3. In the Disk Management window, right click on OS (C:) and select the `Shrink Volume` option in order to reduce the partition size.
+   3. In the Disk Management window, right click on *OS (C:)* and select the *Shrink Volume* option in order to reduce the partition size.
 
-   4. Wait for the system to query partition size data; then enter the desired amount of space you want to shrink, and hit in the 'Shrink' button. The amount chosen to shrink will be the amount that will be allotted to Ubuntu. This should be an absolute minimum of 50 GB; we recommend at least 100 GB.
+   4. Wait for the system to query partition size data; then enter the desired amount of space you want to shrink, and hit in the *Shrink* button. The amount chosen to shrink will be the amount that will be allotted to Ubuntu. This should be an absolute minimum of 50 GB; we recommend at least 100 GB.
       
    After the shrink process completes, a new unallocated space will be present in your drive. We’ll use this free space to install Ubuntu alongside Windows, as described below. 
 
@@ -52,8 +52,12 @@ Installing the Ubuntu OS on a Windows computer will require you to partition the
 
    1. Turn off the computer. Place the bootable flash drive in the USB port. Turn on the computer, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
-   2. On the first installation screen, select `Install Ubuntu` and hit Enter to start the installation process. Complete the prompts as needed.
+   2. On the first installation screen, select *Install Ubuntu* and hit Enter to start the installation process. Complete the prompts as needed.
 
-   3. After the installation is complete, **check the date and time** displayed on your computer. If it is not correct, it must be corrected in order for the installation to be completed successfully. This can be changed in the *Date & Time* menu under *Settings*.
+   3. After the installation is complete, you will restart the computer. Choose the Ubuntu option from the menu that appears.
 
-   4. With the time being correct, type and enter `sudo apt update`. Then type and enter `sudo apt upgrade`. This will bring the Ubuntu installation up to date.
+   4.  **Check the date and time** displayed on your computer. If it is not correct, it must be corrected in order for the installation to be completed successfully. This can be changed in the *Date & Time* menu under *Settings*.
+
+   5. With the time being correct, type and enter `sudo apt update`. Then type and enter `sudo apt upgrade`. This will bring the Ubuntu installation up to date.
+
+ The Ubuntu OS is now ready to use.
