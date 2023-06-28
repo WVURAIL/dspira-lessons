@@ -58,6 +58,10 @@ Installing the Ubuntu OS on a Windows computer will require you to partition the
 
    4.  **Check the date and time** displayed on your computer. If it is not correct, it must be corrected in order for the installation to be completed successfully. This can be changed in the *Date & Time* menu under *Settings*.
 
-   5. With the time being correct, type and enter `sudo apt update`. Then type and enter `sudo apt upgrade`. This will bring the Ubuntu installation up to date.
+   5. Open a *Terminal* window. This can be found in the *Show Applications* waffle in the lower left corner of the screen.
+
+**NOTE:** Most of the commands we use are entered in a *Terminal* window. We recommend adding the *Terminal* to your Favorites to be accessed easily.
+   
+   6. With the time being correct, in a *Terminal* window type and enter `sudo apt update`. Then type and enter `sudo apt upgrade`. This will bring the Ubuntu installation up to date.
 
  The Ubuntu OS is now ready to use.
