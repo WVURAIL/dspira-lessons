@@ -60,7 +60,7 @@ Installing the Ubuntu OS on a Windows computer will require you to partition the
 
    5. Open a *Terminal* window. This can be found in the *Show Applications* waffle in the lower left corner of the screen.
 
-**NOTE:** Most of the commands we use are entered in a *Terminal* window. We recommend adding the *Terminal* to your Favorites to be accessed easily.
+   **NOTE:** Most of the commands we use are entered in a *Terminal* window. We recommend adding the *Terminal* to your Favorites to be accessed easily.
    
    6. With the time being correct, in a *Terminal* window type and enter `sudo apt update`. Then type and enter `sudo apt upgrade`. This will bring the Ubuntu installation up to date. 
 
