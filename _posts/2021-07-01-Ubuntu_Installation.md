@@ -15,27 +15,13 @@ Installing the Ubuntu OS on a Windows computer will require you to partition the
 
    NOTE: A hard drive with at least 250 GB is recommended.
    
-   Before proceeding check that Device Encryption is OFF. (This is also known as Bitlocker.)
-
-   For most Windows systems, the following can be followed to turn off encryption:
+   Before proceeding check that Device Encryption is OFF. (This is also known as Bitlocker.) For most Windows systems, this can be done as follows:
    * Boot up the computer in Windows.
-   * Open `Settings`.
-      * Click on `Update & Security`.
-      * Click on `Device encryption`.
-      * Under the 'Device encryption' section, click the `Turn off` button if needed.
-      * Wait until Windows has completed un-encrypting the hard drive before you turn off Windows 10 and start the disk boot and Ubuntu install. This could take some time.
-      
-      - NOTE: For some Windows Home systems, the Bitlocker or Device encryption is not visible. Complete the following to turn off encryption from a command line.
-      
-         +  In Windows from the `Start Menu`, click the `Windows PowerShell` folder and tap `Windows PowerShell`.
-
-         + A command line window will open up. From the Powershell command line, type `Disable-BitLocker -MountPoint C:` and hit Enter.
-      
-      - Another option for systems with Windows Home is the following:
-         + In the `Start Menu` search box, type `Services`. Then scroll to `Bitlocker`. 
-         + Open it, or view its `Properties`, and then `Disable` it.
-
-       - Be sure to wait until Windows has completed un-encrypting the hard drive before continuing.
+   * Open the Start menu.
+      * In the search box type "encryption".
+      * In the menu that pops up, click on `Manage Bitlocker`.
+      * Verify that it is off and turn off if needed.
+      * If it was on and you turn it off, you will need to wait until Windows has completed un-encrypting the hard drive before you can proceed. This could take some time.
 
    Now you are ready to partition the hard drive.
    
@@ -66,6 +52,8 @@ Installing the Ubuntu OS on a Windows computer will require you to partition the
 
    1. Turn off the computer. Place the bootable flash drive in the USB port. Turn on the computer, holding down the bootable key (F12) in order to boot from the Ubuntu USB bootable image.
 
-   2. On the first installation screen, select `Install Ubuntu` and hit Enter to start the installation process.
+   2. On the first installation screen, select `Install Ubuntu` and hit Enter to start the installation process. Complete the prompts as needed.
 
-   3. Complete the prompts as needed.
+   3. After the installation is complete, **check the date and time** displayed on your computer. If it is not correct, it must be corrected in order for the installation to be completed successfully. This can be changed in the *Date & Time* menu under *Settings*.
+
+   4. With the time being correct, type and enter `sudo apt update`. Then type and enter `sudo apt upgrade`. This will bring the Ubuntu installation up to date.
