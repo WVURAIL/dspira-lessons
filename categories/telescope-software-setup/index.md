@@ -9,7 +9,7 @@ category: Telescope Software Setup
 
 * An SDR device (dongle) is needed for this system. See the [SDR Options page.](https://wvurail.org//dspira-lessons/SDR)
 
-* Data from SDR is fed into a computer and processed in the *spectrometer* program at the "back end" of the telescope.
+* Data from SDR is fed into a computer and processed in a *spectrometer* program at the "back end" of the telescope.
 
 * The spectrometer program called *spectrometer_w_cal.grc* runs on the free, open-source software *GNURadio* on the *Ubuntu* operating system. Information for acquiring *Ubuntu*, *GNURadio*, and *spectrometer_w_cal.grc* are provided in the *Installation of Ubuntu and SDR software on a Windows-based computer* instructions below.
 
