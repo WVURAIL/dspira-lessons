@@ -13,13 +13,15 @@ This will install the spectrometer program *spectrometer_w_cal.grc* as well as o
 
 Complete the following steps:
 
-   1. Open a terminal window in Ubuntu.
+   1. Open a *Terminal* window. This can be found in the *Show Applications* waffle in the lower left corner of the screen.
 
-   2. If you have not already done so in the Install GNURadio step, install the gnuradio external python dependencies and SDR drivers by typing the following and hit enter:
+      **NOTE:** Most of the commands we use are entered in a *Terminal* window. We recommend adding the *Terminal* to your Favorites to be accessed easily.
+
+   2. If you have not already done so during the GNURadio installation, install the gnuradio external python dependencies and SDR drivers by typing the following and hit enter:
    
       `sudo apt install gnuradio gr-osmosdr airspy python3-h5py python3-ephem git cmake liborc-0.4-dev -y`
    
-   3. In the terminal type and Enter:
+   3. In the terminal type and enter:
 
       `git clone https://github.com/WVURAIL/gr-radio_astro.git`
 
