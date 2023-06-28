@@ -9,7 +9,7 @@ category: Telescope Software Setup
 
 * An SDR device (dongle) is needed for this system. See the [SDR Options page.](https://wvurail.org//dspira-lessons/SDR)
 
-* The "back end" of the telescope is a spectrometer program that runs on the free, open-source software *GNURadio*. These programs were developed for the *Ubuntu* operating system. Information for acquiring *Ubuntu* and *GNURadio* are provided below.
+* The "back end" of the telescope is a spectrometer program that runs on the free, open-source software *GNURadio* on the *Ubuntu* operating system. Information for acquiring *Ubuntu* and *GNURadio* are provided below.
 
 * The spectrometer program built and developed by DSPIRA is called *spectrometer_w_cal.grc*. Instructions for installing this program can be found [here](https://wvurail.org//dspira-lessons/gr_radio_astro_Installation){:target="_blank"}. Instructions for using this program can be found [here](https://wvurail.org//dspira-lessons/spectrometer_w_cal_Instructions){:target="_blank"}. 
 
