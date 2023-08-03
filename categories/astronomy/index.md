@@ -37,13 +37,6 @@ From a high school or college class perspective, each topic has about one to two
 - This is the true culmination of the DSPIRA Program in that the radio horn telescope is constructed and will be used to explore some of the rotational nature of the Milky Way.  A rudimentary map of the Milky Way can begin to be constructed from the data from the scope.  This can then lead to discussions for the necessity of Dark Matter to account for the velocities being observed.  
 
 [Go to Velocity Curve Activities](https://wvurail.org//dspira-lessons/Astronomy_VelocityCurve_Overview){: .button}
-
-### 5. Interferometry with Horn Telescopes 
-<img src="/dspira-lessons/images/HIMap.png" align="left" width="170px"/>
-- The horn telescopes presented in the DSPIRA program can be used for interferometry. The spectra of the additive spectrometer can be interpreted using simple 2-slit diffraction concepts, which can be useful in an educational setting. However, using the horns to do multiplicative interferometry is more complex. Some basic interferometry theory will be presented here as well as methods for interpreting the spectra and possible investigations that can be done with a 2-horn interferometer.
-
-[Go to Interferometry Activities](https://wvurail.org//dspira-lessons/Astronomy_Interferometry){: .button}
-  
  
  Velocity Curve Lessons
 
