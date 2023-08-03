@@ -18,3 +18,4 @@ category: Telescope Operation
 [**Running a Simple Spectrometer Program**](https://wvurail.org//dspira-lessons/Simple_Spectrometer) - Instructions on building a simple spectrometer program in GnuRadio and collecting data using it.
 
 [**Setting Up and Operating a 2-Horn Interferometer**](https://wvurail.org//dspira-lessons/FilesUploaded/SettingUp_2 Horn_Interferometer.pdf) - A pdf that provides instructions on setting up a 2-horn interferometer and using either a spectrometer program for an adding interferometer or a spectrometer program for a multiplying interferometer.
+Click here to see what investigations can be done with a tw-horn interferometer. These investigations can also be found under the **Astronomy** category.
