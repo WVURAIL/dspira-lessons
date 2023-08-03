@@ -28,14 +28,15 @@ The horn telescope uses digital signal processing (DSP) technology to operate, w
 <hr>
 
 <img class="img-circle" style="float:right;" src="{{ site.baseurl }}/images/horn-ops.jpeg">
-[Telescope Operation]({{ site.baseurl }}/categories/telescope-operation/){: .button} 
+[Basic Telescope Operations]({{ site.baseurl }}/categories/telescope-operation/){: .button} 
 
-You've built a horn telescope. Now what? How do I set it up. How do I take measurements with it? No problem! Click here for detailed instructions for operating a DSPIRA horn telescope.
+You've built a horn telescope. Now what? How do I set it up? How do I take measurements with it? No problem! Click here for detailed instructions for operating a DSPIRA horn telescope, including instructions for doing interferometry with two horns. 
 
 <hr>
 
 [Digital Signal Processing]({{ site.baseurl}}/categories/digital-signal-processing/){: .button}
 
+Activities using GnuRadio for digital signal processing. 
 <hr>
 
 <img class="img-circle" style="float:left;" src="{{ site.baseurl }}/images/astronomy.jpg">
