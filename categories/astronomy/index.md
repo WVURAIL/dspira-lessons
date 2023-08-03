@@ -38,6 +38,13 @@ From a high school or college class perspective, each topic has about one to two
 
 [Go to Velocity Curve Activities](https://wvurail.org//dspira-lessons/Astronomy_VelocityCurve_Overview){: .button}
 
+### 5. Interferometry with Horn Telescopes 
+<img src="/dspira-lessons/images/HIMap.png" align="left" width="170px"/>
+- The horn telescopes presented in the DSPIRA program can be used for interferometry. The spectra of the additive spectrometer can be interpreted using simple 2-slit diffraction concepts, which can be useful in an educational setting. However, using the horns to do multiplicative interferometry is more complex. Some basic interferometry theory will be presented here as well as methods for interpreting the spectra and possible investigations that can be done with a 2-horn interferometer.
+
+[Go to Interferometry Activities](https://wvurail.org//dspira-lessons/Astronomy_Interferometry){: .button}
+  
+ 
  Velocity Curve Lessons
 
    * [Galactic Plane Quadrants II&III Observations: Teacher Notes](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit?usp=sharing)
