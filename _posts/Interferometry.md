@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2021-07-04
+date:   2023-08-03
 title:  Interferometry
 summary:  Description of theory and activities using a 2-horn interferometer
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
