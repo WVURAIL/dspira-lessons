@@ -2,9 +2,9 @@
 layout: post
 date:   2021-07-04
 title:  Interferometry
-summary:  Description of theory and 
+summary:  Description of theory and activities using a 2-horn interferometer
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Telescope Software Setup'] 
+categories: ['Astronomy'] 
 ---
 
 
