@@ -17,4 +17,4 @@ category: Telescope Operation
 
 [**Running a Simple Spectrometer Program**](https://wvurail.org//dspira-lessons/Simple_Spectrometer) - Instructions on building and collecting data using the simple spectrometer program are provided here.
 
-[**Setting Up a 2-Horn Interferometer and Running the Spectrometer Program**](https://wvurail.org//dspira-lessons/SettingUp2HornInterferometer) - A pdf that provides instructions on setting up a 2-horn interferometer and using either a spectrometer program for an adding interferometer or a spectrometer program for a multiplying interferometer.
+[**Setting Up a 2-Horn Interferometer and Running the Spectrometer Program**](https://wvurail.org//dspira-lessons/FilesUploaded/SettingUp_2 Horn_Interferometer.pdf) - A pdf that provides instructions on setting up a 2-horn interferometer and using either a spectrometer program for an adding interferometer or a spectrometer program for a multiplying interferometer.
