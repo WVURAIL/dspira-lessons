@@ -42,7 +42,7 @@ From a high school or college class perspective, each topic has about one to two
 ### 5. Interferometry With Horn Telescopes
 
 The horn telescopes presented in the DSPIRA program can be used for interferometry. The spectra of the additive spectrometer can be interpreted using simple 2-slit diffraction concepts, which can be useful in an educational setting. However, using the horns to do multiplicative interferometry is more complex. Some basic interferometry theory will be presented here as well as methods for interpreting the spectra and possible investigations that can be done with a 2-horn interferometer.
-This LightWork memo describes the theory behind simple additive interferometry and how to set up and operate 2 horns to do this.
+A link to a LightWork memo that describes the theory and operation of a simple additive interferometer is included.
 
 [Go to Interferometry Lessons](https://wvurail.org//dspira-lessons/Interferometry){: .button}
 
