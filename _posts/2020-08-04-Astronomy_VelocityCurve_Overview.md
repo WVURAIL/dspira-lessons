@@ -70,6 +70,7 @@ categories: ['Astronomy', 'Horn Operation']
     
    c. This graph is compared to the graph expected in different models of mass distribution in the galaxy.
 
+
  Velocity Curve Lessons
 
    * [Galactic Plane Quadrants II&III Observations: Teacher Notes](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit?usp=sharing)
@@ -91,11 +92,11 @@ categories: ['Astronomy', 'Horn Operation']
 
 OBJECTIVE: These activities allow this *Velocity Curve of the MWG* module be able to stand alone from start to finish. There is also some overlap with the *Basic Observational Tools* module. These basic activities will bring fuller understanding to creating the galactic velocity curve.
 
-*Teacher Notes*  Since there is an activity with "discovering" what the horn telescope can do, it is suggested to assign all 4 activities so that students can be busy while other small groups are working with the scope(s) your have set up. (Most teachers very likely with have only one scope)
+*Teacher Notes*  Since there is an activity with "discovering" what the horn telescope can do, it is suggested to assign all 4 activities so that students can be busy while other small groups are working with the scope(s) your have set up. (Most teachers very likely with have only one telescope.)
 
 * [Introduction to Horn Telescope](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_HornIntro.pdf){: .button}
    
-   * [Introduction to Horn Telescope Follow-up](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
+* [Introduction to Horn Telescope Follow-up](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
    
 * [The Electromagnetic Spectrum](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf){: .button}
    
@@ -104,6 +105,8 @@ OBJECTIVE: These activities allow this *Velocity Curve of the MWG* module be abl
 * [Celestial Coordinate Systems](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_CoordinateSystems.pdf){: .button}
    
 * [Using Stellarium](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_Stellarium.pdf){: .button}
+
+
 ### Part 1: Galactic Quadrants II & III Observation
 
 OBJECTIVE: In this activity, the students collect spectra of the MWG along the galactic plane in quadrants II & III. From these they should be able to deduce that the MWG is rotating and the direction of rotation.
