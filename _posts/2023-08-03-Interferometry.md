@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2023-08-03
-title: Interferometry2
+title: Interferometry
 summary:  Basic theory and instructions for operating a 2-horn interferometer
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
 categories: ['Astronomy'] 
