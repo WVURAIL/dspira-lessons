@@ -70,6 +70,22 @@ categories: ['Astronomy', 'Horn Operation']
     
    c. This graph is compared to the graph expected in different models of mass distribution in the galaxy.
 
+ Velocity Curve Lessons
+
+   * [Galactic Plane Quadrants II&III Observations: Teacher Notes](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit?usp=sharing)
+   
+   * [Galactic Plane Quadrants II&III Observations](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit)
+   
+   * [Galactic Plane Quadrants II&III Observations: Conclusions](https://docs.google.com/document/d/1aVUFzAvC14gPeV6RSYumYPlkclgILeoaI5LpUZNSV5U/edit)
+      
+   * [Galactic Plane Quadrant I Observations: Teacher Notes](https://docs.google.com/document/d/1BSLoZjrFtA2qEoVzgvXjHdufQFRWmxtQWSAl8k1yJu8/edit)
+   
+   * [Galactic Plane Quadrant I Observations](https://docs.google.com/document/d/1V4wUx8VtX358x-gIWdH9FaYi3579bz_Unl38_ShrbKE/edit)
+   
+   * [Galactic Plane Quadrant I Observations: The Tangent Method](https://docs.google.com/document/d/1wA_tVKYrAyjvuVqUY9c_stwNpO1dGDFnIL6TiHq5hx8/edit?usp=sharing)   
+   
+   * [Galactic Plane Quadrant I Observations: Analysis & Conclusions](https://docs.google.com/document/d/1J9w1DH5fQW24XDvesYTzsR943Px_13uTZQQS5qi6rxg/edit)  
+
 
 ### Intro Activities for Radio Astronomy
 
