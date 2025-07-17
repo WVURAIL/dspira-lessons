@@ -11,16 +11,18 @@ categories: ['Telescope Software Setup']
 
 1. Before starting, you will need the program *balenaEtcher*, which is an easy-to-use cross-platform tool for burning images to SD cards, USB drives and other removable devices. It can be downloaded from <https://www.balena.io/etcher/>.
 
-2. Download the file [ubuntu_radio_astro08_2022_2.zip](https://drive.google.com/file/d/1qAk6Z-XyFaoyRFH1mHWrmuKy9UBirV1s/view?usp=sharing) while in either Windows or Ubuntu.
+2. Download the file [ubuntu_radio_astro08_2022_2.zip](https://drive.google.com/file/d/1qAk6Z-XyFaoyRFH1mHWrmuKy9UBirV1s/view?usp=sharing) while in either Windows 10 or 11 or Ubuntu 22.04 or higher. This file will create a self contained persistent UBUNTU 22.04 computer environment.
 
-3. Unzip this file in a folder of your choice.
+3. If you wish to create a self contained persistent UBUNTU 24.04 computer environment, then download the file [ubuntu_radio_astro2025.zip](https://drive.google.com/file/d/1MsnEYCMAFJ5n6evtsGp7XBciwVclxbvA/view?usp=sharing)
 
-4. Install a 32 GB or larger flash drive in the usb port. [We recommend a Samsung 32 GB flash drive.]
+4. Unzip this file in a folder of your choice.
 
-5. Run *balenaEtcher*. Choose the file *ubuntu_radio_astro08_2022_2.img* as the image and the flash drive as the target.
+5. Install a 32 GB flash drive for the UBUNTU 22.04 file or a 128 GB flash drive for the UBUNTU 24.04 file in your usb port. [We recommend a Samsung FIT Plus flash drive.]
+
+6. Run *balenaEtcher*. Choose the file *ubuntu_radio_astro08_2022_2.img* or *ubuntu_radio_astro2025.img* as the image and the flash drive as the target.
 
 
-6. The *Ubuntu with spectrometer_w_cal.grc* image should now be on this bootable flashdrive.
+7. The *Ubuntu with spectrometer_w_cal.grc* image should now be on this bootable flashdrive.
 
 #### How to Run Gnuradio and the spectrometer_w_cal.grc program from the flashdrive. 
 
