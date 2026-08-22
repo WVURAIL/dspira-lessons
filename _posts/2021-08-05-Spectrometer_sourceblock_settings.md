@@ -4,11 +4,26 @@ date:   2020-07-27
 title: Spectrometer Source Block Settings 
 summary:  Settings in spectrometer for different SDR's
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Telescope Hardware Setup'] 
+categories: ['Receiver Electronics']
+order: 5
 ---
 
 
-The default source block settings in the `spectrometer_w_cal.grc` GNURadio program are for the [Airspy R2](https://airspy.com/airspy-r2) SDR. If a different SDR is used, changes in the source block and the `samp_rate Variable` block may be needed. The settings for some common SDR's used with the horn telescopes are described below.
+The default source block settings in the `spectrometer_w_cal.grc` GNU Radio program are for the [Airspy R2](https://airspy.com/airspy-r2) SDR. If a different SDR is used, changes in the source block, the `samp_rate Variable` block, and sometimes the `freq Variable` block may be needed. The settings for some common SDR's used with the horn telescopes are described below.
+
+> **Why `freq` sometimes has to change too.** The program records a band
+> `samp_rate` wide, centred on `freq`. The default is `freq` 1419 MHz with
+> `samp_rate` 10e6, which records 1414 – 1424 MHz — the hydrogen line at
+> 1420.4058 MHz sits comfortably inside. Narrow the sample rate without moving
+> the centre and the band shrinks around 1419 MHz, and at some point the line
+> falls off the end of it. Halve the sample rate to 2.4e6 and the band becomes
+> 1417.8 – 1420.2 MHz: **the line is 0.2 MHz outside it and the telescope
+> records no hydrogen at all.** That is why the RTL-SDR and Pluto settings
+> below change `freq` as well, and the Airspy Mini and Lime do not.
+>
+> A quick check: your band runs from `freq - samp_rate/2` to
+> `freq + samp_rate/2`, and 1420.4058 MHz needs to be inside it with room to
+> spare at both ends.
 
 Options:
 
@@ -20,7 +35,12 @@ Options:
 
     <img align="center" width="300" height="146" src="/dspira-lessons/images/AirspyMini_samp_rate.png">
 
+    - `freq Variable` block: leave it at 1419e6. The band becomes 1416 – 1422 MHz, which still holds the line.
+
 + RTL-SDR
+
+    **Two changes are needed, not one.** The `samp_rate` change alone moves the
+    hydrogen line out of the recorded band — see the box above. Make both.
 
     - Source block: Change the "Device Argument" to: rtl=0, bias=1, pack=0, as shown:
 
@@ -29,6 +49,24 @@ Options:
     - `samp_rate Variable` block: This block is in the upper left corner of the canvas in the `spectrometer_w_cal.grc` program next to the `Options` block. Open this block by double-clicking it. Change the "Value" to "2.4e6" (which is 2.4 MHz).
 
     <img align="center" width="300" height="149" src="/dspira-lessons/images/RTL_SDR_samp_rate.png">
+
+    - `freq Variable` block: next to `samp_rate`. Change the "Value" to
+      **"1420.5e6"**. The band then runs 1419.3 – 1421.7 MHz, with the line at
+      1420.4058 MHz inside it.
+
+    - Two things to know about an RTL-SDR at this sample rate, neither of them
+      a fault you can fix in the flowgraph:
+
+        - The band is only ±230 km/s wide, so the faint wings of the line are
+          clipped and there is no stretch of it guaranteed free of Galactic
+          hydrogen to fit a baseline on. Maps are good for seeing where the
+          Milky Way is; treat the intensity numbers as indicative.
+        - Every SDR of this type puts a spurious tone at the exact centre of
+          its band, which at this tuning is 0.1 MHz from the line.
+          `map_h1_hdf5_drift.py` blanks a 120 kHz strip there, and because the
+          strip is next to the line that costs roughly a quarter of the
+          measured intensity. The comment on `DC_MASK_HALFWIDTH_HZ` in that
+          script has the measured figures and the two ways to improve it.
 
 + Lime 
 
@@ -46,9 +84,9 @@ Options:
 
         <img src="/dspira-lessons/images/Lime_channelA.png" align="center" width="500px"/>
         
-    - `samp_rate Variable` block: The Lime SDR can use a 10 MHz samp_rate; so no change is needed in this block.sta
+    - `samp_rate Variable` block: The Lime SDR can use a 10 MHz samp_rate; so no change is needed in this block. Leave `freq` at 1419e6 as well — the band stays 1414 – 1424 MHz, the same as the Airspy R2.
 
-    - Install gr-limesdr - software needed for the Lime SDR block to run in GNURadio.
+    - Install gr-limesdr - software needed for the Lime SDR block to run in GNU Radio.
 
         - Open a terminal window.
 
@@ -62,7 +100,7 @@ Options:
 
 + ADALM-PLUTO 
 
-    - The Adalm-Pluto SDR uses the `PlutoSDRSource` block that will need to be installed. Complete the [steps outlined here](https://wvurail.org//dspira-lessons/PlutoSDR_installation) to install this block on your computer.
+    - The Adalm-Pluto SDR uses the `PlutoSDRSource` block that will need to be installed. Complete the [steps outlined here](https://wvurail.org/dspira-lessons/PlutoSDR_installation) to install this block on your computer.
 
     - Source block: the Adalm-Pluto uses the `PlutoSDRSource` block. Click on the `osmocom` block and hit Delete. Then in the search window on the tool bar at the top, type "PlutoSDR". Grab the `PlutoSDRSource` and drag it onto the canvas where the `osmocom` block was. Then one-by-one connect the blue output of the `PlutoSDRSource` block to the `Stream to Vector` block, the three `Delay` blocks, and the `Complex to Real`. The final connections should look like the following:
 
@@ -73,7 +111,7 @@ Options:
 
         <img align="center" width="300" height="267" src="/dspira-lessons/images/PlutoSDR_Source.png">
 
-    - The `samp_rate` and `freq` Variable blocks should be set to the values shown:
+    - The `samp_rate` and `freq` Variable blocks should be set to the values shown — `samp_rate` 3.5e6 **and** `freq` 1421e6. Both are needed: 3.5 MHz around the default 1419 MHz would stop at 1420.75 MHz and clip the line. At 1421 MHz the band is 1419.25 – 1422.75 MHz.
 
         <img align="center" width="300" height="106" src="/dspira-lessons/images/PlutoSDR_samp_rate.png">
         <img align="center" width="298" height="130" src="/dspira-lessons/images/PlutoSDR_freq.png">

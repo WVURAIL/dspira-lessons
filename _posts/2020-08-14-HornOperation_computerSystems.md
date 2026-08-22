@@ -4,7 +4,8 @@ date:   2020-08-14
 title: Computer and Software Needs for the Horn Telescope Spectrometer
 summary:  Details on computer systems that can be used to operate the horn spectrometer
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Horn Operation', 'Horn Construction'] 
+categories: ['Software Setup']
+order: 1
 ---
 
 - Installation of any of the following software options will allow the user to run the spectrometer program to operate a horn telescope that is equipped with an LNA, software defined radio (Airspy or equivalent), and the proper cables. See the document [What is Needed to Build a Horn Telescope](https://wvurail.org/dspira-lessons/BuildingHornTelescope_Overview) and links therein for more details about the telescope system.
@@ -31,7 +32,7 @@ The options presented below include a brief description of the system requiremen
 
     - Click [here](https://wvurail.org/dspira-lessons/Install_Ubuntu_spectrometer_onFlashdrive) for installation instructions.
     
-2. [Install the free & open-source software, *GnuRadio*, on a Linux system operating Ubuntu 20.04.](https://wvurail.org/dspira-lessons/BuildingHorn_SoftwareInfo)
+2. [Install the free & open-source software, *GNU Radio*, on a Linux system operating Ubuntu 20.04.](https://wvurail.org/dspira-lessons/BuildingHorn_SoftwareInfo)
 
     - This option is for those who are more experienced with computers and feel comfortable installing software on a hard drive.
 
@@ -39,7 +40,7 @@ The options presented below include a brief description of the system requiremen
 
     - It may require partitioning a hard drive in Windows and installing Ubuntu 20.04 on it, if the system is not already running Ubuntu.
 
-    - Once Ubuntu is installed, further installations include installing the free & open-source software *GnuRadio*, and then installing the spectrometer program from Github.
+    - Once Ubuntu is installed, further installations include installing the free & open-source software *GNU Radio*, and then installing the spectrometer program from Github.
 
     - After installation, the computer will be able to run the telescope system directly.
 

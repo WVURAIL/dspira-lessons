@@ -4,7 +4,8 @@ date:   2020-07-27
 title: Setting up the Telescope 
 summary:  Details on setting up the telescope for use
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Telescope Operation'] 
+categories: ['Observing']
+order: 3
 ---
 
 
