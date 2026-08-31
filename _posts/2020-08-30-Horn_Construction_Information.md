@@ -26,7 +26,7 @@ The **low noise amplifier** (LNA) is an electronic circuit that connects to the 
     
 Some options for obtaining a low noise amplifier include the following. All of these will work with the dSPIRA horn telescope and software.
 
-+ Best option: the DSPIRA LNA – This amplifier was designed for a 1420 MHz radio telescope by Professor Kevin Bandura at WVU. This option requires ordering the circuit board and components, and then assembling the components by soldering. Details on ordering the parts and instructions on how to solder the circuit are provided [here.](http://wvurail.org/dspira-lessons/DetailedLNAInstructions)
++ Best option: the DSPIRA LNA – This amplifier was designed for a 1420 MHz radio telescope by Professor Kevin Bandura at WVU. This option requires ordering the circuit board and components, and then assembling the components by soldering. Details on ordering the parts and instructions on how to solder the circuit are provided [here.]({{ site.baseurl }}/DetailedLNAInstructions)
 
     The total cost for the parts of this circuit is approximately $30.
 
@@ -55,5 +55,5 @@ A less expensive option is the [Airspy Mini](https://airspy.com/airspy-r2), $99.
 
 A [coaxial cable](https://www.coaxrf.com/shop/1-rf-coaxial-cables/times-microwave-lmr240/sma-male-times-microwave-lmr240/lmr240-sma-male-to-sma-male-coaxial-rf-pigtail-cable/) is needed to connect the LNA to the SDR. Refer to the diagram above. Typically a 10 ft length is adequate, but any length up to 25 ft should work fine.
 
-The SDR comes with a cable for plugging it into a USB port on the computer. The spectrometer program on the computer is run on GNU Radio, which is a free and open source software program. Information about setting up the computer with the necessary software can be found [here.](http://wvurail.org/dspira-lessons/HornOperation_computerSystems)
+The SDR comes with a cable for plugging it into a USB port on the computer. The spectrometer program on the computer is run on GNU Radio, which is a free and open source software program. Information about setting up the computer with the necessary software can be found [here.]({{ site.baseurl }}/HornOperation_computerSystems)
 

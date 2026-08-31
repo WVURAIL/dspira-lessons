@@ -10,10 +10,10 @@ order: 9
 
 
 + Introductory Lessons on Using GNU Radio and Some Basic DSP
-    - [Lesson 1](https://wvurail.org/dspira-lessons/FilesUploaded/Gnuradio_Lesson1_simpleWaveform.pdf) - Introduction to GNU Radio basics.
-    - [Lesson 2](https://wvurail.org/dspira-lessons/FilesUploaded/Gnuradio_Lesson2_MultipleSources.pdf) - Learning more GNU Radio tools building a multiple waveform source.
-    - [Lesson 3](https://wvurail.org/dspira-lessons/FilesUploaded/Gnuradio_Lesson3_FourierSeries.pdf) - Demonstration of Fourier series.
-    - [Lesson 4](https://wvurail.org/dspira-lessons/FilesUploaded/Gnuradio_Lesson4_FFT.pdf) - Demonstration of how an FFT block works.
-    - [Lesson 5](https://wvurail.org/dspira-lessons/FilesUploaded/Gnuradio_Lesson5_Filters.pdf) - Filter basics.
+    - [Lesson 1]({{ site.baseurl }}/FilesUploaded/Gnuradio_Lesson1_simpleWaveform.pdf) - Introduction to GNU Radio basics.
+    - [Lesson 2]({{ site.baseurl }}/FilesUploaded/Gnuradio_Lesson2_MultipleSources.pdf) - Learning more GNU Radio tools building a multiple waveform source.
+    - [Lesson 3]({{ site.baseurl }}/FilesUploaded/Gnuradio_Lesson3_FourierSeries.pdf) - Demonstration of Fourier series.
+    - [Lesson 4]({{ site.baseurl }}/FilesUploaded/Gnuradio_Lesson4_FFT.pdf) - Demonstration of how an FFT block works.
+    - [Lesson 5]({{ site.baseurl }}/FilesUploaded/Gnuradio_Lesson5_Filters.pdf) - Filter basics.
 
-+ [Build a Simple Spectrometer](https://wvurail.org/dspira-lessons/FilesUploaded/BuildingSimpleSpectrometer_Explained.pdf) - Directions on building a simple spectrometer for a horn telescope, with detailed explanations of the blocks.
++ [Build a Simple Spectrometer]({{ site.baseurl }}/FilesUploaded/BuildingSimpleSpectrometer_Explained.pdf) - Directions on building a simple spectrometer for a horn telescope, with detailed explanations of the blocks.

@@ -17,14 +17,14 @@ and how that follows from observing the 21 cm line — see
    - the horn & antenna assembly
 
       * the front end horn [Click here for horn details](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
-      * the back end can and feedthrough antenna [Click here for CAN details](https://wvurail.org/dspira-lessons/assemblingcan)
+      * the back end can and feedthrough antenna [Click here for CAN details]({{ site.baseurl }}/assemblingcan)
       * the front end and back end support stand [Click here for stand details](https://drive.google.com/file/d/1qdc5lhKErFyIsc8b52ZIkCPJLi-XykSb/view?usp=sharing)
 
    - a low noise amplifier (LNA)
    
        All of the following work fine for use with the horn telescope. The DSPIRA LNA is the most stable and long lasting.
 
-      * Best option: the DSPIRA LNA – click on the [Detailed Information and Instructions Link](http://wvurail.org/dspira-lessons/DetailedLNAInstructions)
+      * Best option: the DSPIRA LNA – click on the [Detailed Information and Instructions Link]({{ site.baseurl }}/DetailedLNAInstructions)
       * Next best option: [Low Noise Amplifier Filtered Hydrogen Line 1420 MHz LNA *32 dB* Gain LNA with Bias Tee](https://gpio.com/products/hydrogen-line-lna-with-bias-tee) 
       * Next best option: [Nooelec SAWbird+ H1](https://www.nooelec.com/store/sdr/sdr-addons/sawbird-h1.html) - Premium SAW Filter & Cascaded Ultra-Low Noise Amplifier (LNA) Module for Hydrogen Line (21cm) Applications
 

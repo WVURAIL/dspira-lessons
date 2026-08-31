@@ -59,7 +59,7 @@ You can also watch [this video](https://youtu.be/50B2Uv-SoDY), which describes t
 
    * **Full or Clipped Spectrum**
 
-       - **Clipped spectrum** – In this display the ends of the spectrum, between 1414 and 1415 MHz and between 1423 and 1424 MHz, are clipped off. This removes the distracting background portions of the spectrum, as discussed in the *The System Background Signal* in the [What Can a Horn Telescope Measure?](http://wvurail.org/dspira-lessons/HornOperation_Intro) post.
+       - **Clipped spectrum** – In this display the ends of the spectrum, between 1414 and 1415 MHz and between 1423 and 1424 MHz, are clipped off. This removes the distracting background portions of the spectrum, as discussed in the *The System Background Signal* in the [What Can a Horn Telescope Measure?]({{ site.baseurl }}/HornOperation_Intro) post.
 
 
       - **Full spectrum** – This is self explanatory.

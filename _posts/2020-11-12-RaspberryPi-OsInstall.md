@@ -162,7 +162,7 @@ You have the opportunity to discover the Milky Way for yourself, with the tools 
 LightWork Memos
 The more detailed tests of the system are in a set of memos.  You’re invited to contribute to these memos:
 
-http://wvurail.org/lightwork
+[The LightWork memo series](/lightwork/)
 Live Video Demo
 We gave a live demo of the current horn design in an online webinar during the American Astronomical Society Meeting in June 2020.   The demo shows the telescope in operation, easily finding our Milky Way Galaxy spiral arms in a few seconds.
 

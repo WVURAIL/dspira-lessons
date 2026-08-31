@@ -75,7 +75,7 @@ Then add the following to the post you are editing
 ```
 ![write-a-brief-alt-text-describing-your-image]({{ site.baseurl }}/images/name-of-your-image-file.FORMAT)
 ```
-### View the live webpage: [wvurail.org/dspira-lessons](http://wvurail.org/dspira-lessons/)
+### View the live webpage: [the live lessons site]({{ site.baseurl }}/)
 
 
 ##  Edit your post in the text area below 

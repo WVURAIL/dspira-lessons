@@ -25,7 +25,7 @@ There are (up to) 6 activities to get to using the Horn Telescope
 ## 1. How Fast Are We Moving?   
    This activity is a stand alone activity that is a good simple exercise for students from general middle school space science up to high school physics students
    to determine the speed of the Earth's rotation, revolution around the Sun, and the Sun's speed around the Galaxy.
-######   >To get to the activity files, click here [How Fast Are We Moving?](http://wvurail.org/dspira-lessons/HowFastAreWeMoving)   
+######   >To get to the activity files, click here [How Fast Are We Moving?]({{ site.baseurl }}/HowFastAreWeMoving)   
    
 ## 2. Modeling Earth's Motion around the Sun    
 The Earth will be modeled as moving in a circle around the Sun.  The direction to the Center of the Galaxy(GC) is also included becuase it will eventually be needed for the 

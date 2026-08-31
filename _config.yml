@@ -14,6 +14,10 @@ description: >-
 email:       wvurail@gmail.com
 author:      WVU Radio Astronomy Instrumentation Laboratory
 baseurl:     "/dspira-lessons"
+# THE CUTOVER SWITCH. Serving does not read this (the domain is inherited from
+# the org site's CNAME); canonicals, og:url, the sitemap and the feed do. Change
+# to https://rail.wvu.edu in the same commit as the org repo's CNAME move — the
+# full checklist is .github/CUTOVER.md in wvurail.github.io.
 url:         "https://wvurail.org"
 date_format: "%B %-d, %Y"
 

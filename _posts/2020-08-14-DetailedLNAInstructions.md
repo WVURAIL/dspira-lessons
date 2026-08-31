@@ -10,7 +10,7 @@ order: 2
 
 ### First: Order the Components of the LNA  
 
-1. Click on the *[LNA Ordering Parts Info](https://wvurail.org/dspira-lessons/FilesUploaded/LNA_OrderingParts_Info_4.pdf)* link for the list of components and where the components can be purchased.  
+1. Click on the *[LNA Ordering Parts Info]({{ site.baseurl }}/FilesUploaded/LNA_OrderingParts_Info_4.pdf)* link for the list of components and where the components can be purchased.  
 2. Order a bottle of silicone conformal coating. Although this is not a component of the LNA, you will need to coat your circuit board after you are done soldering everything on. This coating will protect your LNA from moisture, corrosion, fungus, dirt, dust, thermal shock, short circuits, and static discharge. This product is available through Amazon. You can also do a Google search for silicone conformal coating to find other sellers.  
      
 ### Second: Assemble a Soldering Station  

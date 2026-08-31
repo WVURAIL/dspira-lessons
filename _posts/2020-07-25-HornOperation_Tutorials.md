@@ -8,18 +8,18 @@ categories: ['Observing']
 order: 8
 ---
 
-[Introduction to the horn telescope](https://wvurail.org/dspira-lessons/HornOperation_Intro){: .button}
+[Introduction to the horn telescope]({{ site.baseurl }}/HornOperation_Intro){: .button}
 
 [Setting up the horn telescope (video)](https://youtu.be/Oo28QCEZe_g){: .button}
 
-[Description of the spectrometer program](https://wvurail.org/dspira-lessons/HornOperation_spectrometer_description){: .button}
+[Description of the spectrometer program]({{ site.baseurl }}/HornOperation_spectrometer_description){: .button}
 
 [Description of the spectrometer program (video)](https://youtu.be/50B2Uv-SoDY){: .button}
 
-[How to run the spectrometer](https://wvurail.org/dspira-lessons/HornOperation_runningSpectrometer){: .button}
+[How to run the spectrometer]({{ site.baseurl }}/HornOperation_runningSpectrometer){: .button}
 
 [How to save data using the spectrometer (video)](https://youtu.be/dWX0rRU99Z8){: .button}
 
-[How to Calibrate the Horn Telescope (document & video)](http://wvurail.org/dspira-lessons/HornOperation_Calibration){: .button}
+[How to Calibrate the Horn Telescope (document & video)]({{ site.baseurl }}/HornOperation_Calibration){: .button}
 
 
