@@ -13,12 +13,15 @@ Third-party requests this page used to make, and why they are gone:
 The single-dollar inline delimiter is gone too. It was matching prices in the
 parts lists — "$30 ... $54" turned everything between them into an equation.
 {%- endcomment -%}
-{%- assign page_title = page.title | default: site.title | strip_html -%}
+{%- comment %}Category pages set `category`, not `title` — without the extra
+fallback every one of them shares the bare site title, which fails a reader
+navigating by window title (WCAG 2.4.2).{% endcomment -%}
+{%- assign page_title = page.title | default: page.category | default: site.title | strip_html -%}
 {%- assign page_desc = page.meta_description | default: page.summary | default: site.description -%}
 <head>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <title>{% if page.title %}{{ page.title | strip_html }} &middot; {% endif %}{{ site.title | strip_html }}</title>
+   <title>{% if page.title or page.category %}{{ page.title | default: page.category | strip_html }} &middot; {% endif %}{{ site.title | strip_html }}</title>
 
    <meta name="description" content="{{ page_desc | strip_html | xml_escape }}" />
    <meta name="robots" content="{{ page.meta_robots | default: 'all' }}" />

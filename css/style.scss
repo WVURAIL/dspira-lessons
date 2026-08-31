@@ -825,6 +825,16 @@ textarea { width: 100%; display: block; }
    margin: 0 0 0.9rem;
 }
 .site-footer a { color: #c3cad6; text-decoration: none; }
+/* Links inside the footer paragraph sit in #7b8698 body text at 2.23:1 — under
+   the 3:1 WCAG 1.4.1 wants when colour is the only cue. Underline just those;
+   the list links are standalone and fine. */
+.site-footer p a {
+   text-decoration: underline;
+   text-decoration-color: rgba(234, 170, 0, 0.45);
+   text-underline-offset: 0.22em;
+   text-decoration-thickness: 1px;
+}
+.site-footer p a:hover { text-decoration-color: currentColor; }
 .site-footer a:hover { color: var(--gold); }
 .site-footer ul { list-style: none; margin: 0; padding: 0; }
 .site-footer li { margin-bottom: 0.5rem; }

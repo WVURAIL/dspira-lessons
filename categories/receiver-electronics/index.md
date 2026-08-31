@@ -1,7 +1,7 @@
 ---
 layout: catpag
 category: Receiver Electronics
-lead: Everything between the antenna and the laptop: the amplifier, the SDR, and the settings that match them.
+lead: "Everything between the antenna and the laptop: the amplifier, the SDR, and the settings that match them."
 ---
 
 A horn on a stand is an antenna, not yet a telescope. What makes it one is the
