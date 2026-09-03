@@ -151,7 +151,26 @@ def settle(page, browser):
             page.close()
         except Exception:                                # noqa: BLE001
             pass
-        return browser.new_page()
+        return new_page(browser)
+
+# The site loads the WVU Design System stylesheet from designsystem.wvu.edu, and
+# that CDN answers 403 to a client whose user agent says HeadlessChrome — which
+# is what Playwright sends by default. The 403 comes back as HTML, Chrome blocks
+# it (ERR_BLOCKED_BY_ORB), and the page is measured with no Design System CSS at
+# all: images at their intrinsic width, no grid, no container. That produced
+# fifteen pages of overflow that do not exist in a real browser, and, worse, it
+# meant this check was never looking at the site as anyone sees it.
+#
+# So ask for the page the way a browser would. Nothing here depends on being
+# headless; the user agent is the only thing the CDN objects to.
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+              " (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36")
+
+
+def new_page(browser):
+    """A page that the Design System CDN will actually serve CSS to."""
+    return browser.new_page(user_agent=BROWSER_UA)
+
 
 def baseurl_from_config(path="_config.yml"):
     try:
@@ -192,7 +211,7 @@ def run(site, base, quiet=False):
     bad, unreachable = {}, []
     with sync_playwright() as pw:
         browser = pw.chromium.launch()
-        page = browser.new_page()
+        page = new_page(browser)
         try:
             for url in pages:
                 # Retry once, then report. Skipping a page that would not load

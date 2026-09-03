@@ -39,6 +39,17 @@
    text still wraps between words; a link gets `anywhere` because a 580px URL
    has no natural break at all and would push the whole page sideways.
    Underlines need nothing here: the DS reboot underlines every link. */
+/* A lesson title can be a filename with no spaces in it — spectrometer_w_cal.grc,
+   gr_radio_astro_Installation_Ubuntu20 — and the Design System sets a page-head
+   h1 large enough that one such token is wider than a 320px phone. The whole
+   page then slides sideways, which reads as the site being broken rather than as
+   a bug. The old hand-written stylesheet carried this rule and the port dropped
+   it; four lesson pages leaked up to 172px before it came back. break-word only
+   splits a word that has nowhere else to go, so ordinary titles still wrap
+   between words. Headings are not inside .prose, so the rule below does not
+   cover them. */
+h1, h2, h3, h4, h5, h6 { overflow-wrap: break-word; }
+
 .prose { overflow-wrap: break-word; }
 .prose a { overflow-wrap: anywhere; }
 
