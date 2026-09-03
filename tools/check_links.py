@@ -73,7 +73,12 @@ def source_files():
                 "tags/*.md", "all/index.html",
                 "_includes/*.html", "_layouts/*.html"):
         out += glob.glob(pat)
-    return sorted(set(p for p in out if os.path.isfile(p)))
+    # glob joins with the host's separator, so on Windows these come back
+    # with backslashes and the startswith("_includes/") tests in main()
+    # never match - the skip link is then reported as a broken anchor there
+    # and nowhere else. Normalise, so the checker says the same thing on
+    # every host.
+    return sorted(set(p.replace(os.sep, "/") for p in out if os.path.isfile(p)))
 
 
 def front_matter(path):
@@ -421,7 +426,7 @@ def main():
                 continue
 
             if re.search(r"\.\w{2,5}$", path):     # looks like a file
-                # Jekyll compiles css/style.scss to css/style.css at build
+                # Jekyll compiles css/lessons.scss to css/lessons.css at build
                 # time, so the .css the pages link is real even though only
                 # the .scss is in the repo.
                 scss_twin = path.endswith(".css") and os.path.exists(path[:-4] + ".scss")

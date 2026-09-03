@@ -51,15 +51,15 @@ The next activities are to help the user get familiar with how we divide up the 
 The following are videos from Dr. Loren Anderson at West Virginia University's Astronomy department.  
 They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.
 
-###### [Intro to Motion in the Sky](https://www.youtube.com/watch?v=wUNDoUoDrCg){: .button}
+###### [Intro to Motion in the Sky](https://www.youtube.com/watch?v=wUNDoUoDrCg){: .btn .btn-wvu-blue}
 
-###### [The Celestial Sphere](https://www.youtube.com/watch?v=d8BcwK5nlos){: .button}
+###### [The Celestial Sphere](https://www.youtube.com/watch?v=d8BcwK5nlos){: .btn .btn-wvu-blue}
 
-###### [Earth's Motion and Star Trails](https://www.youtube.com/watch?v=_L1R1VnMeD4){: .button}
+###### [Earth's Motion and Star Trails](https://www.youtube.com/watch?v=_L1R1VnMeD4){: .btn .btn-wvu-blue}
 
-###### [More Celestial Sphere](https://www.youtube.com/watch?v=UpYt7238p5g){: .button}
+###### [More Celestial Sphere](https://www.youtube.com/watch?v=UpYt7238p5g){: .btn .btn-wvu-blue}
 
-###### [Discussion of Common Misconceptions](https://www.youtube.com/watch?v=nfonuosoHUk){: .button}
+###### [Discussion of Common Misconceptions](https://www.youtube.com/watch?v=nfonuosoHUk){: .btn .btn-wvu-blue}
 
 
 ## 4. Observing Celestial Coordinates using Stellarium

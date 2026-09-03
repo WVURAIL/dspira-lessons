@@ -1,14 +1,33 @@
 {%- comment -%}
-Third-party requests this page used to make, and why they are gone:
+Third-party requests this page makes, and why:
 
-  Google Fonts (Merriweather, Lato)  -> the typefaces are self-hosted in
-                                        assets/fonts/, matching the lab site.
-  Font Awesome 5.13 from cdnjs       -> replaced by _includes/icon.html, a few
-                                        hundred bytes of inline SVG.
+  Typekit (use.typekit.net)          -> the WVU Design System's typefaces. The
+                                        self-hosted Inter / Instrument Serif /
+                                        JetBrains Mono files the old stylesheet
+                                        shipped were deleted with it; the
+                                        Design System sets the type.
+  designsystem.wvu.edu/scss/site.min.css
+                                     -> the Design System itself, consumed as
+                                        designsystem.wvu.edu/getting-started
+                                        documents for "other systems". It is
+                                        2.8 MB and unpinned; for production,
+                                        vendor a pinned copy so an upstream
+                                        change cannot alter the site
+                                        mid-review — SCM's own production
+                                        sites self-host an SRI-pinned build.
+  designsystem.wvu.edu/js/...        -> the Design System's navigation script,
+                                        loaded after <main> in default.html.
+                                        It drives the js-wvu-site-nav-* markup
+                                        in header.html and nothing else.
   MathJax 2.7.9 from cdnjs           -> about a megabyte, previously loaded on
-                                        all the lessons. Six contain maths, so
-                                        it now loads only where the page sets
+                                        all the lessons. Seven contain maths, so
+                                        it loads only where the page sets
                                         `usemathjax: true`.
+
+Not made: the Font Awesome Pro kit the Design System's docs list is
+account-bound and 403s from any non-allowlisted origin, so icons are inline SVG
+from _includes/icon.html, a few hundred bytes. Typekit is not domain-locked at
+the network layer.
 
 The single-dollar inline delimiter is gone too. It was matching prices in the
 parts lists — "$30 ... $54" turned everything between them into an equation.
@@ -16,22 +35,84 @@ parts lists — "$30 ... $54" turned everything between them into an equation.
 {%- comment %}Category pages set `category`, not `title` — without the extra
 fallback every one of them shares the bare site title, which fails a reader
 navigating by window title (WCAG 2.4.2).{% endcomment -%}
-{%- assign page_title = page.title | default: page.category | default: site.title | strip_html -%}
+{%- comment %}Tag pages set `tag`, category pages set `category`, and neither sets
+`title` — without both fallbacks every one of them shipped the bare site title,
+which fails a reader navigating by window title (WCAG 2.4.2). The tag is
+hyphenated in the data ("School-Teachers"), so it is spaced here the same way
+the tag page spaces its own heading.{% endcomment -%}
+{%- assign tag_title = page.tag | replace: "-", " " -%}
+{%- assign page_title = page.title | default: page.category | default: tag_title | default: site.title | strip_html -%}
 {%- assign page_desc = page.meta_description | default: page.summary | default: site.description -%}
 <head>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1" />
-   <title>{% if page.title or page.category %}{{ page.title | default: page.category | strip_html }} &middot; {% endif %}{{ site.title | strip_html }}</title>
+   <meta name="theme-color" content="#002855" />
+   <title>{% if page.title or page.category or page.tag %}{{ page.title | default: page.category | default: tag_title | strip_html }} &middot; {% endif %}{{ site.title | strip_html }}</title>
 
    <meta name="description" content="{{ page_desc | strip_html | xml_escape }}" />
+   {%- comment %}
+   One robots meta, never two. page.noindex is per page; site.noindex_all is
+   set only by a staging build's config override, so a review copy under
+   another path never gets indexed — a project site cannot serve the host's
+   robots.txt, so this is the only tool for it. Either one wins outright;
+   otherwise a page may still ask for something other than "all" with
+   meta_robots.
+   {% endcomment -%}
+   {%- if page.noindex or site.noindex_all %}
+   <meta name="robots" content="noindex" />
+   {%- else %}
    <meta name="robots" content="{{ page.meta_robots | default: 'all' }}" />
+   {%- endif %}
    <link rel="canonical" href="{{ page.url | absolute_url }}" />
    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}" />
-   <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" />
+   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any" />
 
-   <link rel="preload" as="font" type="font/woff2" crossorigin
-         href="{{ '/assets/fonts/inter-var.woff2' | relative_url }}" />
-   <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
+   <link rel="stylesheet" href="https://use.typekit.net/yys7vri.css" />
+   <link rel="stylesheet" href="https://designsystem.wvu.edu/scss/site.min.css" />
+   {%- comment %}
+   What little the Design System does not cover — compiled by Jekyll from
+   css/lessons.scss. Loaded last so it can override.
+   {% endcomment %}
+   <link rel="stylesheet" href="{{ '/css/lessons.css' | relative_url }}" />
+
+   {%- comment %}
+   The only inline CSS. Print: drop the site chrome. SCM confirmed for the lab
+   site (Adam Glenn, 2 Sep 2026) that there is no requirement for the masthead
+   or footer on a printed page, so a printed or save-as-PDF copy of any page is
+   just its content. The selectors are scoped to the shell's own masthead, nav
+   and footer so a page's own <header> is not swallowed. .no-print is what the
+   inner layouts put on the breadcrumb, the pager and the audience line; the
+   filter on /all/ is a control paper cannot use.
+
+   Teachers print these lessons for students, so the printed page is a real
+   target, and the old stylesheet's print intent carries over: black text on
+   plain paper. The Design System's blue and off-white bands lose their
+   background and their white and gold text turns black — browsers drop
+   background colours when printing, which would otherwise leave a white title
+   on a white page — and the deep bands shrink so the title is not alone at
+   the top of the sheet. The pagination rules keep a heading with what follows
+   it and an image or list item on one page; .row is deliberately not in that
+   list, because a lesson's whole body is one .row, and a block taller than a
+   page that must not break gets pushed to a fresh page first, leaving a blank
+   one behind. Everything about the content itself — tables and code that must
+   not scroll, video embeds, an off-site link followed by its address — is in
+   css/lessons.scss, section 09.
+   {% endcomment -%}
+   <style>
+      @media print {
+         body > header, #nav-primary, body > footer, .no-print, [data-lesson-filter] { display: none !important; }
+         main { padding: 0 !important; }
+         body { font-size: 11pt; line-height: 1.45; color: #000; }
+         main [class*="bg-"] { background: none !important; }
+         main .text-white, main .text-wvu-gold, main .text-wvu-blue { color: #000 !important; }
+         main .py-6 { padding-top: 0 !important; padding-bottom: 1.5rem !important; }
+         a { color: inherit; text-decoration: none; }
+         h2, h3 { break-after: avoid; page-break-after: avoid; }
+         li, img { break-inside: avoid; page-break-inside: avoid; }
+         p, li { orphans: 2; widows: 2; }
+         @page { size: letter; margin: 0.7in; }
+      }
+   </style>
 
    <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}" />
    <meta property="og:title" content="{{ page_title | xml_escape }}" />

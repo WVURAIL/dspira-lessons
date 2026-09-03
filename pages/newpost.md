@@ -41,7 +41,7 @@ module, or renumber the others if your lesson belongs partway through.
 - Add buttons to link to a pdf of your document using this syntax
 
 ```
-[Google](http://www.google.com){: .button}
+[Google](http://www.google.com){: .btn .btn-wvu-blue}
 ```
 
 In Google Drive:
@@ -54,7 +54,7 @@ In Google Drive:
 EXAMPLE:
 - To add a Google doc lesson:
 ```
-[Name of your lesson](https://link/to/your/document/dotcom){: .button}
+[Name of your lesson](https://link/to/your/document/dotcom){: .btn .btn-wvu-blue}
 ```
 
 - Add YouTube link:
@@ -69,7 +69,7 @@ The above video is a video of Kermit the frog singing the Rainbow Connection
 
 To add images to your post first upload your image to github by going to the link below  upload and commit an image to the images directory: 
 
-[Upload image](https://github.com/WVURAIL/dspira-lessons/upload/master/images){: .button}
+[Upload image](https://github.com/WVURAIL/dspira-lessons/upload/master/images){: .btn .btn-wvu-blue}
 
 Then add the following to the post you are editing
 ```
@@ -83,7 +83,8 @@ Then add the following to the post you are editing
 <div>
     <p>Date:</p><h2 id="date"></h2>
     <div>
-    <textarea id="inputTextToSave" cols="80" rows="25">
+    <label for="inputTextToSave" class="form-label helvetica-neue-bold">Your lesson, in Markdown</label>
+    <textarea id="inputTextToSave" class="form-control" cols="80" rows="25">
 ---
 layout: post
 date:   copy date from above
@@ -96,54 +97,18 @@ categories: ['category', 'Subcategory']
 Enter the Lesson posts here
     </textarea></div>
     <div>
-    Filename to Save As: &nbsp; <input id="inputFileNameToSaveAs">&nbsp;.md
-    <button onclick="saveTextAsFile()">Save</button>
+    <label for="inputFileNameToSaveAs" class="form-label helvetica-neue-bold">Filename to save as</label>
+    <div class="d-flex align-items-center gap-2 flex-wrap">
+      <input id="inputFileNameToSaveAs" class="form-control w-auto" type="text">
+      <span aria-hidden="true">.md</span>
+      <button type="button" id="save-post" class="btn btn-wvu-blue">Save</button>
+    </div>
     </div>
 </div>
 
 <div> Upload your saved file to the website by uploading and committing on github.com: &nbsp;
- <a href="https://github.com/WVURAIL/dspira-lessons/upload/master/_posts" class = "button">Upload to Website</a>
+ <a href="https://github.com/WVURAIL/dspira-lessons/upload/master/_posts" class="btn btn-wvu-blue">Upload to Website</a>
 </div>
 
-<script type="text/javascript">
- 
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-
-if (d < 10) {
-  d = '0' + d;
-}
-if (m < 10) {
-  m = '0' + m;
-}
-
-datetoday = y + "-" + m + "-" + d;
-document.getElementById("date").innerHTML = datetoday
-
-function saveTextAsFile()
-{
-    var textToSave = document.getElementById("inputTextToSave").value;
-    var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
-    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
-    var fileNameToSaveAs = datetoday + "-" + document.getElementById("inputFileNameToSaveAs").value + ".md";
- 
-    var downloadLink = document.createElement("a");
-    downloadLink.download = fileNameToSaveAs;
-    downloadLink.innerHTML = "Download File";
-    downloadLink.href = textToSaveAsURL;
-    downloadLink.onclick = destroyClickedElement;
-    downloadLink.style.display = "none";
-    document.body.appendChild(downloadLink);
- 
-    downloadLink.click();
-}
- 
-function destroyClickedElement(event)
-{
-    document.body.removeChild(event.target);
-}
-
-</script>
+<script src="{{ '/assets/js/newpost.js' | relative_url }}" defer></script>
  

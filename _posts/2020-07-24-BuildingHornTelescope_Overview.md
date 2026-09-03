@@ -11,7 +11,7 @@ A list of the components that are needed to build and operate a horn radio teles
 
 For the reasoning behind the design — why the horn has the dimensions it does,
 and how that follows from observing the 21 cm line — see
-[Horn Telescope Design]({{ site.baseurl }}/FilesUploaded/HornTelescope_Design.pdf){: .button}
+[Horn Telescope Design]({{ site.baseurl }}/FilesUploaded/HornTelescope_Design.pdf){: .btn .btn-wvu-blue}
 
 ### What's Needed for a Complete Horn Radio Telescope System
    - the horn & antenna assembly

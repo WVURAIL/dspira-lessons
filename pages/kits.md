@@ -15,7 +15,7 @@ equipment, you can ask for a starter kit. Fill in the form with your shipping
 details and a short note on what you plan to do — or have already done — with your
 students or your group.
 
-[Request a starter kit](https://forms.gle/qLDGCD8CXNvGo9hS6){: .button .primary}
+[Request a starter kit](https://forms.gle/qLDGCD8CXNvGo9hS6){: .btn .btn-wvu-gold}
 
 Kits are sent while supplies last. If they have run out, everything in the
 lessons still works with parts bought directly; the

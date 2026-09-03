@@ -24,10 +24,10 @@ those teachers wrote are what this site is, and they are still maintained.
 
 ## The cohorts
 
-- [Summer 2019](/education/dspira-2019/)
-- [Summer 2018](/education/dspira-2018/)
-- [Summer 2017](/education/dspira-2017/)
-- [The program in full](/education/), on the lab's site
+- [Summer 2019]({{ site.lab_url }}/education/dspira-2019/)
+- [Summer 2018]({{ site.lab_url }}/education/dspira-2018/)
+- [Summer 2017]({{ site.lab_url }}/education/dspira-2017/)
+- [The program in full]({{ site.lab_url }}/education/), on the lab's site
 
 ## From a participant
 

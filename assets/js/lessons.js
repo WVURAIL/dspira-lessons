@@ -1,24 +1,14 @@
-/* DSPIRA lessons — site behaviour. Vanilla, no dependencies. */
+/* DSPIRA lessons — site behaviour. Vanilla ES5, no dependencies.
+
+   There is no menu code here. The masthead's mobile menu is the WVU Design
+   System's own: its navigation script (loaded by the layout, after <main>)
+   looks for .js-wvu-site-nav-toggle and .js-wvu-site-nav-items, toggles
+   is-opened and aria-expanded, swaps "Open Menu" / "Close Menu", and closes
+   on Escape. What remains here is the three things the Design System does
+   not do: video embeds in lesson prose, retiring the old service worker,
+   and the filter on /all/.                                                */
 (function () {
    "use strict";
-
-   /* --- Mobile navigation ------------------------------------------------ */
-   var toggle = document.querySelector(".nav-toggle");
-   if (toggle) {
-      var setOpen = function (open) {
-         document.documentElement.toggleAttribute("data-nav-open", open);
-         toggle.setAttribute("aria-expanded", String(open));
-      };
-      toggle.addEventListener("click", function () {
-         setOpen(!document.documentElement.hasAttribute("data-nav-open"));
-      });
-      document.addEventListener("keydown", function (e) {
-         if (e.key === "Escape") setOpen(false);
-      });
-      document.querySelectorAll(".site-nav a").forEach(function (a) {
-         a.addEventListener("click", function () { setOpen(false); });
-      });
-   }
 
    /* --- Video embeds ------------------------------------------------------
       Lessons are written by teachers in plain Markdown, and the authoring
@@ -80,10 +70,16 @@
       the page did before. Matching is against a `data-search` attribute built
       at render time from title, summary and module name -- cheaper than walking
       the DOM for text on every keystroke, and it lets a search for "raspberry"
-      find a lesson whose title never says it.                              */
+      find a lesson whose title never says it.
+
+      Markup contract with all/index.html: the box carries data-lesson-filter,
+      the input is #lesson-filter, the counter is .filter__count[role=status],
+      each module section carries data-module and holds li.lesson-card
+      [data-search] items and one p.no-matches. The is-empty class this sets
+      on an emptied section is styled by the stylesheet.                    */
    var filterBox = document.querySelector("[data-lesson-filter]");
    if (filterBox) {
-      var input = filterBox.querySelector(".filter__input");
+      var input = filterBox.querySelector("#lesson-filter");
       var count = filterBox.querySelector(".filter__count");
       var cards = [].slice.call(document.querySelectorAll(".lesson-card[data-search]"));
       var groups = [].slice.call(document.querySelectorAll("[data-module]"));
@@ -125,5 +121,36 @@
       });
       apply();
    }
+
+   /* --- Scrollable code blocks -------------------------------------------
+      A lesson's code samples are wider than the column on a narrow screen, so
+      the stylesheet lets them scroll sideways. A region you can only scroll
+      with a mouse or a finger is unreachable from the keyboard, which is
+      WCAG 2.1.1; giving it a tab stop and a name fixes that. Only blocks that
+      actually overflow get one, so the tab order does not fill up with code
+      samples that fit. Re-measured on resize because the column narrows. */
+   var scrollables = function () {
+      var blocks = document.querySelectorAll("pre, .highlight, .highlighter-rouge");
+      for (var i = 0; i < blocks.length; i++) {
+         var el = blocks[i];
+         if (el.querySelector("pre, .highlight")) { continue; }  /* only the innermost */
+         var overflows = el.scrollWidth > el.clientWidth + 1;
+         if (overflows && !el.hasAttribute("tabindex")) {
+            el.setAttribute("tabindex", "0");
+            el.setAttribute("role", "region");
+            el.setAttribute("aria-label", "Code sample, scrollable");
+         } else if (!overflows && el.getAttribute("role") === "region") {
+            el.removeAttribute("tabindex");
+            el.removeAttribute("role");
+            el.removeAttribute("aria-label");
+         }
+      }
+   };
+   scrollables();
+   var resizeTimer;
+   window.addEventListener("resize", function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(scrollables, 200);
+   });
 
 })();

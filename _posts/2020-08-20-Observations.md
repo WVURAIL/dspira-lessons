@@ -273,7 +273,7 @@ The 2017 DSPIRA cohort ran the spectrometer they had just built against the
 **Green Bank Telescope** and took a 24-hour drift scan with it. That notebook is
 here, with the calibration worked through:
 
-* [GBT drift scan notebook](https://github.com/WVURAIL/dspira-lessons/tree/master/code/gbt_drift){: .button}
+* [GBT drift scan notebook](https://github.com/WVURAIL/dspira-lessons/tree/master/code/gbt_drift){: .btn .btn-wvu-blue}
 
 The data file is not included — it lives on Green Bank's systems — and the
 notebook is tuned to that one observation: it undoes the GBT's

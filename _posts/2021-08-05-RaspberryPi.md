@@ -88,7 +88,7 @@ _NOTE_: Firstly, for Ubuntu desktop a monitor and mouse and keyboard is required
 
 ### Installing gr-radio_astro
 
-[Installing gr-radio_astro]({{ site.baseurl }}/gr_radio_astro_Installation){: .button target="_blank"}
+[Installing gr-radio_astro]({{ site.baseurl }}/gr_radio_astro_Installation){: .btn .btn-wvu-blue target="_blank"}
 
 Notes: run `volk_profile` after installing everything to make sure GNU Radio is optimized to work on your device.
 

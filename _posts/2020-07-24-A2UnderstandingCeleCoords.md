@@ -8,9 +8,9 @@ categories: ['Astronomy']
 order: 2
 ---
 
-[Student Activity Document](https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing){: .button}
+[Student Activity Document](https://docs.google.com/document/d/1hlc1SBIF0k_CGa8UhYB3Bi1jVJp1-mBKM7ouzOqZ1gY/edit?usp=sharing){: .btn .btn-wvu-blue}
 
-[Teacher Notes](https://docs.google.com/document/d/1JVFn5d4mhCN-fU2JmSMRD95g3N5xwSbFM94TUpAUe3k/edit?usp=sharing){: .button}
+[Teacher Notes](https://docs.google.com/document/d/1JVFn5d4mhCN-fU2JmSMRD95g3N5xwSbFM94TUpAUe3k/edit?usp=sharing){: .btn .btn-wvu-blue}
     
 The following are videos from Dr. Loren Anderson AT West Virginia University's Astronomy department.  
 They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.

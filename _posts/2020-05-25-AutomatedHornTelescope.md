@@ -19,7 +19,7 @@ What the DSPIRA lessons do not cover is pointing the thing by machine. This
 build adds a motorised mount and drives it, which is the obvious next step
 after a few nights of turning a horn by hand and writing down the angle.
 
-[Automated Radio Telescope, on Instructables](https://www.instructables.com/Automated-Radio-Telescope/){: .button}
+[Automated Radio Telescope, on Instructables](https://www.instructables.com/Automated-Radio-Telescope/){: .btn .btn-wvu-blue}
 
 Published May 2020. If you build on it, the
 [forum]({{ '/forum/' | relative_url }}) is the place to say how it went.

@@ -12,7 +12,7 @@ order: 3
 people doing physics outside an institution — detectors, spectrometers,
 electronics. Their hydrogen line project documents a 21 cm receiver end to end.
 
-[Hydrogen Line Project Documentation (PDF)](https://physicsopenlab.org/wp-content/uploads/2020/07/Hydrogen-Line-Project-Documentation.pdf){: .button}
+[Hydrogen Line Project Documentation (PDF)](https://physicsopenlab.org/wp-content/uploads/2020/07/Hydrogen-Line-Project-Documentation.pdf){: .btn .btn-wvu-blue}
 
 It is worth reading next to the DSPIRA build for the parts where it makes
 different choices. Two people solving the same problem — get 1420 MHz out of

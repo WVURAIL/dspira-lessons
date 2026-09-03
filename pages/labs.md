@@ -65,5 +65,5 @@ hydrogen line work; theirs is
 and Development runs the telescopes alongside a cosmic ray detector;
 [their work is in Community Labs]({{ site.baseurl }}/WISRDUpdate).
 
-**[LightWork Memos](/lightwork/)** — the numbered memo series
+**[LightWork Memos]({{ site.lab_url }}/lightwork/)** — the numbered memo series
 on citizen science with radio telescopes, several of which use this hardware.

@@ -12,6 +12,11 @@ python3 tools/check_links.py --offline    # skip the internet, about a second
 Run it from the top of the repository. It needs nothing installed — Python 3
 standard library only. Results go to `link-report.md`, which is gitignored.
 
+Links written out in full to the site's own address, under `/dspira-lessons/`,
+are checked as pages of this site, not fetched. The host name it treats as its
+own is written into the script, which is why the script is one line of the lab
+repository's `.github/CUTOVER.md` for the move to rail.wvu.edu.
+
 The offline half checks links between lesson pages, heading anchors, and
 whether referenced images and PDFs actually exist. That half is where most real
 breakage shows up, and it is worth running before any push that touches links.
@@ -85,6 +90,11 @@ library:
 ```bash
 pip install playwright && playwright install chromium
 ```
+
+It also needs the internet, which it did not before the move to the Design
+System: the stylesheet and the fonts load from designsystem.wvu.edu and
+use.typekit.net, and a page measured without them is not the page a visitor
+gets. The same goes for `check_contrast.py` below.
 
 Horizontal overflow is the quietest layout bug there is. Nothing errors, the
 page looks right on the machine it was written on, and on a phone the whole
@@ -242,6 +252,11 @@ What it found on a correct first run: five colour pairs, all inside the two
 exported Jupyter notebooks, all near misses from the default Pygments palette —
 comments at 4.25:1, string interpolation at 3.65:1. They are corrected by an
 override block near the top of each of those two files, which explains itself.
+
+Since the move to the Design System the colours are its own. A new failure is
+far more likely to be a utility class on the wrong background — `text-wvu-gold`
+on white, say — than a stylesheet rule, and the fix is in the page, not in
+`css/lessons.scss`.
 
 It does not cover text over images, focus indicators, or anything needing a
 pointer or keyboard. One measurable slice, not the whole of accessibility.

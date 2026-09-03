@@ -8,4 +8,4 @@ categories: ['Observing']
 order: 1
 ---
 
-[Introductory Video: What is a Horn Telescope?](https://youtu.be/uzYvv4nwndM){: .button}
+[Introductory Video: What is a Horn Telescope?](https://youtu.be/uzYvv4nwndM){: .btn .btn-wvu-blue}

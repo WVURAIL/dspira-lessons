@@ -10,7 +10,7 @@ order: 6
 
 **OVERVIEW FOR THE TEACHER**
 
-* [Unit Description and Outline]({{ site.baseurl }}/FilesUploaded/VelocityCurve_UnitOutline.pdf){: .button}
+* [Unit Description and Outline]({{ site.baseurl }}/FilesUploaded/VelocityCurve_UnitOutline.pdf){: .btn .btn-wvu-blue}
 
   The whole unit on two pages: what the students build toward, in what order, and
   why. Written for AP Physics — the stated goal is that students deduce the
@@ -85,31 +85,31 @@ OBJECTIVE: These activities allow this *Velocity Curve of the MWG* module be abl
 
 *Teacher Notes*  Since there is an activity with "discovering" what the horn telescope can do, it is suggested to assign all 4 activities so that students can be busy while other small groups are working with the scope(s) your have set up. (Most teachers very likely with have only one telescope.)
 
-* [Introduction to Horn Telescope](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_HornIntro.pdf){: .button}
+* [Introduction to Horn Telescope]({{ site.baseurl }}/FilesUploaded/VelocityCurve_HornIntro.pdf){: .btn .btn-wvu-blue}
    
-* [Introduction to Horn Telescope Follow-up](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
+* [Introduction to Horn Telescope Follow-up]({{ site.baseurl }}/FilesUploaded/VelocityCurve_HornIntro_Followup.pdf)
    
-* [The Electromagnetic Spectrum](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf){: .button}
+* [The Electromagnetic Spectrum]({{ site.baseurl }}/FilesUploaded/VelocityCurve_E%26MSpectrum.pdf){: .btn .btn-wvu-blue}
 
    Further reading for this activity:
    [introduction to wavelengths and radiation]({{ site.baseurl }}/FilesUploaded/EMSpectrum_Introduction.pdf).
    
-* [The 21 cm Wavelength of Neutral Hydrogen](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_21cmHI.pdf){: .button}
+* [The 21 cm Wavelength of Neutral Hydrogen]({{ site.baseurl }}/FilesUploaded/VelocityCurve_21cmHI.pdf){: .btn .btn-wvu-blue}
    
-* [Celestial Coordinate Systems](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_CoordinateSystems.pdf){: .button}
+* [Celestial Coordinate Systems]({{ site.baseurl }}/FilesUploaded/VelocityCurve_CoordinateSystems.pdf){: .btn .btn-wvu-blue}
    
-* [Using Stellarium](https://WVURAIL.org/dspira-lessons/FilesUploaded/VelocityCurve_Stellarium.pdf){: .button}
+* [Using Stellarium]({{ site.baseurl }}/FilesUploaded/VelocityCurve_Stellarium.pdf){: .btn .btn-wvu-blue}
 
 
 ### Part 1: Galactic Quadrants II & III Observation
 
 OBJECTIVE: In this activity, the students collect spectra of the MWG along the galactic plane in quadrants II & III. From these they should be able to deduce that the MWG is rotating and the direction of rotation.
 
-[Teacher Notes for Part 1](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit?usp=sharing){: .button}
+[Teacher Notes for Part 1](https://docs.google.com/document/d/1h9is9YnnfDidLnlvs-DnXlyzXIjT0EhrLDdnONAByHg/edit?usp=sharing){: .btn .btn-wvu-blue}
 
-[Student Handout for Part 1 Observation](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit?usp=sharing){: .button}
+[Student Handout for Part 1 Observation](https://docs.google.com/document/d/1jcMV-8X8Cd7rryGCsednTlc0fFRrgvAGkFyJUQAGJh8/edit?usp=sharing){: .btn .btn-wvu-blue}
 
-[Student Handout for Part 1 Analysis & Interpretation](https://docs.google.com/document/d/1aVUFzAvC14gPeV6RSYumYPlkclgILeoaI5LpUZNSV5U/edit?usp=sharing){: .button}
+[Student Handout for Part 1 Analysis & Interpretation](https://docs.google.com/document/d/1aVUFzAvC14gPeV6RSYumYPlkclgILeoaI5LpUZNSV5U/edit?usp=sharing){: .btn .btn-wvu-blue}
 
 
 
@@ -118,7 +118,7 @@ OBJECTIVE: In this activity, the students collect spectra of the MWG along the g
 For classes that want to fit the data numerically rather than by eye, a Jupyter
 notebook is provided that performs the sine fit and plots the result:
 
-* [Galactic Plane Sine Fit notebook](https://github.com/WVURAIL/dspira-lessons/tree/master/code/velocity_curve){: .button}
+* [Galactic Plane Sine Fit notebook](https://github.com/WVURAIL/dspira-lessons/tree/master/code/velocity_curve){: .btn .btn-wvu-blue}
 
 Students replace the sample data in `quadII_III_velocity_vs_longitude.csv` with
 their own measurements and re-run. The fitted amplitude and phase give a
@@ -129,11 +129,11 @@ quantitative handle on the rotation the students deduced qualitatively above.
 
 OBJECTIVE: In this activity, the students collect spectra of the MWG along the galactic plane in quadrant I. The students will determine the speeds of the most red-shifted part of the spectra, and then apply the tangent method to determine the galaxy's velocity as a function of distance from the galactic center.
 
-[Teacher Notes for Part 2](https://docs.google.com/document/d/1BSLoZjrFtA2qEoVzgvXjHdufQFRWmxtQWSAl8k1yJu8/edit?usp=sharing){: .button}
+[Teacher Notes for Part 2](https://docs.google.com/document/d/1BSLoZjrFtA2qEoVzgvXjHdufQFRWmxtQWSAl8k1yJu8/edit?usp=sharing){: .btn .btn-wvu-blue}
 
-[Student Handout for Part 2 Observation](https://docs.google.com/document/d/1V4wUx8VtX358x-gIWdH9FaYi3579bz_Unl38_ShrbKE/edit?usp=sharing){: .button}
+[Student Handout for Part 2 Observation](https://docs.google.com/document/d/1V4wUx8VtX358x-gIWdH9FaYi3579bz_Unl38_ShrbKE/edit?usp=sharing){: .btn .btn-wvu-blue}
 
-[Student Handout for Part 2 Analysis & Interpretation](https://docs.google.com/document/d/1J9w1DH5fQW24XDvesYTzsR943Px_13uTZQQS5qi6rxg/edit?usp=sharing){: .button}
+[Student Handout for Part 2 Analysis & Interpretation](https://docs.google.com/document/d/1J9w1DH5fQW24XDvesYTzsR943Px_13uTZQQS5qi6rxg/edit?usp=sharing){: .btn .btn-wvu-blue}
 
 
 
@@ -150,8 +150,8 @@ unchanged.
 > them with yours. The Part 1 and Part 2 handouts above are the current version
 > of the lessons.
 
-* [Galactic Plane Observation 1, 2018]({{ site.baseurl }}/FilesUploaded/VelocityCurve_GalacticPlaneObservation1_2018.pdf){: .button} — the observing sheet. Its spreadsheet analysis section is useful whatever dates you observe on.
-* [Galactic Plane Observation 1: Conclusions, 2018]({{ site.baseurl }}/FilesUploaded/VelocityCurve_GalacticPlaneObservation1_Conclusions_2018.pdf){: .button} — a real set of class results for quadrants II and III, with the uncertainty estimate and the conclusions questions.
+* [Galactic Plane Observation 1, 2018]({{ site.baseurl }}/FilesUploaded/VelocityCurve_GalacticPlaneObservation1_2018.pdf){: .btn .btn-wvu-blue} — the observing sheet. Its spreadsheet analysis section is useful whatever dates you observe on.
+* [Galactic Plane Observation 1: Conclusions, 2018]({{ site.baseurl }}/FilesUploaded/VelocityCurve_GalacticPlaneObservation1_Conclusions_2018.pdf){: .btn .btn-wvu-blue} — a real set of class results for quadrants II and III, with the uncertainty estimate and the conclusions questions.
 
 
 ### All Velocity Curve handouts in one place

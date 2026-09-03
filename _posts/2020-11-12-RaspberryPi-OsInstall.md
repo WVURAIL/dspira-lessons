@@ -11,7 +11,7 @@ order: 11
 ## Radio Astronomy with Raspberry Operating System
 ### Glen Langston,  2020 October 21
 
-[Click to read this Document](https://drive.google.com/file/d/1Clyo3tW8s_1xhXjnvwi-_GTXlZI_uS-Z/view){: .button}
+[Click to read this Document](https://drive.google.com/file/d/1Clyo3tW8s_1xhXjnvwi-_GTXlZI_uS-Z/view){: .btn .btn-wvu-blue}
 
 ***
 *The text of the pdf is below*
@@ -162,7 +162,7 @@ You have the opportunity to discover the Milky Way for yourself, with the tools 
 LightWork Memos
 The more detailed tests of the system are in a set of memos.  You’re invited to contribute to these memos:
 
-[The LightWork memo series](/lightwork/)
+[The LightWork memo series]({{ site.lab_url }}/lightwork/)
 Live Video Demo
 We gave a live demo of the current horn design in an online webinar during the American Astronomical Society Meeting in June 2020.   The demo shows the telescope in operation, easily finding our Milky Way Galaxy spiral arms in a few seconds.
 

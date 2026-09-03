@@ -41,7 +41,7 @@ events they are still chasing down.
 Coincidence detection is what the `radio_astro` event blocks were written for —
 `detect`, `dedispersion`, `correlate` and the triggered CSV sink are in
 [gr-radio_astro](https://github.com/WVURAIL/gr-radio_astro), and the
-[LightWork memo series](/lightwork/) covers the event-capture
+[LightWork memo series]({{ site.lab_url }}/lightwork/) covers the event-capture
 side in memos 023 and 027.
 
 The group's own site is at [wisrd.org](https://www.wisrd.org/).
