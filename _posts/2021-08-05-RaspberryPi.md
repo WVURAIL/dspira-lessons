@@ -11,13 +11,13 @@ Raspberry Pi's are inexpensive and the more modern Pi's are powerful enough to k
 
 
   - [Supported Raspberry Pi Devices](#supported-raspberry-pi-devices)
-  - [Installing Ubuntu image with radio astronomy preinstalled  on a Raspberry Pi](#installing-ubuntu-image-with-radio-astronomy-preinstalled-on-a-raspberry-pi)
+  - [Installing Ubuntu image with radio astronomy preinstalled  on a Raspberry Pi](#installing-ubuntu-image-with-radio-astronomy-preinstalled--on-a-raspberry-pi)
   - [Operating system requirement](#operating-system-requirement)
   - [Installing Ubuntu on Raspberry Pi](#installing-ubuntu-on-raspberry-pi)
     - [Prerequisites](#prerequisites)
-  - [Post Installation actions:](#post-installation-actions)
+  - [Post Installation actions:](#post-os-installation-actions)
     - [Interacting with the Raspberry Pi](#interacting-with-the-raspberry-pi)
-  - [Installing gr-radio_astro](#installing-gr-radioastro-installing-gr-radioastro-sitebaseurl-grradioastroinstallationtarget%22blank%22)
+  - [Installing gr-radio_astro](#installing-gr-radio_astro-installing-gr-radio_astro)
 
 
 # Supported Raspberry Pi Devices

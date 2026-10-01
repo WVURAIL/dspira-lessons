@@ -7,22 +7,16 @@ permalink: /forum/
 Use the following Discussion Rooms or use [GitHub Discussions](https://github.com/WVURAIL/dspira-lessons/discussions){: .button}
 # Discussion Rooms 
 
-[Antennas Forum]({{ site.baseurl }}/forum/antennas/){: .button}
+[Antennas Forum](https://github.com/WVURAIL/dspira-lessons/discussions/6){: .button}
 
-[Digital Signal Processing Forum]({{ site.baseurl }}/forum/dsp/){: .button}
+[Digital Signal Processing Forum](https://github.com/WVURAIL/dspira-lessons/discussions/5){: .button}
 
-[Electronics Forum]({{ site.baseurl }}/forum/electronics/){: .button}
+[Electronics Forum](https://github.com/WVURAIL/dspira-lessons/discussions/2){: .button}
 
-[Astronomy Forum]({{ site.baseurl }}/forum/astronomy/){: .button}
+[Astronomy Forum](https://github.com/WVURAIL/dspira-lessons/discussions/4){: .button}
 
-[GNURadio Forum]({{ site.baseurl }}/forum/gnuradio/){: .button}
+[GNURadio Forum](https://github.com/WVURAIL/dspira-lessons/discussions/3){: .button}
 
 ## General Discussions
 
-<script src="https://utteranc.es/client.js"
-        repo="WVURAIL/dspira-lessons"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
+[General Forum](https://github.com/WVURAIL/dspira-lessons/discussions/7){: .button}

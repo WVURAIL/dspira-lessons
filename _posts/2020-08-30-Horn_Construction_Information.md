@@ -4,7 +4,7 @@ date:   2020-08-30
 title: Horn Construction Information
 summary:  An overview of horn construction is described, with appropriate links
 tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['category', 'Subcategory'] 
+categories: ['Telescope Hardware Setup']
 ---
 
 A complete horn telescope system can be built for a few hundred dollars, the actual cost depending on the options you choose and whether or not you have a computer. 

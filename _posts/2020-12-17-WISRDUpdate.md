@@ -7,5 +7,5 @@ tags: ['School-Teachers', 'Students', 'Hobbyists', ]
 categories: ['Labs', 'WISRD Radio Astronomy Group'] 
 ---
 
-[Update](https://wisrd.org/DSPiRA){: button}
+[Update](https://www.wisrd.org/dspira){: button}
     
