@@ -1,12 +1,13 @@
 ---
-layout: center
+layout: page
+title: Who these are written for
+meta_description: "Find DSPIRA radio astronomy lessons for high school teachers, students, and hobbyists. Learn what background helps and where to begin."
 permalink: /user-levels/
+eyebrow: Audience
+lead: Written for high school teachers, and usable well beyond them.
 ---
-![redwood house and laser name and trees and staaaaaars](/dspira-lessons/images/DspiraGalaxyPic2019.jpg)
 
-  
-{% for tag in site.tags %}
-  {% capture tag_name %}{{ tag[0] }}{% endcapture %}
-  <h3><a class="button" href="{{ site.baseurl }}/tags/{{ tag_name | slugify: "pretty" }}">{{ tag_name }}</a></h3> 
-{% endfor %}
+Teachers, students, and independent learners share the same lessons.
+[Choose a starting point]({{ '/start/' | relative_url }}) based on your equipment and interests.
 
+[Browse all lessons]({{ '/all/' | relative_url }}) or [plan a class]({{ '/teach/' | relative_url }}).

@@ -1,0 +1,107 @@
+---
+permalink: /ObserveTools
+layout: post
+date:   2020-07-27
+title: "Tools for Observational Astronomy"
+summary:  The Radio Horn works best with the Milky Way, so let's learn about it
+tags: ['School-Teachers', 'Students', 'Hobbyists' ]
+categories: ['Astronomy']
+order: 3
+meta_description: "Build the skills needed for radio astronomy observations. Explore the electromagnetic spectrum, Doppler shifts, and celestial coordinates."
+equipment: "Internet access, student worksheets, and Stellarium Web. These introductory activities do not require a telescope."
+preparation: "Read the teacher notes. Choose activities covering the electromagnetic spectrum, Doppler shifts, coordinates, and sky planning."
+---
+
+The DSPIRA Astronomy Lessons Module helps teachers and students make sky observations with the DSPIRA Radio Horn Telescope.  Beginners need some basic tools first. These include finding targets in their local sky, understanding electromagnetic radiation, and learning what it reveals.  
+
+Click here for a complete document of [Teacher's Notes (view PDF)]({{ site.baseurl }}/assets/lessons/observation-planning/tools-teacher-notes.pdf) for this whole activity sequence
+
+**_Activity List_**
+   1. Introduction to the ElectroMagnetic Spectrum
+   2. The Doppler Effect
+   3. Understanding Celestial Coordinate Systems
+   4. Observing Celestial Coordinate Systems using Stellarium
+   5. Introduction to Radio Astronomy
+
+   The first two activities center around the Nature of Light...
+
+## 1. Introduction to the ElectroMagnetic Spectrum  
+
+This introductory activity asks students to research the full electromagnetic spectrum online. 
+
+Click for link to [Intro to the EM Spectrum (view PDF)]({{ site.baseurl }}/assets/worksheets/electromagnetic-spectrum/radiation-introduction.pdf) Student Activity Document
+
+### Intro Video to the Importance of Spectroscopy 
+_To get to main point, go to time 7:13 on the video_ 
+
+<figure class="lesson-video" id="video-jjy-eqWM38g">
+{% include youtube.html title="Light: Crash Course Astronomy #24" url="https://www.youtube.com/watch?v=jjy-eqWM38g&amp;feature=youtu.be&amp;t=433" video="jjy-eqWM38g" start=433 %}
+</figure>
+
+## 2. The Doppler Effect
+
+Many lessons introduce the Doppler effect. This DSPIRA lesson uses actual radio telescope data collected by DSPIRA teachers.
+
+
+Click for link to [The Doppler Effect (view PDF)]({{ site.baseurl }}/assets/worksheets/electromagnetic-spectrum/doppler-effect.pdf) Student Activity Document
+
+
+## 3. Understanding Celestial Coordinate Systems
+
+The next activities introduce sky coordinate systems. Students learn to combine those coordinates with their location to plan observations.
+
+[Understanding Celestial Coordinate Systems student activity (view PDF)]({{ site.baseurl }}/assets/worksheets/observation-planning/coordinate-systems.pdf)
+
+[Teacher Notes (view PDF)]({{ site.baseurl }}/assets/lessons/observation-planning/coordinate-systems-teacher-notes.pdf)
+
+The following are videos from Dr. Loren Anderson at West Virginia University's Astronomy department.  
+They are short clips from the his 2nd lecture given to the DSPIRA Teachers during July 2019.
+
+<figure class="lesson-video" id="video-wUNDoUoDrCg">
+{% include youtube.html title="DSPIRA Astro Lect2.1 Intro to Earth's Motion" url="https://www.youtube.com/watch?v=wUNDoUoDrCg" video="wUNDoUoDrCg" %}
+</figure>
+
+<figure class="lesson-video" id="video-d8BcwK5nlos">
+{% include youtube.html title="DSPIRA Astro Lect 2.2 The Celestial Sphere" url="https://www.youtube.com/watch?v=d8BcwK5nlos" video="d8BcwK5nlos" %}
+</figure>
+
+<figure class="lesson-video" id="video-_L1R1VnMeD4">
+{% include youtube.html title="DSPIRA Astro Lect2.3 Earth's Motion" url="https://www.youtube.com/watch?v=_L1R1VnMeD4" video="_L1R1VnMeD4" %}
+</figure>
+
+<figure class="lesson-video" id="video-UpYt7238p5g">
+{% include youtube.html title="DSPIRA Astro Lect2.4 Celestial Sphere and Star Paths" url="https://www.youtube.com/watch?v=UpYt7238p5g" video="UpYt7238p5g" %}
+</figure>
+
+<figure class="lesson-video" id="video-nfonuosoHUk">
+{% include youtube.html title="DSPIRA Astro Lect2.5 Misconceptions Explained" url="https://www.youtube.com/watch?v=nfonuosoHUk" video="nfonuosoHUk" %}
+</figure>
+
+
+## 4. Observing Celestial Coordinates using Stellarium
+
+This activity is a nice introduction to using the Stellarium Web Online planetarium program 
+
+Click here for [Observing Celestial Coordinates using Stellarium student activity (view PDF)]({{ site.baseurl }}/assets/worksheets/observation-planning/stellarium-coordinates.pdf)
+
+Click here for [Teacher Notes Document (view PDF)]({{ site.baseurl }}/assets/lessons/observation-planning/stellarium-teacher-notes.pdf)
+
+A tutorial video [Using Stellarium Online](#video-ApKA6kWlFuQ)
+
+<figure class="lesson-video" id="video-ApKA6kWlFuQ">
+{% include youtube.html title="DSPIRA Stellarium Web-version Tutorial" url="https://www.youtube.com/watch?v=ApKA6kWlFuQ" video="ApKA6kWlFuQ" %}
+</figure>
+
+
+## 5. Introduction to Radio Astronomy 
+
+MIT students created this [**Introduction video to Radio Astronomy**](#video--UrzmAa62ho). It provides useful background for further DSPIRA activities.
+
+<figure class="lesson-video" id="video--UrzmAa62ho">
+{% include youtube.html title="Mapping the Galaxy with Radio Astronomy" url="https://www.youtube.com/watch?v=-UrzmAa62ho" video="-UrzmAa62ho" %}
+</figure>
+
+Visit this website to learn about neutral hydrogen and the 21 cm radio waves it emits.  [**Essentials of Radio Astronomy**](https://physicsopenlab.org/2020/09/08/milky-way-structure-detected-with-the-21-cm-neutral-hydrogen-emission/)
+
+The site begins with basic explanations. Continue reading for a more detailed discussion.
+

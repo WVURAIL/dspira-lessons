@@ -1,32 +1,22 @@
 ---
 layout: page
+title: About DSPIRA
 permalink: /about/
-tags: about
-tite: Digital Signal Processing in Radio Astronomy 
-layout: default 
+meta_description: "Learn about DSPIRA radio astronomy lessons from WVU and Green Bank Observatory. Find current activities, teaching support, and program history."
+lead: Free radio astronomy lessons for educators, students, and telescope builders.
 ---
 
-<h2>Digital Signal Processing in Radio Astronomy</h2>
+DSPIRA means Digital Signal Processing in Radio Astronomy.
+Teachers developed these activities through an NSF program at West Virginia University, working with Green Bank Observatory.
+The documented summer cohorts ran from 2017 through 2019. The lessons and educator community continue beyond those summer programs.
 
-<div>
-    <p class="major">
-        Digital Signal Processing in Radio Astronomy (DSPIRA) is an NSF Research Experiences for Teachers (RET) in Engineering and
-        Computer Science Site at the West Virginia University Lane Department of Computer Science and Engineering.
-    </p>
-    <h3>Overview</h3>
-    <p>
-        The West Virginia University (WVU) Lane Department of Computer Science and Electrical Engineering, the WVU Center for Gravitational
-        Waves and Cosmology, and the National Radio Astronomy Observatory (NRAO) in Green Bank, WV, have been funded to develop
-        a Research Experience for Teachers program: "Digital Signal Processing in Radio Astronomy (DSPIRA)". This program providedands on experience using high quality open source software development tools,
-        in both research engineering and educational settings. This program was a six week summer program. Invlovemnet continued remotely. 
-        The teachers were given experience in the engineering method, via involvement in the research, design, development,
-        and prototyping of digital signal processing (DSP) techniques and applications targeted for the next generation of
-        radio telescopes.
-        </p>
-</div>
-<div>
-        <a href="https://hermandspira2018.travellerspoint.com/" class="button">Tad's Blog</a>
-        <a href="http://wvurail.org/dspira-2019/" class="button">RET - DSPiRA: Summer 2019</a>
-        <a href="http://wvurail.org/dspira-2018/" class="button">RET - DSPiRA: Summer 2018</a>
-        <a href="http://wvurail.org/dspira-2017/" class="button">RET - DSPiRA: Summer 2017</a>
-</div>
+[Choose an activity or telescope project]({{ '/start/' | relative_url }}).
+Teachers can [prepare a class]({{ '/teach/' | relative_url }}) or [contribute materials by email]({{ '/newpost/' | relative_url }}).
+
+For cohort rosters, funding, and the program timeline, visit [DSPIRA program history]({{ site.lab_url }}/education/#timeline).
+
+## From a participant
+
+Tad Herman, one of the 2018 teachers, kept a
+[day-by-day blog](https://hermandspira2018.travellerspoint.com/) of the whole
+summer.

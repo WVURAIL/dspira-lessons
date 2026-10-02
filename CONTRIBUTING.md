@@ -1,1 +1,121 @@
+# Contributing to DSPIRA
 
+Teachers can send a Word document, shared document, or worksheet to rail@wvu.edu.
+Start with the [submission guide](https://rail.wvu.edu/dspira/newpost/). GitHub is optional for lesson authors.
+
+Choose the template that fits your contribution:
+
+- [Word lesson template (.dotx)](https://rail.wvu.edu/dspira/assets/templates/wvu-dspira-lesson-template.dotx) for an editable classroom document.
+- [Website lesson template (Markdown)](https://rail.wvu.edu/dspira/assets/templates/lesson-template.txt) for a lesson submitted through GitHub.
+
+Use the submission guide's download links to save these files. Save the Markdown template as `lesson-template.md`.
+
+## Repository responsibilities
+
+- `dspira`: lessons, worksheets, teacher guides, lesson notebooks and examples, and website templates.
+- `dspira-software`: classroom telescope applications, DSPIRA processing blocks, and reusable observation-processing scripts.
+- `radio-research-software`: research applications, event detection, and transient experiments.
+- `dspira-hardware`: board designs and fabrication files.
+- `lightwork`: numbered technical memos.
+- `wvurail.github.io`: the lab website.
+
+Link to the authoritative application or hardware download instead of copying it here.
+Keep editable lesson originals with the lesson's other assets. Large datasets and
+system images need a separate download location, linked from the lesson page.
+
+## Submit a lesson with GitHub
+
+1. Start from the [website lesson template](https://rail.wvu.edu/dspira/assets/templates/lesson-template.txt). Replace every prompt.
+2. Save it under `_posts/` as `YYYY-MM-DD-short-name.md`.
+3. Set `title`, `summary`, `categories`, `order`, and a permanent `permalink`.
+4. Choose exactly one category from `_data/modules.yml`. Use an unused order value in that module.
+5. Put worksheets under `assets/worksheets/<lesson-slug>/`, with PDFs beside their editable originals.
+   Put guides under `assets/lessons/<lesson-slug>/` and illustrations under `images/<topic>/`.
+   Use lowercase filenames with hyphens.
+6. Use `{{ '/assets/worksheets/<lesson-slug>/worksheet.pdf' | relative_url }}` for worksheet links.
+7. Start section headings at `##`. The layout supplies the page's main heading.
+8. Describe images with useful alt text. Keep prose sentences at 20 words or fewer.
+9. Include author credit and source information. Preserve existing licenses and quoted material.
+10. Open a pull request against `main` and describe the classroom testing performed.
+
+The `main` branch publishes the website after its checks pass.
+Use a local preview when reviewing changes. The former approval preview is archived.
+
+## Videos and printable materials
+
+Embed lesson videos with the shared include. Give each video a descriptive title and its original YouTube URL.
+Use `start=433` to begin at 7:13. For a playlist, replace `video` with `playlist` and use the playlist ID.
+
+```liquid
+{% include youtube.html video="Oo28QCEZe_g" title="Setting up a horn telescope" url="https://youtu.be/Oo28QCEZe_g" %}
+```
+
+Wrap the include in `<figure class="lesson-video">` and `</figure>` on separate lines.
+Use a unique figure ID when another sentence links to the video.
+The title becomes a linked caption that also works in print. The player loads lazily.
+
+Put short instructions directly on the lesson page.
+Keep PDFs that serve a printing purpose, such as construction plans, worksheets, presentations, and teacher planning sheets.
+When retiring a duplicate PDF, preserve its old download addresses in `_data/legacy_assets.json`.
+
+## Keep teaching downloads consistent
+
+Publish a PDF beside every teaching document. Keep Word files for worksheets and guides, and PowerPoint files for slides.
+Use matching filenames, such as `worksheet.docx` and `worksheet.pdf`.
+Start from the Word or PowerPoint template in the [teaching catalog](https://rail.wvu.edu/dspira/teaching-resources/).
+
+- Use Arial for body text and headings, preserving specialist math fonts where needed.
+- Use a WVU DSPIRA header and a footer with the site address and page number.
+- Use the Word template's page setup, 11-point body text, and built-in heading styles.
+- Use the PowerPoint template's widescreen layouts, title styles, and branded slide master.
+- Preserve the physical dimensions of printable models and technical drawings.
+- Use actual headings, lists, and tables. Keep directions and response areas editable.
+- Keep author credits, citations, image descriptions, and source notices.
+- Export the PDF from the editable source after each change. Check every page for clipped text and broken equations.
+- Export legacy slide equations through PowerPoint when other exporters misread their embedded graphics.
+- Add both formats to `_data/teaching_documents.json` for the teacher download catalog.
+- Link to the PDF from the related lesson page. Keep editable download links in the teacher catalog.
+
+The PDF is the printing copy. Update the editable file first so both versions stay synchronized.
+Some legacy diagrams remain images. Retain those figures when adapting the surrounding text.
+Original diagram labels, equations, and credited source figures may retain their specialist typography.
+Do not place a banner over an old page layout as a substitute for applying the template.
+Rewrite fragmented directions into clear steps. Keep each figure beside its explanation and caption.
+Compare converted figures with their original PDFs. Preserve transparency masks, dimensions, labels, and source credits.
+The document check protects previously restored figures using `tools/teaching_figure_checks.json`.
+Update a figure reference only after checking the replacement against its original.
+
+## Review and publication
+
+A maintainer checks metadata, links, files, and accessibility structure. An educator
+reviews the activity. The author checks a preview before the maintainer publishes it.
+Record these reviews in the pull request or submission discussion.
+
+These materials are public. Keep student records and restricted answer keys out of
+the repository, issues, attachments, and preview. Teacher-only navigation does not
+provide access control.
+
+## Where files belong
+
+Use [the asset directory guide](assets/README.md) before adding a download.
+Lecture slides belong directly in `assets/lessons/lectures/<subject>/`.
+Put a known year at the end of the filename, such as `dark-matter-2018.pptx`.
+Record presenters, authors, and source details in the lecture README. Do not create a folder for a single course year.
+Worksheets belong in `assets/worksheets/<lesson-slug>/`, including complete worksheets saved as images.
+Figures, screenshots, and photographs belong in `images/<topic>/`.
+Guides and background handouts belong in `assets/lessons/<lesson-slug>/`.
+GNU Radio applications, flowgraphs, and reusable observation-processing scripts belong in `dspira-software`.
+Board designs and amplifier assembly references belong in `dspira-hardware`.
+Technical memos belong in `lightwork`. Link to their maintained files instead of uploading another copy.
+
+The former `FilesUploaded` directory is generated during publication for old links.
+Add new material to its proper source folder. Record future moves in `_data/legacy_assets.json` when existing public addresses must survive.
+Keep each published lesson's `permalink` unchanged when renaming its source file.
+Python files under `lesson-examples/` use lowercase names with underscores; standard project files retain conventional names.
+
+## Prepare the first contribution trial
+
+The template and submission routes are ready. When a teacher is available, use one
+real lesson to try the full process. Record where instructions caused confusion,
+how much formatting help was needed, and whether the preview matched the author's intent.
+No classroom trial is assumed to have happened yet.

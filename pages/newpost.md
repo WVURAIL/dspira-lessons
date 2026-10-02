@@ -1,143 +1,65 @@
 ---
 layout: page
-title: New Post
+title: Contribute a DSPIRA lesson
 permalink: /newpost/
+eyebrow: For contributors
+lead: Share an activity, worksheet, or improvement with the DSPIRA teaching community.
+meta_description: "Contribute a DSPIRA lesson or worksheet. Download a Word lesson template, submit your draft, and review a preview before classroom materials are published."
 ---
 
-These are instructions and a simple template to start creating a new post!
+You can contribute without using GitHub. Start with your existing document or use the template below.
+We welcome complete activities, small corrections, and reports from classroom use.
 
-## Syntax hints for post formatting
+## Send a lesson draft
 
-All post files must begin with *front matter* which is typically used to set a layout or other meta data. For a simple example this can just be empty:
+1. <a href="{{ '/assets/templates/wvu-dspira-lesson-template.dotx' | relative_url }}" download="wvu-dspira-lesson-template.dotx">Download the Word lesson template (.dotx)</a>.
+2. Open it in Word and save your working copy as a Word document (`.docx`).
+3. Add your activity, teacher notes, worksheets, and editable originals.
+4. Email your draft to [rail@wvu.edu](mailto:rail@wvu.edu).
 
+For a simpler starting point, <a href="{{ '/assets/templates/lesson-planning-template.txt' | relative_url }}" download="lesson-planning-template.txt">download the optional planning outline (.txt)</a>.
+Open the outline in a text editor, or copy it into Word or Google Docs.
 
-```
----
-layout:     post
-date:       2020-07-09 21:21:29
-title:      Title of your Lesson
-summary:    Summary of your Lesson
-tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['Lessson Category']
----
-```
+For a shared document, give the lab access to read and copy it. Include the public credit you want displayed.
+The lab will prepare a website version and share a preview for review.
 
-- Make sure you do not have special characters like `:` in your title and/or summary quote any special characters, such as `:` like `title: "my awesome site: an adventure".`
-- Every *post* can have one `tag` or multiple `tags`. It will automatically split a string entry if it contains whitespace. The website software  Jekyll expects multiple items mapped to the key tags For example, while front matter `tag: classic hollywood` will be processed into a singular entity `"classic hollywood"`, front matter `tags: classic hollywood` will be processed into an array of entries `["classic", "hollywood"]`. 
-- `categories` or `category` work the same way as tags.
+## What to include
 
-- After the front matter make your lesson post formatting it in `markdown` refer to this cheat sheet [https://github.com/WVURAIL/dspira/wiki/Markdown-Cheatsheet](https://github.com/WVURAIL/dspira/wiki/Markdown-Cheatsheet)
+- A short summary, intended students, and estimated class time.
+- Learning objectives, prerequisites, equipment, and preparation.
+- Student instructions and teacher notes.
+- Editable worksheets, printable copies, image descriptions, and source credits.
+- Tested software versions and hardware revisions, when relevant.
+- Classroom results, or a note that the activity has not been tested.
 
-- Add buttons to link to a pdf of your document using this syntax
+Keep sentences short and explain unfamiliar terms. Preserve exact titles, citations, code, and quotations.
+Please leave student names, grades, and private information out of submissions.
+Teacher notes published here are public. Keep restricted answer keys in your school's classroom system.
 
-```
-[Google](http://www.google.com){: .button}
-```
+## Review before publication
 
-In Google Drive:
-- open document
-- click share button (upper right corner)
-- in dialogue box, change the get link attribute to Anyone with link with viewer priveleges. see screenshot below
+A maintainer checks the files, credits, links, and page structure. An educator reviews the instructions and learning goals.
+The author reviews the preview before the lesson is published. Changes can return to draft whenever clarification is needed.
+The lesson receives a permanent address that can be used in handouts.
 
-![screen shot of changing permissions of google document]({{ site.baseurl }}/images/SharedScreenshot.jpg)
+## Contribute through GitHub
 
-EXAMPLE:
-- To add a Google doc lesson:
-```
-[Name of your lesson](https://link/to/your/document/dotcom){: .button}
-```
+Regular contributors can submit a pull request to the [DSPIRA repository](https://github.com/WVURAIL/dspira).
+<a href="{{ '/assets/templates/lesson-template.txt' | relative_url }}" download="lesson-template.md">Download website lesson template (.md)</a>
+and follow the [contributor guide](https://github.com/WVURAIL/dspira/blob/main/CONTRIBUTING.md).
+This Markdown template includes the metadata and headings needed for a website lesson.
 
-- Add YouTube link:
-Add an embedded window of the youtube video to the page by simply paste the youtube link on the markdown page on its own. Please add a couple of lines describing the contents of the video at minimum. 
+Replace the template prompts. Choose one existing module and an unused order value. Ask a maintainer if either choice is unclear.
+Add activity-specific equipment and preparation to the template. Include timing and tested setup details only when confirmed.
+Save the file as `YYYY-MM-DD-short-name.md` in `_posts/`. Choose a stable lesson address before publication.
+Keep worksheets and editable originals together in `assets/worksheets/<lesson-slug>/`.
+Put illustrations in `images/<topic>/` and instructional guides in `assets/lessons/<lesson-slug>/`.
+Use lowercase filenames with hyphens, and link to existing software or hardware files instead of copying them.
 
-```
-https://www.youtube.com/watch?v=jS5fTzMP_mg
+[Open the lesson submission form](https://github.com/WVURAIL/dspira/issues/new?template=lesson-submission.yml)
+if you prefer to discuss a draft first. GitHub submissions are public and require an account.
 
-The above video is a video of Kermit the frog singing the rainbow connention
-```
-##### Addding images to the posts
+## Suggest a small correction
 
-To add images to your post first upload your image to github by going to the link below  upload and commit an image to the the images directory: 
-
-[Upload image](https://github.com/WVURAIL/dspira-lessons/upload/master/images){: .button}
-
-Then add the following to the post you are editing
-```
-![write-a-brief-alt-text-describing-your-image]({{ site.baseurl }}/images/name-of-you-image-file.FORMAT)
-```
-### View the live webpage: [wvurail.org/dspira-lessons](http://wvurail.org/dspira-lessons/)
-
-
-##  Edit your post in the text area below 
-
-<html>
-<body>
-<div>
-    <p>Date:</p><h2 id="date"></h2>
-    <div>
-    <textarea id="inputTextToSave" cols="80" rows="25">
----
-layout: post
-date:   copy date from above
-title: edit this title
-summary:  edit this a ~10 word summary
-tags: ['School-Teachers', 'Students', 'Hobbyists' ]
-categories: ['category', 'Subcategory'] 
----
-
-Enter the Lesson posts here
-    </textarea></div>
-    <div>
-    Filename to Save As: &nbsp; <input id="inputFileNameToSaveAs">&nbsp;.md
-    <button onclick="saveTextAsFile()">Save</button>
-    </div>
-</div>
-
-<div> Upload your saved file to the website by uploading and commiting on github.com: &nbsp;
- <a href="https://github.com/WVURAIL/dspira-lessons/upload/master/_posts" class = "button">Upload to Website</a>
-</div>
-
-<script type="text/javascript">
- 
-n =  new Date();
-y = n.getFullYear();
-m = n.getMonth() + 1;
-d = n.getDate();
-
-if (d < 10) {
-  d = '0' + d;
-}
-if (m < 10) {
-  m = '0' + m;
-}
-
-datetoday = y + "-" + m + "-" + d;
-document.getElementById("date").innerHTML = datetoday
-
-function saveTextAsFile()
-{
-    var textToSave = document.getElementById("inputTextToSave").value;
-    var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
-    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
-    var fileNameToSaveAs = datetoday + "-" + document.getElementById("inputFileNameToSaveAs").value + ".md";
- 
-    var downloadLink = document.createElement("a");
-    downloadLink.download = fileNameToSaveAs;
-    downloadLink.innerHTML = "Download File";
-    downloadLink.href = textToSaveAsURL;
-    downloadLink.onclick = destroyClickedElement;
-    downloadLink.style.display = "none";
-    document.body.appendChild(downloadLink);
- 
-    downloadLink.click();
-}
- 
-function destroyClickedElement(event)
-{
-    document.body.removeChild(event.target);
-}
-
-</script>
- 
-</body>
-</html>
+Email [rail@wvu.edu](mailto:rail@wvu.edu) with the page address and your suggested change.
+You can also use the lesson submission form. A full lesson template is unnecessary for a typo or broken link.

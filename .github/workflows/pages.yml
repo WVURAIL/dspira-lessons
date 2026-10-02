@@ -1,0 +1,72 @@
+name: Publish Pages
+'on':
+  push:
+    branches:
+    - main
+  workflow_dispatch: null
+  schedule:
+  - cron: 23 8 * * *
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  publication:
+    runs-on: ubuntu-latest
+    outputs:
+      publish: ${{ steps.hardware.outputs.publish }}
+      hardware_revision: ${{ steps.hardware.outputs.revision }}
+      notebooks_publish: ${{ steps.notebooks.outputs.publish }}
+      notebook_revision: ${{ steps.notebooks.outputs.revision }}
+    steps:
+    - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      with:
+        sparse-checkout: |
+          tools
+          _data
+        persist-credentials: false
+    - name: Check for updated hardware documents
+      id: hardware
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        if [ "$GITHUB_EVENT_NAME" = schedule ]; then
+          published_url=$(ruby -ryaml -e 'c = YAML.load_file("_config.yml"); puts "#{c.fetch("url")}#{c.fetch("baseurl", "")}/assets/hardware/source.json"')
+          python3 tools/publish_hardware.py --published-url "$published_url" >> "$GITHUB_OUTPUT"
+        else
+          python3 tools/publish_hardware.py >> "$GITHUB_OUTPUT"
+        fi
+    - name: Check for updated research notebooks
+      id: notebooks
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      run: |
+        if [ "$GITHUB_EVENT_NAME" = schedule ]; then
+          published_url=$(ruby -ryaml -e 'c = YAML.load_file("_config.yml"); puts "#{c.fetch("url")}#{c.fetch("baseurl", "")}/assets/notebooks/source.json"')
+          python3 tools/publish_notebooks.py --published-url "$published_url" >> "$GITHUB_OUTPUT"
+        else
+          python3 tools/publish_notebooks.py >> "$GITHUB_OUTPUT"
+        fi
+    if: github.ref == 'refs/heads/main'
+  build:
+    needs: publication
+    if: needs.publication.outputs.publish == 'true' || needs.publication.outputs.notebooks_publish == 'true'
+    uses: ./.github/workflows/build.yml
+    with:
+      pages_artifact: true
+      hardware_revision: ${{ needs.publication.outputs.hardware_revision }}
+      notebook_revision: ${{ needs.publication.outputs.notebook_revision }}
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+    - id: deployment
+      uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+    if: github.ref == 'refs/heads/main'
+    permissions:
+      pages: write
+      id-token: write
