@@ -2,6 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {% include head.html %}
 <body class="site{% if site.animated %} animated fade-in-down{% endif %}">
+  {% include moved-banner.html %}
 
   <div class="site-wrap">
     {% include header.html %}
